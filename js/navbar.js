@@ -1,13 +1,13 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Get the Services dropdown elements
-    const dropBtnServices = document.querySelector('.dropdown:nth-child(2) .dropbtn');
-    const dropdownContainerServices = document.querySelector('.dropdown:nth-child(2) .drop-down-container');
-    const dropBtnSvgServices = document.querySelector('.dropdown:nth-child(2) .dropbtn-svg');
+    const dropBtnServices = document.querySelector('.dropdown:nth-child(3) .dropbtn');
+    const dropdownContainerServices = document.querySelector('.dropdown:nth-child(3) .drop-down-container');
+    const dropBtnSvgServices = document.querySelector('.dropdown:nth-child(3) .dropbtn-svg');
 
     // Get the Platforms dropdown elements
-    const dropBtnPlatforms = document.querySelector('.dropdown:nth-child(3) .dropbtn');
-    const dropdownContainerPlatforms = document.querySelector('.dropdown:nth-child(3) .drop-down-container');
-    const dropBtnSvgPlatforms = document.querySelector('.dropdown:nth-child(3) .dropbtn-svg');
+    const dropBtnPlatforms = document.querySelector('.dropdown:nth-child(4) .dropbtn');
+    const dropdownContainerPlatforms = document.querySelector('.dropdown:nth-child(4) .drop-down-container');
+    const dropBtnSvgPlatforms = document.querySelector('.dropdown:nth-child(4) .dropbtn-svg');
 
     const hamburgerMenu = document.querySelector('.hamburger-menu');
     const nav = document.querySelector('.nav');
