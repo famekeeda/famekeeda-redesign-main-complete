@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .vertical_scroll {
+            background: radial-gradient(152.03% 44.17% at 28.98% 41.34%, #E84E1B 0%, #BE1622 100%);
+            position: relative;
+        }
+
+        .right-left-container {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .left-flex {
+            width: 50%;
+            position: relative;
+        }
+
+        .scroll-content {
+            position: sticky;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .right-flex {
+            width: 40.83%;
+            margin-top: 24%;
+            margin-bottom: 24%;
+            margin-right: 40px;
+        }
+
+        .flow-box {
+            padding-bottom: 400px;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .flow-num {
+            width: 96px;
+            height: 116px;
+            flex-shrink: 0;
+            border: 1px solid #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 2;
+            background: #fff;
+            transition: 0.3s all ease-in-out 0s;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            transform: skewY(-18deg) skewX(-2deg);
+            border-radius: 23px;
+        }
+
+        .num {
+            font-size: 30px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+            transform: skewY(18deg);
+            color: #BD1622;
+        }
+
+        .underline {
+            position: absolute;
+            left: 50px;
+            top: 114px;
+            background: #fff;
+            width: 1px;
+            margin: auto;
+        }
+
+        .underline.dummy {
+            height: 100%;
+            opacity: 0.2;
+        }
+
+        .timeline {
+            position: absolute;
+            left: 50px;
+            top: 80px;
+            bottom: -32px;
+        }
+
+        .border-line {
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: #fff;
+            width: 1.5px;
+        }
+
+        .scroll-triggered.border-line {
+            height: 100%;
+        }
+
+        .flow-text {
+            margin-top: 3%;
+            width: calc(100% - 144px);
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+        }
+
+        .scroll-inner-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 40px;
+            overflow: hidden;
+        }
+
+        .scroll-inner-container .vs-img {
+            width: 750px;
+            height: 750px;
+            object-fit: cover;
+            margin-top: 25%;
+            position: absolute;
+            bottom: 0;
+            left: 100px;
+        }
+
+        .underline.dummy.dummy-last {
+            height: 1%;
+        }
+
+        .last-border-line {
+            background: transparent;
+        }
+
+        .flow-text .title {
+            align-items: flex-start;
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 48px;
+            /* 120% */
+            letter-spacing: 1px;
+        }
+
+        .flow-text .description {
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28.5px;
+            /* 158.333% */
+            width: 600px;
+        }
+
+        .vs-title {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: left;
+            padding-top: 40px;
+        }
+
+        .vs-slider-title {
+            font-size: 48px;
+            font-family: "Poppins", sans-serif;
+            color: white;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .next-button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: flex-end;
+            gap: 20px;
+            bottom: 80px;
+            position: fixed;
+            right: 40px;
+            float: right;
+            padding-inline: 80px;
+        }
+
+        .nxt-btn {
+            transform: rotateZ(90deg);
+        }
+
+        .prev-btn {
+            transform: rotateZ(90deg);
+        }
+
+        .nxt-btn,
+        .prev-btn {
+            background: transparent;
+            border: 1px solid white;
+            padding: 16px;
+            border-radius: 100%;
+        }
+
+        /* MOBILE v1 */
+        @media (min-width: 360px) and (max-width: 479px) {
+            .scroll-inner-container .vs-img {
+                width: calc(750px * 0.3125);
+                height: calc(750px * 0.3125);
+                left: calc(100px * 0.3125);
+            }
+
+            .flow-num {
+                width: calc(96px - 48px);
+                height: calc(116px - 56px);
+                border-radius: calc(23px * 0.3125);
+            }
+
+            .flow-text .title {
+                font-size: 24px;
+                line-height: normal;
+            }
+
+            .flow-text .description {
+                font-size: 14px;
+                line-height: normal;
+                width: 100%;
+
+            }
+
+            .flow-text {
+                gap: calc(32px * 0.3125);
+                width: 100%;
+
+            }
+
+            .underline {
+                left: 24px;
+                top: 58px;
+            }
+
+            .timeline {
+                left: 24px;
+                top: 58px;
+            }
+
+            .flow-box {
+                padding-bottom: calc(400px * 0.3125);
+                gap: 24px;
+                width: 100%;
+                justify-content: flex-start;
+            }
+
+            .num {
+                font-size: 18px;
+                line-height: normal;
+            }
+
+            .vs-slider-title {
+                font-size: 24px;
+                line-height: normal;
+            }
+
+            .right-flex {
+                width: 50%;
+            }
+
+            .nxt-btn,
+            .prev-btn {
+                padding: calc(16px * 0.3125);
+            }
+
+            .next-button-container {
+                right: 0;
+                padding-inline: calc(80px * 0.3125);
+                gap: calc(20px * 0.3125);
+            }
+
+            .left-flex {
+                display: none;
+            }
+
+            .right-flex {
+                width: 100%;
+                margin-right: 0;
+                padding-inline: 20px;
+            }
+        }
+
+        /* MOBILE v2*/
+        @media (min-width: 480px) and (max-width: 599px) {
+            .scroll-inner-container .vs-img {
+                width: calc(750px * 0.3125);
+                height: calc(750px * 0.3125);
+                left: calc(100px * 0.3125);
+            }
+
+            .flow-num {
+                width: calc(96px - 48px);
+                height: calc(116px - 56px);
+                border-radius: calc(23px * 0.3125);
+            }
+
+            .flow-text .title {
+                font-size: 24px;
+                line-height: normal;
+            }
+
+            .flow-text .description {
+                font-size: 14px;
+                line-height: normal;
+                width: 100%;
+
+            }
+
+            .flow-text {
+                gap: calc(32px * 0.3125);
+                width: 100%;
+
+            }
+
+            .underline {
+                left: 24px;
+                top: 58px;
+            }
+
+            .timeline {
+                left: 24px;
+                top: 58px;
+            }
+
+            .flow-box {
+                padding-bottom: calc(400px * 0.3125);
+                gap: 24px;
+                width: 100%;
+                justify-content: flex-start;
+            }
+
+            .num {
+                font-size: 18px;
+                line-height: normal;
+            }
+
+            .vs-slider-title {
+                font-size: 24px;
+                line-height: normal;
+            }
+
+            .right-flex {
+                width: 50%;
+            }
+
+            .nxt-btn,
+            .prev-btn {
+                padding: calc(16px * 0.3125);
+            }
+
+            .next-button-container {
+                right: 0;
+                padding-inline: calc(80px * 0.3125);
+                gap: calc(20px * 0.3125);
+            }
+
+            .left-flex {
+                display: none;
+            }
+
+            .right-flex {
+                width: 100%;
+                margin-right: 0;
+                padding-inline: 20px;
+            }
+        }
+
+        /* TABLET v1 */
+        @media (min-width: 600px) and (max-width: 899px) {
+            .scroll-inner-container .vs-img {
+                width: calc(750px * 0.3125);
+                height: calc(750px * 0.3125);
+                left: calc(100px * 0.3125);
+            }
+
+            .flow-num {
+                width: calc(96px - 48px);
+                height: calc(116px - 56px);
+                border-radius: calc(23px * 0.3125);
+            }
+
+            .flow-text .title {
+                font-size: 24px;
+                line-height: normal;
+            }
+
+            .flow-text .description {
+                font-size: 14px;
+                line-height: normal;
+                width: calc(600px - 380px);
+
+            }
+
+            .flow-text {
+                gap: calc(32px * 0.3125);
+
+            }
+
+            .underline {
+                left: 24px;
+                top: 58px;
+            }
+
+            .timeline {
+                left: 24px;
+                top: 58px;
+            }
+
+            .flow-box {
+                padding-bottom: calc(400px * 0.3125);
+            }
+
+            .num {
+                font-size: 18px;
+                line-height: normal;
+            }
+
+            .vs-slider-title {
+                font-size: 32px;
+                line-height: normal;
+            }
+
+            .right-flex {
+                width: 50%;
+            }
+
+            .nxt-btn,
+            .prev-btn {
+                padding: calc(16px * 0.3125);
+            }
+
+            .next-button-container {
+                right: 0;
+                padding-inline: calc(80px * 0.3125);
+                gap: calc(20px * 0.3125);
+            }
+        }
+
+        /* TABLET v2 */
+        @media (min-width: 900px) and (max-width: 1023px) {
+            .scroll-inner-container .vs-img {
+                width: calc(750px * 0.468);
+                height: calc(750px * 0.468);
+                left: calc(100px * 0.468);
+            }
+
+            .flow-num {
+                width: calc(96px * 0.468);
+                height: calc(116px * 0.468);
+                border-radius: calc(23px * 0.468);
+            }
+
+            .flow-text .title {
+                font-size: 24px;
+                line-height: normal;
+            }
+
+            .flow-text .description {
+                font-size: 14px;
+                line-height: normal;
+                width: calc(600px * 0.468);
+
+            }
+
+            .flow-text {
+                gap: calc(32px * 0.468);
+
+            }
+
+            .underline {
+                left: calc(50px * 0.468);
+                top: calc(114px *0.468);
+            }
+
+            .timeline {
+                left: calc(50px * 0.468);
+                top: calc(80px * 0.468);
+            }
+
+            .flow-box {
+                padding-bottom: calc(400px * 0.468);
+            }
+
+            .num {
+                font-size: 18px;
+                line-height: normal;
+            }
+
+            .vs-slider-title {
+                font-size: 32px;
+                line-height: normal;
+            }
+
+            .right-flex {
+                width: 50%;
+            }
+
+            .nxt-btn,
+            .prev-btn {
+                padding: calc(16px * 0.468);
+            }
+
+            .next-button-container {
+                right: 0;
+                padding-inline: calc(80px * 0.468);
+                gap: calc(20px * 0.468);
+            }
+        }
+
+        /* DESKTOP v1 */
+        @media (min-width: 1024px) and (max-width: 1199px) {
+
+            .scroll-inner-container .vs-img {
+                width: 422px;
+                height: 422px;
+                left: 24px;
+            }
+
+            .flow-num {
+                width: 54px;
+                height: 65.25px;
+                border-radius: 13px;
+            }
+
+            .flow-text .title {
+                font-size: 26px;
+                line-height: normal;
+            }
+
+            .flow-text .description {
+                font-size: 16px;
+                line-height: normal;
+                width: 338px;
+            }
+
+            .flow-text {
+                gap: 18px;
+            }
+
+            .underline {
+                left: 27px;
+                top: 60px;
+            }
+
+            .timeline {
+                left: 27px;
+                top: 60px;
+            }
+
+            .flow-box {
+                padding-bottom: 225px;
+            }
+
+            .num {
+                font-size: 18px;
+                line-height: normal;
+            }
+
+            .vs-slider-title {
+                font-size: 27px;
+                line-height: normal;
+            }
+
+            .right-flex {
+                width: 50%;
+            }
+
+            .nxt-btn,
+            .prev-btn {
+                padding: 10px;
+            }
+
+            .next-button-container {
+                right: 0;
+                padding-inline: 40px;
+                gap: 12px;
+            }
+        }
+
+        /* DESKTOP v2 */
+        @media (min-width: 1200px) and (max-width: 1439px) {
+            .scroll-inner-container .vs-img {
+                width: calc(750px * 0.625);
+                height: calc(750px * 0.625);
+                left: calc(100px * 0.625);
+            }
+
+            .flow-num {
+                width: calc(96px * 0.625);
+                height: calc(116px * 0.625);
+                border-radius: calc(23px * 0.625);
+            }
+
+            .flow-text .title {
+                font-size: calc(40px * 0.625);
+                line-height: normal;
+            }
+
+            .flow-text .description {
+                font-size: calc(18px * 0.625);
+                line-height: normal;
+                width: calc(600px * 0.625);
+
+            }
+
+            .flow-text {
+                gap: calc(32px * 0.625);
+
+            }
+
+            .underline {
+                left: calc(50px * 0.625);
+                top: calc(114px *0.625);
+            }
+
+            .timeline {
+                left: calc(50px * 0.625);
+                top: calc(80px * 0.625);
+            }
+
+            .flow-box {
+                padding-bottom: calc(400px * 0.625);
+            }
+
+            .num {
+                font-size: calc(30px * 0.625);
+                line-height: normal;
+            }
+
+            .vs-slider-title {
+                font-size: calc(48px * 0.625);
+                line-height: normal;
+            }
+
+            .right-flex {
+                width: 50%;
+            }
+
+            .nxt-btn,
+            .prev-btn {
+                padding: calc(16px * 0.625);
+            }
+
+            .next-button-container {
+                right: 0;
+                padding-inline: calc(80px * 0.625);
+                gap: calc(20px * 0.625);
+            }
+        }
+
+        /* DESKTOP v3 */
+        @media (min-width: 1440px) and (max-width: 1599px) {
+            .scroll-inner-container .vs-img {
+                width: calc(750px * 0.75);
+                height: calc(750px * 0.75);
+                left: calc(100px * 0.75);
+            }
+
+            .flow-num {
+                width: calc(96px * 0.75);
+                height: calc(116px * 0.75);
+                border-radius: calc(23px * 0.75);
+            }
+
+            .flow-text .title {
+                font-size: calc(40px * 0.75);
+                line-height: normal;
+            }
+
+            .flow-text .description {
+                font-size: calc(18px * 0.75);
+                line-height: normal;
+                width: calc(600px * 0.75);
+
+            }
+
+            .flow-text {
+                gap: calc(32px * 0.75);
+
+            }
+
+            .underline {
+                left: calc(50px * 0.75);
+                top: calc(114px *0.75);
+            }
+
+            .timeline {
+                left: calc(50px * 0.75);
+                top: calc(80px * 0.75);
+            }
+
+            .flow-box {
+                padding-bottom: calc(400px * 0.75);
+            }
+
+            .num {
+                font-size: calc(30px * 0.75);
+                line-height: normal;
+            }
+
+            .vs-slider-title {
+                font-size: calc(48px * 0.75);
+                line-height: normal;
+            }
+
+            .right-flex {
+                width: 50%;
+            }
+
+            .nxt-btn,
+            .prev-btn {
+                padding: calc(16px * 0.75);
+            }
+
+            .next-button-container {
+                right: 0;
+                padding-inline: calc(80px * 0.75);
+                gap: calc(20px * 0.75);
+            }
+        }
+
+        /* DESKTOP v4 */
+        @media (min-width: 1600px) and (max-width: 1919px) {
+            .scroll-inner-container .vs-img {
+                width: calc(750px * 0.84);
+                height: calc(750px * 0.84);
+                left: calc(100px * 0.84);
+            }
+
+            .flow-num {
+                width: calc(96px * 0.84);
+                height: calc(116px * 0.84);
+                border-radius: calc(23px * 0.84);
+            }
+
+            .flow-text .title {
+                font-size: calc(40px * 0.84);
+                line-height: normal;
+            }
+
+            .flow-text .description {
+                font-size: calc(18px * 0.84);
+                line-height: normal;
+                width: calc(600px * 0.84);
+
+            }
+
+            .flow-text {
+                gap: calc(32px * 0.84);
+
+            }
+
+            .underline {
+                left: calc(50px * 0.84);
+                top: calc(114px *0.84);
+            }
+
+            .timeline {
+                left: calc(50px * 0.84);
+                top: calc(80px * 0.84);
+            }
+
+            .flow-box {
+                padding-bottom: calc(400px * 0.84);
+            }
+
+            .num {
+                font-size: calc(30px * 0.84);
+                line-height: normal;
+            }
+
+            .vs-slider-title {
+                font-size: calc(48px * 0.84);
+                line-height: normal;
+            }
+
+            .right-flex {
+                width: 50%;
+            }
+
+            .nxt-btn,
+            .prev-btn {
+                padding: calc(16px * 0.84);
+            }
+
+            .next-button-container {
+                right: 0;
+                padding-inline: calc(80px * 0.84);
+                gap: calc(20px * 0.84);
+            }
+        }
+
+        /* Desktop v5 */
+        @media (min-width: 1920px) {
+            .vertical_scroll {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .vs-outer-wrapper {
+                max-width: 1920px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="vertical_scroll">
+        <div class="vs-title">
+            <h2 class="vs-slider-title">Revolutionising <br>The Influencer Marketing Landscape</span></h2>
+        </div>
+        <div class="vs-outer-wrapper">
+            <div class="right-left-container">
+                <div class="left-flex">
+                    <div class="scroll-content">
+                        <div class="scroll-inner-container">
+                            <img src="/assets/temp_assets/fame_iconic_char.png" class="vs-img" alt="Image 1">
+                        </div>
+                    </div>
+                </div>
+                <div class="right-flex">
+                    <div class="flow-box">
+                        <p class="flow-num"><span class="num">01</span></p>
+                        <span class="underline dummy"></span>
+                        <p class="timeline">
+                            <span class="border-line"></span>
+                        </p>
+                        <div class="flow-text">
+                            <p class="title">Our Approach</p>
+                            <p class="description">At Fame Keeda, we take a unique and data driven approach to maximise
+                                results, leveraging cutting edge technology and in-depth analysis to ensure that every
+                                strategy is tailored to our client’s specific needs and objectives</p>
+                        </div>
+                    </div>
+                    <div class="flow-box">
+                        <p class="flow-num"><span class="num">02</span></p>
+                        <span class="underline dummy"></span>
+                        <p class="timeline">
+                            <span class="border-line"></span>
+                        </p>
+                        <div class="flow-text">
+                            <p class="title">Our Approach</p>
+                            <p class="description">At Fame Keeda, we take a unique and data driven approach to maximise
+                                results, leveraging cutting edge technology and in-depth analysis to ensure that every
+                                strategy is tailored to our client’s specific needs and objectives</p>
+                        </div>
+                    </div>
+                    <div class="flow-box">
+                        <p class="flow-num"><span class="num">03</span></p>
+                        <span class="underline dummy dummy-last"></span>
+                        <p class="timeline">
+                            <span class="border-line last-border-line"></span>
+                        </p>
+                        <div class="flow-text" id="thirdPoint">
+                            <p class="title">Our Approach</p>
+                            <p class="description">At Fame Keeda, we take a unique and data driven approach to maximise
+                                results, leveraging cutting edge technology and in-depth analysis to ensure that every
+                                strategy is tailored to our client’s specific needs and objectives</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="next-button-container">
+            <button class="prev-btn" id="prev-btn">
+                <!-- Prev Icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" fill="none" viewBox="0 0 24 25">
+                    <path stroke="#fff" stroke-linecap="round" stroke-width="2"
+                        d="m15 5.608-5.33 6.219a1.2 1.2 0 0 0 0 1.562L15 19.608" />
+                </svg>
+            </button>
+            <button class="nxt-btn" id="nxt-btn">
+                <!-- Next Icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" fill="none" viewBox="0 0 24 25">
+                    <path stroke="#fff" stroke-linecap="round" stroke-width="2"
+                        d="m9 19.608 5.33-6.22a1.2 1.2 0 0 0 0-1.561L9 5.607" />
+                </svg>
+            </button>
+        </div>
+    </section>
+
+    <script src="/js/timeline-scroll.js"></script>
+</body>
+
+</html>

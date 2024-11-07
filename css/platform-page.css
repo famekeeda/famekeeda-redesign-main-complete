@@ -1,0 +1,2947 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+
+  --fame_red: #be1823;
+  --fame_orange: #e94f1c;
+}
+
+.ig-marketing-services,
+.social-proofing-outer-section,
+.why-ig-marketing,
+.what-is-ig-marketing,
+.meet-our-influencers,
+.types-of-influencers,
+.accordion,
+.testimonial,
+.faq-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+
+/* --------------- Service Page Hero Sections-------------- */
+
+.ig-marketing-services {
+  margin-top: 100px;
+}
+
+.ig-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.left-col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ig-column-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 70%;
+  padding: 10px;
+  align-content: center;
+  justify-content: top;
+}
+
+.ig-column-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+}
+
+.ig-column-right img {
+  border-radius: 35px;
+  width: 100%;
+}
+
+.ig-title,
+.ig-subtitle {
+  font-size: 4rem;
+  font-weight: 600;
+  -webkit-text-fill-color: transparent;
+}
+
+.ig-title {
+  background: linear-gradient(90deg, #be1622 0%, #e84e1b 15%);
+  -webkit-background-clip: text;
+}
+
+.ig-title span {
+  background: #000000;
+  -webkit-background-clip: text;
+}
+
+.ig-desc {
+  color: #323233;
+  font-family: Poppins;
+  font-size: 1.3rem;
+  line-height: 2.2rem;
+}
+
+/* <!-- -------------------Why Instagram Marketing----------------------> */
+
+.why-ig-marketing {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.wim-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.wim-title {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 300;
+  color: #000;
+}
+
+.wim-title span {
+  background: linear-gradient(
+    90deg,
+    #fecc51 0%,
+    #ff610d 20%,
+    #ed25a7 50%,
+    #0440e1 85%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+.why-ig-marketing p {
+  font-size: 1.2rem;
+  color: #323233;
+  text-align: center;
+  width: 70%;
+  line-height: 2.2rem;
+}
+
+.wim-main-row {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+
+.wim-inner-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.wim-card {
+  width: 400px;
+  height: 500px;
+  border-radius: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  padding: 40px;
+  overflow: hidden;
+  background-color: #ccc;
+}
+
+.wim-card h2 {
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 600;
+  z-index: 2;
+  position: relative;
+}
+
+.wim-card p {
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 1.2rem;
+  width: 100%;
+}
+
+.wim-screen {
+  width: 260px;
+  height: 360px;
+  background-color: #d3d3d3;
+  border-radius: 25px;
+  border: 3px solid black;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  margin-bottom: -80px;
+}
+
+.wim-screen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.number {
+  font-size: 60px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  bottom: -15px;
+  right: -2px;
+  z-index: 1;
+}
+
+.instagram {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.1) 100%
+    ),
+    linear-gradient(
+      332deg,
+      rgba(254, 204, 81, 0.9) 0.95%,
+      rgba(255, 97, 13, 0.9) 33.63%,
+      rgba(237, 37, 167, 0.9) 64.36%,
+      rgba(4, 64, 225, 0.9) 98.51%
+    );
+}
+
+/* <!-- -------------------What is Instagram Marketing----------------------> */
+
+.what-is-ig-marketing {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.what-is-ig-marketing p {
+  font-size: 1.2rem;
+  color: #323233;
+  text-align: center;
+  width: 70%;
+  line-height: 2.2rem;
+}
+
+.modern-slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 100rem;
+}
+
+.trending-slider {
+  height: 52rem;
+  padding: 2rem 0;
+  position: relative;
+}
+
+.trending-slide {
+  width: 37rem;
+  height: 42rem;
+  position: relative;
+}
+
+.trending-slide .trending-slide-img img {
+  width: 37rem;
+  height: 42rem;
+  border-radius: 2rem;
+  object-fit: cover;
+}
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  display: none;
+}
+
+.trending-slider-control {
+  position: relative;
+  bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem; /* Adds space between the elements */
+}
+
+.slider-arrow {
+  color: #000;
+  font-size: 40px;
+}
+
+.trending-slider-control .slider-arrow ion-icon {
+  color: #222224;
+}
+
+.trending-slider-control .slider-arrow::after {
+  content: "";
+}
+
+.trending-slider-control .swiper-pagination {
+  position: static; /* Reset position to static */
+  width: auto; /* Allow width to adjust automatically */
+  display: flex;
+  justify-content: center;
+}
+
+.trending-slider-control .swiper-pagination .swiper-pagination-bullet {
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+  flex-shrink: 0; /* Prevents shrinking */
+}
+
+.trending-slider-control .swiper-pagination .swiper-pagination-bullet-active {
+  background: #000;
+}
+
+/* <!-- -------------------Meet Our Influencers----------------------> */
+
+.meet-our-influencers-section {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.meet-our-influencers-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 64px;
+  width: 100%;
+  overflow: hidden;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.meet-our-influencers-logo-container {
+  overflow: hidden;
+  background: white;
+  white-space: nowrap;
+  width: 100%;
+  position: relative;
+}
+
+.meet-our-influencers-logo-container:before,
+.meet-our-influencers-logo-container:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  z-index: 2;
+}
+
+.meet-our-influencers-logo-container:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.meet-our-influencers-logo-container:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.meet-our-influencers-logo-container:hover .meet-our-influencers-logos-slide {
+  animation-play-state: paused;
+}
+
+.meet-our-influencers-logo-container:hover .meet-our-influencers-logos-slide {
+  animation-play-state: paused;
+}
+
+.meet-our-influencers-logos-slide {
+  display: inline-block;
+  white-space: nowrap;
+  padding: 10px 0;
+}
+
+.normal-slide {
+  animation: slide 30s linear infinite;
+}
+
+.card-wrapper {
+  display: inline-block;
+  border-radius: 20px;
+  margin-right: 32px;
+  background-color: white;
+  text-align: left;
+  padding: 10px;
+  overflow: hidden;
+  border: 1px solid #be1622;
+  background-image: url("/assets/service-pages_assets/instagram/fk-logo.svg");
+  background-repeat: no-repeat;
+  background-position: 104% 104%;
+  background-size: 80px 80px;
+}
+
+.image-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto !important;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.card-wrapper h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  background: linear-gradient(90deg, #be1622 5.54%, #e84e1b 50.85%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-wrapper p {
+  color: #000;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: start;
+  gap: 2px;
+  margin-top: 20px;
+}
+
+.social-icons a img {
+  width: 1.6rem;
+  height: 1.6rem;
+  transition: transform 0.2s;
+}
+
+.social-icons a img:hover {
+  transform: scale(1.2);
+}
+
+/* <!-- -------------------Types of Influencers on Instagram to Partner With----------------------> */
+
+.types-of-influencers {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.toi-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.toi-title {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 300;
+}
+
+.toi-title span {
+  background: linear-gradient(
+    90deg,
+    #fecc51 0%,
+    #ff610d 20%,
+    #ed25a7 50%,
+    #0440e1 85%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+.types-of-influencers p {
+  font-size: 1.2rem;
+  color: #323233;
+  text-align: center;
+  width: 70%;
+  line-height: 2.2rem;
+}
+
+.toi-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.toi-grid-item {
+  width: 480px;
+  background: transparent;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.toi-grid-item img {
+  width: 100%;
+}
+
+.toi-grid-item h2 {
+  font-size: 1.6rem;
+  color: #000;
+  font-weight: 600;
+  text-align: center;
+}
+
+.toi-grid-item p {
+  font-size: 0.9rem;
+  color: #323233;
+  font-weight: 400;
+  line-height: 1.6rem;
+  width: 100%;
+  padding: 10px;
+}
+
+/* <!-- -------------------Accordion Section----------------------> */
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  background-color: white;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  line-height: 3rem;
+  gap: 20px;
+  border-bottom: 1px solid #323233;
+}
+
+.accordion-header.active {
+  background: linear-gradient(90deg, #be1622 0%, #e84e1b 15%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.accordion-header h2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.arrow-icon {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s ease;
+}
+
+.accordion-header.active .arrow-icon {
+  transform: rotate(180deg);
+}
+
+.accordion-content p {
+  width: 100%;
+  padding-top: 20px;
+  font-size: 1rem;
+  line-height: 2rem;
+  color: #323233;
+}
+
+.accordion-content ul {
+  display: block;
+  color: #323233;
+  font-size: 1rem;
+  padding-top: 10px;
+  align-items: flex-start;
+  gap: 0;
+  display: block;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.accordion-content ul li {
+  font-weight: 600;
+  padding-top: 10px;
+  line-height: 2rem;
+}
+
+.accordion-content ul li span {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.toi-ads-content h2 {
+  color: #323233;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.types-of-ads-accordion {
+  padding: 0 20px;
+}
+
+/* <!-- -------------------Frequently Asked Questions----------------------> */
+
+.faq-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.faq-title {
+  font-size: 3rem;
+  background: linear-gradient(90deg, #be1622 0%, #e84e1b 15%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  text-align: center;
+}
+
+.faq-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  width: 100%;
+}
+
+.faq-grid-item {
+  background: transparent;
+  padding: 0 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+.faq-accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  line-height: 6rem;
+  gap: 20px;
+  border-bottom: 1px solid #323233;
+}
+
+.faq-accordion-header.active {
+  background: linear-gradient(90deg, #be1622 0%, #e84e1b 15%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.faq-accordion-header h2 {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.faq-accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.faq-plus-icon {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s ease;
+}
+
+.faq-accordion-header.active .plus-icon {
+  transform: rotate(180deg);
+}
+
+.faq-accordion-content p {
+  font-size: 1.2rem;
+  justify-content: start;
+  text-align: start;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.faq-accordion-content ul {
+  color: #323233;
+  font-size: 1rem;
+  padding-top: 10px;
+}
+
+.faq-accordion-content ul li {
+  font-weight: 600;
+  padding-top: 10px;
+  line-height: 2rem;
+}
+
+/* <!-- -------------------Testimonial---------------------- --> */
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.testimonial-controls {
+  position: absolute;
+  right: 0;
+}
+
+.testimonial-header {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.testimonial-title {
+  color: #000;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 300;
+}
+
+.testimonial-title span {
+  background: linear-gradient(90deg, #be1622 0%, #e84e1b 15%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+.testimonial-controls button {
+  width: 65px;
+  height: 65px;
+  color: #aeaeb2;
+  background-color: transparent;
+  border: 1px solid #aeaeb2;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background 0.3s ease-in-out;
+  font-size: 1.4rem;
+  font-weight: normal;
+  justify-content: end;
+}
+
+.testimonial-controls button:hover {
+  color: #fff;
+  background: linear-gradient(110deg, #be1622 7.11%, #e84e1b 89.03%);
+  border: none;
+}
+
+.testimonial-controls button.active {
+  background: linear-gradient(
+    110deg,
+    #be1622 7.11%,
+    #e84e1b 89.03%
+  ); /* Gradient background on active */
+}
+
+/* Styling Slick Slider */
+.testimonial-slider {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+}
+
+.testimonial-slide {
+  width: 533px;
+  height: 260px;
+  margin: 20px;
+  border: 1px solid #d2dde8;
+  background: transparent;
+  border-radius: 40px;
+  text-align: center;
+  padding: 20px;
+}
+
+.testimonial-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+  margin: auto;
+}
+
+.profile-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial-content {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  flex: 1; /* Ensure it takes the remaining space */
+}
+
+.testimonial-content h2 {
+  margin: 0;
+  font-size: 1.4rem;
+  color: #000;
+  font-weight: bold;
+}
+
+.designation {
+  margin: 5px 0 15px;
+  color: #6c757d;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.testimonial-text {
+  color: #333;
+  line-height: 1.5;
+  width: 100%;
+  text-align: left;
+}
+
+/* --------------------------------------------------------------------About Us Page------------------------------------------------------------------- */
+
+.about-hero-section {
+  margin-top: 4.5rem;
+  width: 100%;
+}
+
+.about-hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.meet-whole-team-hero-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background: var(--fame_red);
+}
+
+.our-philosophy-section {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.our-philosophy-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.our-philosophy-card {
+  width: 485px;
+  height: 631px;
+  background: white;
+  border: 1px solid #d2dde8;
+  border-radius: 20px;
+  position: relative;
+  background-image: url("../assets/service-pages_assets/orange-red-strip.svg"),
+    url("../assets/service-pages_assets/orange-red-strip.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 100%, 50% 0%;
+}
+
+.our-philosophy-card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+}
+
+.our-philosophy-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.our-philosophy-title {
+  color: #000;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.our-philosophy-content {
+  color: #000;
+  text-align: justify;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+}
+
+/* -------------------------------------------------------------------------------------------------MEDIA QUERIES - RESPONSIVENESS---------------------------------------------------------------------------------------------------- */
+
+/* -------------------------------------- MOBILE RESPONSIVENESS ------------------------------------------- */
+
+/* MOBILE v1 */
+@media (min-width: 360px) and (max-width: 479px) {
+  .toi-title,
+  .moi-title,
+  .wim-title,
+  .testimonial-title,
+  .faq-title {
+    font-size: 1.5rem;
+  }
+
+  .types-of-influencers p,
+  .what-is-ig-marketing p,
+  .why-ig-marketing p {
+    font-size: 0.72rem;
+    line-height: 1.2rem;
+    width: 95%;
+  }
+
+  .ig-marketing-services,
+  .social-proofing-outer-section,
+  .why-ig-marketing,
+  .what-is-ig-marketing,
+  .meet-our-influencers,
+  .types-of-influencers,
+  .accordion,
+  .testimonial,
+  .faq-section,
+  .success-stories-section {
+    padding: 20px;
+  }
+
+  /* --- Service Page Hero Sections--- */
+
+  .ig-marketing-services {
+    margin-top: 62px;
+  }
+
+  .ig-row {
+    flex-direction: column;
+  }
+
+  .ig-title,
+  .ig-subtitle {
+    font-size: 1.6rem;
+  }
+
+  .ig-desc {
+    font-size: 0.82rem;
+    line-height: 1.5rem;
+  }
+
+  .ig-column-right {
+    order: 1;
+  }
+
+  .ig-column-left {
+    width: 100%;
+    order: 2;
+    gap: 10px;
+  }
+
+  /* <!--- Why Instagram Marketing ---> */
+
+  .wim-main-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    justify-content: center;
+  }
+
+  .wim-card {
+    width: calc(400px * 0.75);
+    height: calc(500px * 0.75);
+    padding: 25px;
+    border-radius: 22px;
+  }
+
+  .wim-card h2 {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+
+  .wim-card p {
+    font-size: 0.775rem;
+    line-height: 1.2rem;
+    padding-bottom: 0;
+  }
+
+  .wim-screen {
+    width: calc(260px * 0.75);
+    height: calc(360px * 0.75);
+  }
+
+  .number {
+    font-size: 45px;
+    bottom: -12px;
+    right: 0px;
+  }
+
+  /* <!-----What is Instagram Marketing-----> */
+
+  .modern-slider {
+    flex-direction: row;
+    gap: 10px;
+    max-width: calc(100rem * 0.1875);
+  }
+
+  .trending-slider {
+    height: 25rem;
+    padding: 0.5rem 0;
+  }
+
+  .trending-slide {
+    width: 15rem;
+    height: 20rem;
+  }
+
+  .trending-slide .trending-slide-img img {
+    width: 15rem;
+    height: 20rem;
+    border-radius: 0.5rem;
+  }
+
+  .trending-slider-control .swiper-pagination .swiper-pagination-bullet {
+    height: 4px;
+    width: 4px;
+  }
+
+  .slider-arrow {
+    font-size: 15px;
+  }
+
+  /* <!------Meet Our Influencers-----> */
+
+  .meet-our-influencers-section {
+    gap: 0px;
+  }
+
+  .image-container {
+    width: 160px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  }
+
+  .card-wrapper {
+    background-size: 55px 55px;
+    padding: 5px;
+  }
+
+  .card-wrapper h2 {
+    font-size: 1.2rem;
+  }
+
+  .card-wrapper p {
+    font-size: 0.775rem;
+  }
+
+  .social-icons a img {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  /* <!-----Types of Influencers on Instagram to Partner With------> */
+
+  .toi-grid-container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .toi-grid-item {
+    width: calc(480px * 0.67);
+    background: transparent;
+    font-size: 25px;
+    padding: 10px;
+  }
+
+  .toi-grid-item h2 {
+    font-size: 1rem;
+  }
+
+  .toi-grid-item p {
+    font-size: 0.72rem;
+    line-height: 1.2rem;
+  }
+
+  /* <!----Accordion Section-----> */
+
+  .accordion-header h2 {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+
+  .accordion-content ul {
+    padding-top: 0;
+  }
+
+  .accordion-content ul,
+  .accordion-content p,
+  .toi-ads-content h2 {
+    font-size: 0.675rem;
+  }
+
+  .accordion-content ul li,
+  .accordion-content p {
+    line-height: 1.4rem;
+  }
+
+  .arrow-icon {
+    width: 12px;
+    height: 12px;
+  }
+
+  /* <!----Frequently Asked Questions----> */
+
+  .faq-grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0px;
+  }
+
+  .faq-accordion-header h2 {
+    font-size: 0.64rem;
+    line-height: 2.5rem;
+  }
+
+  .faq-accordion-content p {
+    font-size: 0.55rem;
+    line-height: 1rem;
+    padding-top: 10px;
+  }
+
+  .faq-accordion-header .plus-icon {
+    width: 10px;
+    height: 10px;
+  }
+
+  /* <!----- Testimonial ------> */
+
+  .for-small-devices {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .testimonial-controls {
+    display: none;
+  }
+
+  .testimonial-controls button {
+    width: 25px;
+    height: 25px;
+    font-size: 0.8rem;
+  }
+
+  .testimonial-slide {
+    width: calc(533px * 0.75);
+    height: auto;
+    margin: 10px;
+    border-radius: 25px;
+  }
+
+  .testimonial-card {
+    gap: 20px;
+    padding: 5px;
+  }
+
+  .profile-pic {
+    width: 55px;
+    height: 55px;
+  }
+
+  .testimonial-content h2 {
+    font-size: 0.9rem;
+    line-height: 1rem;
+  }
+
+  .designation {
+    margin: 2px 0 10px;
+    font-size: 0.7rem;
+  }
+
+  .testimonial-text {
+    line-height: 1.6;
+    font-size: 0.72rem;
+  }
+
+      /* --------------------------------------------------------------------About Us Page------------------------------------------------------------------- */
+
+      .meet-whole-team-hero-wrapper img{
+        width: 350px;
+      }
+    
+      .about-hero-container {
+        margin-bottom: 40px;
+    }
+    
+      .our-philosophy-section {
+        gap: 20px;
+      }
+    
+      .our-philosophy-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px;
+      }
+    
+      .our-philosophy-card {
+        width: calc(485px * 0.75);
+        height: calc(631px * 0.7);
+        background-size: 85%, 85%;
+      }
+    
+      .our-philosophy-card-container {
+        gap: 20px;
+        padding: 20px;
+      }
+    
+      .our-philosophy-icon {
+        gap: 20px;
+        padding: 20px;
+      }
+    
+      .our-philosophy-icon img {
+        height: 50px;
+        width: auto;
+      }
+    
+      .our-philosophy-title {
+        font-size: 1.4rem;
+      }
+    
+      .our-philosophy-content {
+        font-size: 0.9rem;
+        line-height: 1.6rem;
+      }
+}
+
+/* MOBILE v2*/
+@media (min-width: 480px) and (max-width: 599px) {
+  .toi-title,
+  .moi-title,
+  .wim-title,
+  .testimonial-title,
+  .faq-title {
+    font-size: 1.5rem;
+  }
+
+  .types-of-influencers p,
+  .what-is-ig-marketing p,
+  .why-ig-marketing p {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    width: 95%;
+  }
+
+  .ig-marketing-services,
+  .social-proofing-outer-section,
+  .why-ig-marketing,
+  .what-is-ig-marketing,
+  .meet-our-influencers,
+  .types-of-influencers,
+  .accordion,
+  .testimonial,
+  .faq-section,
+  .success-stories-section {
+    padding: 30px;
+  }
+
+  /* --- Service Page Hero Sections--- */
+
+  .ig-marketing-services {
+    margin-top: 60px;
+  }
+
+  .ig-row {
+    flex-direction: column;
+  }
+
+  .ig-title,
+  .ig-subtitle {
+    font-size: 2rem;
+  }
+
+  .ig-desc {
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+  }
+
+  .ig-column-right {
+    order: 1;
+  }
+
+  .ig-column-left {
+    width: 100%;
+    order: 2;
+  }
+
+  /* <!--- Why Instagram Marketing ---> */
+
+  .wim-main-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    justify-content: center;
+  }
+
+  .wim-card {
+    width: calc(400px * 0.46875);
+    height: calc(500px * 0.46875);
+    padding: 20px;
+    border-radius: 22px;
+  }
+
+  .wim-card h2 {
+    font-size: 0.82rem;
+    line-height: 1.6rem;
+  }
+
+  .wim-card p {
+    font-size: 0.65rem;
+    line-height: 0.875rem;
+    padding-bottom: 15px;
+  }
+
+  .wim-screen {
+    width: calc(260px * 0.46875);
+    height: calc(360px * 0.46875);
+  }
+
+  .number {
+    font-size: 45px;
+    bottom: -12px;
+    right: -2px;
+  }
+
+  /* <!-----What is Instagram Marketing-----> */
+
+  .modern-slider {
+    flex-direction: row;
+    gap: 10px;
+    max-width: calc(100rem * 0.25);
+  }
+
+  .trending-slider {
+    height: 25rem;
+    padding: 0.5rem 0;
+  }
+
+  .trending-slide {
+    width: 15rem;
+    height: 20rem;
+  }
+
+  .trending-slide .trending-slide-img img {
+    width: 15rem;
+    height: 20rem;
+    border-radius: 0.5rem;
+  }
+
+  .trending-slider-control .swiper-pagination .swiper-pagination-bullet {
+    height: 6px;
+    width: 6px;
+  }
+
+  .slider-arrow {
+    font-size: 25px;
+  }
+
+  /* <!------Meet Our Influencers-----> */
+
+  .meet-our-influencers-section {
+    gap: 0px;
+  }
+
+  .image-container {
+    width: 160px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  }
+
+  .card-wrapper {
+    background-size: 55px 55px;
+    padding: 5px;
+  }
+
+  .card-wrapper h2 {
+    font-size: 1.2rem;
+  }
+
+  .card-wrapper p {
+    font-size: 0.775rem;
+  }
+
+  .social-icons a img {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  /* <!-----Types of Influencers on Instagram to Partner With------> */
+
+  .toi-grid-container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .toi-grid-item {
+    width: calc(480px * 0.41);
+    background: transparent;
+    font-size: 25px;
+    padding: 10px;
+  }
+
+  .toi-grid-item h2 {
+    font-size: 1.2rem;
+  }
+
+  .toi-grid-item p {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+
+  /* <!----Accordion Section-----> */
+
+  .accordion-header h2 {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+  }
+
+  .accordion-content ul {
+    padding-top: 0;
+  }
+
+  .accordion-content ul,
+  .accordion-content p,
+  .toi-ads-content h2 {
+    font-size: 0.72rem;
+  }
+
+  .accordion-content ul li,
+  .accordion-content p {
+    line-height: 1.4rem;
+  }
+
+  .arrow-icon {
+    width: 12px;
+    height: 12px;
+  }
+
+  /* <!----Frequently Asked Questions----> */
+
+  .faq-grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0px;
+  }
+
+  .faq-accordion-header h2 {
+    font-size: 0.875rem;
+    line-height: 2.5rem;
+  }
+
+  .faq-accordion-content p {
+    font-size: 0.7rem;
+    line-height: 1.2rem;
+    padding-top: 10px;
+  }
+
+  .faq-accordion-header .plus-icon {
+    width: 10px;
+    height: 10px;
+  }
+
+  /* <!----- Testimonial ------> */
+
+  .for-small-devices {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .testimonial-controls {
+    display: none;
+  }
+
+  .testimonial-controls button {
+    width: 25px;
+    height: 25px;
+    font-size: 0.8rem;
+  }
+
+  .testimonial-slide {
+    width: calc(533px * 0.75);
+    height: calc(260px * 0.75);
+    margin: 10px;
+    border-radius: 25px;
+  }
+
+  .testimonial-card {
+    gap: 20px;
+    padding: 5px;
+  }
+
+  .profile-pic {
+    width: 55px;
+    height: 55px;
+  }
+
+  .testimonial-content h2 {
+    font-size: 0.9rem;
+    line-height: 1rem;
+  }
+
+  .designation {
+    margin: 2px 0 10px;
+    font-size: 0.7rem;
+  }
+
+  .testimonial-text {
+    line-height: 1.6;
+    font-size: 0.8rem;
+  }
+
+    /* --------------------------------------------------------------------About Us Page------------------------------------------------------------------- */
+
+    .meet-whole-team-hero-wrapper img{
+      width: 470px;
+    }
+  
+    .about-hero-container {
+      margin-bottom: 40px;
+  }
+  
+    .our-philosophy-section {
+      gap: 20px;
+    }
+  
+    .our-philosophy-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+    }
+  
+    .our-philosophy-card {
+      width: calc(485px * 0.433);
+      height: calc(631px * 0.433);
+      background-size: 85%, 85%;
+    }
+  
+    .our-philosophy-card-container {
+      gap: 0px;
+      padding: 20px;
+    }
+  
+    .our-philosophy-icon {
+      gap: 10px;
+      padding: 20px;
+    }
+  
+    .our-philosophy-icon img {
+      height: 30px;
+      width: auto;
+    }
+  
+    .our-philosophy-title {
+      font-size: 1rem;
+    }
+  
+    .our-philosophy-content {
+      font-size: 0.6rem;
+      line-height: 0.9rem;
+    }
+}
+
+/* ----------------------------------------------- TABLET -------------------------------------------------- */
+
+/* TABLET v1 */
+@media (min-width: 600px) and (max-width: 899px) {
+  .toi-title,
+  .moi-title,
+  .wim-title,
+  .testimonial-title,
+  .faq-title {
+    font-size: 2rem;
+  }
+
+  .types-of-influencers p,
+  .what-is-ig-marketing p,
+  .why-ig-marketing p {
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    width: 90%;
+  }
+
+  .ig-marketing-services,
+  .social-proofing-outer-section,
+  .why-ig-marketing,
+  .what-is-ig-marketing,
+  .meet-our-influencers,
+  .types-of-influencers,
+  .accordion,
+  .testimonial,
+  .faq-section,
+  .success-stories-section {
+    padding: 30px;
+  }
+
+  /* --- Service Page Hero Sections--- */
+
+  .ig-marketing-services {
+    margin-top: 70px;
+  }
+
+  .ig-row {
+    flex-direction: column;
+  }
+
+  .ig-title,
+  .ig-subtitle {
+    font-size: 2.2rem;
+  }
+
+  .ig-desc {
+    font-size: 1rem;
+    line-height: 1.8rem;
+  }
+
+  .ig-column-right {
+    order: 1;
+  }
+
+  .ig-column-left {
+    width: 100%;
+    order: 2;
+  }
+
+  /* <!--- Why Instagram Marketing ---> */
+
+  .wim-main-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    justify-content: center;
+  }
+
+  .wim-card {
+    width: calc(400px * 0.625);
+    height: calc(500px * 0.625);
+    padding: 20px;
+    border-radius: 25px;
+  }
+
+  .wim-card h2 {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+  }
+
+  .wim-card p {
+    font-size: 0.75rem;
+    line-height: 1.2rem;
+    padding-bottom: 15px;
+  }
+
+  .wim-screen {
+    width: calc(260px * 0.625);
+    height: calc(360px * 0.625);
+  }
+
+  .number {
+    font-size: 45px;
+    bottom: -12px;
+    right: -2px;
+  }
+
+  /* <!-----What is Instagram Marketing-----> */
+
+  .modern-slider {
+    flex-direction: row;
+    gap: 10px;
+    max-width: calc(100rem * 0.3125);
+  }
+
+  .trending-slider {
+    height: 30rem;
+    padding: 1rem 0;
+  }
+
+  .trending-slide {
+    width: 20rem;
+    height: 25rem;
+  }
+
+  .trending-slide .trending-slide-img img {
+    width: 20rem;
+    height: 25rem;
+    border-radius: 1rem;
+  }
+
+  .slider-arrow {
+    font-size: 30px;
+  }
+
+  /* <!------Meet Our Influencers-----> */
+
+  .image-container {
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  }
+
+  .card-wrapper {
+    background-size: 65px 65px;
+  }
+
+  .card-wrapper h2 {
+    font-size: 1.4rem;
+  }
+
+  .card-wrapper p {
+    font-size: 0.875rem;
+  }
+
+  .social-icons a img {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+
+  /* <!-----Types of Influencers on Instagram to Partner With------> */
+
+  .toi-grid-container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .toi-grid-item {
+    width: calc(480px * 0.5333);
+    background: transparent;
+    font-size: 25px;
+    padding: 10px;
+  }
+
+  .toi-grid-item h2 {
+    font-size: 1.2rem;
+  }
+
+  .toi-grid-item p {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+
+  /* <!----Accordion Section-----> */
+
+  .accordion-header h2 {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+
+  .accordion-content ul,
+  .accordion-content p,
+  .toi-ads-content h2 {
+    font-size: 0.8rem;
+  }
+
+  .accordion-content ul li,
+  .accordion-content p {
+    line-height: 1.5rem;
+  }
+
+  .arrow-icon {
+    width: 15px;
+    height: 15px;
+  }
+
+  /* <!----Frequently Asked Questions----> */
+
+  .faq-grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0px;
+  }
+
+  .faq-accordion-header h2 {
+    font-size: 0.9rem;
+    line-height: 3rem;
+  }
+
+  .faq-accordion-content p {
+    font-size: 0.7rem;
+  }
+
+  .faq-accordion-header .plus-icon {
+    width: 10px;
+    height: 10px;
+  }
+
+  /* <!----- Testimonial ------> */
+
+  .for-small-devices {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .testimonial-controls {
+    display: none;
+  }
+
+  .testimonial-controls button {
+    width: 25px;
+    height: 25px;
+    font-size: 0.8rem;
+  }
+
+  .testimonial-slide {
+    width: calc(533px * 0.75);
+    height: calc(260px * 0.75);
+    margin: 10px;
+    border-radius: 25px;
+  }
+
+  .testimonial-card {
+    gap: 20px;
+    padding: 5px;
+  }
+
+  .profile-pic {
+    width: 55px;
+    height: 55px;
+  }
+
+  .testimonial-content h2 {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+
+  .designation {
+    margin: 2px 0 10px;
+    font-size: 0.6rem;
+  }
+
+  .testimonial-text {
+    line-height: 1.4;
+    font-size: 0.7rem;
+  }
+
+  /* --------------------------------------------------------------------About Us Page------------------------------------------------------------------- */
+
+  .meet-whole-team-hero-wrapper img{
+    width: 590px;
+  }
+
+  .about-hero-container {
+    margin-bottom: 70px;
+}
+
+  .our-philosophy-section {
+    gap: 20px;
+  }
+
+  .our-philosophy-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .our-philosophy-card {
+    width: calc(485px * 0.5333);
+    height: calc(631px * 0.5333);
+    background-size: 85%, 85%;
+  }
+
+  .our-philosophy-card-container {
+    gap: 5px;
+    padding: 20px;
+  }
+
+  .our-philosophy-icon {
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .our-philosophy-icon img {
+    height: 35px;
+    width: auto;
+  }
+
+  .our-philosophy-title {
+    font-size: 1.2rem;
+  }
+
+  .our-philosophy-content {
+    font-size: 0.775rem;
+    line-height: 1.2rem;
+  }
+}
+
+/* TABLET v2 */
+@media (min-width: 900px) and (max-width: 1023px) {
+  .toi-title,
+  .moi-title,
+  .wim-title,
+  .testimonial-title,
+  .faq-title {
+    font-size: 2.5rem;
+  }
+
+  .types-of-influencers p,
+  .what-is-ig-marketing p,
+  .why-ig-marketing p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    width: 90%;
+  }
+
+  .ig-marketing-services,
+  .social-proofing-outer-section,
+  .why-ig-marketing,
+  .what-is-ig-marketing,
+  .meet-our-influencers,
+  .types-of-influencers,
+  .accordion,
+  .testimonial,
+  .faq-section,
+  .success-stories-section {
+    padding: 30px;
+  }
+
+  /* --- Service Page Hero Sections--- */
+
+  .ig-title,
+  .ig-subtitle {
+    font-size: 2.5rem;
+  }
+  .ig-desc {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+
+  .ig-column-left {
+    width: 90%;
+    gap: 15px;
+  }
+
+  /* <!--- Why Instagram Marketing ---> */
+
+  .wim-inner-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .wim-card {
+    width: calc(400px * 0.6);
+    height: calc(500px * 0.6);
+  }
+
+  .wim-card h2 {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+  }
+
+  .wim-card p {
+    font-size: 0.7rem;
+    line-height: 1.2rem;
+    padding-bottom: 15px;
+  }
+
+  .wim-screen {
+    width: calc(260px * 0.6);
+    height: calc(360px * 0.6);
+  }
+
+  .number {
+    font-size: 40px;
+    bottom: -12px;
+    right: -1px;
+  }
+
+  /* <!-----What is Instagram Marketing-----> */
+
+  .modern-slider {
+    max-width: calc(100rem * 0.46875);
+  }
+
+  .trending-slider {
+    height: 42rem;
+  }
+
+  .trending-slide .trending-slide-img img {
+    width: 34rem;
+    height: 34rem;
+  }
+
+  .slider-arrow {
+    font-size: 30px;
+  }
+
+  /* <!------Meet Our Influencers-----> */
+
+  .image-container {
+    width: 250px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  }
+
+  .card-wrapper h2 {
+    font-size: 1.8rem;
+  }
+
+  /* <!-----Types of Influencers on Instagram to Partner With------> */
+
+  .toi-grid-item {
+    width: calc(480px * 0.5333);
+    background: transparent;
+    font-size: 25px;
+    padding: 10px;
+  }
+
+  .toi-grid-item h2 {
+    font-size: 1.2rem;
+  }
+
+  .toi-grid-item p {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+
+  /* <!----Accordion Section-----> */
+
+  .accordion-header h2 {
+    font-size: 1.1rem;
+    line-height: 2rem;
+  }
+
+  .accordion-content ul,
+  .accordion-content p,
+  .toi-ads-content h2 {
+    font-size: 0.85rem;
+  }
+
+  .accordion-content ul li,
+  .accordion-content p {
+    line-height: 1.6rem;
+  }
+
+  /* <!----Frequently Asked Questions----> */
+
+  .faq-accordion-header h2 {
+    font-size: 0.8rem;
+    line-height: 3rem;
+  }
+
+  .faq-accordion-content p {
+    font-size: 0.7rem;
+  }
+
+  .faq-accordion-header .plus-icon {
+    width: 10px;
+    height: 10px;
+  }
+
+  /* <!----- Testimonial ------> */
+
+  .testimonial-controls button {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+
+  .testimonial-slide {
+    width: calc(533px * 0.75);
+    height: calc(260px * 0.75);
+    margin: 10px;
+    border-radius: 30px;
+  }
+
+  .testimonial-card {
+    gap: 20px;
+    padding: 5px;
+  }
+
+  .profile-pic {
+    width: 55px;
+    height: 55px;
+  }
+
+  .testimonial-content h2 {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .designation {
+    margin: 2px 0 10px;
+    font-size: 0.8rem;
+  }
+
+  .testimonial-text {
+    line-height: 1.8;
+    font-size: 0.8rem;
+  }
+
+  /* --------------------------------------------------------------------About Us Page------------------------------------------------------------------- */
+
+  .meet-whole-team-hero-wrapper img{
+    width: 890px;
+  }
+
+  .about-hero-container {
+    margin-bottom: 60px;
+}
+
+  .our-philosophy-section {
+    gap: 20px;
+  }
+
+  .our-philosophy-container {
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .our-philosophy-card {
+    width: calc(485px * 0.556);
+    height: calc(631px * 0.556);
+    background-size: 85%, 85%;
+  }
+
+  .our-philosophy-card-container {
+    gap: 5px;
+    padding: 20px;
+  }
+
+  .our-philosophy-icon {
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .our-philosophy-icon img {
+    height: 40px;
+    width: auto;
+  }
+
+  .our-philosophy-title {
+    font-size: 1.4rem;
+  }
+
+  .our-philosophy-content {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+  }
+}
+
+/* ----------------------------------------------- DESKTOPS -------------------------------------------------- */
+
+/* DESKTOP v1 */
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .toi-title,
+  .moi-title,
+  .wim-title,
+  .testimonial-title,
+  .faq-title {
+    font-size: 2rem;
+  }
+
+  .types-of-influencers p,
+  .what-is-ig-marketing p,
+  .why-ig-marketing p {
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    width: 95%;
+  }
+
+  .ig-marketing-services,
+  .social-proofing-outer-section,
+  .why-ig-marketing,
+  .what-is-ig-marketing,
+  .meet-our-influencers,
+  .types-of-influencers,
+  .accordion,
+  .testimonial,
+  .faq-section {
+    padding: 30px;
+  }
+
+  /* --- Service Page Hero Sections--- */
+  .ig-title,
+  .ig-subtitle {
+    font-size: 2.6rem;
+  }
+  .ig-desc {
+    font-size: 0.875rem;
+    line-height: 1.6rem;
+  }
+
+  /* <!--- Why Instagram Marketing ---> */
+
+  .wim-card {
+    width: calc(400px * 0.5333);
+    height: calc(500px * 0.5333);
+    padding: 30px;
+  }
+
+  .wim-card h2 {
+    font-size: 0.82rem;
+    line-height: 1.8rem;
+  }
+
+  .wim-card p {
+    font-size: 0.6rem;
+    line-height: 1rem;
+    padding-bottom: 15px;
+  }
+
+  .wim-screen {
+    width: calc(260px * 0.5333);
+    height: calc(360px * 0.5333);
+  }
+
+  .number {
+    font-size: 40px;
+    bottom: -12px;
+    right: -1px;
+  }
+
+  /* <!-----What is Instagram Marketing-----> */
+
+  .modern-slider {
+    max-width: calc(100rem * 0.5333);
+  }
+
+  .trending-slider {
+    height: 42rem;
+  }
+
+  .trending-slide .trending-slide-img img {
+    width: 34rem;
+    height: 34rem;
+  }
+
+  .slider-arrow {
+    font-size: 30px;
+  }
+
+  /* <!------Meet Our Influencers-----> */
+
+  .image-container {
+    width: 260px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  }
+
+  /* <!-----Types of Influencers on Instagram to Partner With------> */
+
+  .toi-grid-item {
+    width: calc(480px * 0.625);
+    background: transparent;
+    font-size: 25px;
+  }
+
+  .toi-grid-item h2 {
+    font-size: 1.2rem;
+  }
+
+  .toi-grid-item p {
+    font-size: 0.725rem;
+    line-height: 1.2rem;
+  }
+
+  /* <!----Accordion Section-----> */
+
+  .accordion-header h2 {
+    font-size: 1.2rem;
+  }
+
+  .accordion-content ul,
+  .accordion-content p,
+  .toi-ads-content h2 {
+    font-size: 0.875rem;
+  }
+
+  .accordion-content ul li,
+  .accordion-content p {
+    line-height: 1.8rem;
+  }
+
+  /* <!----Frequently Asked Questions----> */
+
+  .faq-accordion-header h2 {
+    font-size: 0.875rem;
+    line-height: 3rem;
+  }
+
+  .faq-accordion-content p {
+    font-size: 0.775rem;
+  }
+
+  /* <!----- Testimonial ------> */
+
+  .testimonial-controls button {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+
+  .testimonial-slide {
+    width: calc(533px * 0.625);
+    height: calc(260px * 0.625);
+    margin: 10px;
+    border-radius: 30px;
+  }
+
+  .testimonial-card {
+    gap: 20px;
+    padding: 5px;
+  }
+
+  .profile-pic {
+    width: 50px;
+    height: 50px;
+  }
+
+  .testimonial-content h2 {
+    font-size: 0.9rem;
+    line-height: 1rem;
+  }
+
+  .designation {
+    margin: 2px 0 10px;
+    font-size: 0.775rem;
+  }
+
+  .testimonial-text {
+    line-height: 1.4;
+    font-size: 0.7rem;
+  }
+
+  /* --------------------------------------------------------------------About Us Page------------------------------------------------------------------- */
+
+  .meet-whole-team-hero-wrapper img{
+    width: 1000px;
+  }
+
+  .our-philosophy-section {
+    gap: 20px;
+  }
+
+  .our-philosophy-container {
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .our-philosophy-card {
+    width: calc(485px * 0.625);
+    height: calc(631px * 0.625);
+    background-size: 85%, 85%;
+  }
+
+  .our-philosophy-card-container {
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .our-philosophy-icon {
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .our-philosophy-icon img {
+    height: 50px;
+    width: auto;
+  }
+
+  .our-philosophy-title {
+    font-size: 1.5rem;
+  }
+
+  .our-philosophy-content {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+  }
+}
+
+/* DESKTOP v2 */
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .toi-title,
+  .moi-title,
+  .wim-title,
+  .testimonial-title,
+  .faq-title {
+    font-size: 2.5rem;
+  }
+
+  /* --- Service Page Hero Sections--- */
+  .ig-title,
+  .ig-subtitle {
+    font-size: 3rem;
+  }
+  .ig-desc {
+    font-size: 1.05rem;
+    line-height: 2rem;
+  }
+
+  /* <!--- Why Instagram Marketing ---> */
+
+  .why-ig-marketing p {
+    font-size: 1.05rem;
+    width: 85%;
+    line-height: 2rem;
+  }
+
+  .wim-card {
+    width: calc(400px * 0.625);
+    height: calc(500px * 0.625);
+    padding: 30px;
+  }
+
+  .wim-card h2 {
+    font-size: 1rem;
+    line-height: 3rem;
+  }
+
+  .wim-card p {
+    font-size: 0.675rem;
+    line-height: 1rem;
+    padding-bottom: 15px;
+  }
+
+  .wim-screen {
+    width: calc(260px * 0.625);
+    height: calc(360px * 0.625);
+  }
+
+  .number {
+    font-size: 50px;
+  }
+
+  /* <!-----What is Instagram Marketing-----> */
+
+  .what-is-ig-marketing p {
+    font-size: 1.05rem;
+    width: 85%;
+    line-height: 2rem;
+  }
+
+  .modern-slider {
+    max-width: calc(100rem * 0.625);
+  }
+
+  .trending-slider {
+    height: 43rem;
+  }
+
+  .trending-slide .trending-slide-img img {
+    width: 35rem;
+    height: 35rem;
+  }
+
+  /* <!------Meet Our Influencers-----> */
+
+  /* <!-----Types of Influencers on Instagram to Partner With------> */
+
+  .types-of-influencers p {
+    font-size: 1.05rem;
+    line-height: 2rem;
+  }
+
+  .toi-grid-item {
+    width: calc(480px * 0.625);
+    background: transparent;
+    font-size: 25px;
+  }
+
+  .toi-grid-item h2 {
+    font-size: 1.4rem;
+  }
+
+  .toi-grid-item p {
+    font-size: 0.725rem;
+    line-height: 1.4rem;
+  }
+
+  /* <!----Accordion Section-----> */
+
+  .accordion-header h2 {
+    font-size: 1.4rem;
+  }
+
+  .accordion-content ul {
+    font-size: 1rem;
+  }
+
+  /* <!----Frequently Asked Questions----> */
+
+  .faq-accordion-header h2 {
+    font-size: 1rem;
+    line-height: 3.5rem;
+  }
+
+  .faq-accordion-content p {
+    font-size: 0.775rem;
+  }
+
+  /* <!----- Testimonial ------> */
+
+  .testimonial-controls button {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+
+  .testimonial-slide {
+    width: calc(533px * 0.75);
+    height: calc(260px * 0.75);
+    margin: 10px;
+    border-radius: 30px;
+  }
+
+  .testimonial-card {
+    gap: 20px;
+    padding: 5px;
+  }
+
+  .profile-pic {
+    width: 50px;
+    height: 50px;
+  }
+
+  .testimonial-content h2 {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+
+  .designation {
+    margin: 2px 0 10px;
+    font-size: 0.775rem;
+  }
+
+  .testimonial-text {
+    line-height: 1.8;
+    font-size: 0.8rem;
+  }
+
+  /* --------------------------------------------------------------------About Us Page------------------------------------------------------------------- */
+
+  .meet-whole-team-hero-wrapper img{
+    width: 1180px;
+  }
+
+  .our-philosophy-section {
+    gap: 20px;
+  }
+
+  .our-philosophy-container {
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .our-philosophy-card {
+    width: calc(485px * 0.72);
+    height: calc(631px * 0.72);
+    background-size: 85%, 85%;
+  }
+
+  .our-philosophy-card-container {
+    gap: 20px;
+    padding: 30px;
+  }
+
+  .our-philosophy-icon {
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .our-philosophy-icon img{
+    height: 50px;
+    width: auto;
+  }
+
+  .our-philosophy-title {
+    font-size: 1.8rem;
+  }
+
+  .our-philosophy-content {
+    font-size: 0.92rem;
+    line-height: 1.8rem;
+  }
+}
+
+/* DESKTOP v3 */
+@media (min-width: 1440px) and (max-width: 1599px) {
+  /* --- Service Page Hero Sections--- */
+  .ig-title,
+  .ig-subtitle {
+    font-size: 3.5rem;
+  }
+  .ig-desc {
+    font-size: 1.15rem;
+  }
+
+  /* <!--- Why Instagram Marketing ---> */
+
+  .why-ig-marketing p {
+    font-size: 1.15rem;
+  }
+
+  .wim-card {
+    width: calc(400px * 0.75);
+    height: calc(500px * 0.75);
+  }
+
+  .wim-card h2 {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+
+  .wim-card p {
+    font-size: 0.7rem;
+  }
+
+  .wim-screen {
+    width: calc(260px * 0.75);
+    height: calc(360px * 0.75);
+  }
+
+  /* <!-----What is Instagram Marketing-----> */
+
+  .what-is-ig-marketing p {
+    font-size: 1.15rem;
+  }
+
+  .modern-slider {
+    max-width: calc(100rem * 0.75);
+  }
+
+  .trending-slider {
+    height: 42rem;
+  }
+
+  .trending-slide .trending-slide-img img {
+    width: 35rem;
+    height: 35rem;
+  }
+
+  /* <!------Meet Our Influencers-----> */
+
+  /* <!-----Types of Influencers on Instagram to Partner With------> */
+
+  .types-of-influencers p {
+    font-size: 1.15rem;
+    line-height: 2.2rem;
+  }
+
+  .toi-grid-item {
+    width: calc(480px * 0.8333);
+    background: transparent;
+    font-size: 25px;
+  }
+
+  .toi-grid-item h2 {
+    font-size: 1.4rem;
+  }
+
+  .toi-grid-item p {
+    font-size: 0.875rem;
+    line-height: 1.4rem;
+  }
+
+  /* <!----Accordion Section-----> */
+
+  .accordion-header h2 {
+    font-size: 1.4rem;
+  }
+
+  .accordion-content ul {
+    font-size: 1rem;
+  }
+
+  /* <!----Frequently Asked Questions----> */
+
+  .faq-accordion-header h2 {
+    font-size: 1.3rem;
+  }
+
+  .faq-accordion-content p {
+    font-size: 0.9rem;
+  }
+
+  /* --------------------------------------------------------------------About Us Page------------------------------------------------------------------- */
+
+  .meet-whole-team-hero-wrapper img{
+    width: 1400px;
+  }
+
+  .our-philosophy-section {
+    gap: 20px;
+  }
+
+  .our-philosophy-container {
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .our-philosophy-card {
+    width: calc(485px * 0.8333);
+    height: calc(631px * 0.8333);
+    background-size: 85%, 85%;
+  }
+
+  .our-philosophy-card-container {
+    gap: 20px;
+    padding: 30px;
+  }
+
+  .our-philosophy-icon {
+    gap: 20px;
+    padding: 40px;
+  }
+
+  .our-philosophy-title {
+    font-size: 1.8rem;
+  }
+
+  .our-philosophy-content {
+    font-size: 1rem;
+    line-height: 1.8rem;
+  }
+}
+
+/* DESKTOP v4 */
+@media (min-width: 1600px) and (max-width: 1919px) {
+  /* --- Service Page Hero Sections--- */
+  .ig-title,
+  .ig-subtitle {
+    font-size: 3.5rem;
+  }
+  .ig-desc {
+    font-size: 1.15rem;
+  }
+
+  /* <!--- Why Instagram Marketing ---> */
+
+  .why-ig-marketing p {
+    font-size: 1.15rem;
+  }
+
+  .wim-card {
+    width: calc(400px * 0.8333);
+    height: calc(500px * 0.8333);
+  }
+
+  .wim-card h2 {
+    font-size: 1.4rem;
+    line-height: 1.2rem;
+  }
+
+  .wim-card p {
+    font-size: 0.8rem;
+  }
+
+  .wim-screen {
+    width: calc(260px * 0.8333);
+    height: calc(360px * 0.8333);
+    margin-bottom: -80px;
+  }
+
+  /* <!-----What is Instagram Marketing-----> */
+
+  .what-is-ig-marketing p {
+    font-size: 1.15rem;
+  }
+
+  .modern-slider {
+    max-width: calc(100rem * 0.8333);
+  }
+
+  .trending-slider {
+    height: 48rem;
+  }
+
+  .trending-slide .trending-slide-img img {
+    width: 35rem;
+    height: 40rem;
+  }
+
+  /* <!-----Types of Influencers on Instagram to Partner With------> */
+
+  .types-of-influencers p {
+    font-size: 1.15rem;
+    line-height: 2.2rem;
+  }
+
+  .toi-grid-item {
+    width: calc(480px * 0.8333);
+    background: transparent;
+    font-size: 25px;
+  }
+
+  .toi-grid-item h2 {
+    font-size: 1.4rem;
+  }
+
+  .toi-grid-item p {
+    font-size: 0.875rem;
+    line-height: 1.4rem;
+  }
+
+  /* <!----Accordion Section-----> */
+
+  .accordion-header h2 {
+    font-size: 1.4rem;
+  }
+
+  .accordion-content ul {
+    font-size: 1rem;
+  }
+
+  /* <!----Frequently Asked Questions----> */
+
+  .faq-accordion-header h2 {
+    font-size: 1.3rem;
+  }
+
+  .faq-accordion-content p {
+    font-size: 0.9rem;
+  }
+
+  /* --------------------------------------------------------------------About Us Page------------------------------------------------------------------- */
+
+  .meet-whole-team-hero-wrapper img{
+    width: 1500px;
+  }
+
+  .our-philosophy-section {
+    gap: 20px;
+  }
+
+  .our-philosophy-container {
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .our-philosophy-card {
+    width: calc(485px * 0.8333);
+    height: calc(631px * 0.8333);
+    background-size: 85%, 85%;
+  }
+
+  .our-philosophy-card-container {
+    gap: 20px;
+    padding: 30px;
+  }
+
+  .our-philosophy-icon {
+    gap: 20px;
+    padding: 40px;
+  }
+
+  .our-philosophy-title {
+    font-size: 1.8rem;
+  }
+
+  .our-philosophy-content {
+    font-size: 1rem;
+    line-height: 1.8rem;
+  }
+}
+
+/* --- DESKTOP v5 --- */
+@media (min-width: 1920px) {
+  /* Already Responsive for Large Desktops */
+}

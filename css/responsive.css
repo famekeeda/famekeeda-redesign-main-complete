@@ -1,0 +1,4049 @@
+/* ----------------------------------------------- MOBILE RESPONSIVENESS -------------------------------------------------- */
+
+/* MOBILE v1 */
+@media (min-width: 360px) and (max-width: 479px) {
+  body {
+    gap: 64px;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+    overflow: hidden;
+    padding-inline: 10px;
+  }
+
+  .service-section,
+  .success-stories-section,
+  .show-reel-section,
+  .meet-our-team-section,
+  .meet-our-brands-section,
+  .influencer-makes-waves {
+    padding: 0 24px;
+    gap: 20px;
+    width: 100%;
+  }
+
+  /* ------ Header ----- */
+  .nav-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 10px;
+    height: 4rem;
+  }
+
+  ul {
+    flex-direction: column;
+    margin-top: 16px;
+    align-items: flex-start;
+  }
+
+  .brand-logo img {
+    height: 1.7rem;
+  }
+
+  .nav {
+    display: none;
+    /* Hide the nav initially */
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    width: 100%;
+    background: white;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    padding-inline: 20px;
+  }
+
+  .show-nav {
+    display: flex;
+  }
+
+  .hamburger-menu {
+    display: flex;
+    cursor: pointer;
+  }
+
+  .hamburger-icon .bar {
+    width: 25px;
+    height: 3px;
+    background: black;
+    margin: 4px 0;
+    transition: 0.3s ease;
+  }
+
+  /* Change the hamburger icon to an X when active */
+  .hamburger-menu.active .bar:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .hamburger-menu.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger-menu.active .bar:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .drop-down-container {
+    flex-direction: column;
+    position: static;
+    box-shadow: none;
+    padding: 14px;
+    background: white;
+    gap: 0;
+  }
+
+  .dropdown-content {
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav-cta {
+    margin: 16px 0;
+    text-align: center;
+  }
+
+  /* Hero Section */
+  .home-hero-section {
+    margin-top: 4rem;
+  }
+
+  .video-control-wrapper {
+    gap: 4px;
+  }
+
+  .video_play-button,
+  .cta_hero_button {
+    padding: 4px 8px;
+    font-size: 10px;
+  }
+
+  .video-control-svg svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  .video-control-wrapper {
+    left: 10px;
+  }
+
+  .cta-hero {
+    right: 10px;
+  }
+
+  /* Social Proofing */
+
+  .spc-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .spc-text {
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+  }
+
+  .social-proofing-container {
+    gap: 12px;
+  }
+
+  /* Logo Scrolling */
+
+  .logo-wrapper {
+    padding: 16px 24px;
+    border-radius: 12px;
+  }
+
+  .logo-wrapper img {
+    height: 40px;
+  }
+
+  .meet-our-brand-logo-container:before {
+    background: linear-gradient(to left, rgb(255 255 255 / 0%), #ffffff7d);
+  }
+
+  .meet-our-brand-logo-container:after {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff8a);
+  }
+
+  /* India's Top Influencer Marketing Agency */
+  .slider-title,
+  .slider-subtitle {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .imcc-card-1,
+  .imcc-card-4 {
+    width: 100%;
+    border-radius: 12px;
+  }
+
+  .influencer-marketing-agency-,
+  .service-section,
+  .influencer-makes-waves,
+  .success-stories-section,
+  .show-reel-section,
+  .meet-our-team-section {
+    width: 100%;
+    padding-inline: 10px;
+  }
+
+  .influencer-marketing-cards-container {
+    gap: 32px;
+    width: 100%;
+  }
+
+  .influencer-agency-paragraph {
+    font-size: 14px;
+    line-height: 20px;
+    width: 82%;
+  }
+
+  .imcc-card-row {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .imcc-row {
+    align-items: flex-start;
+  }
+
+  .imcc-video-wrapper-4 {
+    margin-left: 100px;
+  }
+
+  .center-div {
+    align-items: center;
+  }
+
+  .mobile-video-warpper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .com-wrapper-right {
+    margin-top: 0;
+  }
+
+  .imcc-video-wrapper-1 {
+    transform: translateX(-60px);
+  }
+
+  .imcc-video-wrapper-1.animate {
+    transform: translateX(0px);
+  }
+
+  .imcc-card-2,
+  .imcc-card-3 {
+    width: 100%;
+    height: 300px;
+    border-radius: 12px;
+  }
+
+  .mobile-video-warpper {
+    width: 100%;
+    gap: 12px;
+  }
+
+  .imcc-video-wrapper-2 {
+    transform: translateX(-60px);
+  }
+
+  .imcc-video-wrapper-2.animate {
+    transform: translateX(0px);
+  }
+
+  .imcc-video-wrapper-3 {
+    transform: translateX(-60px);
+  }
+
+  .imcc-video-wrapper-3.animate {
+    transform: translateX(0px);
+  }
+
+  .imcc-video-wrapper-4 {
+    transform: translateX(60px);
+  }
+
+  .imcc-video-wrapper-4.animate {
+    transform: translateX(0px);
+  }
+
+  .imcc-video-wrapper-4 {
+    margin-left: 0;
+  }
+
+  .imcc-heading {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .imcc-paragraph {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .imcc-head-para-wrapper {
+    width: 100%;
+  }
+
+
+  /* Service Section */
+
+  .service-card-container,
+  .service-card-row-wrapper,
+  .service-card-wrapper {
+    gap: 8px;
+    justify-content: center;
+  }
+
+  .service-card-img {
+    width: 102px;
+    height: 102px;
+  }
+
+  .sc-variant-1,
+  .sc-variant-2 {
+    height: 204px;
+  }
+
+  .service-card-title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .service-card {
+    gap: 10px;
+    padding: 18px 14px;
+    border-radius: 12px;
+  }
+
+  .service-card-button {
+    padding: 5px 8px;
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  /* Revolusionizing */
+  .scroll-inner-container .vs-img {
+    width: calc(750px * 0.3125);
+    height: calc(750px * 0.3125);
+    left: calc(100px * 0.3125);
+  }
+
+  .flow-num {
+    width: calc(96px - 48px);
+    height: calc(116px - 56px);
+    border-radius: calc(23px * 0.3125);
+  }
+
+  .flow-text .title {
+    font-size: 24px;
+    line-height: normal;
+  }
+
+  .flow-text .description {
+    font-size: 14px;
+    line-height: normal;
+    width: 100%;
+
+  }
+
+  .flow-text {
+    gap: calc(32px * 0.3125);
+    width: 100%;
+
+  }
+
+  .underline {
+    left: 24px;
+    top: 58px;
+  }
+
+  .timeline {
+    left: 24px;
+    top: 58px;
+  }
+
+  .flow-box {
+    padding-bottom: calc(400px * 0.3125);
+    gap: 24px;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .num {
+    font-size: 18px;
+    line-height: normal;
+  }
+
+  .vs-slider-title {
+    font-size: 24px;
+    line-height: normal;
+  }
+
+  .right-flex {
+    width: 50%;
+  }
+
+  .nxt-btn,
+  .prev-btn {
+    padding: calc(16px * 0.3125);
+  }
+
+  .next-button-container {
+    right: 0;
+    padding-inline: calc(80px * 0.3125);
+    gap: calc(20px * 0.3125);
+  }
+
+  .left-flex {
+    display: none;
+  }
+
+  .right-flex {
+    width: 100%;
+    margin-right: 0;
+    padding-inline: 20px;
+  }
+
+  /* Influencer Makes Waves */
+  .card {
+    width: 180px;
+    height: 234px;
+    flex-shrink: 0;
+    padding: 16px 0;
+    border-radius: 12px;
+  }
+
+  .screen {
+    width: 140px;
+    height: auto;
+  }
+
+  .social-container-inner-row {
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .card h2 {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .instagram-logo {
+    width: 53px;
+    left: 106px;
+    top: 84px;
+  }
+
+  .twitter-logo {
+    width: 48px;
+    left: 60px;
+    top: 82px;
+  }
+
+  .linkedin-logo {
+    width: 44px;
+    top: 80px;
+    left: 11px;
+  }
+
+  .youtube-logo {
+    width: 50px;
+    left: 58px;
+  }
+
+  .telegram-logo {
+    width: 50px;
+    left: 106px;
+    top: 82px;
+  }
+
+  .formerly {
+    font-size: 10px;
+    line-height: normal;
+  }
+
+  /* Our Success Stories */
+  .success-stories-counter-wrapper {
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  .success-stories-card-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 24px;
+  }
+
+  .success-stories-logos {
+    width: 116px;
+    height: 93px;
+    object-fit: cover;
+  }
+
+  .success-stories-counter-number {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .success-stories-counter-text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .success-stories-row {
+    gap: 16px;
+  }
+
+  .success-stories-card {
+    padding-top: 24px;
+    padding-inline: 32px;
+    gap: 24px;
+    border-radius: 12px;
+  }
+
+  .success-stories-card-paragraph {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .success-stories-r1 {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .success-stories-counter-text .success-stories-button span {
+    font-size: 14px;
+  }
+
+  .success-stories-button:before {
+    width: 36px;
+    height: 36px;
+  }
+
+  .success-stories-button {
+    padding: 10px 14px
+  }
+
+  .success-stories-button span {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .success-stories-card-title {
+    font-size: 16px;
+    line-height: normal;
+  }
+
+  .success-stories-card-paragraph,
+  .success-stories-counter-text {
+    font-size: 14px;
+    line-height: normal;
+    font-weight: normal;
+  }
+
+  .success-stories-counter-number {
+    font-size: 20px;
+    line-height: normal;
+  }
+
+  /* Our Show Reel */
+  .show-reel-row-outer,
+  .show-reel-row,
+  .show-reel-col,
+  .show-reel-container {
+    gap: 8px;
+  }
+
+  .show-reel-row-outer {
+    flex-direction: column;
+  }
+
+  .landscape {
+    height: 230px;
+    border-radius: 12px;
+  }
+
+  .potrait {
+    height: 288px;
+    border-radius: 12px;
+  }
+
+  .show-reel-col {
+    width: 100%;
+  }
+
+  .tm-col {
+    flex-direction: column-reverse;
+  }
+
+  .short-landscape {
+    width: 100%;
+    height: 230px;
+    border-radius: 12px;
+  }
+
+  /* Meet Our Team */
+  .meet-our-team-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 8px;
+    column-gap: 8px;
+  }
+
+  .img-potrait-container img {
+    width: 100%;
+  }
+
+  .founder-name,
+  .individual-name {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .founder-role,
+  .individual-role {
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .founder-desc-bg {
+    width: 115px;
+    padding: 4px 7px;
+  }
+
+  .founder-desc-container-1 {
+    top: 52%;
+    left: 0.5%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .founder-desc-container-1 img {
+    width: 24px;
+    height: 24px;
+    transform: translateX(20px) translateY(7px) rotate(270deg);
+  }
+
+  .founder-desc-container-2 img {
+    width: 24px;
+    height: 24px;
+    transform: rotateZ(180deg) translateX(15px) translateY(-4px);
+  }
+
+  .founder-desc-container-2 {
+    top: 32%;
+    right: 0.5%;
+  }
+
+  .individual-role {
+    text-align: center;
+  }
+
+  .meet-whole-team-wrapper img {
+    width: 362px;
+  }
+
+  .img-container,
+  .img-potrait-container {
+    border-radius: 12px;
+  }
+
+  /* About Us */
+
+  .about-us-container {
+    flex-direction: column;
+    border-top: none;
+    gap: 32px;
+  }
+
+  .about-us-column-1 img {
+    width: 122px;
+    height: 189px;
+    transform: scaleX(-1);
+    right: 0;
+    left: auto;
+    filter: grayscale(100%);
+  }
+
+  .about-us-column-1 {
+    width: 100%;
+    border-bottom: 0.5px solid #afafaf;
+    gap: 14px;
+  }
+
+  .about-us-title {
+    padding-left: 10px;
+  }
+
+  .about-us-title,
+  .section-heading-span-text {
+    font-size: 22px;
+  }
+
+  .contact-btn {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 6px 12px;
+    font-size: 10px;
+    line-height: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .about-info-title {
+    font-size: 16px;
+    line-height: normal;
+  }
+
+  .about-info-desc {
+    font-size: 14px;
+    line-height: normal;
+  }
+
+  .about-us-column-2 {
+    width: 100%;
+    padding-inline: 10px;
+  }
+
+  .about-info-card {
+    flex-direction: column-reverse;
+  }
+
+  .about-info-info-wrapper {
+    width: 100%;
+  }
+
+  /* Footer */
+
+  .f-heading {
+    font-size: 24px;
+  }
+
+  .f-row {
+    flex-direction: column-reverse;
+  }
+
+  .footer-wrapper {
+    padding: 30px 10px;
+  }
+
+  .footer-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .f-image-wrapper svg {
+    width: 180px;
+    height: auto;
+  }
+
+  .f-row-inner-wrapper {
+    width: 100%;
+  }
+
+  .f-image-wrapper {
+    width: 100%;
+    flex-shrink: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+/* MOBILE v2*/
+@media (min-width: 480px) and (max-width: 599px) {
+  body {
+    gap: 64px;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+    overflow: hidden;
+    padding-inline: 10px;
+  }
+
+  .service-section,
+  .success-stories-section,
+  .show-reel-section,
+  .meet-our-team-section,
+  .meet-our-brands-section,
+  .influencer-makes-waves {
+    padding: 0 24px;
+    gap: 20px;
+    width: 100%;
+  }
+
+  /* ------ Header ----- */
+  .nav-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 10px;
+    height: 4rem;
+  }
+
+  ul {
+    flex-direction: column;
+    margin-top: 16px;
+    align-items: flex-start;
+  }
+
+  .brand-logo img {
+    height: 1.7rem;
+  }
+
+  .nav {
+    display: none;
+    /* Hide the nav initially */
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    width: 100%;
+    background: white;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    padding-inline: 20px;
+  }
+
+  .show-nav {
+    display: flex;
+  }
+
+  .hamburger-menu {
+    display: flex;
+    cursor: pointer;
+  }
+
+  .hamburger-icon .bar {
+    width: 25px;
+    height: 3px;
+    background: black;
+    margin: 4px 0;
+    transition: 0.3s ease;
+  }
+
+  /* Change the hamburger icon to an X when active */
+  .hamburger-menu.active .bar:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .hamburger-menu.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger-menu.active .bar:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .drop-down-container {
+    flex-direction: column;
+    position: static;
+    box-shadow: none;
+    padding: 14px;
+    background: white;
+    gap: 0;
+  }
+
+  .dropdown-content {
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav-cta {
+    margin: 16px 0;
+    text-align: center;
+  }
+
+  /* Hero Section */
+  .home-hero-section {
+    margin-top: 4rem;
+  }
+
+  .video-control-wrapper {
+    gap: 4px;
+  }
+
+  .video_play-button,
+  .cta_hero_button {
+    padding: 4px 8px;
+    font-size: 10px;
+  }
+
+  .video-control-svg svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  .video-control-wrapper {
+    left: 10px;
+  }
+
+  .cta-hero {
+    right: 10px;
+  }
+
+  /* Social Proofing */
+
+  .spc-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .spc-text {
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+  }
+
+  .social-proofing-container {
+    gap: 12px;
+  }
+
+  /* Logo Scrolling */
+
+  .logo-wrapper {
+    padding: 16px 24px;
+    border-radius: 12px;
+  }
+
+  .logo-wrapper img {
+    height: 40px;
+  }
+
+  .meet-our-brand-logo-container:before {
+    background: linear-gradient(to left, rgb(255 255 255 / 0%), #ffffff7d);
+  }
+
+  .meet-our-brand-logo-container:after {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff8a);
+  }
+
+  /* India's Top Influencer Marketing Agency */
+  .slider-title,
+  .slider-subtitle {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .imcc-card-1,
+  .imcc-card-4 {
+    width: 100%;
+    border-radius: 12px;
+  }
+
+  .influencer-marketing-agency-,
+  .service-section,
+  .influencer-makes-waves,
+  .success-stories-section,
+  .show-reel-section,
+  .meet-our-team-section {
+    width: 100%;
+    padding-inline: 10px;
+  }
+
+  .influencer-marketing-cards-container {
+    gap: 32px;
+    width: 100%;
+  }
+
+  .influencer-agency-paragraph {
+    font-size: 14px;
+    line-height: 20px;
+    width: 82%;
+  }
+
+  .imcc-card-row {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .imcc-row {
+    align-items: flex-start;
+  }
+
+  .imcc-video-wrapper-4 {
+    margin-left: 100px;
+  }
+
+  .center-div {
+    align-items: center;
+  }
+
+  .mobile-video-warpper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .com-wrapper-right {
+    margin-top: 0;
+  }
+
+  .imcc-video-wrapper-1 {
+    transform: translateX(-60px);
+  }
+
+  .imcc-video-wrapper-1.animate {
+    transform: translateX(0px);
+  }
+
+  .imcc-card-2,
+  .imcc-card-3 {
+    width: 100%;
+    height: 300px;
+    border-radius: 12px;
+  }
+
+  .mobile-video-warpper {
+    width: 100%;
+    gap: 12px;
+  }
+
+  .imcc-video-wrapper-2 {
+    transform: translateX(-60px);
+  }
+
+  .imcc-video-wrapper-2.animate {
+    transform: translateX(0px);
+  }
+
+  .imcc-video-wrapper-3 {
+    transform: translateX(-60px);
+  }
+
+  .imcc-video-wrapper-3.animate {
+    transform: translateX(0px);
+  }
+
+  .imcc-video-wrapper-4 {
+    transform: translateX(60px);
+  }
+
+  .imcc-video-wrapper-4.animate {
+    transform: translateX(0px);
+  }
+
+  .imcc-video-wrapper-4 {
+    margin-left: 0;
+  }
+
+  .imcc-heading {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .imcc-paragraph {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .imcc-head-para-wrapper {
+    width: 100%;
+  }
+
+
+  /* Service Section */
+
+  .service-card-container,
+  .service-card-row-wrapper,
+  .service-card-wrapper {
+    gap: 8px;
+  }
+
+  .service-card-img {
+    width: 102px;
+    height: 102px;
+  }
+
+  .sc-variant-1,
+  .sc-variant-2 {
+    height: 204px;
+  }
+
+  .service-card-title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .service-card {
+    gap: 10px;
+    padding: 18px 14px;
+    border-radius: 12px;
+  }
+
+  .service-card-button {
+    padding: 5px 8px;
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  /* Revolutionizing */
+  .scroll-inner-container .vs-img {
+    width: calc(750px * 0.3125);
+    height: calc(750px * 0.3125);
+    left: calc(100px * 0.3125);
+  }
+
+  .flow-num {
+    width: calc(96px - 48px);
+    height: calc(116px - 56px);
+    border-radius: calc(23px * 0.3125);
+  }
+
+  .flow-text .title {
+    font-size: 24px;
+    line-height: normal;
+  }
+
+  .flow-text .description {
+    font-size: 14px;
+    line-height: normal;
+    width: 100%;
+
+  }
+
+  .flow-text {
+    gap: calc(32px * 0.3125);
+    width: 100%;
+
+  }
+
+  .underline {
+    left: 24px;
+    top: 58px;
+  }
+
+  .timeline {
+    left: 24px;
+    top: 58px;
+  }
+
+  .flow-box {
+    padding-bottom: calc(400px * 0.3125);
+    gap: 24px;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .num {
+    font-size: 18px;
+    line-height: normal;
+  }
+
+  .vs-slider-title {
+    font-size: 24px;
+    line-height: normal;
+  }
+
+  .right-flex {
+    width: 50%;
+  }
+
+  .nxt-btn,
+  .prev-btn {
+    padding: calc(16px * 0.3125);
+  }
+
+  .next-button-container {
+    right: 0;
+    padding-inline: calc(80px * 0.3125);
+    gap: calc(20px * 0.3125);
+  }
+
+  .left-flex {
+    display: none;
+  }
+
+  .right-flex {
+    width: 100%;
+    margin-right: 0;
+    padding-inline: 20px;
+  }
+
+  /* Influencer Makes Waves */
+  .card {
+    width: 180px;
+    height: 234px;
+    flex-shrink: 0;
+    padding: 16px 0;
+    border-radius: 12px;
+  }
+
+  .screen {
+    width: 140px;
+    height: auto;
+  }
+
+  .social-container-inner-row {
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .card h2 {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .instagram-logo {
+    width: 53px;
+    left: 106px;
+    top: 84px;
+  }
+
+  .twitter-logo {
+    width: 48px;
+    left: 60px;
+    top: 82px;
+  }
+
+  .linkedin-logo {
+    width: 44px;
+    top: 80px;
+    left: 11px;
+  }
+
+  .youtube-logo {
+    width: 50px;
+    left: 58px;
+  }
+
+  .telegram-logo {
+    width: 50px;
+    left: 106px;
+    top: 82px;
+  }
+
+  .formerly {
+    font-size: 10px;
+    line-height: normal;
+  }
+
+  /* Our Success Stories */
+  .success-stories-counter-wrapper {
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  .success-stories-card-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 24px;
+  }
+
+  .success-stories-logos {
+    width: 116px;
+    height: 93px;
+    object-fit: cover;
+  }
+
+  .success-stories-counter-number {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .success-stories-counter-text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .success-stories-row {
+    gap: 16px;
+  }
+
+  .success-stories-card {
+    padding-top: 24px;
+    padding-inline: 32px;
+    gap: 24px;
+    border-radius: 12px;
+  }
+
+  .success-stories-card-paragraph {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .success-stories-r1 {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .success-stories-counter-text .success-stories-button span {
+    font-size: 14px;
+  }
+
+  .success-stories-button:before {
+    width: 36px;
+    height: 36px;
+  }
+
+  .success-stories-button {
+    padding: 10px 14px
+  }
+
+  .success-stories-button span {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .success-stories-card-title {
+    font-size: 16px;
+    line-height: normal;
+  }
+
+  .success-stories-card-paragraph,
+  .success-stories-counter-text {
+    font-size: 14px;
+    line-height: normal;
+    font-weight: normal;
+  }
+
+  .success-stories-counter-number {
+    font-size: 20px;
+    line-height: normal;
+  }
+
+  /* Our Show Reel */
+  .show-reel-row-outer,
+  .show-reel-row,
+  .show-reel-col,
+  .show-reel-container {
+    gap: 8px;
+  }
+
+  .show-reel-row-outer {
+    flex-direction: column;
+  }
+
+  .landscape {
+    height: 230px;
+    border-radius: 12px;
+  }
+
+  .potrait {
+    height: 288px;
+    border-radius: 12px;
+  }
+
+  .show-reel-col {
+    width: 100%;
+  }
+
+  .tm-col {
+    flex-direction: column-reverse;
+  }
+
+  .short-landscape {
+    width: 100%;
+    height: 230px;
+    border-radius: 12px;
+  }
+
+  /* Meet Our Team */
+  .meet-our-team-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 8px;
+    column-gap: 8px;
+  }
+
+  .img-potrait-container img {
+    width: 100%;
+  }
+
+  .founder-name,
+  .individual-name {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .founder-role,
+  .individual-role {
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .founder-desc-bg {
+    width: 115px;
+    padding: 4px 7px;
+  }
+
+  .founder-desc-container-1 {
+    top: 52%;
+    left: 0.5%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .founder-desc-container-1 img {
+    width: 24px;
+    height: 24px;
+    transform: translateX(20px) translateY(7px) rotate(270deg);
+  }
+
+  .founder-desc-container-2 img {
+    width: 24px;
+    height: 24px;
+    transform: rotateZ(180deg) translateX(15px) translateY(-4px);
+  }
+
+  .founder-desc-container-2 {
+    top: 32%;
+    right: 0.5%;
+  }
+
+  .individual-role {
+    text-align: center;
+  }
+
+  .meet-whole-team-wrapper img {
+    width: 362px;
+  }
+
+  .img-container,
+  .img-potrait-container {
+    border-radius: 12px;
+  }
+
+  /* About Us */
+
+  .about-us-container {
+    flex-direction: column;
+    border-top: none;
+    gap: 32px;
+  }
+
+  .about-us-column-1 img {
+    width: 122px;
+    height: 189px;
+    transform: scaleX(-1);
+    right: 0;
+    left: auto;
+    filter: grayscale(100%);
+  }
+
+  .about-us-column-1 {
+    width: 100%;
+    border-bottom: 0.5px solid #afafaf;
+    gap: 14px;
+  }
+
+  .about-us-title {
+    padding-left: 10px;
+  }
+
+  .about-us-title,
+  .section-heading-span-text {
+    font-size: 22px;
+  }
+
+  .contact-btn {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 6px 12px;
+    font-size: 10px;
+    line-height: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .about-info-title {
+    font-size: 16px;
+    line-height: normal;
+  }
+
+  .about-info-desc {
+    font-size: 14px;
+    line-height: normal;
+  }
+
+  .about-us-column-2 {
+    width: 100%;
+    padding-inline: 10px;
+  }
+
+  .about-info-card {
+    flex-direction: column-reverse;
+  }
+
+  .about-info-info-wrapper {
+    width: 100%;
+  }
+
+  /* Footer */
+
+  .f-heading {
+    font-size: 24px;
+  }
+
+  .f-row {
+    flex-direction: column-reverse;
+  }
+
+  .footer-wrapper {
+    padding: 30px 10px;
+  }
+
+  .footer-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .f-image-wrapper svg {
+    width: 180px;
+    height: auto;
+  }
+
+  .f-row-inner-wrapper {
+    width: 100%;
+  }
+
+  .f-image-wrapper {
+    width: 100%;
+    flex-shrink: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+/* ----------------------------------------------- TABLET -------------------------------------------------- */
+
+/* TABLET v1 */
+@media (min-width: 600px) and (max-width: 899px) {
+  body {
+    gap: 64px;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+    overflow: hidden;
+  }
+
+  .service-section,
+  .success-stories-section,
+  .show-reel-section,
+  .meet-our-team-section,
+  .meet-our-brands-section,
+  .influencer-makes-waves {
+    padding: 0 24px;
+    gap: 20px;
+    width: 100%;
+  }
+
+  /* ------ Header ----- */
+  .nav-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 24px;
+  }
+
+  .nav {
+    display: none;
+    /* Hide the nav initially */
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    width: 100%;
+    background: white;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+
+  .show-nav {
+    display: flex;
+  }
+
+  .hamburger-menu {
+    display: flex;
+    cursor: pointer;
+  }
+
+  .hamburger-icon .bar {
+    width: 25px;
+    height: 3px;
+    background: black;
+    margin: 4px 0;
+    transition: 0.3s ease;
+  }
+
+  /* Change the hamburger icon to an X when active */
+  .hamburger-menu.active .bar:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .hamburger-menu.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger-menu.active .bar:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .drop-down-container {
+    position: absolute;
+    box-shadow: none;
+    padding: 24px;
+    background: white;
+    width: 56%;
+    left: 6%;
+  }
+
+  .dropdown-content {
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav-cta {
+    margin: 16px 0;
+    text-align: center;
+  }
+
+  /* Hero Section */
+
+  .video-control-wrapper {
+    gap: 8px;
+  }
+
+  .video_play-button,
+  .cta_hero_button {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  .video-control-svg svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .video-control-wrapper {
+    left: 24px;
+  }
+
+  .cta-hero {
+    right: 24px;
+  }
+
+  /* Social Proofing */
+
+  .spc-title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .spc-text {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .social-proofing-container {
+    gap: 40px;
+  }
+
+  /* Logo Scrolling */
+
+  .logo-wrapper {
+    padding: 20px 32px;
+  }
+
+  .logo-wrapper img {
+    height: 40px;
+  }
+
+  /* India's Top Influencer Marketing Agency */
+  .slider-title,
+  .slider-subtitle {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .influencer-marketing-cards-container {
+    gap: 32px;
+  }
+
+  .influencer-agency-paragraph {
+    font-size: 16px;
+    line-height: 24px;
+    width: 82%;
+  }
+
+  .imcc-card-row {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .imcc-row {
+    align-items: flex-start;
+  }
+
+  .imcc-video-wrapper-4 {
+    margin-left: 100px;
+  }
+
+  .center-div {
+    align-items: center;
+  }
+
+  .mobile-video-warpper {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  .com-wrapper-right {
+    margin-top: 0;
+  }
+
+  .imcc-video-wrapper-1 {
+    transform: translateX(-190px);
+  }
+
+  .imcc-video-wrapper-1.animate {
+    transform: translateX(0px);
+  }
+
+  .imcc-video-wrapper-4 {
+    transform: translateX(190px);
+  }
+
+  .imcc-video-wrapper-4.animate {
+    transform: translateX(0px);
+  }
+
+  .imcc-heading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .imcc-paragraph {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  /* Service Section */
+
+  .service-card-container,
+  .service-card-row-wrapper,
+  .service-card-wrapper {
+    gap: 14px;
+  }
+
+  .service-card-img {
+    width: 160px;
+    height: 160px;
+  }
+
+  .sc-variant-1,
+  .sc-variant-2 {
+    height: 290px;
+  }
+
+  .service-card-title {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .service-card {
+    gap: 10px;
+  }
+
+  .service-card-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Revolutionizing */
+  .scroll-inner-container .vs-img {
+    width: calc(750px * 0.3125);
+    height: calc(750px * 0.3125);
+    left: calc(100px * 0.3125);
+  }
+
+  .flow-num {
+    width: calc(96px - 48px);
+    height: calc(116px - 56px);
+    border-radius: calc(23px * 0.3125);
+  }
+
+  .flow-text .title {
+    font-size: 24px;
+    line-height: normal;
+  }
+
+  .flow-text .description {
+    font-size: 14px;
+    line-height: normal;
+    width: calc(600px - 380px);
+
+  }
+
+  .flow-text {
+    gap: calc(32px * 0.3125);
+
+  }
+
+  .underline {
+    left: 24px;
+    top: 58px;
+  }
+
+  .timeline {
+    left: 24px;
+    top: 58px;
+  }
+
+  .flow-box {
+    padding-bottom: calc(400px * 0.3125);
+  }
+
+  .num {
+    font-size: 18px;
+    line-height: normal;
+  }
+
+  .vs-slider-title {
+    font-size: 32px;
+    line-height: normal;
+  }
+
+  .right-flex {
+    width: 50%;
+  }
+
+  .nxt-btn,
+  .prev-btn {
+    padding: calc(16px * 0.3125);
+  }
+
+  .next-button-container {
+    right: 0;
+    padding-inline: calc(80px * 0.3125);
+    gap: calc(20px * 0.3125);
+  }
+
+  /* Influencer Makes Waves */
+  .card {
+    width: 260px;
+  }
+
+  .social-container-inner-row {
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .card h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .instagram-logo {
+    left: 113px;
+  }
+
+  .twitter-logo {
+    left: 85px;
+  }
+
+  .linkedin-logo {
+    left: 38px;
+  }
+
+  .youtube-logo {
+    left: 70px;
+  }
+
+  .telegram-logo {
+    left: 136px;
+  }
+
+  /* Our Success Stories */
+  .success-stories-counter-wrapper {
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  .success-stories-card-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 24px;
+  }
+
+  .success-stories-logos {
+    width: 200px;
+    height: 140px;
+    object-fit: cover;
+  }
+
+  .success-stories-counter-number {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .success-stories-counter-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .success-stories-row {
+    gap: 16px;
+  }
+
+  .success-stories-card {
+    padding-top: 24px;
+    padding-inline: 32px;
+    gap: 24px;
+  }
+
+  .success-stories-card-paragraph {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  /* Our Show Reel */
+  .show-reel-row-outer,
+  .show-reel-row,
+  .show-reel-col,
+  .show-reel-container {
+    gap: 16px;
+  }
+
+  .show-reel-row-outer {
+    flex-direction: column;
+  }
+
+  .landscape {
+    height: 300px;
+  }
+
+  .potrait {
+    height: 400px;
+  }
+
+  .show-reel-col {
+    width: 100%;
+  }
+
+  .tm-col {
+    flex-direction: column-reverse;
+  }
+
+  .short-landscape {
+    width: 100%;
+  }
+
+  /* Meet Our Team */
+  .meet-our-team-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 16px;
+    column-gap: 16px;
+  }
+
+  .img-potrait-container img {
+    width: 100%;
+  }
+
+  .founder-name,
+  .individual-name {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .founder-role,
+  .individual-role {
+    font-size: 12px;
+  }
+
+  .founder-desc-bg {
+    width: 160px;
+  }
+
+  .founder-desc-container-1 {
+    left: 0.5%;
+  }
+
+  .founder-desc-container-2 {
+    right: 0.5%;
+  }
+
+  .individual-role {
+    text-align: center;
+  }
+
+  .meet-whole-team-wrapper img {
+    width: 535px;
+  }
+
+  /* About Us */
+
+  .about-us-container {
+    flex-direction: column;
+    border-top: none;
+    gap: 32px;
+  }
+
+  .about-us-column-1 img {
+    width: 155px;
+    height: 248px;
+    transform: scaleX(-1);
+    right: 0;
+    left: auto;
+    filter: grayscale(100%);
+  }
+
+  .about-us-column-1 {
+    width: 100%;
+    border-bottom: 0.5px solid #afafaf;
+  }
+
+  .about-us-title {
+    padding-left: 24px;
+  }
+
+  .about-us-title,
+  .section-heading-span-text {
+    font-size: 32px;
+  }
+
+  .contact-btn {
+    margin-left: 24px;
+    margin-bottom: 10px;
+    padding: 0.2rem 0.8rem;
+  }
+
+  .about-us-column-2 {
+    width: 100%;
+    padding-inline: 24px;
+  }
+
+  .about-info-card {
+    flex-direction: column-reverse;
+  }
+
+  .about-info-info-wrapper {
+    width: 100%;
+  }
+
+  /* Footer */
+
+  .f-heading {
+    font-size: 32px;
+  }
+
+  .footer-wrapper {
+    padding-inline: 24px;
+  }
+
+  .footer-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .f-image-wrapper svg {
+    width: 180px;
+    height: auto;
+  }
+
+  .f-row-inner-wrapper {
+    width: 60%;
+  }
+
+  .f-image-wrapper {
+    width: 40%;
+    flex-shrink: 1;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 728px) {
+  .founder-desc-container-2 {
+    right: 8.5%;
+  }
+
+  .founder-desc-container-1 {
+    left: 8.5%;
+  }
+}
+
+/* TABLET v2 */
+@media (min-width: 900px) and (max-width: 1023px) {
+  body {
+    gap: 64px;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+    overflow: hidden;
+  }
+
+  .service-section,
+  .success-stories-section,
+  .show-reel-section,
+  .meet-our-team-section,
+  .meet-our-brands-section,
+  .influencer-makes-waves {
+    padding: 0 24px;
+    gap: 20px;
+    width: 100%;
+  }
+
+  /* ------ Header ----- */
+  .nav-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 24px;
+  }
+
+  .nav {
+    display: none;
+    /* Hide the nav initially */
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    width: 100%;
+    background: white;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+
+  .show-nav {
+    display: flex;
+  }
+
+  .hamburger-menu {
+    display: flex;
+    cursor: pointer;
+  }
+
+  .hamburger-icon .bar {
+    width: 25px;
+    height: 3px;
+    background: black;
+    margin: 4px 0;
+    transition: 0.3s ease;
+  }
+
+  /* Change the hamburger icon to an X when active */
+  .hamburger-menu.active .bar:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .hamburger-menu.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger-menu.active .bar:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .drop-down-container {
+    position: absolute;
+    box-shadow: none;
+    padding: 24px;
+    background: white;
+    width: 56%;
+    left: 6%;
+  }
+
+  .dropdown-content {
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav-cta {
+    margin: 16px 0;
+    text-align: center;
+  }
+
+  /* Hero Section */
+
+  .video-control-wrapper {
+    gap: 8px;
+  }
+
+  .video_play-button,
+  .cta_hero_button {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  .video-control-svg svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .video-control-wrapper {
+    left: 24px;
+  }
+
+  .cta-hero {
+    right: 24px;
+  }
+
+  /* Social Proofing */
+
+  .spc-title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .spc-text {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .social-proofing-container {
+    gap: 40px;
+  }
+
+  /* Logo Scrolling */
+
+  .logo-wrapper {
+    padding: 20px 32px;
+  }
+
+  .logo-wrapper img {
+    height: 40px;
+  }
+
+  /* India's Top Influencer Marketing Agency */
+  .slider-title,
+  .slider-subtitle {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .influencer-marketing-cards-container {
+    gap: 32px;
+  }
+
+  .influencer-agency-paragraph {
+    font-size: 16px;
+    line-height: 24px;
+    width: 82%;
+  }
+
+  .imcc-card-row {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .imcc-row {
+    align-items: flex-start;
+  }
+
+  .imcc-video-wrapper-4 {
+    margin-left: 100px;
+  }
+
+  .center-div {
+    align-items: center;
+  }
+
+  .mobile-video-warpper {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  .com-wrapper-right {
+    margin-top: 0;
+  }
+
+  .imcc-video-wrapper-1 {
+    transform: translateX(-190px);
+  }
+
+  .imcc-video-wrapper-1.animate {
+    transform: translateX(0px);
+  }
+
+  .imcc-video-wrapper-4 {
+    transform: translateX(190px);
+  }
+
+  .imcc-video-wrapper-4.animate {
+    transform: translateX(0px);
+  }
+
+  .imcc-heading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .imcc-paragraph {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  /* Service Section */
+
+  .service-card-container,
+  .service-card-row-wrapper,
+  .service-card-wrapper {
+    gap: 14px;
+  }
+
+  .service-card-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service-card-img {
+    width: 160px;
+    height: 160px;
+  }
+
+  .sc-variant-1,
+  .sc-variant-2 {
+    height: 290px;
+  }
+
+  .service-card-title {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .service-card {
+    gap: 10px;
+  }
+
+  /* Revolutionizing */
+
+  .scroll-inner-container .vs-img {
+    width: calc(750px * 0.468);
+    height: calc(750px * 0.468);
+    left: calc(100px * 0.468);
+  }
+
+  .flow-num {
+    width: calc(96px * 0.468);
+    height: calc(116px * 0.468);
+    border-radius: calc(23px * 0.468);
+  }
+
+  .flow-text .title {
+    font-size: 24px;
+    line-height: normal;
+  }
+
+  .flow-text .description {
+    font-size: 14px;
+    line-height: normal;
+    width: calc(600px * 0.468);
+
+  }
+
+  .flow-text {
+    gap: calc(32px * 0.468);
+
+  }
+
+  .underline {
+    left: calc(50px * 0.468);
+    top: calc(114px *0.468);
+  }
+
+  .timeline {
+    left: calc(50px * 0.468);
+    top: calc(80px * 0.468);
+  }
+
+  .flow-box {
+    padding-bottom: calc(400px * 0.468);
+  }
+
+  .num {
+    font-size: 18px;
+    line-height: normal;
+  }
+
+  .vs-slider-title {
+    font-size: 32px;
+    line-height: normal;
+  }
+
+  .right-flex {
+    width: 50%;
+  }
+
+  .nxt-btn,
+  .prev-btn {
+    padding: calc(16px * 0.468);
+  }
+
+  .next-button-container {
+    right: 0;
+    padding-inline: calc(80px * 0.468);
+    gap: calc(20px * 0.468);
+  }
+
+
+  /* Influencer Makes Waves */
+  .card {
+    width: 260px;
+  }
+
+  .social-container-inner-row {
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+
+  .card h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .instagram-logo {
+    left: 113px;
+  }
+
+  .twitter-logo {
+    left: 85px;
+  }
+
+  .linkedin-logo {
+    left: 38px;
+  }
+
+  .youtube-logo {
+    left: 70px;
+  }
+
+  .telegram-logo {
+    left: 136px;
+  }
+
+  /* Our Success Stories */
+  .success-stories-counter-wrapper {
+    gap: 100px;
+  }
+
+  .success-stories-card-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 24px;
+  }
+
+  .success-stories-logos {
+    width: 200px;
+    height: 140px;
+    object-fit: cover;
+  }
+
+  .success-stories-counter-number {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .success-stories-counter-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .success-stories-row {
+    gap: 16px;
+  }
+
+  .success-stories-card {
+    padding-top: 24px;
+    padding-inline: 32px;
+    gap: 24px;
+  }
+
+  .success-stories-card-paragraph {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /* Our Show Reel */
+  .show-reel-row-outer,
+  .show-reel-row,
+  .show-reel-col,
+  .show-reel-container {
+    gap: 16px;
+  }
+
+  .show-reel-row-outer {
+    flex-direction: column;
+  }
+
+  .landscape {
+    height: 440px;
+  }
+
+  .potrait {
+    height: 500px;
+  }
+
+  .show-reel-col {
+    width: 100%;
+  }
+
+  .tm-col {
+    flex-direction: column-reverse;
+  }
+
+  .short-landscape {
+    width: 100%;
+    height: 440px;
+  }
+
+  /* Meet Our Team */
+  .meet-our-team-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 16px;
+    column-gap: 16px;
+  }
+
+  .img-potrait-container img {
+    width: 100%;
+  }
+
+  .founder-name,
+  .individual-name {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .founder-role,
+  .individual-role {
+    font-size: 14px;
+  }
+
+  .founder-desc-bg {
+    width: 256px;
+  }
+
+  .founder-desc-container-1 {
+    left: 0.5%;
+  }
+
+  .founder-desc-container-2 {
+    right: 0.5%;
+  }
+
+  .individual-role {
+    text-align: center;
+  }
+
+  .meet-whole-team-wrapper img {
+    width: 535px;
+  }
+
+  /* About Us */
+
+  .about-us-container {
+    flex-direction: column;
+    border-top: none;
+    gap: 32px;
+  }
+
+  .about-us-column-1 img {
+    width: 155px;
+    height: 248px;
+    transform: scaleX(-1);
+    right: 0;
+    left: auto;
+    filter: grayscale(100%);
+  }
+
+  .about-us-column-1 {
+    width: 100%;
+    border-bottom: 0.5px solid #afafaf;
+  }
+
+  .about-us-title {
+    padding-left: 24px;
+  }
+
+  .about-us-title,
+  .section-heading-span-text {
+    font-size: 40px;
+  }
+
+  .contact-btn {
+    margin-left: 24px;
+    margin-bottom: 10px;
+    padding: 0.2rem 0.8rem;
+  }
+
+  .about-us-column-2 {
+    width: 100%;
+    padding-inline: 24px;
+  }
+
+  .about-info-card {
+    flex-direction: column-reverse;
+  }
+
+  .about-info-info-wrapper {
+    width: 100%;
+  }
+
+  /* Footer */
+
+  .f-heading {
+    font-size: 32px;
+  }
+
+  .footer-wrapper {
+    padding-inline: 24px;
+  }
+
+  .footer-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .f-image-wrapper svg {
+    width: 180px;
+    height: auto;
+  }
+
+  .f-row-inner-wrapper {
+    width: 60%;
+  }
+
+  .f-image-wrapper {
+    width: 40%;
+    flex-shrink: 1;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+}
+
+/* ----------------------------------------------- DESKTOPS -------------------------------------------------- */
+
+/* DESKTOP v1 */
+@media (min-width: 1024px) and (max-width: 1199px) {
+  body {
+    gap: 80px;
+  }
+
+  .service-section,
+  .success-stories-section,
+  .show-reel-section,
+  .meet-our-team-section,
+  .meet-our-brands-section,
+  .influencer-makes-waves {
+    padding: 0 32px;
+    gap: 24px;
+  }
+
+  /* Navbar */
+  .nav-container {
+    padding-inline: 32px;
+  }
+
+  /* Hero Section */
+
+  .video-control-wrapper {
+    left: 32px;
+  }
+
+  .cta-hero {
+    right: 32px;
+  }
+
+  .video_play-button,
+  .cta_hero_button {
+    padding: 8px 16px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  /* Social Proofing */
+
+  .spc-title {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .spc-text {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .social-proofing-container {
+    gap: 100px;
+  }
+
+  /* India's Top Influencer Marketing Agency */
+  .slider-title,
+  .slider-subtitle {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .influencer-agency-paragraph {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .imcc-card-row {
+    gap: 40px;
+  }
+
+  .imcc-card-1,
+  .imcc-card-4 {
+    width: 280px;
+    height: 157px;
+  }
+
+  .imcc-card-2,
+  .imcc-card-3 {
+    width: 170px;
+    height: 242px;
+  }
+
+  .imcc-label {
+    width: 230px;
+  }
+
+  .imcc-label span {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  /* Revolutionizing */
+  .scroll-inner-container .vs-img {
+    width: 422px;
+    height: 422px;
+    left: 24px;
+  }
+
+  .flow-num {
+    width: 54px;
+    height: 65.25px;
+    border-radius: 13px;
+  }
+
+  .flow-text .title {
+    font-size: 26px;
+    line-height: normal;
+  }
+
+  .flow-text .description {
+    font-size: 16px;
+    line-height: normal;
+    width: 338px;
+  }
+
+  .flow-text {
+    gap: 18px;
+  }
+
+  .underline {
+    left: 27px;
+    top: 60px;
+  }
+
+  .timeline {
+    left: 27px;
+    top: 60px;
+  }
+
+  .flow-box {
+    padding-bottom: 225px;
+  }
+
+  .num {
+    font-size: 18px;
+    line-height: normal;
+  }
+
+  .vs-slider-title {
+    font-size: 27px;
+    line-height: normal;
+  }
+
+  .right-flex {
+    width: 50%;
+  }
+
+  .nxt-btn,
+  .prev-btn {
+    padding: 10px;
+  }
+
+  .next-button-container {
+    right: 0;
+    padding-inline: 40px;
+    gap: 12px;
+  }
+
+  /* Make Magic Happen */
+
+  .service-card-container,
+  .service-card-row-wrapper,
+  .service-card-wrapper {
+    gap: 14px;
+  }
+
+  .service-card-img {
+    width: 122px;
+    height: 122px;
+  }
+
+  .sc-variant-1,
+  .sc-variant-2 {
+    height: 270px;
+  }
+
+  .sc-variant-1,
+  .sc-variant-2 {
+    width: 50%;
+  }
+
+  .service-card-title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  /* Our Influencers Makes Waves */
+
+  .card {
+    width: 175px;
+    height: 290px;
+    border-radius: 16px;
+  }
+
+  .screen {
+    width: 140px;
+    height: 200px;
+  }
+
+  .card h2 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .instagram-logo {
+    width: 60px;
+    left: 98px;
+  }
+
+  .twitter-logo {
+    width: 40px;
+    left: 71px;
+    top: 106px;
+  }
+
+  .linkedin-logo {
+    width: 43px;
+    left: 21px;
+  }
+
+  .youtube-logo {
+    width: 60px;
+    left: 60px;
+    top: 89px;
+  }
+
+  .telegram-logo {
+    top: 96px;
+    left: 117px;
+    width: 42px;
+  }
+
+  .social-container-inner-row {
+    gap: 16px;
+  }
+
+  /* Success stories */
+
+  .success-stories-section {
+    width: 100%;
+  }
+
+  .success-stories-logos {
+    width: 150px;
+    height: 114px;
+  }
+
+  .success-stories-button span {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .success-stories-card-container {
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+
+  .success-stories-counter-number {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .success-stories-counter-text {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .success-stories-row {
+    gap: 16px;
+  }
+
+  .success-stories-card-title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .success-stories-card-paragraph {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .success-stories-button:before {
+    width: 40px;
+    height: 40px;
+  }
+
+  .success-stories-button {
+    padding: 8px 18px;
+  }
+
+  .success-stories-button span {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .success-stories-card {
+    padding-top: 20px;
+    padding-inline: 30px;
+    gap: 24px;
+  }
+
+  .success-stories-counter-wrapper {
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  /* Our reel */
+
+  .show-reel-section {
+    width: 100%;
+  }
+
+  .potrait {
+    height: 371px;
+  }
+
+  .landscape {
+    height: 246px;
+  }
+
+  .show-reel-row-outer,
+  .show-reel-row,
+  .show-reel-col,
+  .show-reel-container {
+    gap: 24px;
+  }
+
+  .short-landscape {
+    height: 161px;
+  }
+
+  /* Meet Our Team */
+
+  .img-potrait-container img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .meet-our-team-img-container {
+    column-gap: 16px;
+    row-gap: 16px;
+  }
+
+  .founder-name {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .founder-role {
+    font-size: 11px;
+    line-height: 18px;
+  }
+
+  .founder-desc-bg {
+    width: 124px;
+    padding: 4px 4px;
+  }
+
+  .founder-desc-container-2 {
+    top: 33%;
+    right: 0.5%;
+  }
+
+  .founder-desc-container-1 {
+    top: 17%;
+    left: 0.5%;
+  }
+
+  .individual-name {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .individual-role {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  .meet-whole-team-wrapper img {
+    width: 915px;
+  }
+
+  /* About Us */
+  .about-us-title,
+  .section-heading-span-text {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .about-us-title {
+    padding-left: 32px;
+  }
+
+  .contact-btn {
+    margin-top: 10px;
+    margin-left: 32px;
+  }
+
+  .about-info-card img {
+    width: 164px;
+    height: 171px;
+    object-fit: cover;
+  }
+
+  .about-us-column-2 {
+    padding-right: 32px;
+  }
+
+  .about-info-desc {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .about-info-card {
+    padding-top: 32px;
+  }
+
+  .about-us-column-1 img {
+    width: 265px;
+    height: 423px;
+    filter: grayscale(100%);
+  }
+
+  /* Meet our Brands */
+  .logo-wrapper {
+    padding: 30px 50px;
+  }
+
+  .logo-wrapper img {
+    height: 40px;
+  }
+
+  /* Footer */
+
+  .footer-wrapper {
+    padding-inline: 32px;
+  }
+
+  .f-heading {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .footer-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+/* DESKTOP v2 */
+@media (min-width: 1200px) and (max-width: 1439px) {
+  body {
+    gap: 100px;
+  }
+
+  .nav-container {
+    padding-inline: 40px;
+  }
+
+  .service-section,
+  .success-stories-section,
+  .show-reel-section,
+  .meet-our-team-section,
+  .meet-our-brands-section,
+  .influencer-makes-waves {
+    padding: 0 48px;
+    gap: 32px;
+  }
+
+  /* Hero Section */
+  .home-hero-video {
+    object-fit: contain;
+  }
+
+  .video_play-button,
+  .cta_hero_button {
+    padding: 12px 20px;
+  }
+
+  .spc-title {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  .spc-text {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+
+  .social-proofing-section {
+    padding-top: 22px;
+  }
+
+  .video-control-wrapper {
+    left: 40px;
+  }
+
+  .cta-hero {
+    right: 40px;
+  }
+
+  /* India's Top Influencer Marketing Agency */
+
+  .slider-subtitle,
+  .slider-title {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .influencer-agency-paragraph {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .imcc-label {
+    width: 280px;
+  }
+
+  /* Make Magic Happen */
+
+  .service-card-container,
+  .service-card-row-wrapper,
+  .service-card-wrapper {
+    gap: 16px;
+  }
+
+  .service-card-title {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .service-card-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .sc-variant-1,
+  .sc-variant-2 {
+    height: 240px;
+  }
+
+  .sc-variant-1 {
+    width: 50%;
+  }
+
+  /* Revolutionizing */
+
+  .scroll-inner-container .vs-img {
+    width: calc(750px * 0.625);
+    height: calc(750px * 0.625);
+    left: calc(100px * 0.625);
+  }
+
+  .flow-num {
+    width: calc(96px * 0.625);
+    height: calc(116px * 0.625);
+    border-radius: calc(23px * 0.625);
+  }
+
+  .flow-text .title {
+    font-size: calc(40px * 0.625);
+    line-height: normal;
+  }
+
+  .flow-text .description {
+    font-size: calc(18px * 0.625);
+    line-height: normal;
+    width: calc(600px * 0.625);
+
+  }
+
+  .flow-text {
+    gap: calc(32px * 0.625);
+
+  }
+
+  .underline {
+    left: calc(50px * 0.625);
+    top: calc(114px *0.625);
+  }
+
+  .timeline {
+    left: calc(50px * 0.625);
+    top: calc(80px * 0.625);
+  }
+
+  .flow-box {
+    padding-bottom: calc(400px * 0.625);
+  }
+
+  .num {
+    font-size: calc(30px * 0.625);
+    line-height: normal;
+  }
+
+  .vs-slider-title {
+    font-size: calc(48px * 0.625);
+    line-height: normal;
+  }
+
+  .right-flex {
+    width: 50%;
+  }
+
+  .nxt-btn,
+  .prev-btn {
+    padding: calc(16px * 0.625);
+  }
+
+  .next-button-container {
+    right: 0;
+    padding-inline: calc(80px * 0.625);
+    gap: calc(20px * 0.625);
+  }
+
+  /* Influencer Makes Waves */
+
+  .social-container-inner-row {
+    gap: 16px;
+  }
+
+  .card {
+    width: 220px;
+    height: 320px;
+  }
+
+  .card h2 {
+    font-size: 16px;
+  }
+
+  .screen {
+    height: 250px;
+  }
+
+  .instagram-logo {
+    width: 60px;
+    height: 60px;
+    top: 72px;
+  }
+
+  .twitter-logo {
+    width: 50px;
+    height: auto;
+    top: 70px;
+    left: 88px;
+  }
+
+  .linkedin-logo {
+    top: 63px;
+    left: 18px;
+    width: 50px;
+  }
+
+  .youtube-logo {
+    top: 66px;
+    left: 80px;
+    width: 66px;
+  }
+
+  .telegram-logo {
+    top: 74px;
+    left: 160px;
+    width: 50px;
+  }
+
+  /* Success stories */
+
+  .success-stories-logos {
+    width: 180px;
+    height: 144px;
+  }
+
+  .success-stories-card-container {
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+
+  .success-stories-counter-number {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .success-stories-counter-text {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .success-stories-row {
+    gap: 16px;
+  }
+
+  .success-stories-card-title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .success-stories-card-paragraph {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .success-stories-button:before {
+    width: 40px;
+    height: 40px;
+  }
+
+  .success-stories-button {
+    padding: 8px 18px;
+  }
+
+  .success-stories-button span {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .success-stories-card {
+    padding-top: 20px;
+  }
+
+  /* Our Reels */
+  .landscape {
+    height: 279px;
+  }
+
+  .potrait {
+    height: 420px;
+  }
+
+  .show-reel-row-outer,
+  .show-reel-row,
+  .show-reel-col,
+  .show-reel-container {
+    gap: 20px;
+  }
+
+  .short-landscape {
+    height: 182px;
+  }
+
+  .show-reel-section {
+    width: 100%;
+  }
+
+  /* Meet Our Team */
+
+  .img-potrait-container img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .meet-our-team-img-container {
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+
+  .individual-role {
+    text-align: center;
+  }
+
+  .founder-name {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .founder-role {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .founder-desc-bg {
+    width: 162px;
+  }
+
+  .founder-desc-container-1 {
+    left: 1%;
+  }
+
+  .founder-desc-container-2 {
+    right: 3.5%;
+  }
+
+  .founder-desc-bg {
+    padding: 8px 12px;
+  }
+
+  .meet-whole-team-wrapper img {
+    width: 1036px;
+  }
+
+  /* About Us */
+
+  .about-us-title,
+  .section-heading-span-text {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .about-us-title {
+    padding-left: 40px;
+  }
+
+  .contact-btn {
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+
+  .about-us-column-2 {
+    padding-right: 40px;
+  }
+
+  .about-us-column-1 img {
+    width: 300px;
+    height: 480px;
+    filter: grayscale(100%);
+  }
+
+  .footer-wrapper {
+    padding-inline: 40px;
+  }
+}
+
+/* DESKTOP v3 */
+@media (min-width: 1440px) and (max-width: 1599px) {
+  body {
+    gap: 116px;
+  }
+
+  .service-section,
+  .success-stories-section,
+  .show-reel-section,
+  .meet-our-team-section,
+  .meet-our-brands-section,
+  .influencer-makes-waves {
+    padding: 0 64px;
+    gap: 48px;
+  }
+
+  /* Hero Section */
+  .cta_hero_button {
+    padding: 12px 20px;
+  }
+
+  .video_play-button {
+    padding: 12px 20px;
+  }
+
+  .video-control-wrapper {
+    left: 64px;
+  }
+
+  .cta-hero {
+    right: 64px;
+  }
+
+  /* Social Proofing */
+
+  .spc-title {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+
+  .spc-text {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+
+  /* Top Influencer Marketing Agency */
+
+  .influencer-agency-paragraph {
+    font-size: 20px;
+  }
+
+  .imcc-label {
+    width: 310px;
+  }
+
+  /* Make Magic Happen */
+
+  .service-card-container,
+  .service-card-row-wrapper,
+  .service-card-wrapper {
+    gap: 18px;
+  }
+
+  .service-card-title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .sc-variant-1 {
+    width: 48%;
+  }
+
+  /* Revolutionizing */
+
+  .scroll-inner-container .vs-img {
+    width: calc(750px * 0.75);
+    height: calc(750px * 0.75);
+    left: calc(100px * 0.75);
+  }
+
+  .flow-num {
+    width: calc(96px * 0.75);
+    height: calc(116px * 0.75);
+    border-radius: calc(23px * 0.75);
+  }
+
+  .flow-text .title {
+    font-size: calc(40px * 0.75);
+    line-height: normal;
+  }
+
+  .flow-text .description {
+    font-size: calc(18px * 0.75);
+    line-height: normal;
+    width: calc(600px * 0.75);
+
+  }
+
+  .flow-text {
+    gap: calc(32px * 0.75);
+
+  }
+
+  .underline {
+    left: calc(50px * 0.75);
+    top: calc(114px *0.75);
+  }
+
+  .timeline {
+    left: calc(50px * 0.75);
+    top: calc(80px * 0.75);
+  }
+
+  .flow-box {
+    padding-bottom: calc(400px * 0.75);
+  }
+
+  .num {
+    font-size: calc(30px * 0.75);
+    line-height: normal;
+  }
+
+  .vs-slider-title {
+    font-size: calc(48px * 0.75);
+    line-height: normal;
+  }
+
+  .right-flex {
+    width: 50%;
+  }
+
+  .nxt-btn,
+  .prev-btn {
+    padding: calc(16px * 0.75);
+  }
+
+  .next-button-container {
+    right: 0;
+    padding-inline: calc(80px * 0.75);
+    gap: calc(20px * 0.75);
+  }
+
+  /* Influencer Makes Waves */
+
+  .social-container-inner-row {
+    gap: 14px;
+  }
+
+  .linkedin-logo {
+    left: 29px;
+  }
+
+  .instagram-logo {
+    left: 106px;
+  }
+
+  .twitter-logo {
+    left: 80px;
+  }
+
+  .youtube-logo {
+    left: 60px;
+  }
+
+  .telegram-logo {
+    left: 126px;
+  }
+
+  .card {
+    width: 246px;
+  }
+
+  .card h2 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  /* Our Success Stories */
+  .success-stories-card-container {
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+  }
+
+  .success-stories-counter-number {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .success-stories-counter-text {
+    font-size: 0.875rem;
+    line-height: 1rem;
+  }
+
+  .success-stories-logos {
+    width: 225px;
+    height: 180px;
+    object-fit: cover;
+  }
+
+  /* Show Reel */
+
+  .show-reel-row-outer,
+  .show-reel-row,
+  .show-reel-col,
+  .show-reel-container {
+    gap: 18px;
+  }
+
+  .potrait {
+    height: 525px;
+  }
+
+  .landscape {
+    height: 349px;
+  }
+
+  .short-landscape {
+    width: 32.4%;
+  }
+
+  /* Our Team */
+
+  .img-potrait-container img {
+    width: 100%;
+  }
+
+  .meet-our-team-img-container {
+    column-gap: 24px;
+    row-gap: 24px;
+  }
+
+  .founder-name {
+    font-size: 16px;
+  }
+
+  .founder-role {
+    font-size: 14px;
+  }
+
+  .founder-desc-bg {
+    width: 178px;
+  }
+
+  .founder-desc-container-1 {
+    left: 3.5%;
+  }
+
+  .founder-desc-container-2 {
+    right: 3.5%;
+  }
+
+  .individual-role {
+    text-align: center;
+  }
+
+  .meet-whole-team-wrapper img {
+    width: 1296px;
+  }
+
+  /* About Us */
+
+  .about-us-column-2 {
+    padding-right: 64px;
+  }
+
+  .about-us-title {
+    padding-left: 64px;
+  }
+
+  .about-us-column-1 img {
+    width: 375px;
+    height: 600px;
+    filter: grayscale(100%);
+  }
+
+  .contact-btn {
+    margin-left: 64px;
+  }
+}
+
+/* DESKTOP v4 */
+@media (min-width: 1600px) and (max-width: 1919px) {
+  body {
+    gap: 130px;
+  }
+
+  .service-section,
+  .success-stories-section,
+  .show-reel-section,
+  .meet-our-team-section,
+  .meet-our-brands-section,
+  .influencer-makes-waves {
+    padding: 0 80px;
+    gap: 56px;
+  }
+
+  /* Hero Section */
+  .video-control-wrapper {
+    left: 80px;
+  }
+
+  .cta-hero {
+    right: 80px;
+  }
+
+  /* Social Proofing */
+  .spc-title {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+
+  .spc-text {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .social-proofing-section {
+    padding-top: 32px;
+  }
+
+  /* How Magic Happens */
+  .service-card-container,
+  .service-card-row-wrapper,
+  .service-card-wrapper {
+    gap: 20px;
+  }
+
+  .service-card-title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .sc-variant-1,
+  .sc-variant-2 {
+    height: 340px;
+  }
+
+  .sc-variant-1 {
+    width: 45%;
+  }
+
+  .sc-variant-2 {
+    width: 57%;
+  }
+
+  .social-container-inner-row {
+    gap: 20px;
+  }
+
+  .card {
+    padding: 24px;
+    width: 268px;
+  }
+
+  .card h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .twitter-logo {
+    left: 92px;
+  }
+
+  .telegram-logo {
+    top: 90px;
+    left: 140px;
+  }
+
+  .youtube-logo {
+    left: 75px;
+  }
+
+  .linkedin-logo {
+    left: 43px;
+  }
+
+  .instagram-logo {
+    left: 118px;
+  }
+
+  /* Revolutionizing */
+  .scroll-inner-container .vs-img {
+    width: calc(750px * 0.84);
+    height: calc(750px * 0.84);
+    left: calc(100px * 0.84);
+  }
+
+  .flow-num {
+    width: calc(96px * 0.84);
+    height: calc(116px * 0.84);
+    border-radius: calc(23px * 0.84);
+  }
+
+  .flow-text .title {
+    font-size: calc(40px * 0.84);
+    line-height: normal;
+  }
+
+  .flow-text .description {
+    font-size: calc(18px * 0.84);
+    line-height: normal;
+    width: calc(600px * 0.84);
+
+  }
+
+  .flow-text {
+    gap: calc(32px * 0.84);
+
+  }
+
+  .underline {
+    left: calc(50px * 0.84);
+    top: calc(114px *0.84);
+  }
+
+  .timeline {
+    left: calc(50px * 0.84);
+    top: calc(80px * 0.84);
+  }
+
+  .flow-box {
+    padding-bottom: calc(400px * 0.84);
+  }
+
+  .num {
+    font-size: calc(30px * 0.84);
+    line-height: normal;
+  }
+
+  .vs-slider-title {
+    font-size: calc(48px * 0.84);
+    line-height: normal;
+  }
+
+  .right-flex {
+    width: 50%;
+  }
+
+  .nxt-btn,
+  .prev-btn {
+    padding: calc(16px * 0.84);
+  }
+
+  .next-button-container {
+    right: 0;
+    padding-inline: calc(80px * 0.84);
+    gap: calc(20px * 0.84);
+  }
+
+  /* Our Success Stories */
+  .success-stories-card-container {
+    grid-column-gap: 32px;
+    grid-row-gap: 32px;
+  }
+
+  .success-stories-counter-number {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  .success-stories-counter-text {
+    line-height: 1.5rem;
+  }
+
+  .success-stories-logos {
+    width: 249px;
+    height: 199px;
+    object-fit: cover;
+  }
+
+  /* Our Reels */
+
+  .potrait {
+    height: 581px;
+  }
+
+  .landscape {
+    height: 386px;
+  }
+
+  .show-reel-row-outer,
+  .show-reel-row,
+  .show-reel-col,
+  .show-reel-container {
+    gap: 32px;
+  }
+
+  .short-landscape {
+    width: 31.8%;
+  }
+
+  /* Meet Our Team */
+
+  .meet-our-team-img-container {
+    column-gap: 32px;
+    row-gap: 32px;
+  }
+
+  .img-container img {
+    object-fit: cover;
+  }
+
+  .img-potrait-container img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .founder-desc-bg {
+    width: 180px;
+  }
+
+  .founder-desc-container-1 {
+    left: 2.5%;
+  }
+
+  .founder-desc-container-2 {
+    right: 2.5%;
+  }
+
+  .founder-name {
+    font-size: 18px;
+  }
+
+  .founder-role {
+    font-size: 14px;
+  }
+
+  .about-us-column-2 {
+    padding: 0 24px;
+  }
+
+  .about-us-column-2 {
+    padding-right: 80px;
+  }
+
+  .about-us-title {
+    padding-left: 80px;
+  }
+
+  .meet-whole-team-wrapper img {
+    width: 1434px;
+  }
+}
+
+/* --- DESKTOP v5 --- */
+@media (min-width: 1920px) {
+
+  /* Revolutionizing */
+  .vertical_scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .vs-outer-wrapper {
+    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
