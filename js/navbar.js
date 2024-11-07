@@ -12,10 +12,19 @@ document.addEventListener('DOMContentLoaded', function () {
     const hamburgerMenu = document.querySelector('.hamburger-menu');
     const nav = document.querySelector('.nav');
 
+    // Function to close all dropdowns
+    function closeAllDropdowns() {
+        dropdownContainerServices.classList.remove('show-dropdown');
+        dropBtnSvgServices.classList.remove('rotate-svg');
+        dropdownContainerPlatforms.classList.remove('show-dropdown');
+        dropBtnSvgPlatforms.classList.remove('rotate-svg');
+    }
+
     // Toggle the Services dropdown and rotate icon on button click
     dropBtnServices.addEventListener('click', function (event) {
         event.preventDefault();
         event.stopPropagation();
+        closeAllDropdowns(); // Close all dropdowns before opening the new one
         dropdownContainerServices.classList.toggle('show-dropdown');
         dropBtnSvgServices.classList.toggle('rotate-svg');
     });
@@ -24,19 +33,16 @@ document.addEventListener('DOMContentLoaded', function () {
     dropBtnPlatforms.addEventListener('click', function (event) {
         event.preventDefault();
         event.stopPropagation();
+        closeAllDropdowns(); // Close all dropdowns before opening the new one
         dropdownContainerPlatforms.classList.toggle('show-dropdown');
         dropBtnSvgPlatforms.classList.toggle('rotate-svg');
     });
 
     // Close the dropdown if clicked outside
     document.addEventListener('click', function (event) {
-        if (!dropdownContainerServices.contains(event.target) && !dropBtnServices.contains(event.target)) {
-            dropdownContainerServices.classList.remove('show-dropdown');
-            dropBtnSvgServices.classList.remove('rotate-svg');
-        }
-        if (!dropdownContainerPlatforms.contains(event.target) && !dropBtnPlatforms.contains(event.target)) {
-            dropdownContainerPlatforms.classList.remove('show-dropdown');
-            dropBtnSvgPlatforms.classList.remove('rotate-svg');
+        if (!dropdownContainerServices.contains(event.target) && !dropBtnServices.contains(event.target) &&
+            !dropdownContainerPlatforms.contains(event.target) && !dropBtnPlatforms.contains(event.target)) {
+            closeAllDropdowns();
         }
     });
 
