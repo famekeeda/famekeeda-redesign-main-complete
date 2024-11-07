@@ -24,18 +24,26 @@ document.addEventListener('DOMContentLoaded', function () {
     dropBtnServices.addEventListener('click', function (event) {
         event.preventDefault();
         event.stopPropagation();
-        closeAllDropdowns(); // Close all dropdowns before opening the new one
-        dropdownContainerServices.classList.toggle('show-dropdown');
-        dropBtnSvgServices.classList.toggle('rotate-svg');
+        if (dropdownContainerServices.classList.contains('show-dropdown')) {
+            closeAllDropdowns(); // Close all dropdowns if the Services dropdown is already open
+        } else {
+            closeAllDropdowns(); // Close all dropdowns before opening the new one
+            dropdownContainerServices.classList.add('show-dropdown');
+            dropBtnSvgServices.classList.add('rotate-svg');
+        }
     });
 
     // Toggle the Platforms dropdown and rotate icon on button click
     dropBtnPlatforms.addEventListener('click', function (event) {
         event.preventDefault();
         event.stopPropagation();
-        closeAllDropdowns(); // Close all dropdowns before opening the new one
-        dropdownContainerPlatforms.classList.toggle('show-dropdown');
-        dropBtnSvgPlatforms.classList.toggle('rotate-svg');
+        if (dropdownContainerPlatforms.classList.contains('show-dropdown')) {
+            closeAllDropdowns(); // Close all dropdowns if the Platforms dropdown is already open
+        } else {
+            closeAllDropdowns(); // Close all dropdowns before opening the new one
+            dropdownContainerPlatforms.classList.add('show-dropdown');
+            dropBtnSvgPlatforms.classList.add('rotate-svg');
+        }
     });
 
     // Close the dropdown if clicked outside
