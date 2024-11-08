@@ -17,6 +17,10 @@
   <link rel="stylesheet" href="/css/contact-btn.css" />
   <link rel="stylesheet" href="/css/responsive.css" />
 
+  <!-- Modal Window -->
+  <link rel="stylesheet" href="../../modal-window/contact-form.css">
+  <link rel="stylesheet" href="../../modal-window/modal.css">
+
   <!-- Font Awesome CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
@@ -25,205 +29,470 @@
   <!-- Navigation Bar -->
   <header class="navbar">
     <div class="nav-container">
-        <div class="brand-logo">
-            <a href="../../index.html" style="text-decoration: none;">
-                <img src="../../assets/famekeeda_logo/fame_keeda_logo.svg" alt="Fame Keeda Networks">
-            </a>
+      <div class="brand-logo">
+        <a href="../../index.html" style="text-decoration: none;">
+          <img src="../../assets/famekeeda_logo/fame_keeda_logo.svg" alt="Fame Keeda Networks">
+        </a>
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
         </div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
+      </div>
+      <nav class="nav">
+        <ul>
+          <li>
+            <a href="../../index.html" class="nav-link-header">Home</a>
+          </li>
+          <li>
+            <a href="../about-us.html" class="nav-link-header">About</a>
+          </li>
+          <li class="dropdown">
+            <a href="" class="dropbtn">Services<span class="dropbtn-svg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-width="1.5"
+                    d="m17 10-1.747 1.763c-1.394 1.406-2.09 2.109-2.94 2.217a2.48 2.48 0 0 1-.626 0c-.85-.108-1.546-.811-2.94-2.217L7 10" />
+                </svg>
+              </span></a>
+            <div class="drop-down-container">
+              <ul class="dropdown-content">
+                <li><a href="../services/meme-marketing.html" class="nav-link">
+                    <div class="nav-icon-wrapper"><img src="../../assets/temp_assets/icons/video_icon.svg"
+                        alt="Meme Marketing"></div>
+                    <span class="nav-item-text">Meme Marketing</span>
+                  </a>
+                </li>
+                <li><a href="../services/celebrity-endorsements.html" class="nav-link">
+                    <div class="nav-icon-wrapper"><img src="../../assets/temp_assets/icons/video_icon.svg"
+                        alt="Meme Marketing"></div>
+                    <span class="nav-item-text">Celebrity Endorsements</span>
+                  </a>
+                </li>
+                <li><a href="../services/barter-campaigns.html" class="nav-link">
+                    <div class="nav-icon-wrapper"><img src="../../assets/temp_assets/icons/video_icon.svg"
+                        alt="Meme Marketing"></div>
+                    <span class="nav-item-text">Barter Campaigns</span>
+                  </a>
+                </li>
+                <li><a href="../services/user-generated-content.html" class="nav-link">
+                    <div class="nav-icon-wrapper"><img src="../../assets/temp_assets/icons/video_icon.svg"
+                        alt="Meme Marketing"></div>
+                    <span class="nav-item-text">User Generated Content</span>
+                  </a>
+                </li>
+              </ul>
+              <ul class="dropdown-content">
+                <li><a href="../services/brand-integration.html" class="nav-link">
+                    <div class="nav-icon-wrapper"><img src="../../assets/temp_assets/icons/video_icon.svg"
+                        alt="Meme Marketing"></div>
+                    <span class="nav-item-text">Brand Integration</span>
+                  </a>
+                </li>
+                <li><a href="../services/product-reviews.html" class="nav-link">
+                    <div class="nav-icon-wrapper"><img src="../../assets/temp_assets/icons/video_icon.svg"
+                        alt="Meme Marketing"></div>
+                    <span class="nav-item-text">Product Reviews</span>
+                  </a>
+                </li>
+                <li><a href="../services/ad-films-with-influencers.html" class="nav-link">
+                    <div class="nav-icon-wrapper"><img src="../../assets/temp_assets/icons/video_icon.svg"
+                        alt="Meme Marketing"></div>
+                    <span class="nav-item-text">Ad Films with Influencers</span>
+                  </a>
+                </li>
+                <li><a href="../services/content-marketing.html" class="nav-link">
+                    <div class="nav-icon-wrapper"><img src="../../assets/temp_assets/icons/video_icon.svg"
+                        alt="Meme Marketing"></div>
+                    <span class="nav-item-text">Content Marketing</span>
+                  </a>
+                </li>
+              </ul>
             </div>
-        </div>
-        <nav class="nav">
-            <ul>
-              <li>
-                <a href="../../index.html" class="nav-link-header">Home</a>
-              </li>
-                <li>
-                    <a href="../about-us.html" class="nav-link-header">About</a>
+          </li>
+          <li class="dropdown">
+            <a href="" class="dropbtn">Platforms<span class="dropbtn-svg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-width="1.5"
+                    d="m17 10-1.747 1.763c-1.394 1.406-2.09 2.109-2.94 2.217a2.48 2.48 0 0 1-.626 0c-.85-.108-1.546-.811-2.94-2.217L7 10" />
+                </svg>
+              </span></a>
+            <div class="drop-down-container">
+              <ul class="dropdown-content">
+                <li><a href="../platforms/instagram.html" class="nav-link">
+                    <div class="nav-icon-wrapper"><img src="../../assets/temp_assets/icons/video_icon.svg"
+                        alt="Meme Marketing"></div>
+                    <span class="nav-item-text">Instagram Marketing</span>
+                  </a>
                 </li>
-                <li class="dropdown">
-                    <a href="" class="dropbtn">Services<span class="dropbtn-svg">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
-                                viewBox="0 0 24 24">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-width="1.5"
-                                    d="m17 10-1.747 1.763c-1.394 1.406-2.09 2.109-2.94 2.217a2.48 2.48 0 0 1-.626 0c-.85-.108-1.546-.811-2.94-2.217L7 10" />
-                            </svg>
-                        </span></a>
-                    <div class="drop-down-container">
-                        <ul class="dropdown-content">
-                            <li><a href="../services/meme-marketing.html" class="nav-link">
-                                    <div class="nav-icon-wrapper"><img src="../../assets/temp_assets/icons/video_icon.svg"
-                                            alt="Meme Marketing"></div>
-                                    <span class="nav-item-text">Meme Marketing</span>
-                                </a>
-                            </li>
-                            <li><a href="../services/celebrity-endorsements.html" class="nav-link">
-                                    <div class="nav-icon-wrapper"><img src="../../assets/temp_assets/icons/video_icon.svg"
-                                            alt="Meme Marketing"></div>
-                                    <span class="nav-item-text">Celebrity Endorsements</span>
-                                </a>
-                            </li>
-                            <li><a href="../services/barter-campaigns.html" class="nav-link">
-                                    <div class="nav-icon-wrapper"><img src="../../assets/temp_assets/icons/video_icon.svg"
-                                            alt="Meme Marketing"></div>
-                                    <span class="nav-item-text">Barter Campaigns</span>
-                                </a>
-                            </li>
-                            <li><a href="../services/user-generated-content.html" class="nav-link">
-                                    <div class="nav-icon-wrapper"><img src="../../assets/temp_assets/icons/video_icon.svg"
-                                            alt="Meme Marketing"></div>
-                                    <span class="nav-item-text">User Generated Content</span>
-                                </a>
-                            </li>
-                        </ul>
-                        <ul class="dropdown-content">
-                            <li><a href="../services/brand-integration.html" class="nav-link">
-                                    <div class="nav-icon-wrapper"><img src="../../assets/temp_assets/icons/video_icon.svg"
-                                            alt="Meme Marketing"></div>
-                                    <span class="nav-item-text">Brand Integration</span>
-                                </a>
-                            </li>
-                            <li><a href="../services/product-reviews.html" class="nav-link">
-                                    <div class="nav-icon-wrapper"><img src="../../assets/temp_assets/icons/video_icon.svg"
-                                            alt="Meme Marketing"></div>
-                                    <span class="nav-item-text">Product Reviews</span>
-                                </a>
-                            </li>
-                            <li><a href="../services/ad-films-with-influencers.html" class="nav-link">
-                                    <div class="nav-icon-wrapper"><img src="../../assets/temp_assets/icons/video_icon.svg"
-                                            alt="Meme Marketing"></div>
-                                    <span class="nav-item-text">Ad Films with Influencers</span>
-                                </a>
-                            </li>
-                            <li><a href="../services/content-marketing.html" class="nav-link">
-                                    <div class="nav-icon-wrapper"><img src="../../assets/temp_assets/icons/video_icon.svg"
-                                            alt="Meme Marketing"></div>
-                                    <span class="nav-item-text">Content Marketing</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                <li><a href="../platforms/x(formerly-twitter).html" class="nav-link">
+                    <div class="nav-icon-wrapper"><img src="../../assets/temp_assets/icons/video_icon.svg"
+                        alt="Meme Marketing"></div>
+                    <span class="nav-item-text">X (Formerly Twitter)</span>
+                  </a>
                 </li>
-                <li class="dropdown">
-                    <a href="" class="dropbtn">Platforms<span class="dropbtn-svg">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
-                                viewBox="0 0 24 24">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-width="1.5"
-                                    d="m17 10-1.747 1.763c-1.394 1.406-2.09 2.109-2.94 2.217a2.48 2.48 0 0 1-.626 0c-.85-.108-1.546-.811-2.94-2.217L7 10" />
-                            </svg>
-                        </span></a>
-                    <div class="drop-down-container">
-                        <ul class="dropdown-content">
-                            <li><a href="../platforms/instagram.html" class="nav-link">
-                                    <div class="nav-icon-wrapper"><img src="../../assets/temp_assets/icons/video_icon.svg"
-                                            alt="Meme Marketing"></div>
-                                    <span class="nav-item-text">Instagram Marketing</span>
-                                </a>
-                            </li>
-                            <li><a href="../platforms/x(formerly-twitter).html" class="nav-link">
-                                    <div class="nav-icon-wrapper"><img src="../../assets/temp_assets/icons/video_icon.svg"
-                                            alt="Meme Marketing"></div>
-                                    <span class="nav-item-text">X (Formerly Twitter)</span>
-                                </a>
-                            </li>
-                            <li><a href="../platforms/linkedin.html" class="nav-link">
-                                    <div class="nav-icon-wrapper"><img src="../../assets/temp_assets/icons/video_icon.svg"
-                                            alt="Meme Marketing"></div>
-                                    <span class="nav-item-text">Linkedin</span>
-                                </a>
-                            </li>
-                        </ul>
-                        <ul class="dropdown-content">
-                            <li><a href="../platforms/telegram.html" class="nav-link">
-                                    <div class="nav-icon-wrapper"><img src="../../assets/temp_assets/icons/video_icon.svg"
-                                            alt="Meme Marketing"></div>
-                                    <span class="nav-item-text">Telegram</span>
-                                </a>
-                            </li>
-                            <li><a href="../platforms/youtube.html" class="nav-link">
-                                    <div class="nav-icon-wrapper"><img src="../../assets/temp_assets/icons/video_icon.svg"
-                                            alt="Meme Marketing"></div>
-                                    <span class="nav-item-text">YouTube</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                <li><a href="../platforms/linkedin.html" class="nav-link">
+                    <div class="nav-icon-wrapper"><img src="../../assets/temp_assets/icons/video_icon.svg"
+                        alt="Meme Marketing"></div>
+                    <span class="nav-item-text">Linkedin</span>
+                  </a>
                 </li>
-                <li class="button_li">
-                    <button class="nav-cta">Contact us</button>
+              </ul>
+              <ul class="dropdown-content">
+                <li><a href="../platforms/telegram.html" class="nav-link">
+                    <div class="nav-icon-wrapper"><img src="../../assets/temp_assets/icons/video_icon.svg"
+                        alt="Meme Marketing"></div>
+                    <span class="nav-item-text">Telegram</span>
+                  </a>
                 </li>
-            </ul>
-        </nav>
+                <li><a href="../platforms/youtube.html" class="nav-link">
+                    <div class="nav-icon-wrapper"><img src="../../assets/temp_assets/icons/video_icon.svg"
+                        alt="Meme Marketing"></div>
+                    <span class="nav-item-text">YouTube</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="button_li">
+            <button class="nav-cta" data-title="Contact Us"
+              data-video="https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+              data-thumbnail="https://imageplaceholder.net/700x400">Contact us</button>
+          </li>
+        </ul>
+      </nav>
     </div>
-</header>
+  </header>
 
-<!-- Hero Section -->
-<section class="home-hero-section">
-  <div class="home-hero-container">
+  <!-- Hero Section -->
+  <section class="home-hero-section">
+    <div class="home-hero-container">
       <video autoplay muted loop class="home-hero-video">
-          <source src="https://storage.googleapis.com/babylonfk/Hero%20%26%20Footer%20Videos/Hero.mp4"
-              type="video/mp4">
+        <source src="https://storage.googleapis.com/babylonfk/Hero%20%26%20Footer%20Videos/Hero.mp4" type="video/mp4">
       </video>
       <div class="video-control-wrapper">
-          <div class="video_play-button" id="playPauseBtn"><span class="video-control-svg"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="19" height="20" fill="none" viewBox="0 0 19 20">
-                      <path fill="currentColor" fill-rule="evenodd"
-                          d="M12.073 3.207c-1.732-.988-3.077-1.755-4.17-2.253C6.806.454 5.854.173 4.93.27a5.236 5.236 0 0 0-3.68 2.097C.7 3.116.47 4.077.36 5.265.25 6.45.25 7.985.25 9.96v.082c0 1.974 0 3.51.11 4.694.11 1.189.34 2.15.89 2.898a5.236 5.236 0 0 0 3.68 2.096c.925.096 1.877-.186 2.974-.685 1.093-.498 2.438-1.265 4.17-2.253l.07-.04c1.732-.987 3.078-1.754 4.06-2.44.986-.688 1.713-1.363 2.094-2.208a5.118 5.118 0 0 0 0-4.21c-.381-.845-1.108-1.52-2.093-2.208-.983-.686-2.329-1.453-4.06-2.44l-.07-.04ZM5.083 1.76c.52-.054 1.172.09 2.198.558 1.024.466 2.31 1.199 4.084 2.21 1.775 1.012 3.06 1.746 3.98 2.388.924.645 1.374 1.128 1.585 1.594.427.948.427 2.03 0 2.978-.21.466-.66.95-1.585 1.594-.92.642-2.205 1.376-3.98 2.387-1.774 1.012-3.06 1.745-4.084 2.21-1.026.468-1.678.613-2.198.56a3.735 3.735 0 0 1-2.624-1.496c-.304-.413-.502-1.038-.605-2.148C1.75 13.489 1.75 12.024 1.75 10s0-3.49.104-4.596c.103-1.11.3-1.735.605-2.148a3.736 3.736 0 0 1 2.624-1.495Z"
-                          clip-rule="evenodd" />
-                  </svg>
-              </span>Play
-          </div>
-          <div class="video_play-button" id="muteUnmuteBtn"><span class="video-control-svg"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                      <path fill="currentColor"
-                          d="M18.75 13a.75.75 0 0 0-1.5 0h1.5Zm-4.35 6.623.49-.568-.01-.009-.01-.009-.47.586Zm-.93-1.708a.75.75 0 0 0-.94 1.17l.94-1.17ZM8.5 8.22v-.75.75Zm6.193 11.655.49-.567-.49.567ZM10.056 8.22v-.75.75Zm1.798.08 3.329-2.875-.98-1.135-3.33 2.876.98 1.135ZM8.5 8.97h1.556v-1.5H8.5v1.5Zm-1.75 5.043V10.72h-1.5v3.293h1.5Zm4.05 1.75H8.5v1.5h2.3v-1.5Zm6.45-1.263v3.862h1.5V14.5h-1.5Zm0-8.13V9h1.5V6.37h-1.5Zm0 6.63v1.5h1.5V13h-1.5Zm-2.067 6.308-.293-.253-.98 1.135.292.253.98-1.135Zm-.314-.27-1.4-1.123-.938 1.17 1.4 1.123.938-1.17ZM5.25 14.012a3.25 3.25 0 0 0 3.25 3.25v-1.5a1.75 1.75 0 0 1-1.75-1.75h-1.5ZM8.5 7.47a3.25 3.25 0 0 0-3.25 3.25h1.5c0-.967.783-1.75 1.75-1.75v-1.5Zm6.683-2.045c.81-.7 2.067-.125 2.067.946h1.5c0-2.355-2.766-3.62-4.548-2.081l.98 1.135Zm2.067 12.937c0 1.07-1.257 1.645-2.067.946l-.98 1.135c1.781 1.539 4.547.273 4.547-2.081h-1.5ZM10.873 7.166a1.25 1.25 0 0 1-.817.304v1.5a2.75 2.75 0 0 0 1.798-.67l-.981-1.134Z" />
-                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                          stroke-width="1.5" d="M22 5 7 20" />
-                  </svg>
-              </span>Mute
-          </div>
-          <div class="video_play-button" id="restartBtn"><span class="video-control-svg"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                      <path stroke="currentColor" stroke-linecap="round" stroke-width="1.5"
-                          d="M19.308 8.746A8 8 0 0 0 6.357 6.33m-3.125-.815.73 3.16a1 1 0 0 0 1.199.75l3.16-.73m-3.629 6.559A8 8 0 0 0 17.5 17.81m3.268.675-.73-3.16a1 1 0 0 0-1.199-.75l-3.16.73" />
-                  </svg>
-              </span>Restart
-          </div>
+        <div class="video_play-button" id="playPauseBtn"><span class="video-control-svg"><svg
+              xmlns="http://www.w3.org/2000/svg" width="19" height="20" fill="none" viewBox="0 0 19 20">
+              <path fill="currentColor" fill-rule="evenodd"
+                d="M12.073 3.207c-1.732-.988-3.077-1.755-4.17-2.253C6.806.454 5.854.173 4.93.27a5.236 5.236 0 0 0-3.68 2.097C.7 3.116.47 4.077.36 5.265.25 6.45.25 7.985.25 9.96v.082c0 1.974 0 3.51.11 4.694.11 1.189.34 2.15.89 2.898a5.236 5.236 0 0 0 3.68 2.096c.925.096 1.877-.186 2.974-.685 1.093-.498 2.438-1.265 4.17-2.253l.07-.04c1.732-.987 3.078-1.754 4.06-2.44.986-.688 1.713-1.363 2.094-2.208a5.118 5.118 0 0 0 0-4.21c-.381-.845-1.108-1.52-2.093-2.208-.983-.686-2.329-1.453-4.06-2.44l-.07-.04ZM5.083 1.76c.52-.054 1.172.09 2.198.558 1.024.466 2.31 1.199 4.084 2.21 1.775 1.012 3.06 1.746 3.98 2.388.924.645 1.374 1.128 1.585 1.594.427.948.427 2.03 0 2.978-.21.466-.66.95-1.585 1.594-.92.642-2.205 1.376-3.98 2.387-1.774 1.012-3.06 1.745-4.084 2.21-1.026.468-1.678.613-2.198.56a3.735 3.735 0 0 1-2.624-1.496c-.304-.413-.502-1.038-.605-2.148C1.75 13.489 1.75 12.024 1.75 10s0-3.49.104-4.596c.103-1.11.3-1.735.605-2.148a3.736 3.736 0 0 1 2.624-1.495Z"
+                clip-rule="evenodd" />
+            </svg>
+          </span>Play
+        </div>
+        <div class="video_play-button" id="muteUnmuteBtn"><span class="video-control-svg"><svg
+              xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path fill="currentColor"
+                d="M18.75 13a.75.75 0 0 0-1.5 0h1.5Zm-4.35 6.623.49-.568-.01-.009-.01-.009-.47.586Zm-.93-1.708a.75.75 0 0 0-.94 1.17l.94-1.17ZM8.5 8.22v-.75.75Zm6.193 11.655.49-.567-.49.567ZM10.056 8.22v-.75.75Zm1.798.08 3.329-2.875-.98-1.135-3.33 2.876.98 1.135ZM8.5 8.97h1.556v-1.5H8.5v1.5Zm-1.75 5.043V10.72h-1.5v3.293h1.5Zm4.05 1.75H8.5v1.5h2.3v-1.5Zm6.45-1.263v3.862h1.5V14.5h-1.5Zm0-8.13V9h1.5V6.37h-1.5Zm0 6.63v1.5h1.5V13h-1.5Zm-2.067 6.308-.293-.253-.98 1.135.292.253.98-1.135Zm-.314-.27-1.4-1.123-.938 1.17 1.4 1.123.938-1.17ZM5.25 14.012a3.25 3.25 0 0 0 3.25 3.25v-1.5a1.75 1.75 0 0 1-1.75-1.75h-1.5ZM8.5 7.47a3.25 3.25 0 0 0-3.25 3.25h1.5c0-.967.783-1.75 1.75-1.75v-1.5Zm6.683-2.045c.81-.7 2.067-.125 2.067.946h1.5c0-2.355-2.766-3.62-4.548-2.081l.98 1.135Zm2.067 12.937c0 1.07-1.257 1.645-2.067.946l-.98 1.135c1.781 1.539 4.547.273 4.547-2.081h-1.5ZM10.873 7.166a1.25 1.25 0 0 1-.817.304v1.5a2.75 2.75 0 0 0 1.798-.67l-.981-1.134Z" />
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                d="M22 5 7 20" />
+            </svg>
+          </span>Mute
+        </div>
+        <div class="video_play-button" id="restartBtn"><span class="video-control-svg"><svg
+              xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-linecap="round" stroke-width="1.5"
+                d="M19.308 8.746A8 8 0 0 0 6.357 6.33m-3.125-.815.73 3.16a1 1 0 0 0 1.199.75l3.16-.73m-3.629 6.559A8 8 0 0 0 17.5 17.81m3.268.675-.73-3.16a1 1 0 0 0-1.199-.75l-3.16.73" />
+            </svg>
+          </span>Restart
+        </div>
       </div>
       <div class="cta-hero">
-          <div class="cta_hero_button" id="restartBtn"><span class="video-control-svg">
-              </span>Contact us
-          </div>
-      </div>
-  </div>
-</section>
-
-<!-- Social Proofing Section -->
-<section class="social-proofing-outer-section">
-  <div class="title">
-    <h2 class="slider-title">Our <span class="slider-subtitle">Social Proof</span></h2><br>
-</div>
-  <div class="social-proofing-section">
-    <div class="social-proofing-container">
-      <div class="spc-card">
-        <h2 class="spc-title">1.5M+</h2>
-        <p class="spc-text">Content Generated</p>
-      </div>
-      <div class="spc-card">
-        <h2 class="spc-title">1M+</h2>
-        <p class="spc-text">Influencer Network</p>
-      </div>
-      <div class="spc-card">
-        <h2 class="spc-title">1K+</h2>
-        <p class="spc-text">Brand Campaigns</p>
+        <div class="cta_hero_button" id="restartBtn" data-title="Contact Us"
+          data-video="https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+          data-thumbnail="https://imageplaceholder.net/700x400"><span class="video-control-svg">
+          </span>Contact us
+        </div>
       </div>
     </div>
+  </section>
+
+  <!-- Modal Window Structure -->
+  <div id="knowMoreModal" class="modal">
+    <div class="modal-content" id="modal-content">
+      <div class="modal-title">
+
+        <h2>Meme Marketing</h2>
+        <span class="close-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M1 1L15 15M1.00003 15L8.00003 8L15 1" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" />
+          </svg>
+        </span>
+      </div>
+      <div class="video-section">
+        <video id="modalVideo" class="custom-video">
+          <source src="" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <img id="videoThumbnail" src="" alt="Video Thumbnail" class="video-thumbnail">
+        <div class="video-controls">
+          <button class="play-button">
+            <span class="video-control-svg modal-video-svg-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 19 20">
+                <path fill="currentColor" fill-rule="evenodd"
+                  d="M12.073 3.207c-1.732-.988-3.077-1.755-4.17-2.253C6.806.454 5.854.173 4.93.27a5.236 5.236 0 0 0-3.68 2.097C.7 3.116.47 4.077.36 5.265.25 6.45.25 7.985.25 9.96v.082c0 1.974 0 3.51.11 4.694.11 1.189.34 2.15.89 2.898a5.236 5.236 0 0 0 3.68 2.096c.925.096 1.877-.186 2.974-.685 1.093-.498 2.438-1.265 4.17-2.253l.07-.04c1.732-.987 3.078-1.754 4.06-2.44.986-.688 1.713-1.363 2.094-2.208a5.118 5.118 0 0 0 0-4.21c-.381-.845-1.108-1.52-2.093-2.208-.983-.686-2.329-1.453-4.06-2.44l-.07-.04ZM5.083 1.76c.52-.054 1.172.09 2.198.558 1.024.466 2.31 1.199 4.084 2.21 1.775 1.012 3.06 1.746 3.98 2.388.924.645 1.374 1.128 1.585 1.594.427.948.427 2.03 0 2.978-.21.466-.66.95-1.585 1.594-.92.642-2.205 1.376-3.98 2.387-1.774 1.012-3.06 1.745-4.084 2.21-1.026.468-1.678.613-2.198.56a3.735 3.735 0 0 1-2.624-1.496c-.304-.413-.502-1.038-.605-2.148C1.75 13.489 1.75 12.024 1.75 10s0-3.49.104-4.596c.103-1.11.3-1.735.605-2.148a3.736 3.736 0 0 1 2.624-1.495Z"
+                  clip-rule="evenodd" />
+              </svg>
+            </span>
+            <span class="button-text">Play</span>
+          </button>
+          <button class="mute-button">
+            <span class="video-control-svg modal-video-svg-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 24 24">
+                <path fill="currentColor"
+                  d="M18.75 13a.75.75 0 0 0-1.5 0h1.5Zm-4.35 6.623.49-.568-.01-.009-.01-.009-.47.586Zm-.93-1.708a.75.75 0 0 0-.94 1.17l.94-1.17ZM8.5 8.22v-.75.75Zm6.193 11.655.49-.567-.49.567ZM10.056 8.22v-.75.75Zm1.798.08 3.329-2.875-.98-1.135-3.33 2.876.98 1.135ZM8.5 8.97h1.556v-1.5H8.5v1.5Zm-1.75 5.043V10.72h-1.5v3.293h1.5Zm4.05 1.75H8.5v1.5h2.3v-1.5Zm6.45-1.263v3.862h1.5V14.5h-1.5Zm0-8.13V9h1.5V6.37h-1.5Zm0 6.63v1.5h1.5V13h-1.5Zm-2.067 6.308-.293-.253-.98 1.135.292.253.98-1.135Zm-.314-.27-1.4-1.123-.938 1.17 1.4 1.123.938-1.17ZM5.25 14.012a3.25 3.25 0 0 0 3.25 3.25v-1.5a1.75 1.75 0 0 1-1.75-1.75h-1.5ZM8.5 7.47a3.25 3.25 0 0 0-3.25 3.25h1.5c0-.967.783-1.75 1.75-1.75v-1.5Zm6.683-2.045c.81-.7 2.067-.125 2.067.946h1.5c0-2.355-2.766-3.62-4.548-2.081l.98 1.135Zm2.067 12.937c0 1.07-1.257 1.645-2.067.946l-.98 1.135c1.781 1.539 4.547.273 4.547-2.081h-1.5ZM10.873 7.166a1.25 1.25 0 0 1-.817.304v1.5a2.75 2.75 0 0 0 1.798-.67l-.981-1.134Z" />
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                  d="M22 5 7 20" />
+              </svg>
+            </span>
+            <span class="button-text">Mute</span>
+          </button>
+          <button class="restart-button">
+            <span class="video-control-svg modal-video-svg-3"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-width="1.5"
+                  d="M19.308 8.746A8 8 0 0 0 6.357 6.33m-3.125-.815.73 3.16a1 1 0 0 0 1.199.75l3.16-.73m-3.629 6.559A8 8 0 0 0 17.5 17.81m3.268.675-.73-3.16a1 1 0 0 0-1.199-.75l-3.16.73" />
+              </svg>
+            </span>
+            <span class="button-text">Restart</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="signup-form">
+        <div id='crmWebToEntityForm' class='zcwf_lblTopBottom crmWebToEntityForm'>
+
+          <form id='webform648542000000408003' action='https://crm.zoho.in/crm/WebToLeadForm'
+            name=WebToLeads648542000000408003 method='POST'
+            onSubmit='javascript:document.charset="UTF-8"; return checkMandatory648542000000408003()'
+            accept-charset='UTF-8'>
+
+            <input type='text' style='display:none;' name='xnQsjsdp'
+              value='1df210812c8f60f0120728a6d1548c4b32ac2fd143e389fcb68b89a6f55cedf8'></input>
+            <input type='hidden' name='zc_gad' id='zc_gad' value=''></input>
+            <input type='text' style='display:none;' name='xmIwtLD'
+              value='e5b53af6a3c2db81f45ff0a57e4bdd9698c9c921816d59a0dc3bff9d27b8a729f4937a852b5241ba98a89dab6e20ee22'></input>
+            <input type='text' style='display:none;' name='actionType' value='TGVhZHM='></input>
+            <input type='text' style='display:none;' name='returnURL' value='https&#x3a;&#x2f;&#x2f;famekeeda.com'>
+            </input>
+            <!-- Do not remove this code. -->
+            <input type='text' style='display:none;' id='ldeskuid' name='ldeskuid'></input>
+            <input type='text' style='display:none;' id='LDTuvid' name='LDTuvid'></input>
+            <!-- Do not remove this code. -->
+
+
+            <div class="form-group">
+              <div class='zcwf_row'>
+                <div class='zcwf_col_lab'>
+                  <label for='First_Name'>First Name<span class="required">*</span></label>
+                </div>
+                <div class='zcwf_col_fld'>
+                  <input type='text' id='First_Name' name='First Name' maxlength='40'
+                    placeholder="Enter your first name"></input>
+                  <div class='zcwf_col_help'></div>
+                </div>
+              </div>
+
+              <div class='zcwf_row'>
+                <div class='zcwf_col_lab' style='font-size:14px; font-family: Arial;'>
+                  <label for='Last_Name'>Last Name<span class="required">*</span></label>
+                </div>
+                <div class='zcwf_col_fld'>
+                  <input type='text' id='Last_Name' name='Last Name' maxlength='80'
+                    placeholder="Enter your last name"></input>
+                  <div class='zcwf_col_help'></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class='zcwf_row'>
+                <div class='zcwf_col_lab'>
+                  <label for='Company'>Company<span class="required">*</span></label>
+                </div>
+                <div class='zcwf_col_fld'>
+                  <input type='text' id='Company' name='Company' maxlength='200'
+                    placeholder="Enter company name"></input>
+                  <div class='zcwf_col_help'></div>
+                </div>
+              </div>
+
+              <div class='zcwf_row'>
+                <div class='zcwf_col_lab'>
+                  <label for='Designation'>Job Title<span class="required">*</span></label>
+                </div>
+                <div class='zcwf_col_fld'>
+                  <input type='text' id='Designation' name='Designation' maxlength='100'
+                    placeholder="Enter job title/designation"></input>
+                  <div class='zcwf_col_help'></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class='zcwf_row'>
+                <div class='zcwf_col_lab'>
+                  <label for='Email'>Email<span class="required">*</span></label>
+                </div>
+                <div class='zcwf_col_fld'>
+                  <input type='text' ftype='email' autocomplete='false' id='Email' name='Email' crmlabel=''
+                    maxlength='100' placeholder="Enter your email address"></input>
+                  <div class='zcwf_col_help'></div>
+                </div>
+              </div>
+
+              <div class='zcwf_row'>
+                <div class='zcwf_col_lab'>
+                  <label for='Phone'>Phone<span class="required">*</span></label>
+                </div>
+                <div class='zcwf_col_fld'>
+                  <input type='text' id='Phone' name='Phone' maxlength='30'
+                    placeholder="Enter your phone number"></input>
+                  <div class='zcwf_col_help'></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class='zcwf_row wfrm_fld_dpNn'>
+                <div class='zcwf_col_lab'>
+                  <label for='Lead_Source'>Lead Source</label>
+                </div>
+                <div class='zcwf_col_fld'>
+                  <select class='zcwf_col_fld_slt' id='Lead_Source' name='Lead Source'>
+                    <option value='-None-'>-None-</option>
+                    <option value='Apollo.io'>Apollo.io</option>
+                    <option value='Cold&#x20;Call'>Cold Call</option>
+                    <option value='Employee&#x20;Referral'>Employee Referral</option>
+                    <option value='External&#x20;Referral'>External Referral</option>
+                    <option value='Facebook'>Facebook</option>
+                    <option value='Google'>Google</option>
+                    <option value='Instagram'>Instagram</option>
+                    <option value='Instantly.ai'>Instantly.ai</option>
+                    <option value='Twitter'>Twitter</option>
+                    <option value='Website&#x20;Chat'>Website Chat</option>
+                    <option selected value='Website&#x20;Contact&#x20;Form'>Website Contact Form
+                    </option>
+                    <option value='WhatsApp'>WhatsApp</option>
+                  </select>
+                  <div class='zcwf_col_help'></div>
+                </div>
+              </div>
+
+              <div class='zcwf_row wfrm_fld_dpNn'>
+                <div class='zcwf_col_lab'>
+                  <label for='Lead_Status'>Lead Status</label>
+                </div>
+                <div class='zcwf_col_fld'>
+                  <select class='zcwf_col_fld_slt' id='Lead_Status' name='Lead Status'>
+                    <option value='-None-'>-None-</option>
+                    <option value='Attempted&#x20;to&#x20;Contact'>Attempted to Contact</option>
+                    <option value='Contact&#x20;in&#x20;Future'>Contact in Future</option>
+                    <option value='Contacted'>Contacted</option>
+                    <option value='Junk&#x20;Lead'>Junk Lead</option>
+                    <option value='Lost&#x20;Lead'>Lost Lead</option>
+                    <option value='Not&#x20;Contacted'>Not Contacted</option>
+                    <option value='Pre-Qualified'>Pre-Qualified</option>
+                    <option value='Not&#x20;Qualified'>Not Qualified</option>
+                    <option value='Account&#x20;Created'>Account Created</option>
+                    <option selected value='New&#x20;Lead'>New Lead</option>
+                    <option value='Lead&#x20;Qualification'>Lead Qualification</option>
+                    <option value='Initial&#x20;Outreach'>Initial Outreach</option>
+                    <option value='Needs&#x20;Analysis'>Needs Analysis</option>
+                    <option value='Proposal&#x20;Preparation'>Proposal Preparation</option>
+                    <option value='Negotiation&#x20;Phase'>Negotiation Phase</option>
+                  </select>
+                  <div class='zcwf_col_help'></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class='zcwf_row'>
+                <div class='zcwf_col_lab'>
+                  <label for='Website'>Website<span class="required">*</span></label>
+                </div>
+                <div class='zcwf_col_fld'>
+                  <input type='text' id='Website' name='Website' maxlength='255'
+                    placeholder="Enter website url"></input>
+                  <div class='zcwf_col_help'></div>
+                </div>
+              </div>
+
+              <div class='zcwf_row'>
+                <div class='zcwf_col_lab'>
+                  <label for='Description'>Tell us about your business &amp; your business
+                    needs.</label>
+                </div>
+                <div class='zcwf_col_fld'>
+                  <textarea id='Description' name='Description'
+                    placeholder="Describe your business and your business needs in short..."></textarea>
+                  <div class='zcwf_col_help'></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <div class='zcwf_row'>
+                <div class='zcwf_col_lab'></div>
+                <div class='zcwf_col_fld'>
+                  <div class='g-recaptcha' data-sitekey='6Le7SgMqAAAAAFgrvRhgeDv69S0vL2aqe5vRFvvd' data-theme='light'
+                    data-callback='rccallback648542000000408003' captcha-verified='false' id='recap648542000000408003'>
+                  </div>
+                  <div id='recapErr648542000000408003' style='font-size:12px;color:red;visibility:hidden;'>Captcha
+                    validation failed. If you are not a robot then please try again.
+                  </div>
+                </div>
+
+                <div class='zcwf_row'>
+                  <div class='zcwf_col_lab'></div>
+                  <div class='zcwf_col_fld'>
+                    <input type='submit' id='formsubmit' class='formsubmit zcwf_button' value='Submit' title='Submit'>
+                    <input type='reset' class='resetbutton zcwf_button' name='reset' value='Clear' title='Clear'>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <script type='text/javascript'
+              id='VisitorTracking'>var $zoho = $zoho || {}; $zoho.salesiq = $zoho.salesiq || { widgetcode: 'siqc20844b4531c080ad1adc2d816e3d65b3dbe794ff92bd9b2f627070c4d72e0f9', values: {}, ready: function () { } }; var d = document; s = d.createElement('script'); s.type = 'text/javascript'; s.id = 'zsiqscript'; s.defer = true; s.src = 'https://salesiq.zoho.in/widget'; t = d.getElementsByTagName('script')[0]; t.parentNode.insertBefore(s, t); function trackVisitor648542000000408003() { try { if ($zoho) { var LDTuvidObj = document.forms['WebToLeads648542000000408003']['LDTuvid']; if (LDTuvidObj) { LDTuvidObj.value = $zoho.salesiq.visitor.uniqueid(); } var firstnameObj = document.forms['WebToLeads648542000000408003']['First Name']; if (firstnameObj) { name = firstnameObj.value + ' ' + name; } $zoho.salesiq.visitor.name(name); var emailObj = document.forms['WebToLeads648542000000408003']['Email']; if (emailObj) { email = emailObj.value; $zoho.salesiq.visitor.email(email); } } } catch (e) { } }</script>
+            <!-- Do not remove this --- Analytics Tracking code starts -->
+            <script id='wf_anal'
+              src='https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet?rid=6938d92a1c3a99b600a6fbd0b32d1c237b2a94de07a52411066a5b5a347f29d3da8aaf40bcb2213743c76110cb61b131gidf8ebec796bec085bc05f15c82ecd52cb347b89035bb869b45f424f06ca0a1622gid11b3dc378f6e34de9b1dc9114678f86da4319625dd30120d6a940b69faefb872gidd42752da09910e52ba2f26cbbc33752d49a6355a47cd88dffbc1b22388bbabee&tw=7e8cd2a1fbf639b30062109fb86b9febd79cd4e68b8851b732be0b3b66d95342'></script>
+            <!-- Do not remove this --- Analytics Tracking code ends. -->
+            <script src='https://www.google.com/recaptcha/api.js' async defer></script>
+          </form>
+        </div>
+      </div>
+
+
+    </div>
   </div>
-</section>
+
+  <!-- Social Proofing Section -->
+  <section class="social-proofing-outer-section">
+    <div class="title">
+      <h2 class="slider-title">Our <span class="slider-subtitle">Social Proof</span></h2><br>
+    </div>
+    <div class="social-proofing-section">
+      <div class="social-proofing-container">
+        <div class="spc-card">
+          <h2 class="spc-title">1.5M+</h2>
+          <p class="spc-text">Content Generated</p>
+        </div>
+        <div class="spc-card">
+          <h2 class="spc-title">1M+</h2>
+          <p class="spc-text">Influencer Network</p>
+        </div>
+        <div class="spc-card">
+          <h2 class="spc-title">1K+</h2>
+          <p class="spc-text">Brand Campaigns</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- -------------------What is Instagram Marketing---------------------->
   <section class="what-is-ig-marketing">
@@ -1289,25 +1558,24 @@
   <footer class="footer">
     <div class="footer-container">
       <video autoplay muted class="footer-video">
+        <source src="https://storage.googleapis.com/babylonfk/Hero%20%26%20Footer%20Videos/Footer.mp4" type="video/mp4">
         <source src="https://storage.googleapis.com/babylonfk/Hero%20%26%20Footer%20Videos/Footer.mp4"
-          type="video/mp4" />
-        <source src="https://storage.googleapis.com/babylonfk/Hero%20%26%20Footer%20Videos/Footer.mp4"
-          type="video/webm" />
+          type="video/webm">
       </video>
       <div class="footer-wrapper">
         <div class="f-row">
           <div class="f-row-inner-wrapper">
             <div class="heading-wrapper">
-              <h2 class="footer-title f-heading">
-                Tired of agencies that take forever?
-              </h2>
-              <span class="footer-text">We prioritize quick turnarounds without sacrificing quality,
-                Let's discuss your timeline.</span>
+              <h2 class="footer-title f-heading">Tired of agencies that take forever?</h2>
+              <span class="footer-text">We prioritize quick turnarounds without sacrificing
+                quality, Let's discuss your timeline.</span>
             </div>
             <div class="service-card-button-wrapper">
-              <a class="service-card-button" href="#">Book Your Free Consultation
-                <span class="sc-svg-icon"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11"
-                    viewBox="0 0 11 11" fill="currentColor">
+              <a class="service-card-button" href="#" data-title="Book Your Free Consultation"
+                data-video="https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                data-thumbnail="https://imageplaceholder.net/700x400">Book Your Free Consultation <span
+                  class="sc-svg-icon"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11"
+                    fill="currentColor">
                     <g clip-path="url(#clip0_663_8055)">
                       <path d="M1.36304 5.90527H8.88667" stroke="currentColor" stroke-width="0.895671"
                         stroke-linecap="square" stroke-linejoin="round" />
@@ -1364,6 +1632,10 @@
   <script defer src="/js/navbar.js"></script>
   <script src="../js/accordion.js"></script>
   <script defer src="../js/timeline-scroll.js"></script>
+
+  <!-- Modal Window -->
+  <script defer src="../../modal-window/popup.js"></script>
+  <script defer src="../../modal-window/contact-form.js"></script>
 </body>
 
 </html>
