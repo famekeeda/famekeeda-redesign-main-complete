@@ -833,8 +833,8 @@ ul {
 }
 
 .service-card-img {
-  width: 230px;
-  height: 230px;
+  width: auto;
+  height: 250px;
   position: absolute;
   top: auto;
   left: auto;
@@ -844,7 +844,22 @@ ul {
 
 .sci-extend {
   width: auto;
-  height: 291px;
+  height: 300px;
+  position: absolute;
+  top: auto;
+  left: auto;
+  bottom: 0;
+  right: 0;
+}
+
+.sci-brand-integration {
+  height: 100%;
+  width: auto;
+  position: absolute;
+  top: auto;
+  left: auto;
+  bottom: 0;
+  right: 0;
 }
 
 .service-card-button-wrapper {
