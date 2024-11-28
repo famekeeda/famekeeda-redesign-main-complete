@@ -1565,7 +1565,7 @@
   .show-reel-section,
   .meet-our-team-section,
   .meet-our-brands-section,
-  .influencer-makes-waves {      
+  .influencer-makes-waves {
     padding: 0 24px;
     gap: 20px;
     width: 100%;
@@ -1780,7 +1780,7 @@
     width: auto;
     height: 130px;
   }
-  
+
   .sci-extend {
     width: auto;
     height: 160px;
@@ -2361,7 +2361,7 @@
     width: auto;
     height: 250px;
   }
-  
+
   .sci-extend {
     width: auto;
     height: 280px;
@@ -2853,7 +2853,8 @@
     line-height: 24px;
   }
 
-  .sc-variant-1, .sc-variant-2 {
+  .sc-variant-1,
+  .sc-variant-2 {
     height: 220px;
   }
 
@@ -2861,7 +2862,7 @@
     width: auto;
     height: 110px;
   }
-  
+
   .sci-extend {
     width: auto;
     height: 150px;
@@ -2872,7 +2873,7 @@
     font-size: 0.575rem;
     line-height: 0.8rem;
     gap: 5px;
-}
+  }
 
   /* Our Influencers Makes Waves */
 
@@ -3224,7 +3225,8 @@
     width: 40%;
   }
 
-  .sc-variant-1, .sc-variant-2 {
+  .sc-variant-1,
+  .sc-variant-2 {
     height: 240px;
   }
 
@@ -3232,7 +3234,7 @@
     width: auto;
     height: 110px;
   }
-  
+
   .sci-extend {
     width: auto;
     height: 150px;
@@ -3586,7 +3588,8 @@
     width: 45%;
   }
 
-  .sc-variant-1, .sc-variant-2 {
+  .sc-variant-1,
+  .sc-variant-2 {
     height: 300px;
   }
 
@@ -3594,7 +3597,7 @@
     width: auto;
     height: 180px;
   }
-  
+
   .sci-extend {
     width: auto;
     height: 220px;
@@ -3873,12 +3876,12 @@
     width: auto;
     height: 220px;
   }
-  
+
   .sci-extend {
     width: auto;
     height: 260px;
   }
-  
+
   .sci-brand-integration {
     height: 100%;
     width: auto;

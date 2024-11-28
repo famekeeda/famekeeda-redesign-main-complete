@@ -213,6 +213,12 @@
 
 /* My Codes */
 
+.form-group-outer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 .form-group {
     display: flex;
     flex-wrap: wrap;
