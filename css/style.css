@@ -43,6 +43,14 @@ header {
   z-index: 999;
   width: 100%;
   background: white;
+
+  /* Glassmorphism effect */
+  background: rgba(255, 255, 255, 0.4); /* Light transparent white */
+  backdrop-filter: blur(15px) brightness(1); /* Frosted glass effect */
+  -webkit-backdrop-filter: blur(15px) brightness(1); /* Safari support */
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Subtle bottom border */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
 }
 
 .nav-container {
