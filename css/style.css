@@ -1470,7 +1470,7 @@ ul {
 
 /*----------------------------------------- SHOW REEL SECTION --------------------------------------------*/
 
-.show-reel-subtitle {
+/* .show-reel-subtitle {
   font-size: 20px;
 }
 
@@ -1525,6 +1525,153 @@ ul {
   object-fit: cover;
   aspect-ratio: 9/16;
   border-radius: 20px;
+} */
+
+.show-reel-section {
+  padding: 40px;
+  max-width: 1900px;
+  margin: 0 auto;
+}
+
+.show-reel-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.show-reel-row-outer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.show-reel-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.show-reel-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.video-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+}
+
+.video-wrapper:hover .play-pause-icon {
+  opacity: 1; /* Ensure icon remains visible */
+  transform: translate(-50%, -50%) scale(1); /* Prevent shrinking on hover */
+}
+
+.show-reel-video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.landscape {
+  aspect-ratio: 16/9;
+  border-radius: 20px;
+}
+
+.potrait {
+  width: 100%;
+  aspect-ratio: 9/16;
+  border-radius: 20px;
+}
+
+.short-landscape {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 20px;
+}
+
+.play-pause-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  border: 1.5px solid rgba(255, 255, 255, 0.5);
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.play-pause-icon svg {
+  width: 50px;
+  height: 50px;
+  fill: rgba(255, 255, 255, 0.552);
+}
+
+.play-icon,
+.pause-icon {
+  display: none;
+}
+
+.play-pause-icon.play .play-icon {
+  display: block;
+}
+
+.play-pause-icon.pause .pause-icon {
+  display: block;
+}
+
+
+/* .overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, 
+      rgba(0,0,0,0.2) 0%, 
+      rgba(0,0,0,0) 40%,
+      rgba(0,0,0,0.4) 100%);
+  z-index: 1;
+  pointer-events: none;
+} */
+
+@media (max-width: 768px) {
+  .show-reel-row-outer {
+      flex-direction: column;
+  }
+  
+  .short-landscape {
+      width: 100%;
+  }
+
+  .show-reel-row {
+      flex-direction: column;
+  }
+
+  .potrait {
+      width: 100%;
+  }
 }
 
 
