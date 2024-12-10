@@ -799,7 +799,7 @@
 
 .testimonial-slide {
   width: 533px;
-  height: 260px;
+  height: 320px;
   margin: 20px;
   border: 1px solid #d2dde8;
   background: transparent;
@@ -813,7 +813,7 @@
   flex-direction: row;
   align-items: flex-start;
   gap: 20px;
-  padding: 20px;
+  padding: 20px 0px 20px 0px;
   width: 100%;
   margin: auto;
 }
@@ -844,6 +844,7 @@
   color: #6c757d;
   font-size: 0.9rem;
   font-weight: 500;
+  text-transform: lowercase;
 }
 
 .testimonial-text {
@@ -1213,7 +1214,6 @@
 
   .testimonial-card {
     gap: 20px;
-    padding: 5px;
   }
 
   .profile-pic {
@@ -1552,14 +1552,13 @@
 
   .testimonial-slide {
     width: calc(533px * 0.75);
-    height: calc(260px * 0.75);
+    height: auto;
     margin: 10px;
     border-radius: 25px;
   }
 
   .testimonial-card {
     gap: 20px;
-    padding: 5px;
   }
 
   .profile-pic {
@@ -1884,14 +1883,13 @@
 
   .testimonial-slide {
     width: calc(533px * 0.75);
-    height: calc(260px * 0.75);
+    height: calc(340px * 0.75);
     margin: 10px;
     border-radius: 25px;
   }
 
   .testimonial-card {
     gap: 20px;
-    padding: 5px;
   }
 
   .profile-pic {
@@ -2143,15 +2141,14 @@
   }
 
   .testimonial-slide {
-    width: calc(533px * 0.75);
-    height: calc(260px * 0.75);
+    width: calc(533px * 0.95);
+    height: calc(340px * 0.95);
     margin: 10px;
     border-radius: 30px;
   }
 
   .testimonial-card {
     gap: 20px;
-    padding: 5px;
   }
 
   .profile-pic {
@@ -2380,14 +2377,13 @@
 
   .testimonial-slide {
     width: calc(533px * 0.625);
-    height: calc(260px * 0.625);
+    height: calc(340px * 0.625);
     margin: 10px;
     border-radius: 30px;
   }
 
   .testimonial-card {
     gap: 20px;
-    padding: 5px;
   }
 
   .profile-pic {
@@ -2586,14 +2582,13 @@
 
   .testimonial-slide {
     width: calc(533px * 0.75);
-    height: calc(260px * 0.75);
+    height: calc(340px * 0.75);
     margin: 10px;
     border-radius: 30px;
   }
 
   .testimonial-card {
     gap: 20px;
-    padding: 5px;
   }
 
   .profile-pic {
@@ -2939,6 +2934,7 @@
     font-size: 1rem;
     line-height: 1.8rem;
   }
+
 }
 
 /* --- DESKTOP v5 --- */

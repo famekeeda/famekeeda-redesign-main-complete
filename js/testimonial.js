@@ -12,14 +12,14 @@ $(document).ready(function () {
       arrows: false,
       responsive: [
         {
-          breakpoint: 991,
+          breakpoint: 1920,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 1,
           }
         },
         {
-          breakpoint: 575,
+          breakpoint: 601,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
