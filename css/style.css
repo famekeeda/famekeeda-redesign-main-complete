@@ -616,7 +616,7 @@ ul {
 }
 
 .imcc-card-1 {
-  width: 423px;
+  width: auto;
   height: 238px;
   border-radius: 20px;
   object-fit: cover;
@@ -625,7 +625,7 @@ ul {
 
 .imcc-card-2 {
   width: 260px;
-  height: 360px;
+  height: auto;
   border-radius: 20px;
   object-fit: cover;
   aspect-ratio: 9/16;
@@ -633,7 +633,7 @@ ul {
 
 .imcc-card-3 {
   width: 260px;
-  height: 360px;
+  height: auto;
   border-radius: 20px;
   object-fit: cover;
   aspect-ratio: 9/16;
@@ -641,7 +641,7 @@ ul {
 
 
 .imcc-card-4 {
-  width: 423px;
+  width: auto;
   height: 238px;
   border-radius: 20px;
   object-fit: cover;
@@ -657,9 +657,13 @@ ul {
   height: 1rem;
   position: absolute;
   top: auto;
-  bottom: -.26rem;
+  bottom: 0;
   left: .0625rem;
   right: auto;
+}
+
+.span-underline-text  svg {
+  width: 8rem;
 }
 
 #control-line {

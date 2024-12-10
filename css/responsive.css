@@ -245,9 +245,11 @@
   }
 
   .imcc-card-2,
-  .imcc-card-3 {
+  .imcc-card-3,
+  .imcc-card-1,
+  .imcc-card-4 {
     width: 100%;
-    height: 300px;
+    height: auto;
     border-radius: 12px;
   }
 
@@ -971,6 +973,7 @@
   .influencer-marketing-cards-container {
     gap: 32px;
     width: 100%;
+    align-items: center;
   }
 
   .influencer-agency-paragraph {
@@ -1017,9 +1020,11 @@
   }
 
   .imcc-card-2,
-  .imcc-card-3 {
+  .imcc-card-3,
+  .imcc-card-1,
+  .imcc-card-4 {
     width: 100%;
-    height: 300px;
+    height: auto;
     border-radius: 12px;
   }
 
@@ -2750,14 +2755,14 @@
 
   .imcc-card-1,
   .imcc-card-4 {
-    width: 280px;
+    width: auto;
     height: 157px;
   }
 
   .imcc-card-2,
   .imcc-card-3 {
     width: 170px;
-    height: 242px;
+    height: auto;
   }
 
   .imcc-label {
