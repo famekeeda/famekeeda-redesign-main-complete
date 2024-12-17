@@ -127,7 +127,9 @@ ul {
   padding-top: 8px;
   padding-bottom: 8px;
   border-radius: 24px;
-  border: 0.5px solid black;
+  background: linear-gradient(101deg, #BE1622 11.69%, #E84E1B 53.29%, #BE1622 94.89%);
+  border: none;
+  color: #fff;
   transition: 0.3s ease;
   cursor: pointer;
 }
@@ -188,7 +190,7 @@ ul {
 .nav-cta:hover {
   background: var(--fame_red);
   color: white;
-  border-color: var(--fame_red);
+  /* border-color: var(--fame_red); */
 }
 
 .hamburger-menu {
