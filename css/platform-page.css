@@ -17,7 +17,6 @@
 .meet-our-influencers,
 .types-of-influencers,
 .accordion,
-.testimonial,
 .faq-section {
   display: flex;
   flex-direction: column;
@@ -117,13 +116,11 @@
 }
 
 .wim-title span {
-  background: linear-gradient(
-    90deg,
-    #fecc51 0%,
-    #ff610d 20%,
-    #ed25a7 50%,
-    #0440e1 85%
-  );
+  background: linear-gradient(90deg,
+      #fecc51 0%,
+      #ff610d 20%,
+      #ed25a7 50%,
+      #0440e1 85%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -217,18 +214,14 @@
 }
 
 .instagram {
-  background: linear-gradient(
-      0deg,
+  background: linear-gradient(0deg,
       rgba(255, 255, 255, 0.1) 0%,
-      rgba(255, 255, 255, 0.1) 100%
-    ),
-    linear-gradient(
-      332deg,
+      rgba(255, 255, 255, 0.1) 100%),
+    linear-gradient(332deg,
       rgba(254, 204, 81, 0.9) 0.95%,
       rgba(255, 97, 13, 0.9) 33.63%,
       rgba(237, 37, 167, 0.9) 64.36%,
-      rgba(4, 64, 225, 0.9) 98.51%
-    );
+      rgba(4, 64, 225, 0.9) 98.51%);
 }
 
 /* <!-- -------------------What is Instagram Marketing----------------------> */
@@ -287,7 +280,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1rem; /* Adds space between the elements */
+  gap: 1rem;
+  /* Adds space between the elements */
 }
 
 .slider-arrow {
@@ -304,15 +298,18 @@
 }
 
 .trending-slider-control .swiper-pagination {
-  position: static; /* Reset position to static */
-  width: auto; /* Allow width to adjust automatically */
+  position: static;
+  /* Reset position to static */
+  width: auto;
+  /* Allow width to adjust automatically */
   display: flex;
   justify-content: center;
 }
 
 .trending-slider-control .swiper-pagination .swiper-pagination-bullet {
   filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
-  flex-shrink: 0; /* Prevents shrinking */
+  flex-shrink: 0;
+  /* Prevents shrinking */
 }
 
 .trending-slider-control .swiper-pagination .swiper-pagination-bullet-active {
@@ -479,13 +476,11 @@
 }
 
 .toi-title span {
-  background: linear-gradient(
-    90deg,
-    #fecc51 0%,
-    #ff610d 20%,
-    #ed25a7 50%,
-    #0440e1 85%
-  );
+  background: linear-gradient(90deg,
+      #fecc51 0%,
+      #ff610d 20%,
+      #ed25a7 50%,
+      #0440e1 85%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -730,13 +725,18 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 100%;
+  width: 97%;
+  max-width: 1920px;
   text-align: center;
+  padding: 50px;
 }
 
 .testimonial-controls {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
   position: absolute;
-  right: 0;
+  right: 20px;
 }
 
 .testimonial-header {
@@ -784,11 +784,10 @@
 }
 
 .testimonial-controls button.active {
-  background: linear-gradient(
-    110deg,
-    #be1622 7.11%,
-    #e84e1b 89.03%
-  ); /* Gradient background on active */
+  background: linear-gradient(110deg,
+      #be1622 7.11%,
+      #e84e1b 89.03%);
+  /* Gradient background on active */
 }
 
 /* Styling Slick Slider */
@@ -831,7 +830,8 @@
   display: flex;
   flex-direction: column;
   text-align: start;
-  flex: 1; /* Ensure it takes the remaining space */
+  flex: 1;
+  /* Ensure it takes the remaining space */
 }
 
 .testimonial-content h2 {
@@ -855,6 +855,7 @@
   width: 100%;
   text-align: left;
 }
+
 
 /* --------------------------------------------------------------------About Us Page------------------------------------------------------------------- */
 
@@ -946,6 +947,7 @@
 
 /* MOBILE v1 */
 @media (min-width: 360px) and (max-width: 479px) {
+
   .toi-title,
   .moi-title,
   .wim-title,
@@ -1197,6 +1199,11 @@
     position: relative;
   }
 
+  .testimonial {
+    width: 100%;
+    padding: 2px;
+  }
+  
   .testimonial-controls {
     display: none;
   }
@@ -1238,60 +1245,61 @@
     font-size: 0.72rem;
   }
 
-      /* --------------------------------------------------------------------About Us Page------------------------------------------------------------------- */
+  /* --------------------------------------------------------------------About Us Page------------------------------------------------------------------- */
 
-      .meet-whole-team-hero-wrapper img{
-        width: 350px;
-      }
-    
-      .about-hero-container {
-        margin-bottom: 40px;
-    }
-    
-      .our-philosophy-section {
-        gap: 20px;
-      }
-    
-      .our-philosophy-container {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-        padding: 20px;
-      }
-    
-      .our-philosophy-card {
-        width: calc(485px * 0.75);
-        height: calc(631px * 0.7);
-        background-size: 85%, 85%;
-      }
-    
-      .our-philosophy-card-container {
-        gap: 20px;
-        padding: 20px;
-      }
-    
-      .our-philosophy-icon {
-        gap: 20px;
-        padding: 20px;
-      }
-    
-      .our-philosophy-icon img {
-        height: 50px;
-        width: auto;
-      }
-    
-      .our-philosophy-title {
-        font-size: 1.4rem;
-      }
-    
-      .our-philosophy-content {
-        font-size: 0.9rem;
-        line-height: 1.6rem;
-      }
+  .meet-whole-team-hero-wrapper img {
+    width: 350px;
+  }
+
+  .about-hero-container {
+    margin-bottom: 40px;
+  }
+
+  .our-philosophy-section {
+    gap: 20px;
+  }
+
+  .our-philosophy-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .our-philosophy-card {
+    width: calc(485px * 0.75);
+    height: calc(631px * 0.7);
+    background-size: 85%, 85%;
+  }
+
+  .our-philosophy-card-container {
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .our-philosophy-icon {
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .our-philosophy-icon img {
+    height: 50px;
+    width: auto;
+  }
+
+  .our-philosophy-title {
+    font-size: 1.4rem;
+  }
+
+  .our-philosophy-content {
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+  }
 }
 
 /* MOBILE v2*/
 @media (min-width: 480px) and (max-width: 599px) {
+
   .toi-title,
   .moi-title,
   .wim-title,
@@ -1542,6 +1550,11 @@
     position: relative;
   }
 
+  .testimonial {
+    padding: 2px;
+    width: 100%;
+  }
+
   .testimonial-controls {
     display: none;
   }
@@ -1583,62 +1596,63 @@
     font-size: 0.8rem;
   }
 
-    /* --------------------------------------------------------------------About Us Page------------------------------------------------------------------- */
+  /* --------------------------------------------------------------------About Us Page------------------------------------------------------------------- */
 
-    .meet-whole-team-hero-wrapper img{
-      width: 470px;
-    }
-  
-    .about-hero-container {
-      margin-bottom: 40px;
+  .meet-whole-team-hero-wrapper img {
+    width: 470px;
   }
-  
-    .our-philosophy-section {
-      gap: 20px;
-    }
-  
-    .our-philosophy-container {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      padding: 20px;
-    }
-  
-    .our-philosophy-card {
-      width: calc(485px * 0.433);
-      height: calc(631px * 0.433);
-      background-size: 85%, 85%;
-    }
-  
-    .our-philosophy-card-container {
-      gap: 0px;
-      padding: 20px;
-    }
-  
-    .our-philosophy-icon {
-      gap: 10px;
-      padding: 20px;
-    }
-  
-    .our-philosophy-icon img {
-      height: 30px;
-      width: auto;
-    }
-  
-    .our-philosophy-title {
-      font-size: 1rem;
-    }
-  
-    .our-philosophy-content {
-      font-size: 0.6rem;
-      line-height: 0.9rem;
-    }
+
+  .about-hero-container {
+    margin-bottom: 40px;
+  }
+
+  .our-philosophy-section {
+    gap: 20px;
+  }
+
+  .our-philosophy-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .our-philosophy-card {
+    width: calc(485px * 0.45);
+    height: calc(631px * 0.45);
+    background-size: 85%, 85%;
+  }
+
+  .our-philosophy-card-container {
+    gap: 0px;
+    padding: 20px;
+  }
+
+  .our-philosophy-icon {
+    gap: 10px;
+    padding: 20px;
+  }
+
+  .our-philosophy-icon img {
+    height: 30px;
+    width: auto;
+  }
+
+  .our-philosophy-title {
+    font-size: 1rem;
+  }
+
+  .our-philosophy-content {
+    font-size: 0.6rem;
+    line-height: 0.9rem;
+  }
 }
 
 /* ----------------------------------------------- TABLET -------------------------------------------------- */
 
 /* TABLET v1 */
 @media (min-width: 600px) and (max-width: 899px) {
+
   .toi-title,
   .moi-title,
   .wim-title,
@@ -1916,13 +1930,13 @@
 
   /* --------------------------------------------------------------------About Us Page------------------------------------------------------------------- */
 
-  .meet-whole-team-hero-wrapper img{
+  .meet-whole-team-hero-wrapper img {
     width: 590px;
   }
 
   .about-hero-container {
     margin-bottom: 70px;
-}
+  }
 
   .our-philosophy-section {
     gap: 20px;
@@ -1968,6 +1982,7 @@
 
 /* TABLET v2 */
 @media (min-width: 900px) and (max-width: 1023px) {
+
   .toi-title,
   .moi-title,
   .wim-title,
@@ -2003,6 +2018,7 @@
   .ig-subtitle {
     font-size: 2.5rem;
   }
+
   .ig-desc {
     font-size: 1rem;
     line-height: 1.6rem;
@@ -2175,13 +2191,13 @@
 
   /* --------------------------------------------------------------------About Us Page------------------------------------------------------------------- */
 
-  .meet-whole-team-hero-wrapper img{
+  .meet-whole-team-hero-wrapper img {
     width: 890px;
   }
 
   .about-hero-container {
     margin-bottom: 60px;
-}
+  }
 
   .our-philosophy-section {
     gap: 20px;
@@ -2227,6 +2243,7 @@
 
 /* DESKTOP v1 */
 @media (min-width: 1024px) and (max-width: 1199px) {
+
   .toi-title,
   .moi-title,
   .wim-title,
@@ -2260,6 +2277,7 @@
   .ig-subtitle {
     font-size: 2.6rem;
   }
+
   .ig-desc {
     font-size: 0.875rem;
     line-height: 1.6rem;
@@ -2371,6 +2389,10 @@
 
   /* <!----- Testimonial ------> */
 
+  .testimonial {
+    width: 100%;
+  }
+
   .testimonial-controls button {
     width: 50px;
     height: 50px;
@@ -2379,7 +2401,7 @@
 
   .testimonial-slide {
     width: calc(533px * 0.625);
-    height: calc(340px * 0.625);
+    height: calc(340px * 0.635);
     margin: 10px;
     border-radius: 30px;
   }
@@ -2410,7 +2432,7 @@
 
   /* --------------------------------------------------------------------About Us Page------------------------------------------------------------------- */
 
-  .meet-whole-team-hero-wrapper img{
+  .meet-whole-team-hero-wrapper img {
     width: 1000px;
   }
 
@@ -2456,6 +2478,7 @@
 
 /* DESKTOP v2 */
 @media (min-width: 1200px) and (max-width: 1439px) {
+
   .toi-title,
   .moi-title,
   .wim-title,
@@ -2469,6 +2492,7 @@
   .ig-subtitle {
     font-size: 3rem;
   }
+
   .ig-desc {
     font-size: 1.05rem;
     line-height: 2rem;
@@ -2576,6 +2600,11 @@
 
   /* <!----- Testimonial ------> */
 
+  .testimonial {
+    width: 100%;
+    padding: 45px;
+  }
+
   .testimonial-controls button {
     width: 50px;
     height: 50px;
@@ -2584,7 +2613,7 @@
 
   .testimonial-slide {
     width: calc(533px * 0.75);
-    height: calc(340px * 0.75);
+    height: calc(340px * 0.88);
     margin: 10px;
     border-radius: 30px;
   }
@@ -2608,14 +2637,9 @@
     font-size: 0.775rem;
   }
 
-  .testimonial-text {
-    line-height: 1.8;
-    font-size: 0.8rem;
-  }
-
   /* --------------------------------------------------------------------About Us Page------------------------------------------------------------------- */
 
-  .meet-whole-team-hero-wrapper img{
+  .meet-whole-team-hero-wrapper img {
     width: 1180px;
   }
 
@@ -2644,7 +2668,7 @@
     padding: 20px;
   }
 
-  .our-philosophy-icon img{
+  .our-philosophy-icon img {
     height: 50px;
     width: auto;
   }
@@ -2661,11 +2685,13 @@
 
 /* DESKTOP v3 */
 @media (min-width: 1440px) and (max-width: 1599px) {
+
   /* --- Service Page Hero Sections--- */
   .ig-title,
   .ig-subtitle {
     font-size: 3.5rem;
   }
+
   .ig-desc {
     font-size: 1.15rem;
   }
@@ -2760,7 +2786,7 @@
 
   /* --------------------------------------------------------------------About Us Page------------------------------------------------------------------- */
 
-  .meet-whole-team-hero-wrapper img{
+  .meet-whole-team-hero-wrapper img {
     width: 1400px;
   }
 
@@ -2797,15 +2823,22 @@
     font-size: 1rem;
     line-height: 1.8rem;
   }
+
+  /* Testimonial */
+  .testimonial {
+    width: 100%;
+  }
 }
 
 /* DESKTOP v4 */
 @media (min-width: 1600px) and (max-width: 1919px) {
+
   /* --- Service Page Hero Sections--- */
   .ig-title,
   .ig-subtitle {
     font-size: 3.5rem;
   }
+
   .ig-desc {
     font-size: 1.15rem;
   }
@@ -2899,7 +2932,7 @@
 
   /* --------------------------------------------------------------------About Us Page------------------------------------------------------------------- */
 
-  .meet-whole-team-hero-wrapper img{
+  .meet-whole-team-hero-wrapper img {
     width: 1500px;
   }
 
@@ -2935,6 +2968,11 @@
   .our-philosophy-content {
     font-size: 1rem;
     line-height: 1.8rem;
+  }
+
+  /* Testimonial */
+  .testimonial {
+    width: 98%;
   }
 
 }
