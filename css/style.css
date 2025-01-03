@@ -37,6 +37,9 @@ body {
 /* -------------------------------------------- NAVBAR  ---------------------------------------------*/
 
 header {
+  align-items: center;
+  justify-content: center;
+  display: flex;
   border-bottom: 0.2px solid black;
   position: fixed;
   top: 0;
@@ -57,6 +60,14 @@ header {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   /* Optional: subtle shadow */
 }
+
+/* .nav-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1920px;
+} */
 
 .nav-container {
   display: flex;

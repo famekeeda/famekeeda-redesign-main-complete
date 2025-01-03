@@ -10,6 +10,10 @@
   --fame_orange: #e94f1c;
 }
 
+/* section {
+  max-width: 1920px;
+} */
+
 .ig-marketing-services,
 .social-proofing-outer-section,
 .why-ig-marketing,
@@ -886,19 +890,22 @@
   flex-direction: column;
   gap: 20px;
   width: 100%;
+  max-width: 1920px;
   overflow: hidden;
 }
 
 .our-philosophy-container {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 40px;
   padding: 20px;
 }
 
 .our-philosophy-card {
-  width: 485px;
-  height: 631px;
+  /* width: 485px;
+  height: 631px; */
+  width: 545px;
+  height: 700px;
   background: white;
   border: 1px solid #d2dde8;
   border-radius: 20px;
@@ -1203,7 +1210,7 @@
     width: 100%;
     padding: 2px;
   }
-  
+
   .testimonial-controls {
     display: none;
   }
