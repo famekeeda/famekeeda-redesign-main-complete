@@ -1948,6 +1948,12 @@ ul {
   will-change: transform;
 }
 
+/* .influencers-slide {
+  display: inline-flex;
+  animation: influencers-slide 40s linear infinite;
+  will-change: transform;
+} */
+
 .slider-wrapper {
   display: flex;
   width: 100%;
@@ -1967,6 +1973,21 @@ ul {
   border-radius: 20px;
   margin-right: 32px;
   border: 1px solid #D2DDE8;
+}
+
+.influencers-slide {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 200px; */
+
+  padding: 0;
+  border-radius: 30px;
+  border: 1px solid #be1622;
+
+  
+  
 }
 
 .slide:hover {

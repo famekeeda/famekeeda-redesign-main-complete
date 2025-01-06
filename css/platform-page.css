@@ -322,7 +322,7 @@
 
 /* <!-- -------------------Meet Our Influencers----------------------> */
 
-.meet-our-influencers-section {
+/* .meet-our-influencers-section {
   display: flex;
   flex-direction: column;
   gap: 64px;
@@ -337,9 +337,9 @@
   gap: 64px;
   width: 100%;
   overflow: hidden;
-}
+} */
 
-@keyframes slide {
+/* @keyframes slide {
   0% {
     transform: translateX(0%);
   }
@@ -347,9 +347,9 @@
   100% {
     transform: translateX(-50%);
   }
-}
+} */
 
-.meet-our-influencers-logo-container {
+/* .meet-our-influencers-logo-container {
   overflow: hidden;
   background: white;
   white-space: nowrap;
@@ -389,13 +389,13 @@
   display: inline-block;
   white-space: nowrap;
   padding: 10px 0;
-}
+} */
 
-.normal-slide {
+/* .normal-slide {
   animation: slide 30s linear infinite;
-}
+} */
 
-.card-wrapper {
+/* .card-wrapper {
   display: inline-block;
   border-radius: 20px;
   margin-right: 32px;
@@ -455,7 +455,7 @@
 
 .social-icons a img:hover {
   transform: scale(1.2);
-}
+} */
 
 /* <!-- -------------------Types of Influencers on Instagram to Partner With----------------------> */
 

@@ -1,0 +1,67 @@
+.influencers-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    /* margin-right: 32px; */
+    text-align: left;
+    padding: 20px;
+    overflow: hidden;
+    /* border: 1px solid #be1622; */
+    background-image: url("/assets/service-pages_assets/instagram/fk-logo.svg");
+    background-repeat: no-repeat;
+    background-position: 101% 101%;
+    background-size: 80px 80px;
+    width: 343px;
+    height: 513px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 60%;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto !important;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.influencers-card h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    background: linear-gradient(90deg, #be1622 5.54%, #e84e1b 50.85%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.influencers-card p {
+    color: #000;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: start;
+    gap: 2px;
+    margin-top: 20px;
+}
+
+.social-icons a img {
+    width: 1.6rem;
+    height: 1.6rem;
+    transition: transform 0.2s;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2);
+}
