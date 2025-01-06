@@ -345,6 +345,8 @@
 
 .influencer-card {
   flex: 0 0 300px;
+  display: flex;
+  flex-direction: column;
   border-radius: 30px;
   border: 1px solid #BE1622;
   background-image: url("/assets/service-pages_assets/instagram/fk-logo.svg");
@@ -356,7 +358,7 @@
   overflow: hidden;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .influencer-card {
     flex: 0 0 260px;
   }
@@ -366,11 +368,11 @@
   .influencer-card {
     flex: 0 0 220px;
   }
-}
+} */
 
 .card-image {
   width: 100%;
-  height: 300px;
+  height: auto;
   border-radius: 15px;
   object-fit: cover;
   margin-bottom: 15px;
@@ -1049,37 +1051,43 @@
     font-size: 15px;
   }
 
-  /* <!------Meet Our Influencers-----> */
+    /* <!------Meet Our Influencers-----> */
 
-  .meet-our-influencers-section {
-    gap: 0px;
-  }
-
-  .image-container {
-    width: 160px;
-    height: auto;
-    overflow: hidden;
-    border-radius: 12px;
-    margin-bottom: 15px;
-  }
-
-  .card-wrapper {
-    background-size: 55px 55px;
-    padding: 5px;
-  }
-
-  .card-wrapper h2 {
-    font-size: 1.2rem;
-  }
-
-  .card-wrapper p {
-    font-size: 0.775rem;
-  }
-
-  .social-icons a img {
-    width: 1rem;
-    height: 1rem;
-  }
+    .meet-our-influencers-section .slider-title {
+      width: 75%;
+    }
+    
+    .influencer-card {
+      flex: 0 0 220px;
+      background-position: 104% 104%;
+      background-size: 65px 65px;
+    }
+  
+    .influencer-card img {
+      height: 180px;
+    }
+  
+    .influencer-name {
+      font-size: 1.4rem;
+    }
+  
+    .influencer-title {
+      font-size: 0.9rem;
+    }
+  
+    .social-icons {
+      gap: 1px;
+    }
+  
+    .social-icon {
+      width: 28px;
+      height: 28px;
+    }
+  
+    .social-icon img {
+      width: 1.4rem;
+      height: 1.4rem;
+    }
 
   /* <!-----Types of Influencers on Instagram to Partner With------> */
 
@@ -1402,34 +1410,40 @@
 
   /* <!------Meet Our Influencers-----> */
 
-  .meet-our-influencers-section {
-    gap: 0px;
+  .meet-our-influencers-section .slider-title {
+    width: 70%;
+  }
+  
+  .influencer-card {
+    flex: 0 0 220px;
+    background-position: 104% 104%;
+    background-size: 65px 65px;
   }
 
-  .image-container {
-    width: 160px;
-    height: auto;
-    overflow: hidden;
-    border-radius: 12px;
-    margin-bottom: 15px;
+  .influencer-card img {
+    height: 180px;
   }
 
-  .card-wrapper {
-    background-size: 55px 55px;
-    padding: 5px;
+  .influencer-name {
+    font-size: 1.4rem;
   }
 
-  .card-wrapper h2 {
-    font-size: 1.2rem;
+  .influencer-title {
+    font-size: 0.9rem;
   }
 
-  .card-wrapper p {
-    font-size: 0.775rem;
+  .social-icons {
+    gap: 1px;
   }
 
-  .social-icons a img {
-    width: 1rem;
-    height: 1rem;
+  .social-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .social-icon img {
+    width: 1.4rem;
+    height: 1.4rem;
   }
 
   /* <!-----Types of Influencers on Instagram to Partner With------> */
@@ -1750,29 +1764,34 @@
 
   /* <!------Meet Our Influencers-----> */
 
-  .image-container {
-    width: 200px;
-    height: auto;
-    overflow: hidden;
-    border-radius: 12px;
-    margin-bottom: 15px;
+  .meet-our-influencers-section .slider-title {
+    width: 70%;
   }
 
-  .card-wrapper {
-    background-size: 65px 65px;
+  .influencer-card {
+    flex: 0 0 260px;
   }
 
-  .card-wrapper h2 {
-    font-size: 1.4rem;
+  .influencer-name {
+    font-size: 1.6rem;
   }
 
-  .card-wrapper p {
-    font-size: 0.875rem;
+  .influencer-title {
+    font-size: 1rem;
   }
 
-  .social-icons a img {
-    width: 1.2rem;
-    height: 1.2rem;
+  .social-icons {
+    gap: 1px;
+  }
+
+  .social-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .social-icon img {
+    width: 1.4rem;
+    height: 1.4rem;
   }
 
   /* <!-----Types of Influencers on Instagram to Partner With------> */
@@ -1949,6 +1968,16 @@
   }
 }
 
+/* EXTRA SCREEN  */
+
+@media (min-width: 768px) and (max-width: 899px) {
+
+  /* <!------Meet Our Influencers-----> */
+  .meet-our-influencers-section .slider-title {
+    width: 100%;
+  }
+}
+
 /* TABLET v2 */
 @media (min-width: 900px) and (max-width: 1023px) {
 
@@ -2054,17 +2083,30 @@
   }
 
   /* <!------Meet Our Influencers-----> */
-
-  .image-container {
-    width: 250px;
-    height: auto;
-    overflow: hidden;
-    border-radius: 12px;
-    margin-bottom: 15px;
+  .influencer-card {
+    flex: 0 0 260px;
   }
 
-  .card-wrapper h2 {
-    font-size: 1.8rem;
+  .influencer-name {
+    font-size: 1.6rem;
+  }
+
+  .influencer-title {
+    font-size: 1rem;
+  }
+
+  .social-icons {
+    gap: 1px;
+  }
+
+  .social-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .social-icon img {
+    width: 1.4rem;
+    height: 1.4rem;
   }
 
   /* <!-----Types of Influencers on Instagram to Partner With------> */
@@ -2302,20 +2344,32 @@
   }
 
   /* <!------Meet Our Influencers-----> */
-
-  /* .influencer-card {
-    flex: 0 0 250px;
-  }
-
-  .card-image {
-    width: 100%;
-    height: 200px;
+  .influencer-card {
+    flex: 0 0 260px;
   }
 
   .influencer-name {
-    font-size: 1.5rem;
-  } */
-  
+    font-size: 1.6rem;
+  }
+
+  .influencer-title {
+    font-size: 1rem;
+  }
+
+  .social-icons {
+    gap: 1px;
+  }
+
+  .social-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .social-icon img {
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+
 
   /* <!-----Types of Influencers on Instagram to Partner With------> */
 
