@@ -1,67 +1,96 @@
-.influencers-card {
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    /* margin-right: 32px; */
-    text-align: left;
-    padding: 20px;
+.meet-our-influencers-section {
+    width: 100%;
+    margin: 40px 0;
     overflow: hidden;
-    /* border: 1px solid #be1622; */
-    background-image: url("/assets/service-pages_assets/instagram/fk-logo.svg");
-    background-repeat: no-repeat;
-    background-position: 101% 101%;
-    background-size: 80px 80px;
-    width: 343px;
-    height: 513px;
 }
 
-.image-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    height: 60%;
+.slider-wrapper {
+    width: 100%;
     overflow: hidden;
-    border-radius: 12px;
+    position: relative;
+    padding: 0;
+}
+
+.slider-track {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    width: fit-content;
+    padding: 20px;
+}
+
+.influencer-card {
+    flex: 0 0 300px;
+    border-radius: 30px;
+    border: 1px solid #BE1622;
+    background-image: url("/assets/service-pages_assets/instagram/fk-logo.svg");
+    background-repeat: no-repeat;
+    background-position: 104% 104%;
+    background-size: 85px 85px;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .influencer-card {
+        flex: 0 0 260px;
+    }
+}
+
+@media (max-width: 480px) {
+    .influencer-card {
+        flex: 0 0 220px;
+    }
+}
+
+.card-image {
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    object-fit: cover;
     margin-bottom: 15px;
 }
 
-.image-container img {
-    width: 100%;
-    height: auto !important;
-    object-fit: cover;
-    border-radius: 20px;
-}
-
-.influencers-card h2 {
+.influencer-name {
     font-size: 2rem;
     font-weight: 600;
     background: linear-gradient(90deg, #be1622 5.54%, #e84e1b 50.85%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-bottom: 5px;
 }
 
-.influencers-card p {
+.influencer-title {
     color: #000;
     font-weight: 300;
     font-size: 1.1rem;
+    margin-bottom: 15px;
 }
 
 .social-icons {
     display: flex;
-    justify-content: start;
-    gap: 2px;
-    margin-top: 20px;
+    gap: 5px;
+    margin-top: 10px;
 }
 
-.social-icons a img {
+.social-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0f0f0;
+}
+
+.social-icon img {
     width: 1.6rem;
     height: 1.6rem;
     transition: transform 0.2s;
-}
-
-.social-icons a img:hover {
+  }
+  
+  .social-icon img:hover {
     transform: scale(1.2);
-}
+  } 

@@ -322,140 +322,102 @@
 
 /* <!-- -------------------Meet Our Influencers----------------------> */
 
-/* .meet-our-influencers-section {
-  display: flex;
-  flex-direction: column;
-  gap: 64px;
-  overflow: hidden;
+.meet-our-influencers-section {
   width: 100%;
+  margin: 40px 0;
+  overflow: hidden;
 }
 
-.meet-our-influencers-container {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  gap: 64px;
+.slider-wrapper {
   width: 100%;
   overflow: hidden;
-} */
-
-/* @keyframes slide {
-  0% {
-    transform: translateX(0%);
-  }
-
-  100% {
-    transform: translateX(-50%);
-  }
-} */
-
-/* .meet-our-influencers-logo-container {
-  overflow: hidden;
-  background: white;
-  white-space: nowrap;
-  width: 100%;
   position: relative;
+  padding: 0;
 }
 
-.meet-our-influencers-logo-container:before,
-.meet-our-influencers-logo-container:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  width: 250px;
-  height: 100%;
-  z-index: 2;
+.slider-track {
+  display: flex;
+  gap: 30px;
+  position: relative;
+  width: fit-content;
+  padding: 20px;
 }
 
-.meet-our-influencers-logo-container:before {
-  left: 0;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
-}
-
-.meet-our-influencers-logo-container:after {
-  right: 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
-}
-
-.meet-our-influencers-logo-container:hover .meet-our-influencers-logos-slide {
-  animation-play-state: paused;
-}
-
-.meet-our-influencers-logo-container:hover .meet-our-influencers-logos-slide {
-  animation-play-state: paused;
-}
-
-.meet-our-influencers-logos-slide {
-  display: inline-block;
-  white-space: nowrap;
-  padding: 10px 0;
-} */
-
-/* .normal-slide {
-  animation: slide 30s linear infinite;
-} */
-
-/* .card-wrapper {
-  display: inline-block;
-  border-radius: 20px;
-  margin-right: 32px;
-  background-color: white;
-  text-align: left;
-  padding: 10px;
-  overflow: hidden;
-  border: 1px solid #be1622;
+.influencer-card {
+  flex: 0 0 300px;
+  border-radius: 30px;
+  border: 1px solid #BE1622;
   background-image: url("/assets/service-pages_assets/instagram/fk-logo.svg");
   background-repeat: no-repeat;
   background-position: 104% 104%;
-  background-size: 80px 80px;
+  background-size: 85px 85px;
+  padding: 15px;
+  position: relative;
+  overflow: hidden;
 }
 
-.image-container {
+@media (max-width: 768px) {
+  .influencer-card {
+    flex: 0 0 260px;
+  }
+}
+
+@media (max-width: 480px) {
+  .influencer-card {
+    flex: 0 0 220px;
+  }
+}
+
+.card-image {
   width: 100%;
-  height: 100%;
-  overflow: hidden;
-  border-radius: 12px;
+  height: 300px;
+  border-radius: 15px;
+  object-fit: cover;
   margin-bottom: 15px;
 }
 
-.image-container img {
-  width: 100%;
-  height: auto !important;
-  object-fit: cover;
-  border-radius: 20px;
-}
-
-.card-wrapper h2 {
+.influencer-name {
   font-size: 2rem;
   font-weight: 600;
   background: linear-gradient(90deg, #be1622 5.54%, #e84e1b 50.85%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-bottom: 5px;
 }
 
-.card-wrapper p {
+.influencer-title {
   color: #000;
   font-weight: 300;
   font-size: 1.1rem;
+  margin-bottom: 15px;
 }
 
 .social-icons {
   display: flex;
-  justify-content: start;
-  gap: 2px;
-  margin-top: 20px;
+  gap: 5px;
+  margin-top: 10px;
 }
 
-.social-icons a img {
+.social-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f0f0;
+}
+
+.social-icon img {
   width: 1.6rem;
   height: 1.6rem;
   transition: transform 0.2s;
 }
 
-.social-icons a img:hover {
+.social-icon img:hover {
   transform: scale(1.2);
-} */
+}
 
 /* <!-- -------------------Types of Influencers on Instagram to Partner With----------------------> */
 
@@ -2341,13 +2303,19 @@
 
   /* <!------Meet Our Influencers-----> */
 
-  .image-container {
-    width: 260px;
-    height: auto;
-    overflow: hidden;
-    border-radius: 12px;
-    margin-bottom: 15px;
+  /* .influencer-card {
+    flex: 0 0 250px;
   }
+
+  .card-image {
+    width: 100%;
+    height: 200px;
+  }
+
+  .influencer-name {
+    font-size: 1.5rem;
+  } */
+  
 
   /* <!-----Types of Influencers on Instagram to Partner With------> */
 
