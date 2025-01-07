@@ -709,7 +709,7 @@
     transform: scaleX(-1);
     right: 0;
     left: auto;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
   }
 
   .about-us-column-1 {
@@ -1502,7 +1502,7 @@
     transform: scaleX(-1);
     right: 0;
     left: auto;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
   }
 
   .about-us-column-1 {
@@ -2137,7 +2137,7 @@
     transform: scaleX(-1);
     right: 0;
     left: auto;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
   }
 
   .about-us-column-1 {
@@ -2801,7 +2801,7 @@
     transform: scaleX(-1);
     right: 0;
     left: auto;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
   }
 
   .about-us-column-1 {
@@ -3264,8 +3264,8 @@
   }
 
   .about-info-card img {
-    width: 164px;
-    height: 171px;
+    width: 190px;
+    height: auto;
     object-fit: cover;
   }
 
@@ -3285,7 +3285,7 @@
   .about-us-column-1 img {
     width: 265px;
     height: 423px;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
   }
 
   /* Meet our Brands */
@@ -3662,7 +3662,7 @@
   .about-us-column-1 img {
     width: 300px;
     height: 480px;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
   }
 
   .footer-wrapper {
@@ -4219,7 +4219,7 @@
   .about-us-column-1 img {
     width: 375px;
     height: 600px;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
   }
 
   .contact-btn {

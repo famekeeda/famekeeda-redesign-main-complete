@@ -1891,6 +1891,8 @@ ul {
 
 .about-info-card img {
   border-radius: 15px;
+  height: auto;
+  width: 200px;
 }
 
 .about-info-info-wrapper {
