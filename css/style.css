@@ -1714,6 +1714,7 @@ ul {
   gap: 40px;
   width: 100%;
   overflow: hidden;
+  max-width: 1920px;
 }
 
 .meet-our-team-container {
@@ -1732,30 +1733,67 @@ ul {
 }
 
 .img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
   position: relative;
-  border-radius: 20px;
+  border-radius: 30px;
   overflow: hidden;
   grid-column: 1 / span 2;
   border: 1.5px solid var(--fame_red);
+  z-index: 2;
 }
 
 .img-container img {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 0;
   width: 100%;
-  height: 100%;
+  height: auto;
+  height: -webkit-fill-available;
+  overflow: hidden;
   object-fit: cover;
+  z-index: 1;
+}
+
+.img-potrait-container img {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -1px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
 }
 
 .img-potrait-container {
-  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
   overflow: hidden;
   border: 1.5px solid var(--fame_red);
+  z-index: 2;
 }
 
 .description-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 12px 20px;
+  padding: 24px;
+  text-align: center;
+  width: 100%;
+  height: 22%;
 }
 
 .individual-name {

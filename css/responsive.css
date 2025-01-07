@@ -695,6 +695,10 @@
     border-radius: 12px;
   }
 
+  .description-container {
+    height: 30%;
+  }
+
   /* About Us */
 
   .about-us-container {
@@ -1488,6 +1492,10 @@
     border-radius: 12px;
   }
 
+  .description-container {
+    height: 30%;
+  }
+
   /* About Us */
 
   .about-us-container {
@@ -2120,7 +2128,8 @@
   }
 
   .meet-whole-team-wrapper img {
-    width: 535px;
+    /* width: 535px; */
+    width: 28%;
   }
 
   /* About Us */
@@ -2311,6 +2320,11 @@
 
   .meme-marketing-image {
     height: 210px;
+  }
+
+  .meet-whole-team-wrapper img {
+    /* width: 535px; */
+    width: 36%;
   }
 }
 
@@ -2784,7 +2798,8 @@
   }
 
   .meet-whole-team-wrapper img {
-    width: 535px;
+    /* width: 535px; */
+    width: 44%;
   }
 
   /* About Us */
