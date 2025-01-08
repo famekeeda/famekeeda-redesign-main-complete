@@ -896,6 +896,11 @@
   padding: 50px;
 }
 
+.our-philosophy-icon img {
+  height: 100px;
+  width: 100px;
+}
+
 .our-philosophy-title {
   color: #000;
   text-align: center;
