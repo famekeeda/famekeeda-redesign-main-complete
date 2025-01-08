@@ -849,42 +849,46 @@
 }
 
 .our-philosophy-section {
-  overflow: hidden;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 0 100px;
   max-width: 1920px;
-  overflow: hidden;
+  width: 100%;
 }
 
 .our-philosophy-container {
   display: flex;
   justify-content: center;
   gap: 40px;
-  padding: 20px;
 }
 
 .our-philosophy-card {
   /* width: 485px;
   height: 631px; */
   width: 545px;
-  height: 700px;
+  /* height: 700px; */
+  height: auto;
   background: white;
   border: 1px solid #d2dde8;
   border-radius: 20px;
   position: relative;
-  background-image: url("../assets/service-pages_assets/orange-red-strip.svg"),
+  overflow: hidden;
+  /* background-image: url("../assets/service-pages_assets/orange-red-strip.svg"),
     url("../assets/service-pages_assets/orange-red-strip.svg");
   background-repeat: no-repeat;
-  background-position: 50% 100%, 50% 0%;
+  background-position: 50% 100%, 50% 0%; */
 }
 
 .our-philosophy-card-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 20px;
-  padding: 40px;
+  height: 100%;
+  overflow: hidden;
+  /* padding: 40px; */
 }
 
 .our-philosophy-icon {
@@ -893,7 +897,10 @@
   gap: 20px;
   justify-content: center;
   align-items: center;
-  padding: 50px;
+  padding: 30px;
+  background-color: #d2dde818;
+  border-right: 1px solid #d2dde8;
+  width: 100%;
 }
 
 .our-philosophy-icon img {
@@ -910,12 +917,56 @@
 }
 
 .our-philosophy-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #000;
   text-align: justify;
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 2.2rem;
+  padding: 40px;
 }
+
+.our-philosophy-content ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  list-style: disc;
+}
+
+.our-philosophy-content ul b {
+  color: #be1823;
+  font-weight: 600;
+}
+
+.our-philosophy-content ul li::marker {
+  color: #be1823;
+}
+
+.op-inner-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.mission-vision {
+  flex: 1;
+  width: 100%;
+}
+
+.values {
+  flex: 2;
+  width: 100%;
+}
+
+/* .op-first-col {
+  width: 40%;
+}
+
+.op-second-col {
+  width: 60%;
+} */
 
 /* -------------------------------------------------------------------------------------------------MEDIA QUERIES - RESPONSIVENESS---------------------------------------------------------------------------------------------------- */
 
@@ -1056,43 +1107,43 @@
     font-size: 15px;
   }
 
-    /* <!------Meet Our Influencers-----> */
+  /* <!------Meet Our Influencers-----> */
 
-    .meet-our-influencers-section .slider-title {
-      width: 75%;
-    }
-    
-    .influencer-card {
-      flex: 0 0 220px;
-      background-position: 104% 104%;
-      background-size: 65px 65px;
-    }
-  
-    .influencer-card img {
-      height: 180px;
-    }
-  
-    .influencer-name {
-      font-size: 1.4rem;
-    }
-  
-    .influencer-title {
-      font-size: 0.9rem;
-    }
-  
-    .social-icons {
-      gap: 1px;
-    }
-  
-    .social-icon {
-      width: 28px;
-      height: 28px;
-    }
-  
-    .social-icon img {
-      width: 1.4rem;
-      height: 1.4rem;
-    }
+  .meet-our-influencers-section .slider-title {
+    width: 75%;
+  }
+
+  .influencer-card {
+    flex: 0 0 220px;
+    background-position: 104% 104%;
+    background-size: 65px 65px;
+  }
+
+  .influencer-card img {
+    height: 180px;
+  }
+
+  .influencer-name {
+    font-size: 1.4rem;
+  }
+
+  .influencer-title {
+    font-size: 0.9rem;
+  }
+
+  .social-icons {
+    gap: 1px;
+  }
+
+  .social-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .social-icon img {
+    width: 1.4rem;
+    height: 1.4rem;
+  }
 
   /* <!-----Types of Influencers on Instagram to Partner With------> */
 
@@ -1237,7 +1288,7 @@
     margin-bottom: 40px;
   }
 
-  .our-philosophy-section {
+  /* .our-philosophy-section {
     gap: 20px;
   }
 
@@ -1261,6 +1312,31 @@
 
   .our-philosophy-icon {
     gap: 20px;
+    padding: 20px;
+  } */
+
+  .our-philosophy-section {
+    padding-inline: 10px;
+  }
+
+  .our-philosophy-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .our-philosophy-card-container {
+    gap: 0;
+    flex-direction: column;
+  }
+
+  .op-inner-container {
+    flex-direction: column;
+  }
+
+  .our-philosophy-icon {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #d2dde8;
     padding: 20px;
   }
 
@@ -1418,7 +1494,7 @@
   .meet-our-influencers-section .slider-title {
     width: 70%;
   }
-  
+
   .influencer-card {
     flex: 0 0 220px;
     background-position: 104% 104%;
@@ -1595,6 +1671,30 @@
   }
 
   .our-philosophy-section {
+    padding-inline: 10px;
+  }
+
+  .our-philosophy-container {
+    flex-direction: column;
+  }
+
+  .our-philosophy-card-container {
+    gap: 0;
+  }
+
+  .op-inner-container {
+    flex-direction: column;
+  }
+
+  .our-philosophy-icon {
+    width: 55%;
+  }
+
+  /* .op-mv-icon {
+    padding: 30px;
+  } */
+
+  /* .our-philosophy-section {
     gap: 20px;
   }
 
@@ -1619,10 +1719,10 @@
   .our-philosophy-icon {
     gap: 10px;
     padding: 20px;
-  }
+  } */
 
   .our-philosophy-icon img {
-    height: 30px;
+    height: 40px;
     width: auto;
   }
 
@@ -1631,8 +1731,13 @@
   }
 
   .our-philosophy-content {
-    font-size: 0.6rem;
-    line-height: 0.9rem;
+    font-size: 0.7rem;
+    line-height: 1.3rem;
+    padding: 20px;
+  }
+
+  .our-philosophy-content ul {
+    padding-left: 10px;
   }
 }
 
@@ -1932,6 +2037,36 @@
   }
 
   .our-philosophy-section {
+    padding: 0 24px;
+  }
+
+  .our-philosophy-container {
+    flex-direction: column;
+  }
+
+  .op-inner-container {
+    flex-direction: column;
+  }
+
+
+  .our-philosophy-icon img {
+    height: 50px;
+    width: auto;
+  }
+
+  .our-philosophy-title {
+    font-size: 1.4rem;
+  }
+
+  .our-philosophy-content {
+    /* font-size: 0.8rem;
+    line-height: 1.3rem; */
+    font-size: 0.92rem;
+    line-height: 1.7rem;
+    padding: 25px;
+  }
+
+  /* .our-philosophy-section {
     gap: 20px;
   }
 
@@ -1970,7 +2105,7 @@
   .our-philosophy-content {
     font-size: 0.775rem;
     line-height: 1.2rem;
-  }
+  } */
 }
 
 /* EXTRA SCREEN  */
@@ -1980,6 +2115,49 @@
   /* <!------Meet Our Influencers-----> */
   .meet-our-influencers-section .slider-title {
     width: 100%;
+  }
+
+  .our-philosophy-section {
+    padding: 0 24px;
+  }
+
+  .our-philosophy-container {
+    flex-direction: column;
+  }
+
+  .our-philosophy-card-container {
+    gap: 0;
+  }
+
+  .op-inner-container {
+    flex-direction: row;
+  }
+
+  .our-philosophy-icon {
+    width: auto;
+  }
+
+  .op-mv-icon {
+    padding: 26px;
+  }
+
+  .our-philosophy-icon img {
+    height: 50px;
+    width: auto;
+  }
+
+  .our-philosophy-title {
+    font-size: 1.3rem;
+  }
+
+  .our-philosophy-content {
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+    padding: 22px;
+  }
+
+  .our-philosophy-content ul {
+    padding-left: 20px;
   }
 }
 
@@ -2216,10 +2394,18 @@
   }
 
   .our-philosophy-section {
-    gap: 20px;
+    padding: 0 24px;
   }
 
   .our-philosophy-container {
+    flex-direction: column;
+  }
+
+  .op-inner-container {
+    flex-direction: row;
+  }
+
+  /* .our-philosophy-container {
     gap: 20px;
     padding: 20px;
   }
@@ -2238,6 +2424,14 @@
   .our-philosophy-icon {
     gap: 20px;
     padding: 20px;
+  } */
+
+  .our-philosophy-icon {
+    width: auto;
+  }
+
+  .op-mv-icon {
+    padding: 26px;
   }
 
   .our-philosophy-icon img {
@@ -2250,8 +2444,11 @@
   }
 
   .our-philosophy-content {
-    font-size: 0.8rem;
-    line-height: 1.3rem;
+    /* font-size: 0.8rem;
+    line-height: 1.3rem; */
+    font-size: 0.92rem;
+    line-height: 1.7rem;
+    padding: 25px;
   }
 }
 
@@ -2471,10 +2668,10 @@
   }
 
   .our-philosophy-section {
-    gap: 20px;
+    padding: 0 32px;
   }
 
-  .our-philosophy-container {
+  /* .our-philosophy-container {
     gap: 20px;
     padding: 20px;
   }
@@ -2493,10 +2690,10 @@
   .our-philosophy-icon {
     gap: 20px;
     padding: 20px;
-  }
+  } */
 
   .our-philosophy-icon img {
-    height: 50px;
+    height: 60px;
     width: auto;
   }
 
@@ -2506,7 +2703,8 @@
 
   .our-philosophy-content {
     font-size: 0.8rem;
-    line-height: 1.5rem;
+    line-height: 1.4rem;
+    padding: 30px;
   }
 }
 
@@ -2678,10 +2876,10 @@
   }
 
   .our-philosophy-section {
-    gap: 20px;
+    padding: 0 50px;
   }
 
-  .our-philosophy-container {
+  /* .our-philosophy-container {
     gap: 20px;
     padding: 20px;
   }
@@ -2700,10 +2898,10 @@
   .our-philosophy-icon {
     gap: 20px;
     padding: 20px;
-  }
+  } */
 
   .our-philosophy-icon img {
-    height: 50px;
+    height: 70px;
     width: auto;
   }
 
@@ -2713,7 +2911,7 @@
 
   .our-philosophy-content {
     font-size: 0.92rem;
-    line-height: 1.8rem;
+    line-height: 1.7rem;
   }
 }
 
@@ -2825,10 +3023,10 @@
   }
 
   .our-philosophy-section {
-    gap: 20px;
+    padding: 0 64px;
   }
 
-  .our-philosophy-container {
+  /* .our-philosophy-container {
     gap: 20px;
     padding: 20px;
   }
@@ -2847,7 +3045,7 @@
   .our-philosophy-icon {
     gap: 20px;
     padding: 40px;
-  }
+  } */
 
   .our-philosophy-title {
     font-size: 1.8rem;
@@ -2970,7 +3168,7 @@
     width: 1500px;
   }
 
-  .our-philosophy-section {
+  /* .our-philosophy-section {
     gap: 20px;
   }
 
@@ -2993,6 +3191,10 @@
   .our-philosophy-icon {
     gap: 20px;
     padding: 40px;
+  } */
+
+  .our-philosophy-section {
+    padding: 0 80px;
   }
 
   .our-philosophy-title {
