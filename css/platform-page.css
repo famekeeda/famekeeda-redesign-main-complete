@@ -110,6 +110,7 @@
   flex-direction: column;
   gap: 20px;
   align-items: center;
+  width: 100%;
 }
 
 .wim-title {
@@ -242,7 +243,7 @@
   color: #323233;
   text-align: center;
   width: 70%;
-  line-height: 2.2rem;
+  line-height: 1.8rem;
 }
 
 .modern-slider {
