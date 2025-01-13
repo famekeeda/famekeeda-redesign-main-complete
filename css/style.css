@@ -25,6 +25,10 @@ body {
   display: none;
 }
 
+section {
+  gap: 56px;
+}
+
 .service-section,
 .success-stories-section,
 .show-reel-section,
@@ -305,7 +309,6 @@ ul {
   font-feature-settings: 'liga' off, 'clig' off;
   font-size: 48px;
   font-style: normal;
-  line-height: normal;
   text-transform: capitalize;
   font-weight: 600;
 }
@@ -342,7 +345,7 @@ ul {
 }
 
 .spc-text {
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 3rem;
   text-align: center;
   font-family: "Poppins";
@@ -364,6 +367,7 @@ ul {
   font-weight: 300;
   text-align: center;
   width: 58%;
+  padding: 24px 0px;
 }
 
 .influencer-agency-container {
@@ -794,17 +798,9 @@ ul {
 .service-section {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  /* gap: 40px; */
   max-width: 1920px;
   width: 100%;
-}
-
-.service-section {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  /* max-width: 1920px; */
-  /* width: 90%; */
 }
 
 .service-container,
@@ -1343,7 +1339,7 @@ ul {
 .influencer-makes-waves {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  /* gap: 40px; */
 }
 
 .social-section {
@@ -1559,7 +1555,7 @@ ul {
   display: flex;
   flex-direction: column;
   max-width: 1920px;
-  gap: 40px;
+  /* gap: 40px; */
 }
 
 .success-stories-card-container {
@@ -1893,7 +1889,7 @@ ul {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  /* gap: 40px; */
   width: 100%;
   overflow: hidden;
   max-width: 1920px;
@@ -2140,7 +2136,7 @@ ul {
 .meet-our-brands-section {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  /* gap: 40px; */
   overflow: hidden;
   width: 100%;
 }

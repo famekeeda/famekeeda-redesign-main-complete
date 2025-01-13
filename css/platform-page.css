@@ -10,9 +10,13 @@
   --fame_orange: #e94f1c;
 }
 
-/* section {
-  max-width: 1920px;
-} */
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  /* max-width: 1920px; */
+  /* padding: 0px 100px; */
+}
 
 .ig-marketing-services,
 .social-proofing-outer-section,
@@ -101,14 +105,14 @@
 .why-ig-marketing {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  /* gap: 20px; */
   align-items: center;
 }
 
 .wim-content {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  /* gap: 40px; */
   align-items: center;
   width: 100%;
 }
@@ -152,7 +156,7 @@
 .wim-inner-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 40px;
   align-items: center;
   justify-content: center;
 }
@@ -234,17 +238,37 @@
 .what-is-ig-marketing {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  /* gap: 20px; */
   align-items: center;
 }
 
-.what-is-ig-marketing p {
+.wim-content-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  font-size: 2rem;
+  color: #323233;
+  font-weight: 400;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 56px;
+}
+
+.what-is-ig-marketing h3 {
+  /* font-size: 2rem;
+  color: #323233;
+  text-align: center;
+  width: 70%;
+  line-height: 3rem; */
   font-size: 1.2rem;
   color: #323233;
   text-align: center;
   width: 70%;
-  line-height: 1.8rem;
+  line-height: 2.2rem;
 }
+
 
 .modern-slider {
   display: flex;
@@ -257,7 +281,7 @@
 
 .trending-slider {
   height: 52rem;
-  padding: 2rem 0;
+  /* padding: 2rem 0; */
   position: relative;
 }
 
@@ -325,7 +349,7 @@
 
 .meet-our-influencers-section {
   width: 100%;
-  margin: 40px 0;
+  /* margin: 40px 0; */
   overflow: hidden;
 }
 
@@ -427,14 +451,14 @@
 .types-of-influencers {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  /* gap: 20px; */
   align-items: center;
 }
 
 .toi-content {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  /* gap: 20px; */
   align-items: center;
 }
 
@@ -562,8 +586,8 @@
   align-items: flex-start;
   gap: 0;
   display: block;
-  list-style-type: disc;
-  padding-left: 20px;
+  list-style-type: none;
+  padding-left: 10px;
 }
 
 .accordion-content ul li {
@@ -587,12 +611,60 @@
   padding: 0 20px;
 }
 
+table {
+  width: auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 2px solid #f2f2f2;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  font-weight: 700;
+}
+
+tr {
+  font-weight: 500;
+}
+
+.accordion-header-inner {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.magnify-glass {
+  height: 20px;
+  filter: grayscale(100%) contrast(200%);
+}
+
+@media (min-width: 600px) and (max-width: 1600px) {
+  .magnify-glass {
+    height: 16px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 599px) {
+  .magnify-glass {
+    height: 14px;
+  }
+}
+
+
+
+
 /* <!-- -------------------Frequently Asked Questions----------------------> */
 
 .faq-section {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  /* gap: 20px; */
   align-items: center;
   justify-content: center;
 }
@@ -693,7 +765,7 @@
 .testimonial {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  /* gap: 20px; */
   width: 97%;
   max-width: 1920px;
   text-align: center;
@@ -854,7 +926,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  /* gap: 40px; */
   padding: 0 100px;
   max-width: 1920px;
   width: 100%;
@@ -985,7 +1057,7 @@
   }
 
   .types-of-influencers p,
-  .what-is-ig-marketing p,
+  .what-is-ig-marketing h3,
   .why-ig-marketing p {
     font-size: 0.72rem;
     line-height: 1.2rem;
@@ -1368,7 +1440,7 @@
   }
 
   .types-of-influencers p,
-  .what-is-ig-marketing p,
+  .what-is-ig-marketing h3,
   .why-ig-marketing p {
     font-size: 0.8rem;
     line-height: 1.5rem;
@@ -1756,7 +1828,7 @@
   }
 
   .types-of-influencers p,
-  .what-is-ig-marketing p,
+  .what-is-ig-marketing h3,
   .why-ig-marketing p {
     font-size: 0.9rem;
     line-height: 1.6rem;
@@ -2174,7 +2246,7 @@
   }
 
   .types-of-influencers p,
-  .what-is-ig-marketing p,
+  .what-is-ig-marketing h3,
   .why-ig-marketing p {
     font-size: 1rem;
     line-height: 1.6rem;
@@ -2467,7 +2539,7 @@
   }
 
   .types-of-influencers p,
-  .what-is-ig-marketing p,
+  .what-is-ig-marketing h3,
   .why-ig-marketing p {
     font-size: 0.9rem;
     line-height: 1.6rem;
@@ -2767,7 +2839,7 @@
 
   /* <!-----What is Instagram Marketing-----> */
 
-  .what-is-ig-marketing p {
+  .what-is-ig-marketing h3 {
     font-size: 1.05rem;
     width: 85%;
     line-height: 2rem;
@@ -2956,7 +3028,7 @@
 
   /* <!-----What is Instagram Marketing-----> */
 
-  .what-is-ig-marketing p {
+  .what-is-ig-marketing h3 {
     font-size: 1.15rem;
   }
 
@@ -3104,7 +3176,7 @@
 
   /* <!-----What is Instagram Marketing-----> */
 
-  .what-is-ig-marketing p {
+  .what-is-ig-marketing h3 {
     font-size: 1.15rem;
   }
 
@@ -3215,6 +3287,8 @@
 }
 
 /* --- DESKTOP v5 --- */
-@media (min-width: 1920px) {
-  /* Already Responsive for Large Desktops */
+@media (width: 1920px) {
+  .ig-marketing-services {
+    padding: 0px 100px;
+  }
 }

@@ -781,14 +781,6 @@ ul {
   width: 100%;
 }
 
-.service-section {
-  display: flex;
-  flex-direction: column;
-  gap: 64px;
-  /* max-width: 1920px; */
-  /* width: 90%; */
-}
-
 .service-container,
 .success-stories-container {
   display: flex;
