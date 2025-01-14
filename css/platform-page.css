@@ -284,6 +284,10 @@ section {
   opacity: 1;
 } */
 
+b {
+  font-weight: 600;
+}
+
 .insight_header {
   display: flex;
   flex-direction: column;
