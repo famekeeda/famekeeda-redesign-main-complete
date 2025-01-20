@@ -138,7 +138,7 @@ section {
   font-weight: 600;
 }
 
-.why-ig-marketing p {
+.wim-content p {
   font-size: 1.375rem;
   color: #323233;
   text-align: center;
@@ -178,7 +178,7 @@ section {
   background-color: #ccc;
 }
 
-.wim-card h2 {
+.wim-card-title {
   color: #fff;
   font-size: 1.6rem;
   line-height: 2rem;
@@ -187,7 +187,7 @@ section {
   position: relative;
 }
 
-.wim-card p {
+.wim-card-desc {
   color: #fff;
   font-size: 0.9rem;
   font-weight: 300;
@@ -611,6 +611,7 @@ b {
 .toi-content {
   display: flex;
   flex-direction: column;
+  gap: 1rem;
   /* gap: 20px; */
   align-items: center;
 }
@@ -633,8 +634,8 @@ b {
   font-weight: 600;
 }
 
-.types-of-influencers p {
-  font-size: 1.2rem;
+.toi-content p {
+  font-size: 1.375rem;
   color: #323233;
   text-align: center;
   width: 70%;
@@ -644,13 +645,14 @@ b {
 .toi-grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  /* gap: 20px; */
+  gap: 40px;
 }
 
 .toi-grid-item {
   width: 480px;
   background: transparent;
-  padding: 20px;
+  /* padding: 20px; */
   font-size: 30px;
   text-align: center;
 }
@@ -659,14 +661,14 @@ b {
   width: 100%;
 }
 
-.toi-grid-item h2 {
+.toi-grid-title {
   font-size: 1.6rem;
   color: #000;
   font-weight: 600;
   text-align: center;
 }
 
-.toi-grid-item p {
+.toi-grid-description {
   font-size: 1.2rem;
   color: #323233;
   font-weight: 400;
@@ -1211,9 +1213,9 @@ tr {
     font-size: 1.5rem;
   }
 
-  .types-of-influencers p,
+  .toi-content p,
   .what-is-ig-marketing h3,
-  .why-ig-marketing p {
+  .wim-content p {
     font-size: 0.72rem;
     line-height: 1.2rem;
     width: 95%;
@@ -1380,21 +1382,21 @@ tr {
     align-items: flex-start;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
   }
 
   .toi-grid-item {
     width: calc(480px * 0.67);
     background: transparent;
     font-size: 25px;
-    padding: 10px;
+    /* padding: 10px; */
   }
 
-  .toi-grid-item h2 {
+  .toi-grid-title {
     font-size: 1rem;
   }
 
-  .toi-grid-item p {
+  .toi-grid-description {
     font-size: 0.72rem;
     line-height: 1.2rem;
   }
@@ -1594,9 +1596,9 @@ tr {
     font-size: 1.5rem;
   }
 
-  .types-of-influencers p,
+  .toi-content p,
   .what-is-ig-marketing h3,
-  .why-ig-marketing p {
+  .wim-content p {
     font-size: 0.8rem;
     line-height: 1.5rem;
     width: 95%;
@@ -1762,21 +1764,21 @@ tr {
     align-items: flex-start;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
   }
 
   .toi-grid-item {
     width: calc(480px * 0.41);
     background: transparent;
     font-size: 25px;
-    padding: 10px;
+    /* padding: 10px; */
   }
 
-  .toi-grid-item h2 {
+  .toi-grid-title {
     font-size: 1.2rem;
   }
 
-  .toi-grid-item p {
+  .toi-grid-description {
     font-size: 0.8rem;
     line-height: 1.2rem;
   }
@@ -1982,9 +1984,9 @@ tr {
     font-size: 2rem;
   }
 
-  .types-of-influencers p,
+  .toi-content p,
   .what-is-ig-marketing h3,
-  .why-ig-marketing p {
+  .wim-content p {
     font-size: 0.9rem;
     line-height: 1.6rem;
     width: 90%;
@@ -2139,21 +2141,21 @@ tr {
     align-items: flex-start;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
   }
 
   .toi-grid-item {
     width: calc(480px * 0.5333);
     background: transparent;
     font-size: 25px;
-    padding: 10px;
+    /* padding: 10px; */
   }
 
-  .toi-grid-item h2 {
+  .toi-grid-title {
     font-size: 1.2rem;
   }
 
-  .toi-grid-item p {
+  .toi-grid-description {
     font-size: 0.8rem;
     line-height: 1.2rem;
   }
@@ -2400,9 +2402,9 @@ tr {
     font-size: 2.5rem;
   }
 
-  .types-of-influencers p,
+  .toi-content p,
   .what-is-ig-marketing h3,
-  .why-ig-marketing p {
+  .wim-content p {
     font-size: 1rem;
     line-height: 1.6rem;
     width: 90%;
@@ -2526,14 +2528,14 @@ tr {
     width: calc(480px * 0.5333);
     background: transparent;
     font-size: 25px;
-    padding: 10px;
+    /* padding: 10px; */
   }
 
-  .toi-grid-item h2 {
+  .toi-grid-title {
     font-size: 1.2rem;
   }
 
-  .toi-grid-item p {
+  .toi-grid-description {
     font-size: 0.8rem;
     line-height: 1.2rem;
   }
@@ -2693,9 +2695,9 @@ tr {
     font-size: 2rem;
   }
 
-  .types-of-influencers p,
+  .toi-content p,
   .what-is-ig-marketing h3,
-  .why-ig-marketing p {
+  .wim-content p {
     font-size: 0.9rem;
     line-height: 1.6rem;
     width: 95%;
@@ -2809,11 +2811,11 @@ tr {
     font-size: 25px;
   }
 
-  .toi-grid-item h2 {
+  .toi-grid-title {
     font-size: 1.2rem;
   }
 
-  .toi-grid-item p {
+  .toi-grid-description {
     font-size: 0.725rem;
     line-height: 1.2rem;
   }
@@ -2960,7 +2962,7 @@ tr {
 
   /* <!--- Why Instagram Marketing ---> */
 
-  .why-ig-marketing p {
+  .wim-content p {
     font-size: 1.05rem;
     width: 85%;
     line-height: 2rem;
@@ -3017,7 +3019,7 @@ tr {
 
   /* <!-----Types of Influencers on Instagram to Partner With------> */
 
-  .types-of-influencers p {
+  .toi-content p {
     font-size: 1.05rem;
     line-height: 2rem;
   }
@@ -3028,11 +3030,11 @@ tr {
     font-size: 25px;
   }
 
-  .toi-grid-item h2 {
+  .toi-grid-title {
     font-size: 1.4rem;
   }
 
-  .toi-grid-item p {
+  .toi-grid-description {
     font-size: 0.725rem;
     line-height: 1.4rem;
   }
@@ -3158,7 +3160,7 @@ tr {
 
   /* <!--- Why Instagram Marketing ---> */
 
-  .why-ig-marketing p {
+  .wim-content p {
     font-size: 1.15rem;
   }
 
@@ -3204,7 +3206,7 @@ tr {
 
   /* <!-----Types of Influencers on Instagram to Partner With------> */
 
-  .types-of-influencers p {
+  .toi-content p {
     font-size: 1.15rem;
     line-height: 2.2rem;
   }
@@ -3215,11 +3217,11 @@ tr {
     font-size: 25px;
   }
 
-  .toi-grid-item h2 {
+  .toi-grid-title {
     font-size: 1.4rem;
   }
 
-  .toi-grid-item p {
+  .toi-grid-description {
     font-size: 0.875rem;
     line-height: 1.4rem;
   }
@@ -3305,7 +3307,7 @@ tr {
 
   /* <!--- Why Instagram Marketing ---> */
 
-  .why-ig-marketing p {
+  .wim-content p {
     font-size: 1.15rem;
   }
 
@@ -3350,7 +3352,7 @@ tr {
 
   /* <!-----Types of Influencers on Instagram to Partner With------> */
 
-  .types-of-influencers p {
+  .toi-content p {
     font-size: 1.15rem;
     line-height: 2.2rem;
   }
@@ -3361,11 +3363,11 @@ tr {
     font-size: 25px;
   }
 
-  .toi-grid-item h2 {
+  .toi-grid-title {
     font-size: 1.4rem;
   }
 
-  .toi-grid-item p {
+  .toi-grid-description {
     font-size: 0.875rem;
     line-height: 1.4rem;
   }
