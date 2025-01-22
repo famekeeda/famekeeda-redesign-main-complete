@@ -491,10 +491,6 @@ b {
   max-width: 100rem;
 }
 
-.swiper-wrapper {
-  width: 1400px;
-}
-
 .trending-slider {
   /* height: 52rem; */
   height: auto;
@@ -516,20 +512,11 @@ b {
   border: 0.5rem solid #fff;
   border-radius: 2rem;
   object-fit: cover; */
-  /* width: 30rem; */
+  width: 30rem;
   height: 30rem;
   border: 0.5rem solid #fff;
   border-radius: 2rem;
   object-fit: cover;
-  width: -webkit-fill-available;
-}
-
-.swiper-3d {
-  display: flex;
-  perspective: 1000px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .swiper-slide-shadow-left,
