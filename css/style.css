@@ -1544,7 +1544,7 @@ ul {
   background: linear-gradient(33deg, #000 -2.04%, #666 101.25%);
 }
 
-.youtube{
+.youtube {
   background: linear-gradient(148deg, #ee0f0f 0%, #bf2626 98.35%);
 }
 
@@ -2048,13 +2048,32 @@ ul {
 
 .meet-whole-team-wrapper {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 1920px;
   height: auto;
+  position: relative;
   /* background: var(--fame_red); */
+  /* background: linear-gradient(to top, rgba(191, 21, 34, 1) 0%, rgba(191, 21, 34, 0.7) 30%, rgba(191, 21, 34, 0.3) 40%, rgba(191, 21, 34, 0) 100%); */
 }
+
+.meet-whole-team-wrapper img {
+  width: 90%;
+}
+
+/* .blank_shade {
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(to top,
+    rgba(191, 21, 34, 1) 0%,
+    rgba(191, 21, 34, 0.7) 30%,
+    rgba(191, 21, 34, 0.3) 60%,
+    rgba(191, 21, 34, 0) 80%
+);
+  height: 50%;
+  width: 100%;
+} */
 
 
 /*----------------------------------------- ABOUT US SECTION --------------------------------------------*/
