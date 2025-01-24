@@ -608,15 +608,32 @@ b {
   flex: 0 0 300px;
   display: flex;
   flex-direction: column;
-  border-radius: 30px;
+  border-radius: 32px;
   border: 1px solid #BE1622;
   background-image: url("/assets/service-pages_assets/instagram/fk-logo.svg");
   background-repeat: no-repeat;
   background-position: 104% 104%;
   background-size: 85px 85px;
-  padding: 15px;
+  padding: 8px;
   position: relative;
   overflow: hidden;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.inf_top_conatiner {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 80%;
+}
+
+.inf_text_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
+  width: 92%;
 }
 
 /* @media (max-width: 768px) {
@@ -634,32 +651,34 @@ b {
 .card-image {
   width: 100%;
   height: auto;
-  border-radius: 15px;
+  border-radius: 32px;
   object-fit: cover;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
 }
 
 .influencer-name {
-  font-size: 2rem;
+  font-size: 28px;
   font-weight: 600;
   background: linear-gradient(90deg, #be1622 5.54%, #e84e1b 50.85%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
 }
 
 .influencer-title {
   color: #000;
   font-weight: 300;
-  font-size: 1.1rem;
-  margin-bottom: 15px;
+  font-size: 16px;
+  /* margin-bottom: 15px; */
 }
 
 .social-icons {
   display: flex;
   gap: 5px;
-  margin-top: 10px;
+  align-self: center;
+  width: 92%;
+  /* margin-top: 10px; */
 }
 
 .social-icon {
