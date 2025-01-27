@@ -48,6 +48,13 @@ var TrendingSlider = new Swiper('.trending-slider', {
     },
     640: {
       slidesPerView: 2,
+      coverflowEffect: {
+        rotate: 20,
+        stretch: 0,
+        depth: 200,
+        modifier: 1,
+        slideShadows: true,
+      },
     },
     1200: {
       slidesPerView: 3

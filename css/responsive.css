@@ -140,17 +140,18 @@
 
   .spc-title {
     font-size: 20px;
-    line-height: 30px;
+    line-height: 24px;
   }
 
   .spc-text {
-    font-size: 12px;
+    font-size: 10px;
     line-height: 14px;
     text-align: center;
   }
 
   .social-proofing-container {
-    gap: 12px;
+    gap: 8px;
+    width: 100%;
   }
 
   /* Logo Scrolling */
@@ -1037,8 +1038,8 @@
   /* Social Proofing */
 
   .spc-title {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 24px;
+    line-height: 16px;
   }
 
   .spc-text {
@@ -1048,7 +1049,8 @@
   }
 
   .social-proofing-container {
-    gap: 12px;
+    gap: 24px;
+    width: 100%;
   }
 
   /* Logo Scrolling */
@@ -1900,7 +1902,8 @@
   }
 
   .social-proofing-container {
-    gap: 40px;
+    gap: 28px;
+    width: 100%;
   }
 
   /* Logo Scrolling */
@@ -2687,12 +2690,12 @@
   /* Social Proofing */
 
   .spc-title {
-    font-size: 32px;
+    font-size: 40px;
     line-height: 40px;
   }
 
   .spc-text {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     text-align: center;
   }
@@ -4334,6 +4337,10 @@
   .spc-text {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .social-proofing-container {
+    gap: 40px;
   }
 
   /* Top Influencer Marketing Agency */
