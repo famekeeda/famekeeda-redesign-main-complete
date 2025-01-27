@@ -47,9 +47,9 @@ var TrendingSlider = new Swiper('.trending-slider', {
       slidesPerView: 1
     },
     640: {
-      slidesPerView: 2
+      slidesPerView: 2,
     },
-    1024: {
+    1200: {
       slidesPerView: 3
     }
   }

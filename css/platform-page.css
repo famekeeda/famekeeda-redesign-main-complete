@@ -493,6 +493,10 @@ b {
 
 .swiper-wrapper {
   width: 1400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .trending-slider {
@@ -2801,8 +2805,7 @@ tr {
   }
 
   .toi-content p,
-  .what-is-ig-marketing h3,
-  .wim-content p {
+  .what-is-ig-marketing h3 {
     font-size: 0.9rem;
     line-height: 1.6rem;
     width: 95%;
@@ -2863,17 +2866,26 @@ tr {
 
   /* <!-----What is Instagram Marketing-----> */
 
-  .modern-slider {
-    max-width: calc(100rem * 0.5333);
+  /* .modern-slider {
+    max-width: calc(100rem * 0.75);
+  } */
+
+  .swiper-wrapper {
+    width: 900px;
+  }
+
+  .swiper-3d {
+    perspective: 486px;
   }
 
   .trending-slider {
-    height: 42rem;
+    height: auto;
+    width: 100%;
   }
 
   .trending-slide .trending-slide-img img {
-    width: 34rem;
-    height: 34rem;
+    width: 28rem;
+    height: 28rem;
   }
 
   .slider-arrow {
@@ -3067,11 +3079,11 @@ tr {
 
   /* <!--- Why Instagram Marketing ---> */
 
-  .wim-content p {
+  /* .wim-content p {
     font-size: 1.05rem;
     width: 85%;
     line-height: 2rem;
-  }
+  } */
 
   .wim-card {
     width: calc(400px * 0.625);
@@ -3107,17 +3119,23 @@ tr {
     line-height: 2rem;
   }
 
-  .modern-slider {
+  /* .modern-slider {
     max-width: calc(100rem * 0.625);
+  } */
+
+  .swiper-wrapper {
+    width: 1080px;
   }
 
   .trending-slider {
-    height: 43rem;
+    height: auto;
+    
+    width: 95%;
   }
 
   .trending-slide .trending-slide-img img {
-    width: 35rem;
-    height: 35rem;
+    width: 28rem;
+    height: 28rem;
   }
 
   /* <!------Meet Our Influencers-----> */
@@ -3265,9 +3283,9 @@ tr {
 
   /* <!--- Why Instagram Marketing ---> */
 
-  .wim-content p {
+  /* .wim-content p {
     font-size: 1.15rem;
-  }
+  } */
 
   .wim-card {
     width: calc(400px * 0.75);
@@ -3294,17 +3312,23 @@ tr {
     font-size: 1.15rem;
   }
 
-  .modern-slider {
+  /* .modern-slider {
     max-width: calc(100rem * 0.75);
-  }
+  } */
 
   .trending-slider {
-    height: 42rem;
+    height: auto;
+    gap: 32px;
+    width: 95%;
   }
 
   .trending-slide .trending-slide-img img {
-    width: 35rem;
-    height: 35rem;
+    width: 32rem;
+    height: 32rem;
+  }
+
+  .swiper-wrapper {
+    width: 1360px;
   }
 
   /* <!------Meet Our Influencers-----> */
@@ -3412,9 +3436,9 @@ tr {
 
   /* <!--- Why Instagram Marketing ---> */
 
-  .wim-content p {
+  /* .wim-content p {
     font-size: 1.15rem;
-  }
+  } */
 
   .wim-card {
     width: calc(400px * 0.8333);
@@ -3447,12 +3471,13 @@ tr {
   }
 
   .trending-slider {
-    height: 48rem;
+    height: auto;
+    gap: 32px;
   }
 
   .trending-slide .trending-slide-img img {
-    width: 35rem;
-    height: 40rem;
+    width: 32rem;
+    height: 32rem;
   }
 
   /* <!-----Types of Influencers on Instagram to Partner With------> */
