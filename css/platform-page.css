@@ -367,7 +367,8 @@ section {
   }
 
   100% {
-    opacity: 1;;
+    opacity: 1;
+    ;
   }
 }
 
@@ -1346,292 +1347,292 @@ tr {
     font-size: 0.875rem;
     line-height: 1.5rem;
     width: 100%;
-}
+  }
 
-.wim-content-desc {
-  gap: 32px;
-}
+  .wim-content-desc {
+    gap: 32px;
+  }
 
-/* --- Service Page Hero Sections--- */
+  /* --- Service Page Hero Sections--- */
 
-.ig-marketing-services {
-  margin-top: 62px;
-}
+  .ig-marketing-services {
+    margin-top: 62px;
+  }
 
-.ig-row {
-  flex-direction: column;
-}
+  .ig-row {
+    flex-direction: column;
+  }
 
-.ig-title,
-.ig-subtitle {
-  font-size: 1.6rem;
-}
+  .ig-title,
+  .ig-subtitle {
+    font-size: 1.6rem;
+  }
 
-.ig-desc {
-  font-size: 0.82rem;
-  line-height: 1.5rem;
-}
+  .ig-desc {
+    font-size: 0.82rem;
+    line-height: 1.5rem;
+  }
 
-.ig-column-right {
-  order: 1;
-}
+  .ig-column-right {
+    order: 1;
+  }
 
-.ig-column-left {
-  width: 100%;
-  order: 2;
-  gap: 10px;
-}
+  .ig-column-left {
+    width: 100%;
+    order: 2;
+    gap: 10px;
+  }
 
-/* <!--- Why Instagram Marketing ---> */
+  /* <!--- Why Instagram Marketing ---> */
 
-.wim-main-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  align-items: flex-start;
-  padding-bottom: 20px;
-  justify-content: center;
-}
+  .wim-main-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    justify-content: center;
+  }
 
-.wim-card {
-  width: calc(400px * 0.75);
-  height: calc(500px * 0.75);
-  padding: 25px;
-  border-radius: 22px;
-}
+  .wim-card {
+    width: calc(400px * 0.75);
+    height: calc(500px * 0.75);
+    padding: 25px;
+    border-radius: 22px;
+  }
 
-.wim-card h2 {
-  font-size: 1.2rem;
-  line-height: 1.6rem;
-}
+  .wim-card h2 {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
 
-.wim-card p {
-  font-size: 0.775rem;
-  line-height: 1.2rem;
-  padding-bottom: 0;
-}
+  .wim-card p {
+    font-size: 0.775rem;
+    line-height: 1.2rem;
+    padding-bottom: 0;
+  }
 
-.wim-screen {
-  width: calc(260px * 0.75);
-  height: calc(360px * 0.75);
-}
+  .wim-screen {
+    width: calc(260px * 0.75);
+    height: calc(360px * 0.75);
+  }
 
-.number {
-  font-size: 45px;
-  bottom: -12px;
-  right: 0px;
-}
+  .number {
+    font-size: 45px;
+    bottom: -12px;
+    right: 0px;
+  }
 
-/* <!-----What is Instagram Marketing-----> */
+  /* <!-----What is Instagram Marketing-----> */
 
-.modern-slider {
-  width: 100%;
-}
+  .modern-slider {
+    width: 100%;
+  }
 
-.swiper-wrapper {
-  width: 220px;
-}
+  .swiper-wrapper {
+    width: 220px;
+  }
 
-.swiper-3d {
-  perspective: 300px;
-  width: 100%;
-}
+  .swiper-3d {
+    perspective: 300px;
+    width: 100%;
+  }
 
-.trending-slide .trending-slide-img img {
-  width: 14rem;
-  height: 14rem;
-}
+  .trending-slide .trending-slide-img img {
+    width: 14rem;
+    height: 14rem;
+  }
 
-.trending-slide {
-  height: auto;
-}
+  .trending-slide {
+    height: auto;
+  }
 
-.slider-arrow {
-  font-size: 24px;
-}
+  .slider-arrow {
+    font-size: 24px;
+  }
 
-/* <!------Meet Our Influencers-----> */
+  /* <!------Meet Our Influencers-----> */
 
-.meet-our-influencers-section .slider-title {
-  width: 75%;
-}
+  .meet-our-influencers-section .slider-title {
+    width: 75%;
+  }
 
-.influencer-card {
-  flex: 0 0 220px;
-  background-position: 104% 104%;
-  background-size: 65px 65px;
-}
+  .influencer-card {
+    flex: 0 0 220px;
+    background-position: 104% 104%;
+    background-size: 65px 65px;
+  }
 
-.influencer-card img {
-  height: 180px;
-}
+  .influencer-card img {
+    height: 180px;
+  }
 
-.influencer-name {
-  font-size: 1.4rem;
-}
+  .influencer-name {
+    font-size: 1.4rem;
+  }
 
-.influencer-title {
-  font-size: 0.9rem;
-}
+  .influencer-title {
+    font-size: 0.9rem;
+  }
 
-.social-icons {
-  gap: 1px;
-}
+  .social-icons {
+    gap: 1px;
+  }
 
-.social-icon {
-  width: 28px;
-  height: 28px;
-}
+  .social-icon {
+    width: 28px;
+    height: 28px;
+  }
 
-.social-icon img {
-  width: 1.4rem;
-  height: 1.4rem;
-}
+  .social-icon img {
+    width: 1.4rem;
+    height: 1.4rem;
+  }
 
-/* <!-----Types of Influencers on Instagram to Partner With------> */
+  /* <!-----Types of Influencers on Instagram to Partner With------> */
 
-.toi-grid-container {
-  display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-}
+  .toi-grid-container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
 
-.toi-grid-item {
-  width: calc(480px * 0.67);
-  background: transparent;
-  font-size: 25px;
-  /* padding: 10px; */
-}
+  .toi-grid-item {
+    width: calc(480px * 0.67);
+    background: transparent;
+    font-size: 25px;
+    /* padding: 10px; */
+  }
 
-.toi-grid-title {
-  font-size: 1rem;
-}
+  .toi-grid-title {
+    font-size: 1rem;
+  }
 
-.toi-grid-description {
-  font-size: 0.72rem;
-  line-height: 1.2rem;
-}
+  .toi-grid-description {
+    font-size: 0.72rem;
+    line-height: 1.2rem;
+  }
 
-/* <!----Accordion Section-----> */
+  /* <!----Accordion Section-----> */
 
-.accordion-header h2 {
-  font-size: 0.8rem;
-  line-height: 1.2rem;
-}
+  .accordion-header h2 {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
 
-.accordion-content ul {
-  padding-top: 0;
-}
+  .accordion-content ul {
+    padding-top: 0;
+  }
 
-.accordion-content ul,
-.accordion-content p,
-.toi-ads-content h2 {
-  font-size: 0.675rem;
-}
+  .accordion-content ul,
+  .accordion-content p,
+  .toi-ads-content h2 {
+    font-size: 0.675rem;
+  }
 
-.accordion-content ul li,
-.accordion-content p {
-  line-height: 1.4rem;
-}
+  .accordion-content ul li,
+  .accordion-content p {
+    line-height: 1.4rem;
+  }
 
-.arrow-icon {
-  width: 12px;
-  height: 12px;
-}
+  .arrow-icon {
+    width: 12px;
+    height: 12px;
+  }
 
-/* <!----Frequently Asked Questions----> */
+  /* <!----Frequently Asked Questions----> */
 
-.faq-grid-container {
-  grid-template-columns: repeat(1, 1fr);
-  gap: 0px;
-}
+  .faq-grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0px;
+  }
 
-.faq-accordion-header p {
-  font-size: 0.64rem;
-  /* line-height: 2.5rem; */
-}
+  .faq-accordion-header p {
+    font-size: 0.64rem;
+    /* line-height: 2.5rem; */
+  }
 
-.faq-accordion-content p {
-  font-size: 0.55rem;
-  line-height: 1rem;
-  padding-top: 10px;
-}
+  .faq-accordion-content p {
+    font-size: 0.55rem;
+    line-height: 1rem;
+    padding-top: 10px;
+  }
 
-.faq-accordion-header .plus-icon {
-  width: 10px;
-  height: 10px;
-}
+  .faq-accordion-header .plus-icon {
+    width: 10px;
+    height: 10px;
+  }
 
-/* <!----- Testimonial ------> */
+  /* <!----- Testimonial ------> */
 
-.for-small-devices {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
+  .for-small-devices {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
 
-.testimonial {
-  width: 100%;
-  padding: 2px;
-}
+  .testimonial {
+    width: 100%;
+    padding: 2px;
+  }
 
-.testimonial-controls {
-  display: none;
-}
+  .testimonial-controls {
+    display: none;
+  }
 
-.testimonial-controls button {
-  width: 25px;
-  height: 25px;
-  font-size: 0.8rem;
-}
+  .testimonial-controls button {
+    width: 25px;
+    height: 25px;
+    font-size: 0.8rem;
+  }
 
-.testimonial-slide {
-  width: calc(533px * 0.75);
-  height: auto;
-  margin: 10px;
-  border-radius: 25px;
-}
+  .testimonial-slide {
+    width: calc(533px * 0.75);
+    height: auto;
+    margin: 10px;
+    border-radius: 25px;
+  }
 
-.testimonial-card {
-  gap: 20px;
-}
+  .testimonial-card {
+    gap: 20px;
+  }
 
-.profile-pic {
-  width: 55px;
-  height: 55px;
-}
+  .profile-pic {
+    width: 55px;
+    height: 55px;
+  }
 
-.testimonial-name {
-  font-size: 0.9rem;
-  line-height: 1rem;
-}
+  .testimonial-name {
+    font-size: 0.9rem;
+    line-height: 1rem;
+  }
 
-.designation {
-  margin: 2px 0 10px;
-  font-size: 0.7rem;
-}
+  .designation {
+    margin: 2px 0 10px;
+    font-size: 0.7rem;
+  }
 
-.testimonial-text {
-  line-height: 1.6;
-  font-size: 0.72rem;
-}
+  .testimonial-text {
+    line-height: 1.6;
+    font-size: 0.72rem;
+  }
 
-/* --------------------------------------------------------------------About Us Page------------------------------------------------------------------- */
+  /* --------------------------------------------------------------------About Us Page------------------------------------------------------------------- */
 
-.meet-whole-team-hero-wrapper img {
-  width: 350px;
-}
+  .meet-whole-team-hero-wrapper img {
+    width: 350px;
+  }
 
-.about-hero-container {
-  margin-bottom: 40px;
-}
+  .about-hero-container {
+    margin-bottom: 40px;
+  }
 
-/* .our-philosophy-section {
+  /* .our-philosophy-section {
     gap: 20px;
   }
 
@@ -1658,44 +1659,44 @@ tr {
     padding: 20px;
   } */
 
-.our-philosophy-section {
-  padding-inline: 10px;
-}
+  .our-philosophy-section {
+    padding-inline: 10px;
+  }
 
-.our-philosophy-container {
-  flex-direction: column;
-  width: 100%;
-}
+  .our-philosophy-container {
+    flex-direction: column;
+    width: 100%;
+  }
 
-.our-philosophy-card-container {
-  gap: 0;
-  flex-direction: column;
-}
+  .our-philosophy-card-container {
+    gap: 0;
+    flex-direction: column;
+  }
 
-.op-inner-container {
-  flex-direction: column;
-}
+  .op-inner-container {
+    flex-direction: column;
+  }
 
-.our-philosophy-icon {
-  width: 100%;
-  border-right: none;
-  border-bottom: 1px solid #d2dde8;
-  padding: 20px;
-}
+  .our-philosophy-icon {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #d2dde8;
+    padding: 20px;
+  }
 
-.our-philosophy-icon img {
-  height: 50px;
-  width: auto;
-}
+  .our-philosophy-icon img {
+    height: 50px;
+    width: auto;
+  }
 
-.our-philosophy-title {
-  font-size: 1.4rem;
-}
+  .our-philosophy-title {
+    font-size: 1.4rem;
+  }
 
-.our-philosophy-content {
-  font-size: 0.9rem;
-  line-height: 1.6rem;
-}
+  .our-philosophy-content {
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+  }
 }
 
 /* MOBILE v2*/
@@ -1813,25 +1814,25 @@ tr {
   .modern-slider {
     width: 90%;
   }
-  
+
   .swiper-wrapper {
     width: 260px;
   }
-  
+
   .swiper-3d {
     perspective: 300px;
     width: 100%;
   }
-  
+
   .trending-slide .trending-slide-img img {
     width: 16rem;
     height: 16rem;
   }
-  
+
   .trending-slide {
     height: auto;
   }
-  
+
   .slider-arrow {
     font-size: 24px;
   }
@@ -2096,25 +2097,25 @@ tr {
   .modern-slider {
     width: 90%;
   }
-  
+
   .swiper-wrapper {
     width: 260px;
   }
-  
+
   .swiper-3d {
     perspective: 300px;
     width: 100%;
   }
-  
+
   .trending-slide .trending-slide-img img {
     width: 16rem;
     height: 16rem;
   }
-  
+
   .trending-slide {
     height: auto;
   }
-  
+
   .slider-arrow {
     font-size: 24px;
   }
@@ -2142,6 +2143,7 @@ tr {
 
   .wim-content p {
     font-size: 20px;
+    width: 100%;
   }
 
   .ig-marketing-services,
@@ -2188,37 +2190,35 @@ tr {
 
   /* <!--- Why Instagram Marketing ---> */
 
-  .wim-main-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    align-items: flex-start;
-    padding-bottom: 20px;
-    justify-content: center;
+  .wim-inner-row {
+    gap: 16px;
   }
 
-  .wim-card {
-    width: calc(400px * 0.625);
-    height: calc(500px * 0.625);
-    padding: 20px;
-    border-radius: 25px;
-  }
-
-  .wim-card h2 {
-    font-size: 1.1rem;
-    line-height: 1.6rem;
-  }
-
-  .wim-card p {
-    font-size: 0.75rem;
-    line-height: 1.2rem;
-    padding-bottom: 15px;
+   .wim-card {
+    width: calc(400px * 0.655);
+    height: calc(500px * 0.75);
   }
 
   .wim-screen {
-    width: calc(260px * 0.625);
-    height: calc(360px * 0.625);
+    width: calc(260px * 0.75);
+    height: calc(360px * 0.575);
   }
+
+  .wim-card-title {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .wim-card-desc {
+    font-size: 0.75rem;
+    line-height: 1.2rem;
+  }
+
+  .center-text {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+  }
+
 
   .number {
     font-size: 45px;
@@ -2609,31 +2609,31 @@ tr {
   /* <!--- Why Instagram Marketing ---> */
 
   .wim-inner-row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
+    gap: 20px;
   }
 
   .wim-card {
-    width: calc(400px * 0.6);
-    height: calc(500px * 0.6);
-  }
-
-  .wim-card h2 {
-    font-size: 1.1rem;
-    line-height: 1.8rem;
-  }
-
-  .wim-card p {
-    font-size: 0.7rem;
-    line-height: 1.2rem;
-    padding-bottom: 15px;
+    width: calc(400px * 0.75);
+    height: calc(500px * 0.8333);
   }
 
   .wim-screen {
-    width: calc(260px * 0.6);
-    height: calc(360px * 0.6);
+    width: calc(260px * 0.75);
+    height: calc(360px * 0.675);
+  }
+
+  .wim-card-title {
+    font-size: 1.2rem;
+  }
+
+  .wim-card-desc {
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+  }
+
+  .center-text {
+    font-size: 1rem;
+    line-height: 1.8rem;
   }
 
   .number {
@@ -2906,7 +2906,7 @@ tr {
     gap: 20px;
   }
 
-   .wim-card {
+  .wim-card {
     width: calc(400px * 0.75);
     height: calc(500px * 0.8333);
   }
@@ -3183,7 +3183,7 @@ tr {
     font-size: 1rem;
     line-height: 1.8rem;
   }
-  
+
   .number {
     font-size: 50px;
   }
