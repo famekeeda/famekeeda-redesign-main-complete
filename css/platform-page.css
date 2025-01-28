@@ -1340,7 +1340,7 @@ tr {
   .testimonial,
   .faq-section,
   .success-stories-section {
-    padding: 20px;
+    padding-inline: 10px;
   }
 
   .wim-content p {
@@ -1356,7 +1356,7 @@ tr {
   /* --- Service Page Hero Sections--- */
 
   .ig-marketing-services {
-    margin-top: 62px;
+    margin-top: 76px;
   }
 
   .ig-row {
@@ -1552,6 +1552,7 @@ tr {
   .faq-accordion-header p {
     font-size: 0.64rem;
     /* line-height: 2.5rem; */
+    padding: 8px 0px 8px 0px;
   }
 
   .faq-accordion-content p {
@@ -1894,7 +1895,7 @@ tr {
   }
 
   .toi-grid-item {
-    width: calc(480px * 0.41);
+    width: calc(480px * 0.435);
     background: transparent;
     font-size: 25px;
     /* padding: 10px; */

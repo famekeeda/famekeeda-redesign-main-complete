@@ -6,6 +6,10 @@
     gap: 64px;
   }
 
+  section {
+    gap: 24px;
+  }
+
   .desktop {
     display: none;
   }
@@ -20,8 +24,10 @@
   .success-stories-section,
   .meet-our-team-section,
   .meet-our-brands-section,
-  .influencer-makes-waves {
-    padding: 0 24px;
+  .influencer-makes-waves,
+  .accordion,
+  .faq-section {
+    padding: 0 10px;
     gap: 20px;
     width: 100%;
   }
@@ -905,6 +911,11 @@
     gap: 64px;
   }
 
+  section {
+    gap: 32px;
+  }
+
+
   .desktop {
     display: none;
   }
@@ -919,7 +930,9 @@
   .success-stories-section,
   .meet-our-team-section,
   .meet-our-brands-section,
-  .influencer-makes-waves {
+  .influencer-makes-waves,
+  .accordion,
+  .faq-section {
     padding: 0 24px;
     gap: 20px;
     width: 100%;
@@ -1091,7 +1104,7 @@
   .success-stories-section,
   .meet-our-team-section {
     width: 100%;
-    padding-inline: 10px;
+    padding-inline: 16px;
   }
 
   .influencer-marketing-cards-container {
