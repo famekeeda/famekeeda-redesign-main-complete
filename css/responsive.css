@@ -3221,7 +3221,9 @@
   .success-stories-section,
   .meet-our-team-section,
   .meet-our-brands-section,
-  .influencer-makes-waves {
+  .influencer-makes-waves,
+  .accordion,
+  .faq-section {
     padding: 0 32px;
     gap: 24px;
   }
@@ -3261,7 +3263,7 @@
   }
 
   .social-proofing-container {
-    gap: 100px;
+    gap: 48px;
     width: 100%;
   }
 
@@ -3736,7 +3738,14 @@
   .success-stories-section,
   .meet-our-team-section,
   .meet-our-brands-section,
-  .influencer-makes-waves {
+  .influencer-makes-waves,
+  .ig-marketing-services,
+  .social-proofing-outer-section,
+  .why-ig-marketing,
+  .what-is-ig-marketing,
+  .types-of-influencers,
+  .accordion,
+  .faq-section {
     padding: 0 50px;
     gap: 40px;
   }
@@ -3749,6 +3758,10 @@
   .video_play-button,
   .cta_hero_button {
     padding: 12px 20px;
+  }
+
+  .social-proofing-container {
+    width: 100%;
   }
 
   .spc-title {
@@ -4101,6 +4114,31 @@
 /* EXTRA SCREENS */
 @media (min-width: 1280px) and (max-width: 1365px) {
 
+  .nav-container {
+    padding-inline: 65px;
+  }
+
+  body {
+    gap: 116px;
+  }
+
+  .service-section,
+  .success-stories-section,
+  .meet-our-team-section,
+  .meet-our-brands-section,
+  .influencer-makes-waves,
+  .ig-marketing-services,
+  .social-proofing-outer-section,
+  .why-ig-marketing,
+  .what-is-ig-marketing,
+  .types-of-influencers,
+  .accordion,
+  .faq-section {
+    padding: 0 60px;
+    gap: 40px;
+  }
+
+
   /* India's Top Influencer Marketing Agency */
   .imcc-card-row {
     gap: 95px;
@@ -4193,9 +4231,60 @@
   .telegram-logo {
     top: 107px;
   }
+
+  .social-proofing-container {
+    width: 100%
+  }
+
+  .wim-card-title {
+    font-size: 1.12rem;
+    line-height: 1.675rem;
+}
+
+.wim-card-desc {
+  font-size: 0.82rem;
+  line-height: 1.25rem;
+}
+  
+  .what-is-ig-marketing {
+    width: 100%
+  }
+
+  .wim-inner-row {
+    gap: 16px
+  }
+
+  .wim-card {
+    width: calc(400px* 0.678);
+    height: calc(500px* 0.875);
+}
 }
 
 @media (min-width: 1366px) and (max-width: 1439px) {
+
+  .nav-container {
+    padding-inline: 65px;
+  }
+
+  body {
+    gap: 116px;
+  }
+
+  .service-section,
+  .success-stories-section,
+  .meet-our-team-section,
+  .meet-our-brands-section,
+  .influencer-makes-waves,
+  .ig-marketing-services,
+  .social-proofing-outer-section,
+  .why-ig-marketing,
+  .what-is-ig-marketing,
+  .types-of-influencers,
+  .accordion,
+  .faq-section {
+    padding: 0 60px;
+    gap: 40px;
+  }
 
   /* India's Top Influencer Marketing Agency */
   .imcc-card-row {
@@ -4234,6 +4323,10 @@
   }
 
   /* Influencer Makes Waves Section */
+  .social-proofing-container {  
+    width: 100%;
+  }
+
   .social-container-main-row {
     display: none;
   }
@@ -4289,6 +4382,24 @@
   .telegram-logo {
     top: 117px;
   }
+
+  .testimonial {
+    width: 100%;
+    padding: 0px 45px;
+}
+
+  .what-is-ig-marketing {
+    width: 100%
+  }
+
+  .wim-inner-row {
+    gap: 16px
+  }
+
+  .wim-card {
+    width: calc(400px* 0.738);
+    height: calc(500px* 0.875);
+}
 }
 
 /* DESKTOP v3 */
@@ -4305,8 +4416,15 @@
   .success-stories-section,
   .meet-our-team-section,
   .meet-our-brands-section,
-  .influencer-makes-waves {
-    padding: 0 64px;
+  .influencer-makes-waves,
+  .ig-marketing-services,
+  .social-proofing-outer-section,
+  .why-ig-marketing,
+  .what-is-ig-marketing,
+  .types-of-influencers,
+  .accordion,
+  .faq-section {
+    padding: 0 60px;
     gap: 40px;
   }
 
@@ -4437,6 +4555,10 @@
   /* .social-container-main-row {
     display: none;
 } */
+
+.social-proofing-container {
+  width: 100%;
+}
 
   .social-container-main-row,
   .social-container-outer-row,
@@ -4690,7 +4812,14 @@
   .success-stories-section,
   .meet-our-team-section,
   .meet-our-brands-section,
-  .influencer-makes-waves {
+  .influencer-makes-waves,
+  .ig-marketing-services,
+  .social-proofing-outer-section,
+  .why-ig-marketing,
+  .what-is-ig-marketing,
+  .types-of-influencers,
+  .accordion,
+  .faq-section {
     padding: 0 80px;
     gap: 40px;
   }
@@ -4717,6 +4846,10 @@
 
   .social-proofing-section {
     /* padding-top: 32px; */
+  }
+
+  .social-proofing-container {
+    width: 100%;
   }
 
   .imcc-card-row {

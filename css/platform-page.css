@@ -29,7 +29,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 40px;
+  /* padding: 40px; */
   /* border: 1px solid red */
 }
 
@@ -605,7 +605,7 @@ b {
   gap: 30px;
   position: relative;
   width: fit-content;
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 .influencer-card {
@@ -1032,7 +1032,7 @@ tr {
   width: 97%;
   max-width: 1920px;
   text-align: center;
-  padding: 50px;
+  padding: 0px 50px;
 }
 
 .testimonial-controls {
@@ -1771,43 +1771,51 @@ tr {
 
   /* <!--- Why Instagram Marketing ---> */
 
-  .wim-main-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    align-items: flex-start;
-    padding-bottom: 20px;
-    justify-content: center;
+  .why-ig-marketing {
+    padding: 0px 16px;
+  }
+
+  .wim-inner-row {
+    gap: 16px;
   }
 
   .wim-card {
-    width: calc(400px * 0.46875);
-    height: calc(500px * 0.46875);
-    padding: 20px;
-    border-radius: 22px;
-  }
-
-  .wim-card h2 {
-    font-size: 0.82rem;
-    line-height: 1.6rem;
-  }
-
-  .wim-card p {
-    font-size: 0.65rem;
-    line-height: 0.875rem;
-    padding-bottom: 15px;
+    width: calc(400px * 0.54);
+    height: calc(500px * 0.6);
+    border-radius: 24px;
+    padding: 24px;
   }
 
   .wim-screen {
-    width: calc(260px * 0.46875);
-    height: calc(360px * 0.46875);
+    width: calc(260px * 0.575);
+    height: calc(360px * 0.533);
   }
 
-  .number {
-    font-size: 45px;
-    bottom: -12px;
-    right: -2px;
+  .wim-card-title {
+    font-size: 0.875rem;
+    line-height: 1.225rem;
   }
+
+  .wim-card-desc {
+    font-size: 0.67rem;
+    line-height: 1rem;
+  }
+
+  .center-text {
+    font-size: 0.675rem;
+    line-height: 1.25rem;
+  }
+
+  .hover-effect {
+    width: 48px;
+    height: 24px;
+  }
+
+  .arrow {
+    font-size: 16px;
+  }
+
+
 
   /* <!-----What is Instagram Marketing-----> */
 
@@ -2194,7 +2202,7 @@ tr {
     gap: 16px;
   }
 
-   .wim-card {
+  .wim-card {
     width: calc(400px * 0.655);
     height: calc(500px * 0.75);
   }
@@ -2218,7 +2226,6 @@ tr {
     font-size: 0.875rem;
     line-height: 1.5rem;
   }
-
 
   .number {
     font-size: 45px;
@@ -2556,6 +2563,44 @@ tr {
     align-items: center;
   }
 
+  /* <!--- Why Instagram Marketing ---> */
+  .wim-card {
+    width: calc(400px * 0.865);
+    height: calc(500px * 0.95);
+  }
+
+  .wim-card h2 {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+
+  /* .wim-card p {
+    font-size: 0.7rem;
+  } */
+
+  .wim-screen {
+    width: calc(260px * 0.975);
+    height: calc(360px * 0.833);
+  }
+
+  .wim-card-title {
+    font-size: 1.25rem;
+  }
+
+  .wim-card-desc {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .center-text {
+    font-size: 1rem;
+    line-height: 1.8rem;
+  }
+
+  .number {
+    font-size: 50px;
+  }
+
 }
 
 /* TABLET v2 */
@@ -2608,39 +2653,38 @@ tr {
 
   /* <!--- Why Instagram Marketing ---> */
 
-  .wim-inner-row {
-    gap: 20px;
-  }
+  /* .wim-card {
+    width: calc(400px * 1);
+    height: calc(500px * 1);
+  } */
 
-  .wim-card {
-    width: calc(400px * 0.75);
-    height: calc(500px * 0.8333);
-  }
-
-  .wim-screen {
-    width: calc(260px * 0.75);
-    height: calc(360px * 0.675);
-  }
-
-  .wim-card-title {
+  /* .wim-card h2 {
     font-size: 1.2rem;
+    line-height: 1.2rem;
+  } */
+
+  /* .wim-screen {
+    width: calc(260px * 0.975);
+    height: calc(360px * 0.833);
+  } */
+
+  /* .wim-card-title {
+    font-size: 1.25rem;
   }
 
   .wim-card-desc {
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     line-height: 1.25rem;
-  }
+  } */
 
-  .center-text {
+  /* .center-text {
     font-size: 1rem;
     line-height: 1.8rem;
-  }
+  } */
 
-  .number {
-    font-size: 40px;
-    bottom: -12px;
-    right: -1px;
-  }
+  /* .number {
+    font-size: 50px;
+  } */
 
   /* <!-----What is Instagram Marketing-----> */
 
@@ -2886,7 +2930,7 @@ tr {
   .accordion,
   .testimonial,
   .faq-section {
-    padding: 30px;
+    padding: 0px 32px;
   }
 
   /* --- Service Page Hero Sections--- */
@@ -2901,6 +2945,10 @@ tr {
   }
 
   /* <!--- Why Instagram Marketing ---> */
+
+  .what-is-ig-marketing {
+    width: 100%;
+  }
 
   .wim-inner-row {
     gap: 20px;
@@ -2994,6 +3042,10 @@ tr {
 
   /* <!-----Types of Influencers on Instagram to Partner With------> */
 
+  .toi-grid-container {
+    gap: 32px;
+  }
+  
   .toi-grid-item {
     width: calc(480px * 0.625);
     background: transparent;
@@ -3190,10 +3242,43 @@ tr {
 
   /* <!-----What is Instagram Marketing-----> */
 
+  .wim-card-title {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .wim-card-desc {
+    font-size: 0.72rem;
+    line-height: 1.12rem;
+  }
+
+  .what-is-ig-marketing {
+    width: 100%
+  }
+
+  .wim-inner-row {
+    gap: 16px
+  }
+
+  .wim-card {
+    width: calc(400px* 0.647);
+    height: calc(500px* 0.775);
+  }
+
+  .wim-screen {
+    width: calc(260px* 0.75);
+    height: calc(360px* 0.6);
+  }
+
   .what-is-ig-marketing h3 {
     font-size: 1.05rem;
     width: 85%;
     line-height: 2rem;
+  }
+
+  .center-text {
+    font-size: 0.875rem;
+    line-height: 1.4rem;
   }
 
   /* .modern-slider {
@@ -3364,6 +3449,10 @@ tr {
     font-size: 1.15rem;
   } */
 
+  .wim-inner-row {
+    gap: 34px;
+  }
+
   .wim-card {
     width: calc(400px * 0.75);
     height: calc(500px * 0.875);
@@ -3531,6 +3620,10 @@ tr {
     font-size: 1.15rem;
   } */
 
+  .wim-inner-row {
+    gap: 30px;
+  }
+
   .wim-card {
     width: calc(400px * 0.8333);
     height: calc(500px * 0.875);
@@ -3566,6 +3659,10 @@ tr {
 
   /* <!-----What is Instagram Marketing-----> */
 
+  .what-is-ig-marketing {
+    width: 100%;
+  }
+
   .what-is-ig-marketing h3 {
     font-size: 1.15rem;
   }
@@ -3585,6 +3682,10 @@ tr {
   }
 
   /* <!-----Types of Influencers on Instagram to Partner With------> */
+
+  .types-of-influencers {
+    width: 100%;
+  }
 
   .toi-content p {
     font-size: 1.15rem;
