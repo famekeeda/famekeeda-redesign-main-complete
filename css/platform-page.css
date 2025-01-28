@@ -1737,13 +1737,13 @@ tr {
   .testimonial,
   .faq-section,
   .success-stories-section {
-    padding: 30px;
+    padding: 0px 16px;
   }
 
   /* --- Service Page Hero Sections--- */
 
   .ig-marketing-services {
-    margin-top: 60px;
+    margin-top: 80px;
   }
 
   .ig-row {
@@ -2164,13 +2164,13 @@ tr {
   .testimonial,
   .faq-section,
   .success-stories-section {
-    padding: 30px;
+    padding: 0px 24px;
   }
 
   /* --- Service Page Hero Sections--- */
 
   .ig-marketing-services {
-    margin-top: 70px;
+    margin-top: 100px;
   }
 
   .ig-row {
@@ -2601,6 +2601,31 @@ tr {
     font-size: 50px;
   }
 
+  .toi-grid-container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .toi-grid-item {
+    width: calc(480px * 0.7);
+    background: transparent;
+    font-size: 25px;
+    /* padding: 10px; */
+  }
+
+  .toi-grid-title {
+    font-size: 1.2rem;
+  }
+
+  .toi-grid-description {
+    font-size: 0.875rem;
+    line-height: 1.2rem;
+    padding: 8px;
+  }
+
 }
 
 /* TABLET v2 */
@@ -2631,7 +2656,7 @@ tr {
   .testimonial,
   .faq-section,
   .success-stories-section {
-    padding: 30px;
+    padding: 0 24px;
   }
 
   /* --- Service Page Hero Sections--- */
@@ -2652,6 +2677,10 @@ tr {
   }
 
   /* <!--- Why Instagram Marketing ---> */
+
+  .what-is-ig-marketing {
+    width: 100%;
+  }
 
   /* .wim-card {
     width: calc(400px * 1);
@@ -3045,7 +3074,7 @@ tr {
   .toi-grid-container {
     gap: 32px;
   }
-  
+
   .toi-grid-item {
     width: calc(480px * 0.625);
     background: transparent;
