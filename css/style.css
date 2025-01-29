@@ -34,7 +34,6 @@ section {
 .success-stories-section,
 .show-reel-section,
 .meet-our-team-section,
-.meet-our-brands-section,
 .influencer-makes-waves,
 .faq-section,
 .accordion {
@@ -2151,7 +2150,7 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 19px;
-  width: 70%;
+  width: 73%;
 }
 
 .about-info-hr {
