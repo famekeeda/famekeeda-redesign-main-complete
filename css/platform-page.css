@@ -625,6 +625,10 @@ b {
   gap: 30px;
 }
 
+/* .memes-card {
+  background-color: #be16213b;
+} */
+
 .inf_top_conatiner {
   display: flex;
   flex-direction: column;
