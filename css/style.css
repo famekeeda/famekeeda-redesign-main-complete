@@ -722,11 +722,12 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 32px;
 }
 
-.com-wrapper-right {
+/* .com-wrapper-right {
   margin-top: 100px;
-}
+} */
 
 .imcc-label {
   display: flex;
@@ -887,7 +888,7 @@ ul {
 
 .service-card-img {
   width: auto;
-  height: 272px;
+  height: 248px;
   position: absolute;
   top: auto;
   left: auto;
@@ -897,7 +898,7 @@ ul {
 
 .sci-extend {
   width: auto;
-  height: 290px;
+  height: 272px;
   position: absolute;
   top: auto;
   left: auto;
@@ -920,11 +921,11 @@ ul {
 }
 
 .ad-films-image {
-  height: 370px;
+  height: 320px;
 }
 
 .barter-campaigns-image {
-  height: 320px;
+  height: 290px;
 }
 
 .service-card-button-wrapper {
@@ -2010,6 +2011,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: end;
+  z-index: 1;
 }
 
 .founder-desc-container-1 img {
@@ -2027,6 +2029,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: start;
+  z-index: 1;
 }
 
 .founder-desc-container-2 img {
@@ -2142,7 +2145,7 @@ ul {
 
 .about-info-card img {
   border-radius: 15px;
-  height: auto;
+  height: 200px;
   width: 200px;
 }
 
@@ -2150,12 +2153,17 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 19px;
-  width: 73%;
+  /* width: 73%; */
+  width: 100%;
 }
 
 .about-info-hr {
   width: 100%;
   background: #AFAFAF;
+}
+
+.about-info-desc {
+  width: 90%;
 }
 
 .about-us-column-1 img {

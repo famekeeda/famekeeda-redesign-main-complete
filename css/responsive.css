@@ -237,9 +237,7 @@
     gap: 32px;
   }
 
-  .com-wrapper-right {
-    margin-top: 0;
-  }
+
 
   .imcc-video-wrapper-1 {
     transform: translateX(-60px);
@@ -324,32 +322,32 @@
 
   .service-card-img {
     width: auto;
-    height: 75px;
+    height: 64px;
   }
 
   .sci-extend {
     width: auto;
-    height: 95px;
+    height: 88px;
   }
 
   .content-marketing-image {
-    height: 80px;
+    height: 72px;
   }
 
   .celebrity-endorsements-image {
-    height: 105px;
+    height: 96px;
   }
 
   .ad-films-image {
-    height: 115px;
+    height: 104px;
   }
 
   .barter-campaigns-image {
-    height: 100px;
+    height: 88px;
   }
 
   .meme-marketing-image {
-    height: 80px;
+    height: 72px;
   }
 
   .service-card-title {
@@ -358,7 +356,7 @@
   }
 
   .service-card {
-    gap: 10px;
+    gap: 8px;
     padding: 14px 10px;
     border-radius: 12px;
   }
@@ -1144,9 +1142,7 @@
     gap: 32px;
   }
 
-  .com-wrapper-right {
-    margin-top: 0;
-  }
+
 
   .imcc-video-wrapper-1 {
     transform: translateX(-60px);
@@ -1226,32 +1222,32 @@
 
   .service-card-img {
     width: auto;
-    height: 110px;
+    height: 96px;
   }
 
   .sci-extend {
     width: auto;
-    height: 135px;
+    height: 120px;
   }
 
   .content-marketing-image {
-    height: 120px;
+    height: 104px;
   }
 
   .celebrity-endorsements-image {
-    height: 150px;
+    height: 140px;
   }
 
   .ad-films-image {
-    height: 160px;
+    height: 144px;
   }
 
   .barter-campaigns-image {
-    height: 150px;
+    height: 144px;
   }
 
   .meme-marketing-image {
-    height: 120px;
+    height: 104px;
   }
 
   .service-card-title {
@@ -1260,7 +1256,7 @@
   }
 
   .service-card {
-    gap: 10px;
+    gap: 15px;
     padding: 18px 14px;
     border-radius: 12px;
   }
@@ -1986,9 +1982,7 @@
     gap: 32px;
   }
 
-  .com-wrapper-right {
-    margin-top: 0;
-  }
+
 
   .imcc-video-wrapper-1 {
     transform: translateX(-190px);
@@ -2030,32 +2024,32 @@
 
   .service-card-img {
     width: auto;
-    height: 130px;
+    height: 112px;
   }
 
   .sci-extend {
     width: auto;
-    height: 160px;
+    height: 144px;
   }
 
   .content-marketing-image {
-    height: 130px;
+    height: 120px;
   }
 
   .celebrity-endorsements-image {
-    height: 180px;
-  }
-
-  .ad-films-image {
-    height: 190px;
-  }
-
-  .barter-campaigns-image {
     height: 160px;
   }
 
+  .ad-films-image {
+    height: 176px;
+  }
+
+  .barter-campaigns-image {
+    height: 144px;
+  }
+
   .meme-marketing-image {
-    height: 130px;
+    height: 112px;
   }
 
   .service-card-title {
@@ -2064,7 +2058,7 @@
   }
 
   .service-card {
-    gap: 10px;
+    gap: 16px;
   }
 
   .service-card-container {
@@ -2559,32 +2553,32 @@
   /* Make Magic Happen */
   .service-card-img {
     width: auto;
-    height: 195px;
+    height: 160px;
   }
 
   .sci-extend {
     width: auto;
-    height: 220px;
+    height: 200px;
   }
 
   .content-marketing-image {
-    height: 215px;
+    height: 192px;
   }
 
   .celebrity-endorsements-image {
-    height: 235px;
+    height: 234px;
   }
 
   .ad-films-image {
-    height: 270px;
-  }
-
-  .barter-campaigns-image {
     height: 240px;
   }
 
+  .barter-campaigns-image {
+    height: 216px;
+  }
+
   .meme-marketing-image {
-    height: 210px;
+    height: 184px;
   }
 
   .meet-whole-team-wrapper img {
@@ -2793,9 +2787,7 @@
     gap: 32px;
   }
 
-  .com-wrapper-right {
-    margin-top: 0;
-  }
+  
 
   .imcc-video-wrapper-1 {
     transform: translateX(-190px);
@@ -2840,38 +2832,34 @@
     line-height: 30px;
   }
 
-  .service-card {
-    gap: 10px;
-  }
-
   .service-card-img {
     width: auto;
-    height: 270px;
+    height: 240px;
   }
 
   .sci-extend {
     width: auto;
-    height: 310px;
+    height: 280px;
   }
 
   .content-marketing-image {
-    height: 320px;
+    height: 272px;
   }
 
   .celebrity-endorsements-image {
-    height: 340px;
+    height: 320px;
   }
 
   .ad-films-image {
-    height: 380px;
+    height: 344px;
   }
 
   .barter-campaigns-image {
-    height: 370px;
+    height: 336px;
   }
 
   .meme-marketing-image {
-    height: 300px;
+    height: 256px;
   }
 
 
@@ -3499,12 +3487,12 @@
 
   .service-card-img {
     width: auto;
-    height: 110px;
+    height: 90px;
   }
 
   .sci-extend {
     width: auto;
-    height: 130px;
+    height: 126px;
   }
 
   .service-card-button {
@@ -3515,11 +3503,11 @@
   }
 
   .content-marketing-image {
-    height: 110px;
+    height: 104px;
   }
 
   .celebrity-endorsements-image {
-    height: 150px;
+    height: 144px;
   }
 
   .ad-films-image {
@@ -3527,11 +3515,11 @@
   }
 
   .barter-campaigns-image {
-    height: 150px;
+    height: 136px;
   }
 
   .meme-marketing-image {
-    height: 110px;
+    height: 104px;
   }
 
   /* Influencer Makes Waves Section */
@@ -3700,8 +3688,8 @@
   }
 
   .about-info-card img {
-    width: 190px;
-    height: auto;
+    width: 180px;
+    height: 180px;
     object-fit: cover;
   }
 
@@ -3871,32 +3859,32 @@
 
   .service-card-img {
     width: auto;
-    height: 105px;
+    height: 88px;
   }
 
   .sci-extend {
     width: auto;
-    height: 140px;
+    height: 126px;
   }
 
   .content-marketing-image {
-    height: 110px;
+    height: 96px;
   }
 
   .celebrity-endorsements-image {
-    height: 155px;
+    height: 140px;
   }
 
   .ad-films-image {
-    height: 170px;
+    height: 160px;
   }
 
   .barter-campaigns-image {
-    height: 130px;
+    height: 120px;
   }
 
   .meme-marketing-image {
-    height: 110px;
+    height: 104px;
   }
 
   /* Influencer Makes Waves Section */
@@ -4191,32 +4179,32 @@
   /* Make Magic Happen */
   .service-card-img {
     width: auto;
-    height: 115px;
+    height: 96px;
   }
 
   .sci-extend {
     width: auto;
-    height: 160px;
+    height: 140px;
   }
 
   .content-marketing-image {
-    height: 135px;
+    height: 104px;
   }
 
   .celebrity-endorsements-image {
-    height: 180px;
+    height: 160px;
   }
 
   .ad-films-image {
-    height: 200px;
+    height: 176px;
   }
 
   .barter-campaigns-image {
-    height: 170px;
+    height: 136px;
   }
 
   .meme-marketing-image {
-    height: 130px;
+    height: 112px;
   }
 
   /* Influencer Makes Waves Section */
@@ -4342,32 +4330,32 @@
   /* Make Magic Happen */
   .service-card-img {
     width: auto;
-    height: 130px;
+    height: 104px;
   }
 
   .sci-extend {
     width: auto;
-    height: 175px;
+    height: 152px;
   }
 
   .content-marketing-image {
-    height: 155px;
+    height: 120px;
   }
 
   .celebrity-endorsements-image {
-    height: 195px;
+    height: 176px;
   }
 
   .ad-films-image {
-    height: 220px;
+    height: 200px;
   }
 
   .barter-campaigns-image {
-    height: 180px;
+    height: 156px;
   }
 
   .meme-marketing-image {
-    height: 150px;
+    height: 120px;
   }
 
   /* Influencer Makes Waves Section */
@@ -4570,32 +4558,32 @@
 
   .service-card-img {
     width: auto;
-    height: 180px;
+    height: 160px;
   }
 
   .sci-extend {
     width: auto;
-    height: 195px;
+    height: 176px;
   }
 
   .content-marketing-image {
-    height: 210px;
+    height: 176px;
   }
 
   .celebrity-endorsements-image {
-    height: 220px;
+    height: 200px;
   }
 
   .ad-films-image {
-    height: 250px;
+    height: 220px;
   }
 
   .barter-campaigns-image {
-    height: 265px;
+    height: 232px;
   }
 
   .meme-marketing-image {
-    height: 200px;
+    height: 192px;
   }
 
   /* Influencer Makes Waves Section */
@@ -4825,7 +4813,8 @@
   /* About Us */
 
   .about-us-column-2 {
-    padding-right: 64px;
+    /* padding-right: 64px; */
+    padding-right: 0;
   }
 
   .about-us-title {
@@ -4843,7 +4832,8 @@
   }
 
   .about-info-info-wrapper {
-    width: 72%;
+    /* width: 72%; */
+    width: 100%;
   }
 
 }
@@ -4929,12 +4919,12 @@
 
   .service-card-img {
     width: auto;
-    height: 215px;
+    height: 192px;
   }
 
   .sci-extend {
     width: auto;
-    height: 250px;
+    height: 234px;
   }
 
   .sci-brand-integration {
@@ -4943,23 +4933,23 @@
   }
 
   .content-marketing-image {
-    height: 240px;
+    height: 210px;
   }
 
   .celebrity-endorsements-image {
-    height: 280px;
+    height: 264px;
   }
 
   .ad-films-image {
-    height: 310px;
+    height: 280px;
   }
 
   .barter-campaigns-image {
-    height: 300px;
+    height: 272px;
   }
 
   .meme-marketing-image {
-    height: 240px;
+    height: 220px;
   }
 
   /* Influencer Makes Waves Section */
@@ -5191,7 +5181,8 @@
   }
 
   .about-us-column-2 {
-    padding-right: 80px;
+    /* padding-right: 80px; */
+    padding-right: 0;
   }
 
   .about-us-title {
@@ -5199,7 +5190,8 @@
   }
 
   .about-info-info-wrapper {
-    width: 74%;
+    /* width: 74%; */
+    width: 100%;
   }
 
   .meet-whole-team-wrapper img {
