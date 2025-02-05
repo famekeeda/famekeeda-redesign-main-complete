@@ -813,6 +813,7 @@ b {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  border-bottom: none;
 }
 
 .accordion-header h2 {
@@ -848,7 +849,7 @@ b {
   display: block;
   color: #323233;
   font-size: 1rem;
-  padding-top: 10px;
+  /* padding-top: 10px; */
   align-items: flex-start;
   gap: 0;
   display: block;
@@ -858,7 +859,7 @@ b {
 
 .accordion-content ul li {
   font-weight: 500;
-  padding-top: 10px;
+  /* padding-top: 10px; */
   line-height: 2rem;
 }
 
@@ -982,6 +983,7 @@ tr {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  border-bottom: none;
 }
 
 .faq-accordion-header p {
@@ -1012,7 +1014,7 @@ tr {
   justify-content: start;
   text-align: start;
   width: 100%;
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 
 .faq-accordion-content ul {
@@ -1562,6 +1564,16 @@ tr {
     height: 12px;
   }
 
+  
+  .accordion-header.active {
+    padding-bottom: 4px;
+  }
+
+  .accordion-content ul {
+    margin-top: 0;
+  }
+
+
   /* <!----Frequently Asked Questions----> */
 
   .faq-grid-container {
@@ -1578,7 +1590,7 @@ tr {
   .faq-accordion-content p {
     font-size: 0.55rem;
     line-height: 1rem;
-    padding-top: 10px;
+    /* padding-top: 10px; */
   }
 
   .faq-accordion-header .plus-icon {
@@ -1979,6 +1991,16 @@ tr {
     height: 12px;
   }
 
+  .accordion-header.active {
+    padding-bottom: 4px;
+  }
+
+  .accordion-content ul {
+    margin-top: 0;
+  }
+
+
+
   /* <!----Frequently Asked Questions----> */
 
   .faq-grid-container {
@@ -1994,7 +2016,7 @@ tr {
   .faq-accordion-content p {
     font-size: 0.7rem;
     line-height: 1.2rem;
-    padding-top: 10px;
+    /* padding-top: 10px; */
   }
 
   .faq-accordion-header .plus-icon {
@@ -2365,6 +2387,10 @@ tr {
 
   /* <!----Accordion Section-----> */
 
+  .accordion-header.active {
+    padding-bottom: 8px;
+  }
+  
   .accordion-header h2 {
     font-size: 1rem;
     line-height: 1.4rem;
@@ -2379,6 +2405,10 @@ tr {
   .accordion-content ul li,
   .accordion-content p {
     line-height: 1.5rem;
+  }
+
+  .accordion-content ul {
+    padding-left: 28px;
   }
 
   .arrow-icon {
@@ -2396,6 +2426,14 @@ tr {
   .faq-accordion-header p {
     font-size: 0.9rem;
     /* line-height: 3rem; */
+  }
+
+  .faq-accordion-header p {
+    padding: 10px 0px 10px 0px;
+  }
+
+  .faq-accordion-header.active {
+    padding-bottom: 8px;
   }
 
   .faq-accordion-content p {
@@ -2849,11 +2887,21 @@ tr {
     line-height: 1.6rem;
   }
 
+  .accordion-header.active {
+    padding-bottom: 8px;
+  }
+
+  .accordion-content ul {
+    padding-left: 28px;
+  }
+
+
   /* <!----Frequently Asked Questions----> */
 
   .faq-accordion-header p {
     font-size: 0.8rem;
     /* line-height: 3rem; */
+    padding: 16px 0px 16px 0px;
   }
 
   .faq-accordion-content p {

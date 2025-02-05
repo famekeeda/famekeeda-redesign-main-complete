@@ -917,7 +917,7 @@ ul {
 }
 
 .celebrity-endorsements-image {
-  height: 325px;
+  height: 312px;
 }
 
 .ad-films-image {
@@ -1535,6 +1535,59 @@ ul {
   z-index: 1;
 }
 
+.lets-connect-btn {
+  display: inline-block;
+  padding: 0.45rem 1rem;
+  margin-left: 1.5rem;
+  background: transparent;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 300;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  position: absolute;
+  bottom: 16px;
+  overflow: hidden;
+  transition: background-color 0.6s;
+  cursor: pointer;
+}
+
+.lets-connect-btn:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.lets-connect-btn:hover .arrow {
+  color: #000000;
+}
+
+.lets-connect-btn .arrow {
+  position: relative;
+  z-index: 1;
+}
+
+/* Background fill from bottom up */
+.lets-connect-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #000;
+  background-color: #fff;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.6s ease;
+  z-index: 0;
+  border-radius: 1181.43px;
+}
+
+.lets-connect-btn:hover::before {
+  transform: scaleY(1);
+}
+
 /* Different Background Colors for each card */
 .linkedin {
   background: linear-gradient(329deg, #007bb5 1.69%, #00a0dc 98.36%);
@@ -2102,6 +2155,7 @@ ul {
   flex-direction: column;
   position: relative;
   padding-top: 50px;
+  gap: 30px;
 }
 
 .about-us-title {
@@ -2133,7 +2187,7 @@ ul {
   width: 70%;
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  /* gap: 32px; */
 }
 
 .about-info-card {
@@ -2146,7 +2200,9 @@ ul {
 .about-info-card img {
   border-radius: 15px;
   height: 200px;
-  width: 200px;
+  /* width: 200px; */
+  object-fit: cover;
+  aspect-ratio: 1;
 }
 
 .about-info-info-wrapper {
@@ -2167,8 +2223,10 @@ ul {
 }
 
 .about-us-column-1 img {
-  width: 500px;
-  height: 800px;
+  /* width: 500px;
+  height: 800px; */
+  height: 740px;
+  width: auto;
   position: absolute;
   bottom: 0;
   left: 0;
