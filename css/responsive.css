@@ -441,8 +441,14 @@
     top: 65px;
   }
 
-  .number {
+  /* .number {
     font-size: 45px;
+  } */
+
+  .number {
+    font-size: 40px;
+    bottom: -16px;
+    right: -4px;
   }
 
   .social-btn {
@@ -1155,8 +1161,6 @@
     gap: 32px;
   }
 
-
-
   .imcc-video-wrapper-1 {
     transform: translateX(-60px);
   }
@@ -1352,6 +1356,12 @@
   .lets-connect-btn {
     font-size: 0.575rem !important;
     padding: 0.35rem 0.6rem !important;
+  }
+
+  .number {
+    font-size: 48px;
+    bottom: -16px;
+    right: -2px;
   }
 
   /* Revolutionizing */

@@ -1526,7 +1526,7 @@ ul {
   border-radius: 25px;
 }
 
-.number {
+/* .number {
   font-size: 60px;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.3);
@@ -1534,7 +1534,18 @@ ul {
   bottom: -15px;
   right: -2px;
   z-index: 1;
+} */
+
+.number {
+  font-size: 80px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  bottom: -24px;
+  right: -8px;
+  z-index: 1;
 }
+
 
 .lets-connect-btn {
   display: inline-block;

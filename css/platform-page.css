@@ -194,8 +194,10 @@ section {
 }
 
 .wim-card {
-  width: 400px;
-  height: 500px;
+  /* width: 400px;
+  height: 500px; */
+  width: 408px;
+  height: 608px;
   border-radius: 30px;
   position: relative;
   display: flex;
@@ -231,11 +233,12 @@ section {
 }
 
 .wim-screen {
-  width: 260px;
-  height: 320px;
-  background-color: #d3d3d3;
-  border-radius: 25px;
-  border: 3px solid black;
+  /* width: 260px;
+  height: 320px; */
+  width: 272px;
+  height: 440px;
+  /* background-color: #d3d3d3;
+  border: 3px solid black; */
   position: relative;
   z-index: 2;
   overflow: hidden;
@@ -253,16 +256,16 @@ section {
   width: 100%;
   height: auto;
   object-fit: cover;
-  border-radius: 25px;
+  /* border-radius: 25px; */
 }
 
 .number {
-  font-size: 60px;
+  font-size: 80px;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.3);
   position: absolute;
-  bottom: -15px;
-  right: -2px;
+  bottom: -24px;
+  right: -8px;
   z-index: 1;
 }
 
@@ -1406,14 +1409,14 @@ tr {
 
   .wim-card {
     width: 48.82%;
-    height: calc(500px * 0.5);
+    height: calc(608px * 0.44);
     border-radius: 16px;
-    padding: 20px;
+    padding: 16px;
   }
 
   .wim-screen {
-    width: calc(260px * 0.475);
-    height: calc(360px * 0.475);
+    width: calc(260px * 0.45);
+    height: calc(440px * 0.533);
   }
 
   .wim-card-title {
@@ -1422,8 +1425,8 @@ tr {
   }
 
   .wim-card-desc {
-    font-size: 0.5rem;
-    line-height: 0.675rem;
+    font-size: 0.4775rem;
+    line-height: 0.575rem;
   }
 
   .center-text {
@@ -1432,12 +1435,12 @@ tr {
   }
 
   .hover-effect {
-    width: 40px;
-    height: 20px;
+    width: 32px;
+    height: 16px;
   }
 
   .arrow {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   /* <!-----What is Instagram Marketing-----> */
@@ -1477,7 +1480,7 @@ tr {
     height: 5px;
   }
 
-  .trending-slider-control .swiper-pagination .swiper-pagination-bullet-active  {
+  .trending-slider-control .swiper-pagination .swiper-pagination-bullet-active {
     width: calc(5px + 2%);
   }
 
@@ -1573,7 +1576,7 @@ tr {
     height: 12px;
   }
 
-  
+
   .accordion-header.active {
     padding-bottom: 4px;
   }
@@ -1822,15 +1825,15 @@ tr {
   }
 
   .wim-card {
-    width: calc(400px * 0.54);
-    height: calc(500px * 0.6);
+    width: calc(408px * 0.529);
+    height: calc(608px * 0.5875);
     border-radius: 24px;
     padding: 24px;
   }
 
   .wim-screen {
-    width: calc(260px * 0.575);
-    height: calc(360px * 0.533);
+    width: calc(272px * 0.529);
+    height: calc(440px * 0.6);
   }
 
   .wim-card-title {
@@ -1839,8 +1842,8 @@ tr {
   }
 
   .wim-card-desc {
-    font-size: 0.67rem;
-    line-height: 1rem;
+    font-size: 0.64rem;
+    line-height: 0.875rem;
   }
 
   .center-text {
@@ -1849,12 +1852,18 @@ tr {
   }
 
   .hover-effect {
-    width: 48px;
-    height: 24px;
+    width: 40px;
+    height: 16px;
   }
 
   .arrow {
     font-size: 16px;
+  }
+
+  .number {
+    font-size: 40px;
+    bottom: -16px;
+    right: -4px;
   }
 
 
@@ -1896,7 +1905,7 @@ tr {
     height: 5px;
   }
 
-  .trending-slider-control .swiper-pagination .swiper-pagination-bullet-active  {
+  .trending-slider-control .swiper-pagination .swiper-pagination-bullet-active {
     width: calc(5px + 2%);
   }
 
@@ -1968,9 +1977,11 @@ tr {
   .accordion-header {
     padding: 0px;
   }
+
   .accordion-header-inner {
     padding: 8px 0px;
   }
+
   .accordion-header h2 {
     font-size: 0.9rem;
     line-height: 1.2rem;
@@ -2277,13 +2288,14 @@ tr {
   }
 
   .wim-card {
-    width: calc(400px * 0.655);
-    height: calc(500px * 0.75);
+    width: calc(408px * 0.655);
+    height: calc(608px * 0.695);
+    padding: 32px;
   }
 
   .wim-screen {
-    width: calc(260px * 0.75);
-    height: calc(360px * 0.575);
+    width: calc(272px * 0.65);
+    height: calc(440px * 0.695);
   }
 
   .wim-card-title {
@@ -2293,7 +2305,7 @@ tr {
 
   .wim-card-desc {
     font-size: 0.75rem;
-    line-height: 1.2rem;
+    line-height: 1rem;
   }
 
   .center-text {
@@ -2306,6 +2318,16 @@ tr {
     bottom: -12px;
     right: -2px;
   }
+
+  .hover-effect {
+    width: 64px;
+    height: 24px;
+  }
+
+  .arrow {
+    font-size: 24px;
+  }
+
 
   /* <!-----What is Instagram Marketing-----> */
 
@@ -2399,7 +2421,7 @@ tr {
   .accordion-header.active {
     padding-bottom: 8px;
   }
-  
+
   .accordion-header h2 {
     font-size: 1rem;
     line-height: 1.4rem;
@@ -2655,8 +2677,8 @@ tr {
 
   /* <!--- Why Instagram Marketing ---> */
   .wim-card {
-    width: calc(400px * 0.865);
-    height: calc(500px * 0.95);
+    width: calc(408px * 0.862);
+    height: calc(608px * 0.862);
   }
 
   .wim-card h2 {
@@ -2669,12 +2691,13 @@ tr {
   } */
 
   .wim-screen {
-    width: calc(260px * 0.975);
-    height: calc(360px * 0.833);
+    width: calc(272px * 0.8333);
+    height: calc(440px * 0.85);
   }
 
   .wim-card-title {
-    font-size: 1.25rem;
+    font-size: 1.35rem;
+    line-height: 2rem;
   }
 
   .wim-card-desc {
@@ -2772,10 +2795,14 @@ tr {
     width: 100%;
   }
 
-  /* .wim-card {
-    width: calc(400px * 1);
-    height: calc(500px * 1);
-  } */
+  .wim-inner-row {
+    gap: 24px;
+  }
+
+  .wim-card {
+    width: calc(408px * 1.01);
+    height: calc(608px * 1);
+  }
 
   /* .wim-card h2 {
     font-size: 1.2rem;
@@ -3080,37 +3107,49 @@ tr {
   }
 
   .wim-inner-row {
-    gap: 20px;
+    gap: 12px;
   }
 
   .wim-card {
-    width: calc(400px * 0.75);
-    height: calc(500px * 0.8333);
+    width: calc(408px * 0.555);
+    height: calc(608px * 0.6);
+    padding: 24px;
+    border-radius: 30px;
   }
 
   .wim-screen {
-    width: calc(260px * 0.75);
-    height: calc(360px * 0.675);
+    width: calc(272px * 0.5333);
+    height: calc(440px * 0.6);
   }
 
   .wim-card-title {
-    font-size: 1.2rem;
-  }
-
-  .wim-card-desc {
-    font-size: 0.75rem;
+    font-size: 1rem;
     line-height: 1.25rem;
   }
 
+  .wim-card-desc {
+    font-size: 0.775rem;
+    line-height: 0.875rem;
+  }
+
   .center-text {
-    font-size: 1rem;
-    line-height: 1.8rem;
+    font-size: 0.975rem;
+    line-height: 1.25rem;
   }
 
   .number {
     font-size: 40px;
     bottom: -12px;
     right: -1px;
+  }
+
+  .hover-effect {
+    width: 56px;
+    height: 20px;
+  }
+
+  .arrow {
+    font-size: 20px;
   }
 
   /* <!-----What is Instagram Marketing-----> */
@@ -3308,6 +3347,32 @@ tr {
   }
 }
 
+/* EXTRA DESKTOP */
+@media (width: 1366px) {
+
+  .wim-screen {
+    width: calc(272px * 0.58) !important;
+    height: calc(440px * 0.65) !important;
+  }
+
+  .wim-card-title {
+    font-size: 1.25rem !important;
+    line-height: 1.5rem !important;
+  }
+
+  .wim-card-desc {
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+  }
+
+  /* .number {
+    font-size: 80px !important;
+    bottom: -24px !important;
+    right: -4px !important;
+  } */
+
+}
+
 /* DESKTOP v2 */
 @media (min-width: 1200px) and (max-width: 1439px) {
 
@@ -3365,20 +3430,16 @@ tr {
     line-height: 1.8rem;
   }
 
-  .number {
-    font-size: 50px;
-  }
-
   /* <!-----What is Instagram Marketing-----> */
 
   .wim-card-title {
     font-size: 1rem;
-    line-height: 1.5rem;
+    line-height: 1.2rem;
   }
 
   .wim-card-desc {
-    font-size: 0.72rem;
-    line-height: 1.12rem;
+    font-size: 0.7rem;
+    line-height: 1rem;
   }
 
   .what-is-ig-marketing {
@@ -3390,13 +3451,14 @@ tr {
   }
 
   .wim-card {
-    width: calc(400px* 0.647);
-    height: calc(500px* 0.775);
+    width: calc(408px* 0.625);
+    height: calc(608px* 0.625);
+    padding: 24px;
   }
 
   .wim-screen {
-    width: calc(260px* 0.75);
-    height: calc(360px* 0.6);
+    width: calc(272px* 0.6);
+    height: calc(440px* 0.66);
   }
 
   .what-is-ig-marketing h3 {
@@ -3408,6 +3470,22 @@ tr {
   .center-text {
     font-size: 0.875rem;
     line-height: 1.4rem;
+  }
+
+  .hover-effect {
+    width: 64px;
+    height: 24px;
+  }
+
+  .arrow {
+    font-size: 24px;
+  }
+
+  .number {
+    font-size: 56px;
+    font-weight: 600;
+    bottom: -24px;
+    right: -8px;
   }
 
   /* .modern-slider {
@@ -3579,12 +3657,13 @@ tr {
   } */
 
   .wim-inner-row {
-    gap: 34px;
+    gap: 20px;
   }
 
   .wim-card {
-    width: calc(400px * 0.75);
-    height: calc(500px * 0.875);
+    width: calc(408px * 0.76);
+    height: calc(608px * 0.77);
+    padding: 32px;
   }
 
   .wim-card h2 {
@@ -3592,22 +3671,28 @@ tr {
     line-height: 1.2rem;
   }
 
+  .hover-effect {
+    width: 72px;
+    height: 32px;
+  }
+
   /* .wim-card p {
     font-size: 0.7rem;
   } */
 
   .wim-screen {
-    width: calc(260px * 0.75);
-    height: calc(360px * 0.675);
+    width: calc(272px * 0.75);
+    height: calc(440px * 0.77);
   }
 
   .wim-card-title {
     font-size: 1.25rem;
+    line-height: 1.7rem;
   }
 
   .wim-card-desc {
     font-size: 0.875rem;
-    line-height: 1.25rem;
+    line-height: 1.12rem;
   }
 
   .center-text {
@@ -3750,12 +3835,12 @@ tr {
   } */
 
   .wim-inner-row {
-    gap: 30px;
+    gap: 20px;
   }
 
   .wim-card {
-    width: calc(400px * 0.8333);
-    height: calc(500px * 0.875);
+    width: calc(408px * 0.8333);
+    height: calc(608px * 0.875);
   }
 
   .wim-card h2 {
@@ -3777,9 +3862,8 @@ tr {
   }
 
   .wim-screen {
-    width: calc(260px * 0.8333);
-    height: calc(360px * 0.675);
-    margin-bottom: -80px;
+    width: calc(272px * 0.8333);
+    height: calc(440px * 0.8333);
   }
 
   .center-text {
