@@ -2014,7 +2014,7 @@ ul {
   bottom: 0;
   width: 100%;
   height: auto;
-  height: -webkit-fill-available;
+  /* height: -webkit-fill-available; */
   overflow: hidden;
   object-fit: cover;
   z-index: 1;
