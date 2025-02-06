@@ -294,7 +294,7 @@ section {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease-in-out;
   z-index: 3;
 }
 
@@ -366,7 +366,7 @@ section {
 }
 
 .center-text:hover {
-  animation: CenteredText 2s ease-in-out infinite;
+  animation: CenteredText 2s ease-in-out;
 }
 
 @keyframes CenteredText {
@@ -374,19 +374,15 @@ section {
     opacity: 0;
   }
 
-  30% {
+  50% {
     opacity: 0.5;
   }
 
   100% {
     opacity: 1;
-    ;
   }
 }
 
-.wim-card:hover .center-text {
-  opacity: 1;
-}
 
 /* Platform Text Grid */
 
