@@ -118,7 +118,8 @@ ul {
   display: flex;
   flex-direction: row;
   gap: 8px;
-  align-items: flex-start;
+  /* align-items: flex-start; */
+  align-items: center;
 }
 
 .dropbtn {
@@ -193,8 +194,8 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f7f5f3;
-  border-radius: 8px;
+  /* background: #f7f5f3; */
+  /* border-radius: 8px; */
 }
 
 .nav-icon-wrapper img {

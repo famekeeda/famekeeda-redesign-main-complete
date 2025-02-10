@@ -99,6 +99,7 @@ section {
 .ig-ht, .telegram-ht, .linkedin-ht, .youtube-ht, .x-ht {
   background: #000000;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .ig-ht span {

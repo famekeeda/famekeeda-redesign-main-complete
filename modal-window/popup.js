@@ -10,8 +10,7 @@ var span = document.getElementsByClassName("close-btn")[0];
 var buttonClasses = [
     [".nav-cta"],
     [".cta_hero_button"],
-    [".imcc-button"],
-    [".service-card-button"]
+    [".imcc-button"]
 ];
 
 // Step 2: Use the list to construct a selector string
