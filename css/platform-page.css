@@ -96,6 +96,51 @@ section {
   -webkit-background-clip: text;
 }
 
+.ig-ht, .telegram-ht, .linkedin-ht, .youtube-ht, .x-ht {
+  background: #000000;
+  -webkit-background-clip: text;
+}
+
+.ig-ht span {
+  background: linear-gradient(90deg,
+      #fecc51 0%,
+      #ff610d 20%,
+      #ed25a7 50%,
+      #0440e1 85%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+.telegram-ht span {
+  background: linear-gradient(90deg, #1DA1F2 40.51%, #76C5F5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.x-ht span {
+  background: var(--X, linear-gradient(90deg, #000 44.7%, #666 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.youtube-ht span {
+  background: linear-gradient(90deg, #EE0F0F 39.38%, #BF2626 66.19%) !important;
+  background-clip: text !important;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.linkedin-ht span {
+  background: var(--LinkedIn, linear-gradient(90deg, #007BB5 40.51%, #00A0DC 100%)) !important;
+  background-clip: text !important;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .ig-desc {
   /* color: #323233;
   font-family: Poppins;
