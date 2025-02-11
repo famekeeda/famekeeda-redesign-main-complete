@@ -1467,7 +1467,7 @@ tr {
   /* <!--- Why Instagram Marketing ---> */
 
   .wim-inner-row {
-    gap: 8px;
+    gap: 16px;
   }
 
   .wim-card {
@@ -1628,6 +1628,10 @@ tr {
     font-size: 0.675rem;
     line-height: 1rem;
     padding: 4px;
+  }
+
+  .toi-grid-item img {
+    border-radius: 24px;
   }
 
   /* <!----Accordion Section-----> */
@@ -2066,6 +2070,10 @@ tr {
   .toi-grid-description {
     font-size: 0.775rem;
     line-height: 1.2rem;
+  }
+
+  .toi-grid-item img {
+    border-radius: 24px;
   }
 
   /* <!----Accordion Section-----> */
@@ -2992,6 +3000,10 @@ tr {
 
   /* <!-----Types of Influencers on Instagram to Partner With------> */
 
+  .toi-grid-container {
+    gap: 40px;
+  }
+  
   .toi-grid-item {
     width: calc(480px * 0.5333);
     background: transparent;
@@ -3626,6 +3638,10 @@ tr {
 
   /* <!-----Types of Influencers on Instagram to Partner With------> */
 
+  .toi-grid-container {
+    gap: 40px;
+  }
+
   .toi-content p {
     font-size: 1.05rem;
     line-height: 2rem;
@@ -3850,6 +3866,10 @@ tr {
 
   /* <!-----Types of Influencers on Instagram to Partner With------> */
 
+  .toi-grid-container {
+    gap: 48px;
+  }
+
   .toi-content p {
     font-size: 1.15rem;
     line-height: 2.2rem;
@@ -4025,6 +4045,10 @@ tr {
 
   .types-of-influencers {
     width: 100%;
+  }
+
+  .toi-grid-container {
+    gap: 48px;
   }
 
   .toi-content p {
