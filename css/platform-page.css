@@ -1469,39 +1469,56 @@ tr {
   }
 
   .wim-card {
-    width: 48.82%;
+    /* width: 48.82%;
     height: calc(608px * 0.44);
     border-radius: 16px;
-    padding: 16px;
+    padding: 16px; */
+    width: 100%;
+    height: 67vh;
+    border-radius: 32px;
   }
 
   .wim-screen {
-    width: calc(260px * 0.45);
-    height: calc(440px * 0.533);
+    /* width: calc(260px * 0.45);
+    height: calc(440px * 0.533); */
+    width: 90%;
+    height: 48vh;
   }
 
   .wim-card-title {
-    font-size: 0.675rem;
-    line-height: 1rem;
+    /* font-size: 0.675rem;
+    line-height: 1rem; */
+    font-size: 1.2rem;
+    line-height: 1.5rem;
   }
 
   .wim-card-desc {
-    font-size: 0.4775rem;
-    line-height: 0.575rem;
+    /* font-size: 0.4775rem;
+    line-height: 0.575rem; */
+    font-size: 0.875rem;
+    line-height: 1.2rem;
   }
 
   .center-text {
-    font-size: 0.575rem;
-    line-height: 0.875rem;
+    /* font-size: 0.575rem;
+    line-height: 0.875rem; */
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
-  .hover-effect {
+  /* .hover-effect {
     width: 32px;
     height: 16px;
   }
 
   .arrow {
     font-size: 12px;
+  } */
+
+  .number {
+    font-size: 72px !important;
+    bottom: -32px !important;
+    right: -4px;
   }
 
   /* <!-----What is Instagram Marketing-----> */
@@ -1889,43 +1906,51 @@ tr {
   }
 
   .wim-card {
-    width: calc(408px * 0.529);
+    /* width: calc(408px * 0.529);
     height: calc(608px * 0.5875);
     border-radius: 24px;
-    padding: 24px;
+    padding: 24px; */
+    width: 100%;
+    height: 70vh;
+    border-radius: 40px;
   }
 
   .wim-screen {
-    width: calc(272px * 0.529);
-    height: calc(440px * 0.6);
+    /* width: calc(272px * 0.529);
+    height: calc(440px * 0.6); */
+    width: 80%;
+    height: 52vh;
   }
 
   .wim-card-title {
-    font-size: 0.875rem;
-    line-height: 1.225rem;
+    /* font-size: 0.875rem;
+    line-height: 1.225rem; */
   }
 
   .wim-card-desc {
-    font-size: 0.64rem;
-    line-height: 0.875rem;
+    /* font-size: 0.64rem;
+    line-height: 0.875rem; */
   }
 
-  .center-text {
+  /* .center-text {
     font-size: 0.675rem;
     line-height: 1.25rem;
-  }
+  } */
 
-  .hover-effect {
+  /* .hover-effect {
     width: 40px;
     height: 16px;
-  }
+  } */
 
-  .arrow {
+  /* .arrow {
     font-size: 16px;
-  }
+  } */
 
   .number {
-    font-size: 40px;
+    /* font-size: 40px;
+    bottom: -16px;
+    right: -4px; */
+    font-size: 100px;
     bottom: -16px;
     right: -4px;
   }
@@ -2858,7 +2883,7 @@ tr {
     position: relative;
     top: 24px;
     width: 65%;
-}
+  }
 
   /* <!--- Why Instagram Marketing ---> */
 
@@ -3175,7 +3200,7 @@ tr {
     position: relative;
     top: 24px;
     width: 65%;
-}
+  }
 
   /* <!--- Why Instagram Marketing ---> */
 
@@ -3476,7 +3501,7 @@ tr {
     position: relative;
     top: 24px;
     width: 65%;
-}
+  }
 
   /* <!--- Why Instagram Marketing ---> */
 
@@ -3737,7 +3762,7 @@ tr {
   .ig-column-right {
     justify-content: center;
     width: 65%;
-}
+  }
 
   /* <!--- Why Instagram Marketing ---> */
 
@@ -3921,7 +3946,7 @@ tr {
     justify-content: center;
     align-items: center;
     width: 65%;
-}
+  }
 
   /* <!--- Why Instagram Marketing ---> */
 
