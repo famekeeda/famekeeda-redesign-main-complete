@@ -827,7 +827,8 @@ b {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 56px;
+  max-width: 1920px;
 }
 
 .toi-grid-item {
@@ -840,6 +841,7 @@ b {
 
 .toi-grid-item img {
   width: 100%;
+  border-radius: 32px;
 }
 
 .toi-grid-title {
