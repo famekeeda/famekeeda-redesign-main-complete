@@ -76,7 +76,7 @@ section {
 }
 
 .ig-column-right img {
-  border-radius: 72px;
+  /* border-radius: 72px; */
   width: 100%;
 }
 
@@ -97,7 +97,11 @@ section {
   -webkit-background-clip: text;
 }
 
-.ig-ht, .telegram-ht, .linkedin-ht, .youtube-ht, .x-ht {
+.ig-ht,
+.telegram-ht,
+.linkedin-ht,
+.youtube-ht,
+.x-ht {
   background: #000000;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -149,9 +153,10 @@ section {
   font-size: 1.3rem;
   line-height: 2.2rem; */
   color: #323233;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 1.5rem;
   line-height: 2.8rem;
+  text-align: justify;
 }
 
 
@@ -815,9 +820,13 @@ b {
 }
 
 .toi-grid-container {
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* gap: 20px; */
+  gap: 40px; */
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 40px;
 }
 
@@ -1429,6 +1438,7 @@ tr {
 
   .ig-row {
     flex-direction: column;
+    gap: 16px;
   }
 
   .ig-title,
@@ -1437,18 +1447,19 @@ tr {
   }
 
   .ig-desc {
-    font-size: 0.82rem;
+    font-size: 0.8rem;
     line-height: 1.5rem;
   }
 
   .ig-column-right {
     order: 1;
+    width: 100%;
   }
 
   .ig-column-left {
     width: 100%;
     order: 2;
-    gap: 10px;
+    gap: 4px;
   }
 
   /* <!--- Why Instagram Marketing ---> */
@@ -1579,23 +1590,23 @@ tr {
     align-items: flex-start;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
+    gap: 12px;
   }
 
   .toi-grid-item {
-    width: 100%;
+    width: 48%;
     background: transparent;
     font-size: 25px;
     /* padding: 10px; */
   }
 
   .toi-grid-title {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
   }
 
   .toi-grid-description {
-    font-size: 0.775rem;
-    line-height: 1.2rem;
+    font-size: 0.675rem;
+    line-height: 1rem;
     padding: 4px;
   }
 
@@ -1843,6 +1854,7 @@ tr {
 
   .ig-row {
     flex-direction: column;
+    gap: 24px;
   }
 
   .ig-title,
@@ -1857,11 +1869,13 @@ tr {
 
   .ig-column-right {
     order: 1;
+    width: 100%;
   }
 
   .ig-column-left {
     width: 100%;
     order: 2;
+    gap: 4px;
   }
 
   /* <!--- Why Instagram Marketing ---> */
@@ -2014,11 +2028,11 @@ tr {
   }
 
   .toi-grid-title {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .toi-grid-description {
-    font-size: 0.8rem;
+    font-size: 0.775rem;
     line-height: 1.2rem;
   }
 
@@ -2314,16 +2328,17 @@ tr {
 
   .ig-title,
   .ig-subtitle {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
   }
 
   .ig-desc {
-    font-size: 1rem;
-    line-height: 1.8rem;
+    font-size: 1.3rem;
+    line-height: 2.4rem;
   }
 
   .ig-column-right {
     order: 1;
+    width: 100%;
   }
 
   .ig-column-left {
@@ -2451,7 +2466,7 @@ tr {
   }
 
   .toi-grid-item {
-    width: calc(480px * 0.5333);
+    width: calc(480px * 0.543);
     background: transparent;
     font-size: 25px;
     /* padding: 10px; */
@@ -2773,7 +2788,7 @@ tr {
   }
 
   .toi-grid-item {
-    width: calc(480px * 0.7);
+    width: calc(480px * 0.716);
     background: transparent;
     font-size: 25px;
     /* padding: 10px; */
@@ -2831,13 +2846,19 @@ tr {
 
   .ig-desc {
     font-size: 1rem;
-    line-height: 1.6rem;
+    line-height: 1.8rem;
   }
 
   .ig-column-left {
-    width: 90%;
-    gap: 15px;
+    width: 100%;
+    gap: 16px;
   }
+
+  .ig-column-right {
+    position: relative;
+    top: 24px;
+    width: 65%;
+}
 
   /* <!--- Why Instagram Marketing ---> */
 
@@ -3146,9 +3167,15 @@ tr {
   }
 
   .ig-desc {
-    font-size: 0.875rem;
-    line-height: 1.6rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
   }
+
+  .ig-column-right {
+    position: relative;
+    top: 24px;
+    width: 65%;
+}
 
   /* <!--- Why Instagram Marketing ---> */
 
@@ -3265,7 +3292,7 @@ tr {
   }
 
   .toi-grid-item {
-    width: calc(480px * 0.625);
+    width: calc(480px * 0.6);
     background: transparent;
     font-size: 25px;
   }
@@ -3441,9 +3468,15 @@ tr {
   }
 
   .ig-desc {
-    font-size: 1.05rem;
-    line-height: 2rem;
+    font-size: 1.2rem;
+    line-height: 2.1rem;
   }
+
+  .ig-column-right {
+    position: relative;
+    top: 24px;
+    width: 65%;
+}
 
   /* <!--- Why Instagram Marketing ---> */
 
@@ -3567,7 +3600,7 @@ tr {
   }
 
   .toi-grid-item {
-    width: calc(480px * 0.625);
+    width: calc(480px * 0.69);
     background: transparent;
     font-size: 25px;
   }
@@ -3697,8 +3730,14 @@ tr {
   }
 
   .ig-desc {
-    font-size: 1.15rem;
+    font-size: 1.35rem;
+    line-height: 2.6rem;
   }
+
+  .ig-column-right {
+    justify-content: center;
+    width: 65%;
+}
 
   /* <!--- Why Instagram Marketing ---> */
 
@@ -3875,8 +3914,14 @@ tr {
   }
 
   .ig-desc {
-    font-size: 1.15rem;
+    font-size: 1.4rem;
   }
+
+  .ig-column-right {
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+}
 
   /* <!--- Why Instagram Marketing ---> */
 
