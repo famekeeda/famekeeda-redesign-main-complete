@@ -1474,29 +1474,30 @@ tr {
     border-radius: 16px;
     padding: 16px; */
     width: 100%;
-    height: 67vh;
+    height: calc(608px * 1);
     border-radius: 32px;
+    padding: 32px;
   }
 
   .wim-screen {
     /* width: calc(260px * 0.45);
     height: calc(440px * 0.533); */
     width: 90%;
-    height: 48vh;
+    height: 52vh;
   }
 
   .wim-card-title {
     /* font-size: 0.675rem;
     line-height: 1rem; */
-    font-size: 1.2rem;
-    line-height: 1.5rem;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
   }
 
   .wim-card-desc {
     /* font-size: 0.4775rem;
     line-height: 0.575rem; */
-    font-size: 0.875rem;
-    line-height: 1.2rem;
+    font-size: 0.975rem;
+    line-height: 1.5rem;
   }
 
   .center-text {
