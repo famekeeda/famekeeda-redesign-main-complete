@@ -1482,21 +1482,21 @@ tr {
   .wim-screen {
     /* width: calc(260px * 0.45);
     height: calc(440px * 0.533); */
-    width: 90%;
-    height: 52vh;
+    width: calc(260px * 0.875);
+    height: calc(440px * 0.875);
   }
 
   .wim-card-title {
     /* font-size: 0.675rem;
     line-height: 1rem; */
-    font-size: 1.3rem;
-    line-height: 1.7rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
   }
 
   .wim-card-desc {
     /* font-size: 0.4775rem;
     line-height: 0.575rem; */
-    font-size: 0.975rem;
+    font-size: 1rem;
     line-height: 1.5rem;
   }
 
