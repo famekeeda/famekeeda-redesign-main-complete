@@ -263,7 +263,7 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 8px;
+  gap: 0px;
   padding: 1rem 2.5rem;
   border: 1px solid rgba(255, 255, 255, 0.50);
   background: rgba(255, 255, 255, 0.50);
@@ -886,6 +886,7 @@ ul {
   font-size: 32px;
   line-height: 40px;
   color: white;
+  font-weight: 550;
 }
 
 .service-card-img {
@@ -1278,7 +1279,7 @@ ul {
 
 .flow-text-title {
   font-size: 38px;
-  font-weight: 600;
+  font-weight: 500;
   background: var(--New-Text,
       linear-gradient(101deg, #be1622 11.69%, #e84e1b 53.29%, #be1622 94.89%));
   background-clip: text;
@@ -1445,7 +1446,7 @@ ul {
 
 .card h2 {
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 550;
   line-height: 1.4;
   margin-bottom: 20px;
   z-index: 2;
@@ -2226,8 +2227,8 @@ ul {
   display: flex;
   flex-direction: row;
   gap: 42px;
-  border-top: 0.5px solid #AFAFAF;
-  border-bottom: 0.5px solid #AFAFAF;
+  border-top: 1px solid #AFAFAF;
+  border-bottom: 1px solid #AFAFAF;
 }
 
 .about-us-column-1 {
@@ -2296,7 +2297,7 @@ ul {
 
 .about-info-hr {
   width: 100%;
-  background: #AFAFAF;
+  border-top: 1px solid #AFAFAF;
 }
 
 .about-info-desc {
@@ -2311,6 +2312,10 @@ ul {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.about-info-title {
+  font-weight: 600;
 }
 
 /*----------------------------------------- MEET OUR BRANDS SECTION --------------------------------------------*/

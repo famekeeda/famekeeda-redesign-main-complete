@@ -48,7 +48,7 @@ section {
   width: 100%;
   display: flex;
   flex-direction: row;
-  gap: 56px;
+  gap: 80px;
 }
 
 .left-col {
@@ -271,7 +271,7 @@ section {
   color: #fff;
   font-size: 1.6rem;
   line-height: 2rem;
-  font-weight: 600;
+  font-weight: 550;
   z-index: 2;
   position: relative;
 }
@@ -733,7 +733,7 @@ b {
 
 .influencer-name {
   font-size: 28px;
-  font-weight: 600;
+  font-weight: 550;
   background: linear-gradient(90deg, #be1622 5.54%, #e84e1b 50.85%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -847,7 +847,7 @@ b {
 .toi-grid-title {
   font-size: 1.6rem;
   color: #000;
-  font-weight: 600;
+  font-weight: 550;
   text-align: center;
 }
 
@@ -1221,7 +1221,7 @@ tr {
   margin: 0;
   font-size: 1.4rem;
   color: #000;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .designation {
