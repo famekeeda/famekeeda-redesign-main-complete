@@ -755,6 +755,18 @@
     border-radius: 16px;
   }
 
+  .mot-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #BF1522;
+    /* flex: 1 1 50%; */
+    position: relative;
+    overflow: hidden;
+    border-radius: 24px;
+    height: calc(614px * 0.48);
+    width: -webkit-fill-available;
+  }
+
   .mot-text-area p {
     font-size: 12px;
     padding: 4px 8px;
