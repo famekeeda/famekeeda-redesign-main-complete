@@ -2001,7 +2001,7 @@ ul {
   flex-direction: row;
   gap: 24px;
   flex: 1 1 50%;
-  height: 600px;
+  /* height: 600px; */
 }
 
 .founders-card {
