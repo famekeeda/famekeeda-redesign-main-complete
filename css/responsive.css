@@ -759,9 +759,14 @@
     height: calc(614px * 0.45);
   }
 
+  .mot-text-area {
+    align-items: flex-start;
+    padding: 6px 4px
+  }
+
   .mot-text-area p {
     font-size: 12px;
-    line-height: 16px;
+    line-height: 15px;
   }
 
   .mot-text-area p span {
@@ -1700,6 +1705,11 @@
     height: calc(614px * 0.6);
   }
 
+  .mot-text-area {
+    align-items: flex-start;
+    padding: 8px 4px
+  }
+
   .mot-text-area p {
     font-size: 16px;
     line-height: 24px;
@@ -2394,7 +2404,6 @@
     margin-left: -25px;
   }
 
-
   /* Our Success Stories */
   .success-stories-card-container {
     grid-template-columns: auto;
@@ -2489,8 +2498,14 @@
   }
 
   .mot-card {
-    height: calc(614px * 0.7);
+    height: calc(614px * 0.733);
   }
+
+  .mot-text-area {
+    align-items: flex-start;
+    padding: 14px 4px
+  }
+
 
   .mot-text-area p {
     font-size: 20px;
