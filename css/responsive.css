@@ -735,6 +735,10 @@
     display: none;
   }
 
+  .mot-r {
+    height: auto;
+  }
+
   .mot-mb {
     display: flex;
   }
@@ -1679,6 +1683,10 @@
 
   .mot-dsktp {
     display: none;
+  }
+
+  .mot-r {
+    height: auto;
   }
 
   .mot-mb {
