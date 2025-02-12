@@ -1827,6 +1827,10 @@ tr {
     font-size: 0.9rem;
     line-height: 1.6rem;
   }
+
+  .mot-text-area {
+    height: 20%;
+  }
 }
 
 /* MOBILE v2*/
