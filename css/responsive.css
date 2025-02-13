@@ -725,7 +725,7 @@
 
 
   /* Meet Our Team */
-  
+
   .meet-our-team-container {
     flex-direction: column;
     gap: 8px;
@@ -996,7 +996,6 @@
     gap: 32px;
   }
 
-
   .desktop {
     display: none;
   }
@@ -1100,6 +1099,73 @@
     margin: 16px 0;
     text-align: center;
   }
+
+    /* New Nav Dropdown */
+    /* .ddp-main-row {
+      flex-direction: row;
+    } */
+
+    .ddp-main-row {
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .ddp-inner-col{
+      flex-direction: row;
+      gap: 8px;
+    }
+
+    .dds,
+    .ddp {
+      width: 100%;
+      left: 0;
+      top: 100%;
+      border-bottom: 1px solid rgba(180, 180, 180, 0.3);
+      border-top: 1px solid rgba(180, 180, 180, 0.3);
+      border-radius: 0;
+    }
+  
+    .ddp {
+      right: 15%;
+    }
+
+    .ddp-card {
+      height: calc(190px * 0.8);
+      width: calc(272px * 0.76);
+    }
+    
+    .ddp-card-two {
+      height: calc(120px * 0.8);
+      width: calc(256px * 0.5333);
+    }
+  
+    /* .ddp-col {
+      height: calc(400px * 0.7);
+      width: calc(256px * 0.7);
+    } */
+  
+    .dds-image {
+      width: 96px;
+    }
+  
+    .ddp-inner-row {
+      border-radius: 16px;
+    }
+  
+    .ddp-inner-row p {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  
+    .ddp-icons {
+      height: 42px;
+      width: auto;
+    }
+  
+    .dds-icons {
+      height: 28px;
+      width: auto;
+    }
 
   /* Hero Section */
   .home-hero-section {
@@ -2016,7 +2082,7 @@
     padding: 24px;
     background: white;
     width: auto;
-    left: 8%;
+    /* left: 8%; */
   }
 
   .dropdown-content {
@@ -2027,6 +2093,49 @@
     margin: 16px 0;
     text-align: center;
   }
+
+    /* New Nav Dropdown */
+    .dds,
+    .ddp {
+      width: 100%;
+      left: 0;
+      top: 100%;
+      border-bottom: 1px solid rgba(180, 180, 180, 0.3);
+      border-top: 1px solid rgba(180, 180, 180, 0.3);
+      border-radius: 0;
+    }
+  
+    .ddp {
+      right: 15%;
+    }
+  
+    .ddp-col {
+      height: calc(400px * 0.7);
+      width: calc(256px * 0.7);
+    }
+  
+    .dds-image {
+      width: 96px;
+    }
+  
+    .ddp-inner-row {
+      border-radius: 16px;
+    }
+  
+    .ddp-inner-row p {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  
+    .ddp-icons {
+      height: 42px;
+      width: auto;
+    }
+  
+    .dds-icons {
+      height: 28px;
+      width: auto;
+    }
 
   /* Hero Section */
 
@@ -2620,7 +2729,7 @@
 
   .about-info-desc {
     width: 100%;
-}
+  }
 
 
   /* Footer */
@@ -2833,7 +2942,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 10;
   }
-  
+
   .nav-link {
     align-items: center;
   }
@@ -2874,7 +2983,7 @@
     padding: 24px;
     background: white;
     width: auto;
-    left: 10%;
+    /* left: 10%; */
   }
 
   .dropdown-content {
@@ -2885,6 +2994,49 @@
   .nav-cta {
     margin: 16px 0;
     text-align: center;
+  }
+
+  /* New Nav Dropdown */
+  .dds,
+  .ddp {
+    width: 100%;
+    left: 0;
+    top: 100%;
+    border-bottom: 1px solid rgba(180, 180, 180, 0.3);
+    border-top: 1px solid rgba(180, 180, 180, 0.3);
+    border-radius: 0;
+  }
+
+  .ddp {
+    right: 15%;
+  }
+
+  .ddp-col {
+    height: calc(400px * 0.7);
+    width: calc(256px * 0.7);
+  }
+
+  .dds-image {
+    width: 96px;
+  }
+
+  .ddp-inner-row {
+    border-radius: 16px;
+  }
+
+  .ddp-inner-row p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .ddp-icons {
+    height: 42px;
+    width: auto;
+  }
+
+  .dds-icons {
+    height: 28px;
+    width: auto;
   }
 
   /* Hero Section */
@@ -3403,12 +3555,12 @@
 
   .about-info-desc {
     width: 95%;
-}
+  }
 
   .about-info-card img {
     height: auto;
     width: 280px;
-}
+  }
 
   .about-info-info-wrapper {
     width: 100%;
@@ -3495,6 +3647,36 @@
     padding: 8px 16px;
     font-size: 14px;
     line-height: 16px;
+  }
+
+  /* New Nav Dropdown */
+  .dds {
+    /* right: 25.5%; */
+    width: 100%;
+    left: 0;
+  }
+
+  .ddp {
+    right: 15%;
+  }
+
+  /* .ddp-col {
+    height: calc(400px * 0.85);
+    width: calc(256px * 0.85);
+  } */
+
+  .dds-image {
+    width: 112px;
+  }
+
+  .ddp-inner-row p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .dds-icons {
+    height: 32px;
+    width: auto;
   }
 
   /* Social Proofing */
@@ -4045,6 +4227,34 @@
     line-height: 1.8rem;
   }
 
+  /* New Nav Dropdown */
+  .dds {
+    right: 24%;
+  }
+
+  .ddp {
+    right: 14%;
+  }
+
+  /* .ddp-col {
+    height: calc(400px * 0.85);
+    width: calc(256px * 0.85);
+  } */
+
+  .dds-image {
+    width: 112px;
+  }
+
+  .ddp-inner-row p {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .dds-icons {
+    height: 40px;
+    width: auto;
+  }
+
   /* .social-proofing-section {
     padding-top: 22px;
   } */
@@ -4304,10 +4514,10 @@
     font-size: 14px;
   }
 
-    .mot-card {
-      height: calc(614px * 0.65);
-    }
-  
+  .mot-card {
+    height: calc(614px * 0.65);
+  }
+
 
   /* .img-potrait-container img {
     width: 100%;
@@ -4579,6 +4789,15 @@
     gap: 40px;
   }
 
+  /* New Navbar Dropdown */
+  .dds {
+    right: 22%;
+  }
+
+  .ddp {
+    right: 14%;
+  }
+
   /* India's Top Influencer Marketing Agency */
   .imcc-card-row {
     gap: 140px;
@@ -4735,6 +4954,15 @@
 
   .cta-hero {
     right: 64px;
+  }
+
+  /* New Navbar Dropdown */
+  .dds {
+    right: 21%;
+  }
+
+  .ddp {
+    right: 13%;
   }
 
   /* Social Proofing */
@@ -5028,10 +5256,10 @@
     line-height: 2rem;
   }
 
-    /* Meet Our Team */
-    .mot-card {
-      height: calc(614px * 0.85);
-    }
+  /* Meet Our Team */
+  .mot-card {
+    height: calc(614px * 0.85);
+  }
 
   /* Our Team */
 
@@ -5133,6 +5361,15 @@
 
   .cta-hero {
     right: 80px;
+  }
+
+  /* New Navbar Dropdown */
+  .dds {
+    right: 20%;
+  }
+
+  .ddp {
+    right: 12%;
   }
 
   /* Social Proofing */
@@ -5401,7 +5638,7 @@
     margin-top: 15%;
     margin-bottom: 15%;
   }
-  
+
   /* Meet Our Team */
   .mot-card {
     height: calc(614px * 0.85);

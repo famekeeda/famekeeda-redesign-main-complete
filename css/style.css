@@ -54,7 +54,8 @@ header {
   background: white;
 
   /* Glassmorphism effect */
-  background: rgba(255, 255, 255, 0.4);
+  /* background: rgba(255, 255, 255, 0.4); */
+  background: rgba(237, 237, 237, 0.8);
   /* Light transparent white */
   backdrop-filter: blur(15px) brightness(1);
   /* Frosted glass effect */
@@ -161,16 +162,24 @@ ul {
   display: none;
   flex-direction: row;
   position: absolute;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); */
   z-index: 1;
   top: 4.5rem;
   left: auto;
   right: 8%;
   min-width: 160px;
-  padding: 32px 40px;
+  padding: 32px 32px;
   gap: 32px;
-  border-radius: 16px;
-  background: white;
+  /* border-radius: 16px; */
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 0.5px solid #f1f1f27a;
+  border-top: none;
+  /* background: white; */
+  /* background: rgba(237, 237, 237, 0.7); */
+  background: rgba(237, 237, 237, 0.8);
+  backdrop-filter: blur(36.5px); /* Blurring the background */
+  -webkit-backdrop-filter: blur(36.5px); /* For better support on WebKit-based browsers */
 }
 
 .show-dropdown {
@@ -229,6 +238,112 @@ ul {
   transition: 0.4s;
 }
 
+/* New Navbar Dropdown */
+
+/* Platforms */
+.ddp {
+  right: 11%;
+}
+
+.ddp-main-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+}
+
+.ddp-col {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  /* height: 400px;
+  width: 256px; */
+}
+
+.ddp-card {
+  height: 190px;
+  width: 272px;
+}
+
+.ddp-card-two {
+  height: 120px;
+  width: 256px;
+}
+
+.ddp-inner-col {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 50%;
+  gap: 16px;
+}
+
+.ddp-inner-row {
+  display: flex;
+  flex-direction: column;
+  /* height: 100%;
+  width: auto; */
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.ddp-inner-row p {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 550;
+  padding: 12px 22px;
+}
+
+.ddp-icons {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* Services */
+
+.dds {
+  right: 18%;
+}
+
+.dds-pr {
+  border: 0.816px solid rgba(0, 0, 0, 0.50);
+  background: linear-gradient(103deg, #BE1622 5.54%, #E84E1B 50.85%);
+}
+
+.dds-icons {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.dds-pr p {
+  width: 80%;
+  line-height: 32px;
+}
+
+.dds-o {
+  border: 0.816px solid rgba(0, 0, 0, 0.50);
+  background: linear-gradient(128deg, rgb(66, 66, 66) 0%, #666 100.1%);
+  justify-content: center;
+}
+
+.dds-o p {
+  padding: 0px 16px;
+  line-height: 32px;
+}
+
+.dds-image {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: auto;
+  width: 160px;
+}
 
 /*----------------------------------------- HERO SECTION - (Home) --------------------------------------------*/
 
