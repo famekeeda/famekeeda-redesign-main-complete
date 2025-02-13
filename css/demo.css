@@ -1,96 +1,29 @@
-/* .meet-our-influencers-section {
-    width: 100%;
-    margin: 40px 0;
-    overflow: hidden;
-}
-
-.slider-wrapper {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    padding: 0;
-}
-
-.slider-track {
+.ddp-main-row {
     display: flex;
-    gap: 30px;
-    position: relative;
-    width: fit-content;
-    padding: 20px;
-}
-
-.influencer-card {
-    flex: 0 0 300px;
-    border-radius: 30px;
-    border: 1px solid #BE1622;
-    background-image: url("/assets/service-pages_assets/instagram/fk-logo.svg");
-    background-repeat: no-repeat;
-    background-position: 104% 104%;
-    background-size: 85px 85px;
-    padding: 15px;
-    position: relative;
-    overflow: hidden;
-}
-
-@media (max-width: 768px) {
-    .influencer-card {
-        flex: 0 0 260px;
-    }
-}
-
-@media (max-width: 480px) {
-    .influencer-card {
-        flex: 0 0 220px;
-    }
-}
-
-.card-image {
+    flex-direction: row;
+    gap: 16px;
     width: 100%;
+}
+
+.ddp-col {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
     height: 300px;
-    border-radius: 15px;
-    object-fit: cover;
-    margin-bottom: 15px;
+    width: 300px;
 }
 
-.influencer-name {
-    font-size: 2rem;
-    font-weight: 600;
-    background: linear-gradient(90deg, #be1622 5.54%, #e84e1b 50.85%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 5px;
-}
-
-.influencer-title {
-    color: #000;
-    font-weight: 300;
-    font-size: 1.1rem;
-    margin-bottom: 15px;
-}
-
-.social-icons {
+.ddp-inner-col {
     display: flex;
-    gap: 5px;
-    margin-top: 10px;
+    flex-direction: column;
+    flex: 1 1 50%;
+    gap: 16px; 
 }
 
-.social-icon {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
+.ddp-inner-row {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #f0f0f0;
+    flex-direction: column;
+    border: 1px solid;
+    height: 100%;
+    width: auto;
 }
-
-.social-icon img {
-    width: 1.6rem;
-    height: 1.6rem;
-    transition: transform 0.2s;
-  }
-  
-  .social-icon img:hover {
-    transform: scale(1.2);
-  }  */
