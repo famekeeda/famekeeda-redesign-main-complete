@@ -155,12 +155,13 @@
   .ddp {
     width: calc(100vw - 28px);
     left: 0;
-    border-bottom: 1px solid rgba(180, 180, 180, 0.3);
+    /* border-bottom: 1px solid rgba(180, 180, 180, 0.3); */
     border-radius: 0;
     background-color: white;
     justify-content: center;
     padding: 8px 0;
     position: relative;
+    border: none;
   }
 
   .ddp-card {
@@ -1146,6 +1147,7 @@
 
   .show-nav {
     display: flex;
+    padding: 20px;
   }
 
   .hamburger-menu {
@@ -1190,7 +1192,7 @@
 
   /* New Nav Dropdown */
 
-  .nav-cta-btn {
+  /* .nav-cta-btn {
     display: flex;
     padding: 0;
     height: auto;
@@ -1199,11 +1201,16 @@
   .nav-cta {
     margin: 0;
     text-align: center;
+  } */
+
+  .cta-btn-mb {
+    display: flex;
   }
 
   ul {
     gap: 16px;
     width: 100%;
+    margin-top: 0;
   }
 
   .ddp-main-row {
@@ -1227,13 +1234,15 @@
 
   .dds,
   .ddp {
-    width: 100%;
+    width: calc(100vw - 40px);
     left: 0;
-    border-bottom: 1px solid rgba(180, 180, 180, 0.3);
+    /* border-bottom: 1px solid rgba(180, 180, 180, 0.3); */
     border-radius: 0;
     background-color: white;
     justify-content: center;
-    padding: 16px;
+    padding: 8px 0;
+    position: relative;
+    border: none;
   }
 
   .ddp-card {
