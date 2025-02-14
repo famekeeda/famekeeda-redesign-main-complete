@@ -67,6 +67,7 @@
 
   .show-nav {
     display: flex;
+    padding: 16px;
   }
 
   .hamburger-menu {
@@ -95,23 +96,115 @@
     transform: translateY(-7px) rotate(-45deg);
   }
 
-  .drop-down-container {
+  /* .drop-down-container {
     flex-direction: column;
     position: static;
     box-shadow: none;
-    padding: 14px;
-    background: white;
     gap: 0;
-  }
+  } */
 
   .dropdown-content {
     align-items: flex-start;
     width: 100%;
   }
 
+  /* New Nav Dropdown */
+
+  /* .nav-cta-btn {
+    display: flex;
+    padding: 0;
+    height: auto;
+  } */
+
+  .cta-btn-mb {
+    display: flex;
+  }
+
   .nav-cta {
-    margin: 16px 0;
+    margin-top: 0;
     text-align: center;
+    font-size: 14px;
+  }
+
+  ul {
+    gap: 16px;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .ddp-main-row {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .ddp-inner-col {
+    flex-direction: row;
+    gap: 4px;
+    flex-wrap: wrap;
+  }
+
+  .dds {
+    top: auto
+  }
+
+  .ddp {
+    top: auto;
+  }
+
+  .dds,
+  .ddp {
+    width: calc(100vw - 28px);
+    left: 0;
+    border-bottom: 1px solid rgba(180, 180, 180, 0.3);
+    border-radius: 0;
+    background-color: white;
+    justify-content: center;
+    padding: 8px 0;
+    position: relative;
+  }
+
+  .ddp-card {
+    height: calc(190px * 0.6);
+    width: calc(50% - 4px);
+  }
+
+  .ddp-card-two {
+    height: calc(120px * 0.5);
+    width: calc(33% - 2px);
+  }
+
+  .dds-image {
+    width: 80px;
+  }
+
+  .ddp-inner-row {
+    border-radius: 12px;
+  }
+
+  .ddp-inner-row p {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px;
+  }
+
+  .ddp-card-two p {
+    font-size: 12px !important;
+    line-height: 16px !important;
+  }
+
+  .ddp-icons {
+    height: 40px;
+    width: auto;
+  }
+
+  .dds-icons {
+    height: 20px;
+    width: auto;
+  }
+
+  .small-ddpi {
+    height: 28px;
+    width: auto;
   }
 
   /* Hero Section */
@@ -1081,91 +1174,110 @@
     transform: translateY(-7px) rotate(-45deg);
   }
 
-  .drop-down-container {
+  /* .drop-down-container {
     flex-direction: column;
     position: static;
     box-shadow: none;
     padding: 14px;
     background: white;
     gap: 0;
-  }
+  } */
 
   .dropdown-content {
     align-items: flex-start;
     width: 100%;
   }
 
+  /* New Nav Dropdown */
+
+  .nav-cta-btn {
+    display: flex;
+    padding: 0;
+    height: auto;
+  }
+
   .nav-cta {
-    margin: 16px 0;
+    margin: 0;
     text-align: center;
   }
 
-    /* New Nav Dropdown */
-    /* .ddp-main-row {
-      flex-direction: row;
-    } */
+  ul {
+    gap: 16px;
+    width: 100%;
+  }
 
-    .ddp-main-row {
-      flex-direction: column;
-      gap: 8px;
-    }
+  .ddp-main-row {
+    flex-direction: column;
+    gap: 8px;
+  }
 
-    .ddp-inner-col{
-      flex-direction: row;
-      gap: 8px;
-    }
+  .ddp-inner-col {
+    flex-direction: row;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
 
-    .dds,
-    .ddp {
-      width: 100%;
-      left: 0;
-      top: 100%;
-      border-bottom: 1px solid rgba(180, 180, 180, 0.3);
-      border-top: 1px solid rgba(180, 180, 180, 0.3);
-      border-radius: 0;
-    }
-  
-    .ddp {
-      right: 15%;
-    }
+  .dds {
+    top: auto
+  }
 
-    .ddp-card {
-      height: calc(190px * 0.8);
-      width: calc(272px * 0.76);
-    }
-    
-    .ddp-card-two {
-      height: calc(120px * 0.8);
-      width: calc(256px * 0.5333);
-    }
-  
-    /* .ddp-col {
-      height: calc(400px * 0.7);
-      width: calc(256px * 0.7);
-    } */
-  
-    .dds-image {
-      width: 96px;
-    }
-  
-    .ddp-inner-row {
-      border-radius: 16px;
-    }
-  
-    .ddp-inner-row p {
-      font-size: 16px;
-      line-height: 22px;
-    }
-  
-    .ddp-icons {
-      height: 42px;
-      width: auto;
-    }
-  
-    .dds-icons {
-      height: 28px;
-      width: auto;
-    }
+  .ddp {
+    top: auto;
+  }
+
+  .dds,
+  .ddp {
+    width: 100%;
+    left: 0;
+    border-bottom: 1px solid rgba(180, 180, 180, 0.3);
+    border-radius: 0;
+    background-color: white;
+    justify-content: center;
+    padding: 16px;
+  }
+
+  .ddp-card {
+    height: calc(190px * 0.8);
+    width: calc(50% - 4px);
+  }
+
+  .ddp-card-two {
+    height: calc(120px * 0.6);
+    width: calc(33% - 4px);
+  }
+
+  .dds-image {
+    width: 120px;
+  }
+
+  .ddp-inner-row {
+    border-radius: 16px;
+  }
+
+  .ddp-inner-row p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .ddp-card-two p {
+    font-size: 14px !important;
+    line-height: 18px !important;
+  }
+
+  .ddp-icons {
+    height: 42px;
+    width: auto;
+  }
+
+  .dds-icons {
+    height: 24px;
+    width: auto;
+  }
+
+  .small-ddpi {
+    height: 32px;
+    width: auto;
+  }
 
   /* Hero Section */
   .home-hero-section {
@@ -2076,14 +2188,14 @@
     transform: translateY(-7px) rotate(-45deg);
   }
 
+  /* 
   .drop-down-container {
     position: absolute;
     box-shadow: none;
     padding: 24px;
     background: white;
     width: auto;
-    /* left: 8%; */
-  }
+  } */
 
   .dropdown-content {
     width: 100%;
@@ -2094,48 +2206,108 @@
     text-align: center;
   }
 
-    /* New Nav Dropdown */
-    .dds,
-    .ddp {
-      width: 100%;
-      left: 0;
-      top: 100%;
-      border-bottom: 1px solid rgba(180, 180, 180, 0.3);
-      border-top: 1px solid rgba(180, 180, 180, 0.3);
-      border-radius: 0;
-    }
-  
-    .ddp {
-      right: 15%;
-    }
-  
-    .ddp-col {
-      height: calc(400px * 0.7);
-      width: calc(256px * 0.7);
-    }
-  
-    .dds-image {
-      width: 96px;
-    }
-  
-    .ddp-inner-row {
-      border-radius: 16px;
-    }
-  
-    .ddp-inner-row p {
-      font-size: 16px;
-      line-height: 22px;
-    }
-  
-    .ddp-icons {
-      height: 42px;
-      width: auto;
-    }
-  
-    .dds-icons {
-      height: 28px;
-      width: auto;
-    }
+  .show-nav {
+    align-items: flex-start;
+    padding: 16px 28px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* New Nav Dropdown */
+
+  .nav-cta-btn {
+    display: flex;
+    padding: 0;
+    height: auto;
+  }
+
+  .nav-cta {
+    margin: 0;
+    text-align: center;
+  }
+
+  ul {
+    gap: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .ddp-main-row {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .ddp-inner-col {
+    flex-direction: row;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .dds {
+    top: auto
+  }
+
+  .ddp {
+    top: auto;
+  }
+
+  .dds,
+  .ddp {
+    width: 100%;
+    left: 0;
+    border-bottom: 1px solid rgba(180, 180, 180, 0.3);
+    border-radius: 0;
+    background-color: white;
+    justify-content: center;
+    padding: 16px 24px;
+  }
+
+  .ddp-card {
+    height: calc(190px * 0.975);
+    width: calc(50% - 4px);
+  }
+
+  .ddp-card-two {
+    height: calc(120px * 0.75);
+    width: calc(33% - 4px);
+  }
+
+  .dds-image {
+    width: 134px;
+  }
+
+  .ddp-inner-row {
+    border-radius: 16px;
+  }
+
+  .ddp-inner-row p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .ddp-card-two p {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+
+  .ddp-icons {
+    height: 42px;
+    width: auto;
+  }
+
+  .dds-icons {
+    height: 24px;
+    width: auto;
+  }
+
+  .small-ddpi {
+    height: 32px;
+    width: auto;
+  }
+
 
   /* Hero Section */
 
@@ -2777,6 +2949,51 @@
 
 @media (min-width: 768px) and (max-width: 800px) {
 
+  .ddp-card {
+    height: calc(190px * 1.225);
+    width: calc(50% - 4px);
+  }
+
+  .ddp-card-two {
+    height: calc(120px * 0.875);
+    width: calc(33% - 4px);
+  }
+
+  .dds-image {
+    width: 192px;
+  }
+
+  .ddp-inner-row {
+    border-radius: 20px;
+  }
+
+  .ddp-inner-row p {
+    font-size: 24px;
+    line-height: 30px;
+    width: 64%;
+  }
+
+  .ddp-card-two p {
+    font-size: 18px !important;
+    line-height: 24px !important;
+    width: 80% !important;
+  }
+
+  .ddp-icons {
+    height: 48px !important;
+    width: auto;
+  }
+
+  .dds-icons {
+    height: 32px;
+    width: auto;
+  }
+
+  .small-ddpi {
+    height: 32px;
+    width: auto;
+  }
+
   .mobile {
     padding: 0px 20px;
   }
@@ -2977,14 +3194,13 @@
     transform: translateY(-7px) rotate(-45deg);
   }
 
-  .drop-down-container {
+  /* .drop-down-container {
     position: absolute;
     box-shadow: none;
     padding: 24px;
     background: white;
     width: auto;
-    /* left: 10%; */
-  }
+  } */
 
   .dropdown-content {
     /* align-items: center; */
@@ -2996,47 +3212,67 @@
     text-align: center;
   }
 
-  /* New Nav Dropdown */
-  .dds,
-  .ddp {
+  .show-nav {
+    align-items: flex-start;
+    padding: 2px 32px;
     width: 100%;
-    left: 0;
-    top: 100%;
-    border-bottom: 1px solid rgba(180, 180, 180, 0.3);
-    border-top: 1px solid rgba(180, 180, 180, 0.3);
-    border-radius: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 
-  .ddp {
-    right: 15%;
+  .tab-btn {
+    display: flex;
   }
 
-  .ddp-col {
-    height: calc(400px * 0.7);
-    width: calc(256px * 0.7);
+  /* New Nav Dropdown */
+
+  .ddp,
+  .dds {
+    padding: 16px;
   }
 
-  .dds-image {
-    width: 96px;
+  .ddp-inner-col,
+  .ddp-main-row {
+    gap: 8px;
   }
 
   .ddp-inner-row {
     border-radius: 16px;
   }
 
+  .ddp-card {
+    height: calc(190px * 0.65);
+    width: calc(272px * 0.65);
+  }
+
+  .ddp-card-two {
+    height: calc(120px * 0.65);
+    width: calc(256px * 0.65);
+  }
+
   .ddp-inner-row p {
     font-size: 16px;
+    padding: 12px 22px;
     line-height: 22px;
   }
 
-  .ddp-icons {
-    height: 42px;
-    width: auto;
+  .dds-o p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .dds-image {
+    width: 88px;
+    height: auto;
   }
 
   .dds-icons {
     height: 28px;
-    width: auto;
+  }
+
+  .ddp-icons {
+    height: 40px;
   }
 
   /* Hero Section */
@@ -3650,15 +3886,6 @@
   }
 
   /* New Nav Dropdown */
-  .dds {
-    /* right: 25.5%; */
-    width: 100%;
-    left: 0;
-  }
-
-  .ddp {
-    right: 15%;
-  }
 
   /* .ddp-col {
     height: calc(400px * 0.85);
@@ -4228,13 +4455,55 @@
   }
 
   /* New Nav Dropdown */
+  .ddp,
   .dds {
-    right: 24%;
+    padding: 16px;
   }
 
-  .ddp {
-    right: 14%;
+  .ddp-inner-col,
+  .ddp-main-row {
+    gap: 16px;
   }
+
+  .ddp-inner-row {
+    border-radius: 20px;
+  }
+
+  .ddp-card {
+    height: calc(190px * 0.75);
+    width: calc(272px * 0.75);
+  }
+
+  .ddp-card-two {
+    height: calc(120px * 0.75);
+    width: calc(256px * 0.75);
+  }
+
+  .ddp-inner-row p {
+    font-size: 16px;
+    padding: 12px 22px;
+    line-height: 24px;
+    width: 88%;
+  }
+
+  .dds-o p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .dds-image {
+    width: 120px;
+    height: auto;
+  }
+
+  .dds-icons {
+    height: 32px;
+  }
+
+  .ddp-icons {
+    height: 48px;
+  }
+
 
   /* .ddp-col {
     height: calc(400px * 0.85);
@@ -4790,13 +5059,7 @@
   }
 
   /* New Navbar Dropdown */
-  .dds {
-    right: 22%;
-  }
 
-  .ddp {
-    right: 14%;
-  }
 
   /* India's Top Influencer Marketing Agency */
   .imcc-card-row {
@@ -4957,13 +5220,56 @@
   }
 
   /* New Navbar Dropdown */
+
+  .ddp,
   .dds {
-    right: 21%;
+    padding: 16px;
   }
 
-  .ddp {
-    right: 13%;
+  .ddp-inner-col,
+  .ddp-main-row {
+    gap: 16px;
   }
+
+  .ddp-inner-row {
+    border-radius: 20px;
+  }
+
+  .ddp-card {
+    height: calc(190px * 0.85);
+    width: calc(272px * 0.85);
+  }
+
+  .ddp-card-two {
+    height: calc(120px * 0.85);
+    width: calc(256px * 0.85);
+  }
+
+  .ddp-inner-row p {
+    font-size: 20px;
+    padding: 12px 22px;
+    line-height: 24px;
+    width: 88%;
+  }
+
+  .dds-o p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .dds-image {
+    width: 120px;
+    height: auto;
+  }
+
+  .dds-icons {
+    height: 32px;
+  }
+
+  .ddp-icons {
+    height: 48px;
+  }
+
 
   /* Social Proofing */
 
@@ -5364,13 +5670,55 @@
   }
 
   /* New Navbar Dropdown */
+  .ddp,
   .dds {
-    right: 20%;
+    padding: 16px;
   }
 
-  .ddp {
-    right: 12%;
+  .ddp-inner-col,
+  .ddp-main-row {
+    gap: 16px;
   }
+
+  .ddp-inner-row {
+    border-radius: 20px;
+  }
+
+  .ddp-card {
+    height: calc(190px * 0.85);
+    width: calc(272px * 0.85);
+  }
+
+  .ddp-card-two {
+    height: calc(120px * 0.85);
+    width: calc(256px * 0.85);
+  }
+
+  .ddp-inner-row p {
+    font-size: 20px;
+    padding: 12px 22px;
+    line-height: 24px;
+    width: 88%;
+  }
+
+  .dds-o p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .dds-image {
+    width: 120px;
+    height: auto;
+  }
+
+  .dds-icons {
+    height: 32px;
+  }
+
+  .ddp-icons {
+    height: 48px;
+  }
+
 
   /* Social Proofing */
   .spc-title {
