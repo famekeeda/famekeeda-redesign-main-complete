@@ -25,10 +25,14 @@
   .meet-our-team-section,
   .meet-our-brands-section,
   .influencer-makes-waves,
-  .accordion,
   .faq-section {
     padding: 0 10px;
     gap: 20px;
+    width: 100%;
+  }
+
+  .accordion {
+    padding: 0 10px;
     width: 100%;
   }
 
@@ -1105,10 +1109,14 @@
   .meet-our-team-section,
   .meet-our-brands-section,
   .influencer-makes-waves,
-  .accordion,
   .faq-section {
     padding: 0 16px;
     gap: 16px;
+    width: 100%;
+  }
+
+  .accordion {
+    padding: 0 16px;
     width: 100%;
   }
 
@@ -2135,10 +2143,14 @@
   .success-stories-section,
   .meet-our-team-section,
   .influencer-makes-waves,
-  .accordion,
   .faq-section {
     padding: 0 24px;
     gap: 20px;
+    width: 100%;
+  }
+
+  .accordion {
+    padding: 0 24px;
     width: 100%;
   }
 
@@ -3144,10 +3156,14 @@
   .success-stories-section,
   .meet-our-team-section,
   .influencer-makes-waves,
-  .accordion,
   .faq-section {
     padding: 0 24px;
     gap: 20px;
+    width: 100%;
+  }
+
+  .accordion {
+    padding: 0 24px;
     width: 100%;
   }
 
@@ -3877,10 +3893,13 @@
   .success-stories-section,
   .meet-our-team-section,
   .influencer-makes-waves,
-  .accordion,
   .faq-section {
     padding: 0 32px;
     gap: 24px;
+  }
+
+  .accordion {
+    padding: 0 32px;
   }
 
   /* Navbar */
@@ -4567,10 +4586,13 @@
   .why-ig-marketing,
   .what-is-ig-marketing,
   .types-of-influencers,
-  .accordion,
   .faq-section {
     padding: 0 50px;
     gap: 40px;
+  }
+
+  .accordion {
+    padding: 0 60px;
   }
 
   /* Hero Section */
@@ -5023,10 +5045,13 @@
   .why-ig-marketing,
   .what-is-ig-marketing,
   .types-of-influencers,
-  .accordion,
   .faq-section {
     padding: 0 60px;
     gap: 40px;
+  }
+
+  .accordion {
+    padding: 0 60px;
   }
 
 
@@ -5176,10 +5201,13 @@
   .why-ig-marketing,
   .what-is-ig-marketing,
   .types-of-influencers,
-  .accordion,
   .faq-section {
     padding: 0 60px;
     gap: 40px;
+  }
+
+  .accordion {
+    padding: 0 60px;
   }
 
   /* New Navbar Dropdown */
@@ -5320,10 +5348,13 @@
   .why-ig-marketing,
   .what-is-ig-marketing,
   .types-of-influencers,
-  .accordion,
   .faq-section {
     padding: 0 60px;
     gap: 40px;
+  }
+
+  .accordion {
+    padding: 0 60px;
   }
 
   /* Hero Section */
@@ -5778,10 +5809,13 @@
   .why-ig-marketing,
   .what-is-ig-marketing,
   .types-of-influencers,
-  .accordion,
   .faq-section {
     padding: 0 80px;
     gap: 40px;
+  }
+
+  .accordion {
+    padding: 0 80px;
   }
 
   /* Hero Section */

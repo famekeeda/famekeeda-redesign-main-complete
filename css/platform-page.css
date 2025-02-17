@@ -865,7 +865,7 @@ b {
 .accordion {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 8px;
   /* width: 100%; */
   background-color: white;
   max-width: 1920px;
@@ -879,6 +879,7 @@ b {
   line-height: 3rem;
   gap: 20px;
   border-bottom: 1px solid #323233;
+  padding: 12px 0 12px 0;
 }
 
 .accordion-header.active {
@@ -4076,6 +4077,10 @@ tr {
   }
 
   /* <!----Accordion Section-----> */
+
+  .accordion {
+    gap: 8px;
+  }
 
   .accordion-header h2 {
     font-size: 1.4rem;
