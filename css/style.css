@@ -250,8 +250,9 @@ ul {
 /* New Navbar Dropdown */
 
 /* Platforms */
-.ddp {
-  /* right: 11%; */
+
+.ddp-inner-col a {
+  text-decoration: none;
 }
 
 .ddp-main-row {
@@ -343,6 +344,7 @@ ul {
 .dds-o p {
   padding: 0px 16px;
   line-height: 32px;
+  width: 90%;
 }
 
 .dds-image {
