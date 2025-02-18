@@ -67,16 +67,30 @@
   .video-controls {
     display: flex;
     gap: 10px;
+    justify-content: space-between;
     align-items: center;
     position: absolute;
     bottom: 40px;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 100%;
+    padding-inline: 40px;
+    /* left: 50%;
+    transform: translateX(-50%); */
   }
   
   .video-control-svg {
     display: flex;
     align-items: center;
+  }
+
+  .vc-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .chatbot-button {
+    background: linear-gradient(101deg, #BE1622 11.69%, #E84E1B 53.29%, #BE1622 94.89%) !important;
   }
   
   .modal-video-svg-1 svg {
