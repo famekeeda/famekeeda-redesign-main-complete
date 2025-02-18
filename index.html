@@ -2727,6 +2727,44 @@
     <!-- Schema Scripts -->
     <script src="js/productSchema.js" type="text/javascript"></script>
 
+    <!-- Lazy Loading Script -->
+    <script>
+        // Function to get the image size
+        function getImageSize(url) {
+            return new Promise((resolve, reject) => {
+                const img = new Image();
+                img.onload = function() {
+                    resolve(img);
+                };
+                img.onerror = reject;
+                img.src = url;
+            });
+        }
+
+        // Function to detect heavy images and add lazy loading
+        async function detectHeavyImagesAndLazyLoad() {
+            const images = document.querySelectorAll("img");
+            const sizeThreshold = 1 * 1024 * 1024; // 1MB in bytes
+
+            for (const img of images) {
+                try {
+                    const image = await getImageSize(img.src);
+                    const imageSize = image.width * image.height * 4; // Rough size estimate (assuming RGBA)
+                    
+                    if (imageSize > sizeThreshold) {
+                        img.setAttribute('loading', 'lazy');
+                        console.log(`Image ${img.src} is large (${imageSize} bytes), applying lazy loading.`);
+                    }
+                } catch (error) {
+                    console.error(`Error loading image ${img.src}: ${error}`);
+                }
+            }
+        }
+
+        // Wait for the DOM to load before running the function
+        document.addEventListener("DOMContentLoaded", detectHeavyImagesAndLazyLoad);
+    </script>
+
 </body>
 
 </html>
