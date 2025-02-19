@@ -2,31 +2,39 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>404 Page Not Found</title>
+  <title>404 Page Not Found</title>
 
-    <link rel="icon" href="assets/favicon.png" type="image/png">
-    <link rel="stylesheet" href="/css/demo.css">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="/css/404.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
 
 </head>
 
 <body>
 
-    <section class="page_404">
-        <div class="page_404_container">
-          <video autoplay loop muted>
-            <source src="/videos/404.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-        </div>
-        <div class="page-404_td">
-            <p>Oops! Page not found</p>
-            <!-- <img src="/assets/404.png"> -->
-            
-        </div>
-      </section>
+  <section class="page_404">
+    <div class="page_404_container">
+      <div id="lottie-animation" class="lottie-animation">
+        <a href="/index.html">Back to Home</a>
+      </div>
+      
+    </div>
+  </section>
+
+ 
+    <script>
+        var animation = lottie.loadAnimation({
+            container: document.getElementById("lottie-animation"),
+            renderer: "svg", // Can be 'svg', 'canvas', or 'html'
+            loop: true,
+            autoplay: true,
+            path: "/assets/404.json" // Use the converted JSON file
+        });
+    </script>
 
 </body>
 

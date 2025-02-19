@@ -1,0 +1,143 @@
+/*======================
+    404 page
+=======================*/
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+/* Fullscreen 404 page */
+.page_404 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Video container */
+.page_404_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    z-index: 0;
+}
+
+.lottie-animation {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 48vw;
+    max-width: 1920px;
+}
+
+.page_404_container a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 12%;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 8px 16px;
+    border-radius: 24px;
+    color: grey;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 18px;
+}
+
+
+/* Responsive adjustments */
+
+/* Common for Mobile and Tablet */
+@media (min-width: 320px) and (max-width: 1023px) {
+    .lottie-animation {
+        width: 100vw;
+    }
+}
+
+/* Individual Screen Ranges */
+@media (min-width: 320px) and (max-width: 359px) {
+    .page_404_container a {
+        font-size: 8px;
+        padding: 4px 8px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 479px) {
+    .page_404_container a {
+        font-size: 8px;
+        padding: 4px 8px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 599px) {
+    .page_404_container a {
+        font-size: 10px;
+        padding: 6px 12px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+    .page_404_container a {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 899px) {
+    .page_404_container a {
+        bottom: 14%;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1023px) {
+    .page_404_container a {
+        padding: 10px 24px;
+        bottom: 14%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .lottie-animation {
+        width: 60vw;
+    }
+
+    .page_404_container a {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+    .page_404_container a {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1599px) {
+    .page_404_container a {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .page_404_container a {
+        bottom: 16%;
+    } 
+}
