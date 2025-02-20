@@ -2,15 +2,16 @@
     404 page
 =======================*/
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 body {
     padding: 0;
     margin: 0;
     height: 100vh;
     overflow: hidden;
-    font-family: Arial, sans-serif;
+    font-family: Poppins, sans-serif;
 }
 
-/* Fullscreen 404 page */
 .page_404 {
     display: flex;
     justify-content: center;
@@ -20,124 +21,269 @@ body {
     overflow: hidden;
 }
 
-/* Video container */
-.page_404_container {
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Scene Styles */
+.scene {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 0;
-    height: 100vh;
-    z-index: 0;
-}
-
-.lottie-animation {
-    display: flex;
     position: relative;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 48vw;
-    max-width: 1920px;
+    width: 100%;
+    height: 100%;
 }
 
-.page_404_container a {
+.error-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.error-message h1 {
+    font-size: 12rem;
+    line-height: 4rem;
+    margin: 0;
+}
+
+.error-message span {
+    font-size: 1.5rem;
+}
+
+.error-btn {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    bottom: 12%;
+    padding: 8px 48px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 48px;
+    border: 2px solid #000;
+    color: #000;
+    text-align: center;
     text-decoration: none;
-    border: 1px solid;
-    padding: 8px 16px;
-    border-radius: 24px;
-    color: grey;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
-    font-weight: 400;
-    cursor: pointer;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 500;
     z-index: 1;
-    font-size: 18px;
+    background-color: white;
 }
 
+/* Animations */
+/* @keyframes influencer-move {
 
-/* Responsive adjustments */
+    0%,
+    100% {
+        transform: translateX(-50%) translateY(0);
+    }
 
-/* Common for Mobile and Tablet */
-@media (min-width: 320px) and (max-width: 1023px) {
-    .lottie-animation {
-        width: 100vw;
+    50% {
+        transform: translateX(-50%) translateY(-10px);
     }
 }
 
-/* Individual Screen Ranges */
+@keyframes phone-move {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+} */
+
+/* Responsiveness */
 @media (min-width: 320px) and (max-width: 359px) {
-    .page_404_container a {
-        font-size: 8px;
-        padding: 4px 8px;
+
+    .error-message h1 {
+        font-size: 6rem;
+        line-height: 2rem;
+    }
+
+    .error-message span {
+        font-size: 0.875rem;
+    }
+
+    .error-message a {
+        font-size: 12px;
+        border: 1.5px solid;
+        padding: 6px 16px;
+    }
+
+    .error-btn img {
+        width: 10px;
+        height: auto;
     }
 }
 
 @media (min-width: 360px) and (max-width: 479px) {
-    .page_404_container a {
-        font-size: 8px;
-        padding: 4px 8px;
+    .error-message h1 {
+        font-size: 6rem;
+        line-height: 2rem;
+    }
+
+    .error-message span {
+        font-size: 0.875rem;
+    }
+
+    .error-message a {
+        font-size: 12px;
+        border: 1.5px solid;
+        padding: 6px 16px;
+    }
+
+    .error-btn img {
+        width: 14px;
+        height: auto;
     }
 }
 
 @media (min-width: 480px) and (max-width: 599px) {
-    .page_404_container a {
-        font-size: 10px;
-        padding: 6px 12px;
+    .error-message h1 {
+        font-size: 6rem;
+        line-height: 2rem;
+    }
+
+    .error-message span {
+        font-size: 0.875rem;
+    }
+
+    .error-message a {
+        font-size: 14px;
+        border: 1.5px solid;
+        padding: 6px 16px;
+    }
+
+    .error-btn img {
+        width: 14px;
+        height: auto;
     }
 }
 
 @media (min-width: 600px) and (max-width: 899px) {
-    .page_404_container a {
-        font-size: 14px;
-        padding: 8px 16px;
+    .error-message h1 {
+        font-size: 8rem;
+        line-height: 3rem;
+    }
+
+    .error-message span {
+        font-size: 1rem;
+    }
+
+    .error-message a {
+        font-size: 16px;
+        padding: 6px 16px;
+    }
+
+    .error-btn img {
+        width: 18px;
+        height: auto;
     }
 }
 
-@media (min-width: 768px) and (max-width: 899px) {
-    .page_404_container a {
-        bottom: 14%;
-    }
-}
+@media (min-width: 768px) and (max-width: 899px) {}
 
 @media (min-width: 900px) and (max-width: 1023px) {
-    .page_404_container a {
-        padding: 10px 24px;
-        bottom: 14%;
+    .error-message h1 {
+        font-size: 10rem;
+        line-height: 3rem;
+    }
+
+    .error-message span {
+        font-size: 1rem;
+    }
+
+    .error-btn img {
+        width: 20px;
+        height: auto;
+    }
+
+    .error-message a {
+        font-size: 16px;
+        border: 1.5px solid;
+        padding: 6px 20px;
     }
 }
 
 @media (min-width: 1024px) and (max-width: 1199px) {
-    .lottie-animation {
-        width: 60vw;
+    .error-message h1 {
+        font-size: 8rem;
+        line-height: 3rem;
     }
 
-    .page_404_container a {
-        font-size: 12px;
+    .error-message span {
+        font-size: 1rem;
+    }
+
+    .error-message a {
+        font-size: 16px;
+        border: 1.5px solid;
+        padding: 6px 24px;
+    }
+
+    .error-btn img {
+        width: 18px;
+        height: auto;
     }
 }
 
 @media (min-width: 1200px) and (max-width: 1439px) {
-    .page_404_container a {
-        font-size: 12px;
+    .error-message h1 {
+        font-size: 10rem;
+        line-height: 3rem;
+    }
+
+    .error-message span {
+        font-size: 1.25rem;
+    }
+
+    .error-message a {
+        font-size: 16px;
+        border: 1.5px solid;
+        bottom: 0;
+        padding: 6px 24px;
+    }
+
+    .error-btn img {
+        width: 18px;
+        height: auto;
+    }
+}
+
+@media (min-width:1280px) and (max-width: 1439px) {
+    .error-message a {
+        bottom: 4%;
     }
 }
 
 @media (min-width: 1440px) and (max-width: 1599px) {
-    .page_404_container a {
+    .error-message a {
         font-size: 16px;
+    }
+
+    .error-btn img {
+        width: 18px;
+        height: auto;
     }
 }
 
 @media (min-width: 2560px) {
-    .page_404_container a {
+    .error-message a {
         bottom: 16%;
-    } 
+    }
 }

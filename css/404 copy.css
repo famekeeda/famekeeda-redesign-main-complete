@@ -1,0 +1,55 @@
+/*======================
+    404 page
+=======================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    font-family: Poppins, sans-serif;
+}
+
+.page_404 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.page_404_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    height: 100vh;
+    z-index: 0;
+    gap: 72px;
+}
+
+.error-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 48px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 48px;
+    border: 2px solid #000;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 500;
+}
+

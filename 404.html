@@ -17,24 +17,17 @@
 <body>
 
   <section class="page_404">
-    <div class="page_404_container">
-      <div id="lottie-animation" class="lottie-animation">
-        <a href="/index.html">Back to Home</a>
+    
+    <div class="container">
+      <div class="scene">
+        <div class="error-message">
+          <h1>404<br><span>Oops! Page Not Found</span></h1>
+          <a href="/index.html" class="error-btn"><img src="/assets/left-arrow.svg">Back to Home</a>
+        </div>
       </div>
-      
     </div>
-  </section>
 
- 
-    <script>
-        var animation = lottie.loadAnimation({
-            container: document.getElementById("lottie-animation"),
-            renderer: "svg", // Can be 'svg', 'canvas', or 'html'
-            loop: true,
-            autoplay: true,
-            path: "/assets/404.json" // Use the converted JSON file
-        });
-    </script>
+  </section>
 
 </body>
 
