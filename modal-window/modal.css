@@ -54,6 +54,7 @@
   }
   
   .video-section {
+    display: none;
     position: relative;
     width: 100%;
     height: auto;
