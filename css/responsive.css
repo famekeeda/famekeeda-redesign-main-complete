@@ -466,6 +466,11 @@
   }
 
   /* Influencer Makes Waves Section */
+  
+  .influencer-makes-waves {
+    margin-top: 24px;
+  }
+  
   .social-container-main-row {
     flex-direction: column;
     gap: 15px;
@@ -1544,6 +1549,11 @@
   }
 
   /* Influencer Makes Waves Section */
+  
+  .influencer-makes-waves {
+    margin-top: 24px;
+  }
+
   .social-container-main-row {
     flex-direction: column;
     gap: 15px;
@@ -2506,6 +2516,11 @@
   }
 
   /* Influencer Makes Waves Section */
+  
+  .influencer-makes-waves {
+    margin-top: 24px;
+  }
+
   .social-container-main-row {
     flex-direction: column;
     gap: 15px;
@@ -3479,6 +3494,11 @@
 
 
   /* Influencer Makes Waves Section */
+
+  .influencer-makes-waves {
+    margin-top: 24px;
+  }
+
   .social-container-main-row {
     flex-direction: column;
     display: none;
@@ -4207,6 +4227,7 @@
 
   .right-flex {
     width: 100%;
+    margin-top: 28%;
   }
 
   .flow-box {
@@ -4228,6 +4249,10 @@
   .timeline {
     left: 35px;
     top: 50px;
+  }
+
+  .flow-text {
+    margin-top: 1%;
   }
 
   .flow-text-title {
@@ -4315,6 +4340,11 @@
   }
 
   /* Influencer Makes Waves Section */
+
+  .influencer-makes-waves {
+    margin-top: 80px;
+  }
+
   .social-container-main-row {
     flex-direction: column;
     display: none;
@@ -4863,9 +4893,8 @@
     font-size: 18px;
   }
 
-  .right-flex {
-    margin-top: 15%;
-    margin-bottom: 45%;
+  .scroll-inner-container .vs-img {
+    margin-top: 16%;
   }
 
   .scroll-inner-container .vs-img.active,
@@ -5665,10 +5694,11 @@
     font-size: 18px;
   }
 
-  .right-flex {
-    margin-top: 15%;
-    margin-bottom: 35%;
+
+  .scroll-inner-container .vs-img {
+    margin-top: 16%;
   }
+
 
 
   /* Our Success Stories */
@@ -6070,28 +6100,6 @@
     gap: calc(20px * 0.84);
   } */
 
-  .vertical_scroll {
-    padding: 0px 80px;
-  }
-
-  .right-left-container {
-    margin-top: -100px;
-    gap: 20px;
-  }
-
-  .flow-text-title {
-    font-size: 28px;
-  }
-
-  .description {
-    font-size: 18px;
-  }
-
-  .right-flex {
-    margin-top: 15%;
-    margin-bottom: 15%;
-  }
-
   /* Our Success Stories */
   .success-stories-r1 {
     gap: 20px;
@@ -6127,6 +6135,10 @@
 
   /* Sticky Scroll Container */
 
+  .vertical_scroll {
+    padding: 0px 80px;
+  }
+
   .right-left-container {
     margin-top: -100px;
     gap: 20px;
@@ -6140,10 +6152,10 @@
     font-size: 18px;
   }
 
-  .right-flex {
-    margin-top: 15%;
-    margin-bottom: 15%;
+  .scroll-inner-container .vs-img {
+    margin-top: 16%;
   }
+
 
   /* Meet Our Team */
   .mot-card {

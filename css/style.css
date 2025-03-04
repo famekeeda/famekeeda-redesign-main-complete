@@ -1430,7 +1430,7 @@ ul {
 .scroll-inner-container .vs-img {
   width: 100%;
   height: auto;
-  margin-top: 25%;
+  margin-top: 24%;
   position: absolute;
   top: 100px;
   left: 0;
@@ -1485,6 +1485,7 @@ ul {
 .influencer-makes-waves {
   display: flex;
   flex-direction: column;
+  margin-top: -256px;
   /* gap: 40px; */
 }
 
