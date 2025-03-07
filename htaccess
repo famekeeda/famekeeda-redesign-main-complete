@@ -1,11 +1,48 @@
-# Force all traffic to use HTTPS
+# Enable Rewrite Engine
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^famekeeda\.com [NC]
-RewriteRule ^(.*)$ https://www.famekeeda.com/$1 [R=301,L]
 
-# php -- BEGIN cPanel-generated handler, do not edit
-# Set the “ea-php82” package as the default “PHP” programming language.
-<IfModule mime_module>
-  AddHandler application/x-httpd-ea-php82___lsphp .php .php8 .phtml
+# Force HTTPS & Redirect non-www to www
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} !^www\.famekeeda\.com$ [NC]
+RewriteRule ^(.*)$ https://www.famekeeda.com/$1 [L,R=301]
+
+# Remove .html extension from URLs
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
+
+# Set the default index file
+DirectoryIndex index.html
+
+# Custom Error Pages
+ErrorDocument 404 /404.html
+ErrorDocument 403 /404.html
+
+# Block access to sensitive files
+<FilesMatch "^(.htaccess|.htpasswd|config\.php|db\.php|composer\.json)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Enable caching for better performance
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType text/javascript "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 6 months"
+    ExpiresByType image/png "access plus 6 months"
+    ExpiresByType image/gif "access plus 6 months"
 </IfModule>
-# php -- END cPanel-generated handler, do not edit
+
+# Prevent hotlinking (Protect your images, CSS, and JS)
+<IfModule mod_rewrite.c>
+    RewriteCond %{HTTP_REFERER} !^$
+    RewriteCond %{HTTP_REFERER} !^https?://(www\.)?famekeeda\.com [NC]
+    RewriteRule \.(jpg|jpeg|png|gif|css|js)$ - [F,L]
+</IfModule>
+
+# Gzip Compression for Faster Loading
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript
+</IfModule>
+
