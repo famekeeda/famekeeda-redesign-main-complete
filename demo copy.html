@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Responsive Bento Grid Layout with Carousel</title>
+    <link rel="stylesheet" href="/css/demo.css">
+</head>
+
+<body>
+
+    <section class="bento-videos">
+
+        <!-- Column 1 -->
+        <div class="bv-container small-col-bv">
+
+            <div class="bv-rows bvr-one">
+                <!-- Carousel Success Stories Section - Showcasing all services -->
+                <div class="bento-item full article carousel-container" role="region"
+                    aria-label="Success Story Carousel" aria-roledescription="carousel" tabindex="0">
+                    <div class="carousel-track">
+                        <!-- Slide 1 - Celebrity Endorsement -->
+                        <div class="carousel-slide active" role="group" aria-roledescription="slide" aria-label="1 of 3"
+                            aria-hidden="false" id="carousel-slide-1">
+                            <div class="content-placeholder aspect-16-9">
+                                <div class="platform-badge">
+                                    <span class="platform-icon">🌟</span>
+                                    <span>Case Study</span>
+                                </div>
+                            </div>
+                            <div class="bento-content">
+                                <div>
+                                    <div class="content-tag">Celebrity Campaign</div>
+                                    <h3 id="carousel-title-1">Sports Brand Athlete Partnership</h3>
+                                    <p>How our strategic celebrity athlete endorsement campaign helped a sports brand
+                                        achieve
+                                        450% ROI and establish market leadership in a competitive category.</p>
+                                </div>
+                                <div class="metrics">
+                                    <div class="metric">
+                                        <span class="metric-value">450%</span>
+                                        <span class="metric-label">Campaign ROI</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-value">12M+</span>
+                                        <span class="metric-label">Social Reach</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-value">38%</span>
+                                        <span class="metric-label">Market Share</span>
+                                    </div>
+                                </div>
+                                <div class="timestamp">2 months ago</div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 2 - UGC Campaign -->
+                        <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="2 of 3"
+                            aria-hidden="true" id="carousel-slide-2">
+                            <div class="content-placeholder aspect-16-9">
+                                <div class="platform-badge">
+                                    <span class="platform-icon">👥</span>
+                                    <span>UGC Campaign</span>
+                                </div>
+                            </div>
+                            <div class="bento-content">
+                                <div>
+                                    <div class="content-tag">Community Driven</div>
+                                    <h3 id="carousel-title-2">Beauty Brand Community Growth</h3>
+                                    <p>How our UGC strategy transformed a niche beauty brand into a community-driven
+                                        powerhouse
+                                        with 125K+ active content creators and a 215% increase in organic engagement.
+                                    </p>
+                                </div>
+                                <div class="metrics">
+                                    <div class="metric">
+                                        <span class="metric-value">125K+</span>
+                                        <span class="metric-label">Content Creators</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-value">215%</span>
+                                        <span class="metric-label">Engagement Growth</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-value">78%</span>
+                                        <span class="metric-label">Trust Increase</span>
+                                    </div>
+                                </div>
+                                <div class="timestamp">3 months ago</div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 3 - Meme Marketing -->
+                        <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="3 of 3"
+                            aria-hidden="true" id="carousel-slide-3">
+                            <div class="content-placeholder aspect-16-9">
+                                <div class="platform-badge">
+                                    <span class="platform-icon">😂</span>
+                                    <span>Meme Strategy</span>
+                                </div>
+                            </div>
+                            <div class="bento-content">
+                                <div>
+                                    <div class="content-tag">Viral Marketing</div>
+                                    <h3 id="carousel-title-3">Streaming Platform Meme Campaign</h3>
+                                    <p>How our meme-driven marketing strategy helped a new OTT platform acquire 250K
+                                        subscribers
+                                        in just two weeks, with a 65% lower customer acquisition cost than traditional
+                                        advertising.</p>
+                                </div>
+                                <div class="metrics">
+                                    <div class="metric">
+                                        <span class="metric-value">250K</span>
+                                        <span class="metric-label">New Subscribers</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-value">-65%</span>
+                                        <span class="metric-label">Acquisition Cost</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-value">48%</span>
+                                        <span class="metric-label">Under-25 Users</span>
+                                    </div>
+                                </div>
+                                <div class="timestamp">5 weeks ago</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carousel Controls -->
+                    <div class="carousel-controls" aria-hidden="true">
+                        <button class="carousel-button prev-button" aria-label="Previous slide">←</button>
+                        <button class="carousel-button next-button" aria-label="Next slide">→</button>
+                    </div>
+
+                    <!-- Carousel Indicators -->
+                    <div class="carousel-indicators">
+                        <button class="carousel-indicator active" data-slide="0" aria-label="Go to slide 1"
+                            aria-controls="carousel-slide-1" aria-selected="true"></button>
+                        <button class="carousel-indicator" data-slide="1" aria-label="Go to slide 2"
+                            aria-controls="carousel-slide-2" aria-selected="false"></button>
+                        <button class="carousel-indicator" data-slide="2" aria-label="Go to slide 3"
+                            aria-controls="carousel-slide-3" aria-selected="false"></button>
+                    </div>
+
+                    <!-- Enhanced Progress Bar -->
+                    <div class="carousel-progress" aria-hidden="true"></div>
+
+                    <!-- Improved Swipe Indicator for Touch Devices -->
+                    <div class="swipe-indicator" aria-hidden="true">Swipe</div>
+
+                    <!-- Live region for screen reader announcements -->
+                    <div class="visually-hidden" aria-live="polite"></div>
+                </div>
+            </div>
+
+            <div class="bv-rows bvr-two">
+                <!-- Ad Films with Influencers -->
+                <div class="bento-item small instagram" role="article" aria-labelledby="adfilms-title">
+                    <div class="content-placeholder aspect-9-16">
+                        <div class="platform-badge">
+                            <span class="platform-icon">🎬</span>
+                            <span>Ad Film</span>
+                        </div>
+                    </div>
+                    <div class="bento-content">
+                        <div>
+                            <div class="content-tag">Instagram Reel</div>
+                            <h3 id="adfilms-title">Tech Gadget Campaign</h3>
+                            <p>Collaborative ad film with tech influencers that went viral with 3.2M views in 48 hours.
+                            </p>
+                        </div>
+                        <div class="metrics">
+                            <div class="metric">
+                                <span class="metric-value">3.2M</span>
+                                <span class="metric-label">Views</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">185K</span>
+                                <span class="metric-label">Engagements</span>
+                            </div>
+                        </div>
+                        <div class="timestamp">3 weeks ago</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Column 2 -->
+        <div class="bv-container">
+
+            <div class="bv-rows">
+                <!-- Carousel Success Stories Section - Showcasing all services -->
+                <div class="bento-item full article carousel-container" role="region"
+                    aria-label="Success Story Carousel" aria-roledescription="carousel" tabindex="0">
+                    <div class="carousel-track">
+                        <!-- Slide 1 - Celebrity Endorsement -->
+                        <div class="carousel-slide active" role="group" aria-roledescription="slide" aria-label="1 of 3"
+                            aria-hidden="false" id="carousel-slide-1">
+                            <div class="content-placeholder aspect-16-9">
+                                <div class="platform-badge">
+                                    <span class="platform-icon">🌟</span>
+                                    <span>Case Study</span>
+                                </div>
+                            </div>
+                            <div class="bento-content">
+                                <div>
+                                    <div class="content-tag">Celebrity Campaign</div>
+                                    <h3 id="carousel-title-1">Sports Brand Athlete Partnership</h3>
+                                    <p>How our strategic celebrity athlete endorsement campaign helped a sports brand
+                                        achieve
+                                        450% ROI and establish market leadership in a competitive category.</p>
+                                </div>
+                                <div class="metrics">
+                                    <div class="metric">
+                                        <span class="metric-value">450%</span>
+                                        <span class="metric-label">Campaign ROI</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-value">12M+</span>
+                                        <span class="metric-label">Social Reach</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-value">38%</span>
+                                        <span class="metric-label">Market Share</span>
+                                    </div>
+                                </div>
+                                <div class="timestamp">2 months ago</div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 2 - UGC Campaign -->
+                        <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="2 of 3"
+                            aria-hidden="true" id="carousel-slide-2">
+                            <div class="content-placeholder aspect-16-9">
+                                <div class="platform-badge">
+                                    <span class="platform-icon">👥</span>
+                                    <span>UGC Campaign</span>
+                                </div>
+                            </div>
+                            <div class="bento-content">
+                                <div>
+                                    <div class="content-tag">Community Driven</div>
+                                    <h3 id="carousel-title-2">Beauty Brand Community Growth</h3>
+                                    <p>How our UGC strategy transformed a niche beauty brand into a community-driven
+                                        powerhouse
+                                        with 125K+ active content creators and a 215% increase in organic engagement.
+                                    </p>
+                                </div>
+                                <div class="metrics">
+                                    <div class="metric">
+                                        <span class="metric-value">125K+</span>
+                                        <span class="metric-label">Content Creators</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-value">215%</span>
+                                        <span class="metric-label">Engagement Growth</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-value">78%</span>
+                                        <span class="metric-label">Trust Increase</span>
+                                    </div>
+                                </div>
+                                <div class="timestamp">3 months ago</div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 3 - Meme Marketing -->
+                        <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="3 of 3"
+                            aria-hidden="true" id="carousel-slide-3">
+                            <div class="content-placeholder aspect-16-9">
+                                <div class="platform-badge">
+                                    <span class="platform-icon">😂</span>
+                                    <span>Meme Strategy</span>
+                                </div>
+                            </div>
+                            <div class="bento-content">
+                                <div>
+                                    <div class="content-tag">Viral Marketing</div>
+                                    <h3 id="carousel-title-3">Streaming Platform Meme Campaign</h3>
+                                    <p>How our meme-driven marketing strategy helped a new OTT platform acquire 250K
+                                        subscribers
+                                        in just two weeks, with a 65% lower customer acquisition cost than traditional
+                                        advertising.</p>
+                                </div>
+                                <div class="metrics">
+                                    <div class="metric">
+                                        <span class="metric-value">250K</span>
+                                        <span class="metric-label">New Subscribers</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-value">-65%</span>
+                                        <span class="metric-label">Acquisition Cost</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-value">48%</span>
+                                        <span class="metric-label">Under-25 Users</span>
+                                    </div>
+                                </div>
+                                <div class="timestamp">5 weeks ago</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carousel Controls -->
+                    <div class="carousel-controls" aria-hidden="true">
+                        <button class="carousel-button prev-button" aria-label="Previous slide">←</button>
+                        <button class="carousel-button next-button" aria-label="Next slide">→</button>
+                    </div>
+
+                    <!-- Carousel Indicators -->
+                    <div class="carousel-indicators">
+                        <button class="carousel-indicator active" data-slide="0" aria-label="Go to slide 1"
+                            aria-controls="carousel-slide-1" aria-selected="true"></button>
+                        <button class="carousel-indicator" data-slide="1" aria-label="Go to slide 2"
+                            aria-controls="carousel-slide-2" aria-selected="false"></button>
+                        <button class="carousel-indicator" data-slide="2" aria-label="Go to slide 3"
+                            aria-controls="carousel-slide-3" aria-selected="false"></button>
+                    </div>
+
+                    <!-- Enhanced Progress Bar -->
+                    <div class="carousel-progress" aria-hidden="true"></div>
+
+                    <!-- Improved Swipe Indicator for Touch Devices -->
+                    <div class="swipe-indicator" aria-hidden="true">Swipe</div>
+
+                    <!-- Live region for screen reader announcements -->
+                    <div class="visually-hidden" aria-live="polite"></div>
+                </div>
+            </div>
+
+            <div class="bv-rows">
+                <!-- Carousel Success Stories Section - Showcasing all services -->
+                <div class="bento-item full article carousel-container" role="region"
+                    aria-label="Success Story Carousel" aria-roledescription="carousel" tabindex="0">
+                    <div class="carousel-track">
+                        <!-- Slide 1 - Celebrity Endorsement -->
+                        <div class="carousel-slide active" role="group" aria-roledescription="slide" aria-label="1 of 3"
+                            aria-hidden="false" id="carousel-slide-1">
+                            <div class="content-placeholder aspect-16-9">
+                                <div class="platform-badge">
+                                    <span class="platform-icon">🌟</span>
+                                    <span>Case Study</span>
+                                </div>
+                            </div>
+                            <div class="bento-content">
+                                <div>
+                                    <div class="content-tag">Celebrity Campaign</div>
+                                    <h3 id="carousel-title-1">Sports Brand Athlete Partnership</h3>
+                                    <p>How our strategic celebrity athlete endorsement campaign helped a sports brand
+                                        achieve
+                                        450% ROI and establish market leadership in a competitive category.</p>
+                                </div>
+                                <div class="metrics">
+                                    <div class="metric">
+                                        <span class="metric-value">450%</span>
+                                        <span class="metric-label">Campaign ROI</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-value">12M+</span>
+                                        <span class="metric-label">Social Reach</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-value">38%</span>
+                                        <span class="metric-label">Market Share</span>
+                                    </div>
+                                </div>
+                                <div class="timestamp">2 months ago</div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 2 - UGC Campaign -->
+                        <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="2 of 3"
+                            aria-hidden="true" id="carousel-slide-2">
+                            <div class="content-placeholder aspect-16-9">
+                                <div class="platform-badge">
+                                    <span class="platform-icon">👥</span>
+                                    <span>UGC Campaign</span>
+                                </div>
+                            </div>
+                            <div class="bento-content">
+                                <div>
+                                    <div class="content-tag">Community Driven</div>
+                                    <h3 id="carousel-title-2">Beauty Brand Community Growth</h3>
+                                    <p>How our UGC strategy transformed a niche beauty brand into a community-driven
+                                        powerhouse
+                                        with 125K+ active content creators and a 215% increase in organic engagement.
+                                    </p>
+                                </div>
+                                <div class="metrics">
+                                    <div class="metric">
+                                        <span class="metric-value">125K+</span>
+                                        <span class="metric-label">Content Creators</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-value">215%</span>
+                                        <span class="metric-label">Engagement Growth</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-value">78%</span>
+                                        <span class="metric-label">Trust Increase</span>
+                                    </div>
+                                </div>
+                                <div class="timestamp">3 months ago</div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 3 - Meme Marketing -->
+                        <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="3 of 3"
+                            aria-hidden="true" id="carousel-slide-3">
+                            <div class="content-placeholder aspect-16-9">
+                                <div class="platform-badge">
+                                    <span class="platform-icon">😂</span>
+                                    <span>Meme Strategy</span>
+                                </div>
+                            </div>
+                            <div class="bento-content">
+                                <div>
+                                    <div class="content-tag">Viral Marketing</div>
+                                    <h3 id="carousel-title-3">Streaming Platform Meme Campaign</h3>
+                                    <p>How our meme-driven marketing strategy helped a new OTT platform acquire 250K
+                                        subscribers
+                                        in just two weeks, with a 65% lower customer acquisition cost than traditional
+                                        advertising.</p>
+                                </div>
+                                <div class="metrics">
+                                    <div class="metric">
+                                        <span class="metric-value">250K</span>
+                                        <span class="metric-label">New Subscribers</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-value">-65%</span>
+                                        <span class="metric-label">Acquisition Cost</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-value">48%</span>
+                                        <span class="metric-label">Under-25 Users</span>
+                                    </div>
+                                </div>
+                                <div class="timestamp">5 weeks ago</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carousel Controls -->
+                    <div class="carousel-controls" aria-hidden="true">
+                        <button class="carousel-button prev-button" aria-label="Previous slide">←</button>
+                        <button class="carousel-button next-button" aria-label="Next slide">→</button>
+                    </div>
+
+                    <!-- Carousel Indicators -->
+                    <div class="carousel-indicators">
+                        <button class="carousel-indicator active" data-slide="0" aria-label="Go to slide 1"
+                            aria-controls="carousel-slide-1" aria-selected="true"></button>
+                        <button class="carousel-indicator" data-slide="1" aria-label="Go to slide 2"
+                            aria-controls="carousel-slide-2" aria-selected="false"></button>
+                        <button class="carousel-indicator" data-slide="2" aria-label="Go to slide 3"
+                            aria-controls="carousel-slide-3" aria-selected="false"></button>
+                    </div>
+
+                    <!-- Enhanced Progress Bar -->
+                    <div class="carousel-progress" aria-hidden="true"></div>
+
+                    <!-- Improved Swipe Indicator for Touch Devices -->
+                    <div class="swipe-indicator" aria-hidden="true">Swipe</div>
+
+                    <!-- Live region for screen reader announcements -->
+                    <div class="visually-hidden" aria-live="polite"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Column 3-->
+        <div class="bv-container small-col-bv">
+
+            <div class="bv-rows bvr-two">
+                <!-- Carousel Success Stories Section - Showcasing all services -->
+                <div class="bento-item full article carousel-container" role="region"
+                    aria-label="Success Story Carousel" aria-roledescription="carousel" tabindex="0">
+                    <div class="carousel-track">
+                        <!-- Slide 1 - Celebrity Endorsement -->
+                        <div class="carousel-slide active" role="group" aria-roledescription="slide" aria-label="1 of 3"
+                            aria-hidden="false" id="carousel-slide-1">
+                            <div class="content-placeholder aspect-16-9">
+                                <div class="platform-badge">
+                                    <span class="platform-icon">🌟</span>
+                                    <span>Case Study</span>
+                                </div>
+                            </div>
+                            <div class="bento-content">
+                                <div>
+                                    <div class="content-tag">Celebrity Campaign</div>
+                                    <h3 id="carousel-title-1">Sports Brand Athlete Partnership</h3>
+                                    <p>How our strategic celebrity athlete endorsement campaign helped a sports brand
+                                        achieve
+                                        450% ROI and establish market leadership in a competitive category.</p>
+                                </div>
+                                <div class="metrics">
+                                    <div class="metric">
+                                        <span class="metric-value">450%</span>
+                                        <span class="metric-label">Campaign ROI</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-value">12M+</span>
+                                        <span class="metric-label">Social Reach</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-value">38%</span>
+                                        <span class="metric-label">Market Share</span>
+                                    </div>
+                                </div>
+                                <div class="timestamp">2 months ago</div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 2 - UGC Campaign -->
+                        <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="2 of 3"
+                            aria-hidden="true" id="carousel-slide-2">
+                            <div class="content-placeholder aspect-16-9">
+                                <div class="platform-badge">
+                                    <span class="platform-icon">👥</span>
+                                    <span>UGC Campaign</span>
+                                </div>
+                            </div>
+                            <div class="bento-content">
+                                <div>
+                                    <div class="content-tag">Community Driven</div>
+                                    <h3 id="carousel-title-2">Beauty Brand Community Growth</h3>
+                                    <p>How our UGC strategy transformed a niche beauty brand into a community-driven
+                                        powerhouse
+                                        with 125K+ active content creators and a 215% increase in organic engagement.
+                                    </p>
+                                </div>
+                                <div class="metrics">
+                                    <div class="metric">
+                                        <span class="metric-value">125K+</span>
+                                        <span class="metric-label">Content Creators</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-value">215%</span>
+                                        <span class="metric-label">Engagement Growth</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-value">78%</span>
+                                        <span class="metric-label">Trust Increase</span>
+                                    </div>
+                                </div>
+                                <div class="timestamp">3 months ago</div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 3 - Meme Marketing -->
+                        <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="3 of 3"
+                            aria-hidden="true" id="carousel-slide-3">
+                            <div class="content-placeholder aspect-16-9">
+                                <div class="platform-badge">
+                                    <span class="platform-icon">😂</span>
+                                    <span>Meme Strategy</span>
+                                </div>
+                            </div>
+                            <div class="bento-content">
+                                <div>
+                                    <div class="content-tag">Viral Marketing</div>
+                                    <h3 id="carousel-title-3">Streaming Platform Meme Campaign</h3>
+                                    <p>How our meme-driven marketing strategy helped a new OTT platform acquire 250K
+                                        subscribers
+                                        in just two weeks, with a 65% lower customer acquisition cost than traditional
+                                        advertising.</p>
+                                </div>
+                                <div class="metrics">
+                                    <div class="metric">
+                                        <span class="metric-value">250K</span>
+                                        <span class="metric-label">New Subscribers</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-value">-65%</span>
+                                        <span class="metric-label">Acquisition Cost</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-value">48%</span>
+                                        <span class="metric-label">Under-25 Users</span>
+                                    </div>
+                                </div>
+                                <div class="timestamp">5 weeks ago</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carousel Controls -->
+                    <div class="carousel-controls" aria-hidden="true">
+                        <button class="carousel-button prev-button" aria-label="Previous slide">←</button>
+                        <button class="carousel-button next-button" aria-label="Next slide">→</button>
+                    </div>
+
+                    <!-- Carousel Indicators -->
+                    <div class="carousel-indicators">
+                        <button class="carousel-indicator active" data-slide="0" aria-label="Go to slide 1"
+                            aria-controls="carousel-slide-1" aria-selected="true"></button>
+                        <button class="carousel-indicator" data-slide="1" aria-label="Go to slide 2"
+                            aria-controls="carousel-slide-2" aria-selected="false"></button>
+                        <button class="carousel-indicator" data-slide="2" aria-label="Go to slide 3"
+                            aria-controls="carousel-slide-3" aria-selected="false"></button>
+                    </div>
+
+                    <!-- Enhanced Progress Bar -->
+                    <div class="carousel-progress" aria-hidden="true"></div>
+
+                    <!-- Improved Swipe Indicator for Touch Devices -->
+                    <div class="swipe-indicator" aria-hidden="true">Swipe</div>
+
+                    <!-- Live region for screen reader announcements -->
+                    <div class="visually-hidden" aria-live="polite"></div>
+                </div>
+            </div>
+
+            <div class="bv-rows bvr-one">
+                <!-- Ad Films with Influencers -->
+                <div class="bento-item small instagram" role="article" aria-labelledby="adfilms-title">
+                    <div class="content-placeholder aspect-9-16">
+                        <div class="platform-badge">
+                            <span class="platform-icon">🎬</span>
+                            <span>Ad Film</span>
+                        </div>
+                    </div>
+                    <div class="bento-content">
+                        <div>
+                            <div class="content-tag">Instagram Reel</div>
+                            <h3 id="adfilms-title">Tech Gadget Campaign</h3>
+                            <p>Collaborative ad film with tech influencers that went viral with 3.2M views in 48 hours.
+                            </p>
+                        </div>
+                        <div class="metrics">
+                            <div class="metric">
+                                <span class="metric-value">3.2M</span>
+                                <span class="metric-label">Views</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">185K</span>
+                                <span class="metric-label">Engagements</span>
+                            </div>
+                        </div>
+                        <div class="timestamp">3 weeks ago</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="bento-container">
+        <div class="bento-first-row">
+            <!-- Content Marketing -->
+            <div class="bento-item medium article" role="article" aria-labelledby="content-marketing-title">
+                <div class="content-placeholder aspect-16-9">
+                    <div class="platform-badge">
+                        <span class="platform-icon">📝</span>
+                        <span>Content Marketing</span>
+                    </div>
+                </div>
+                <div class="bento-content">
+                    <div>
+                        <div class="content-tag">Blog Strategy</div>
+                        <h3 id="content-marketing-title">Fashion Brand Traffic Growth</h3>
+                        <p>How our strategic content calendar increased organic website traffic by 215% for a premium
+                            fashion brand.</p>
+                    </div>
+                    <div class="metrics">
+                        <div class="metric">
+                            <span class="metric-value">215%</span>
+                            <span class="metric-label">Traffic Growth</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">180K</span>
+                            <span class="metric-label">Monthly Visitors</span>
+                        </div>
+                    </div>
+                    <div class="timestamp">2 months ago</div>
+                </div>
+            </div>
+
+            <!-- Celebrity Endorsements -->
+            <div class="bento-item large youtube" role="article" aria-labelledby="celebrity-title">
+                <div class="content-placeholder aspect-16-9">
+                    <div class="platform-badge">
+                        <span class="platform-icon">🌟</span>
+                        <span>Celebrity Endorsement</span>
+                    </div>
+                    <div class="play-button" aria-hidden="true"></div>
+                </div>
+                <div class="bento-content">
+                    <div>
+                        <div class="content-tag">Product Launch</div>
+                        <h3 id="celebrity-title">Bollywood Star Partnership</h3>
+                        <p>Strategic collaboration with a leading Bollywood star that generated 8.5M impressions and
+                            320% ROI for skincare brand launch.</p>
+                    </div>
+                    <div class="metrics">
+                        <div class="metric">
+                            <span class="metric-value">8.5M</span>
+                            <span class="metric-label">Impressions</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">320%</span>
+                            <span class="metric-label">ROI</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">46%</span>
+                            <span class="metric-label">Conversion</span>
+                        </div>
+                    </div>
+                    <div class="timestamp">1 month ago</div>
+                </div>
+            </div>
+
+            <!-- Ad Films with Influencers -->
+            <div class="bento-item small instagram" role="article" aria-labelledby="adfilms-title">
+                <div class="content-placeholder aspect-9-16">
+                    <div class="platform-badge">
+                        <span class="platform-icon">🎬</span>
+                        <span>Ad Film</span>
+                    </div>
+                </div>
+                <div class="bento-content">
+                    <div>
+                        <div class="content-tag">Instagram Reel</div>
+                        <h3 id="adfilms-title">Tech Gadget Campaign</h3>
+                        <p>Collaborative ad film with tech influencers that went viral with 3.2M views in 48 hours.</p>
+                    </div>
+                    <div class="metrics">
+                        <div class="metric">
+                            <span class="metric-value">3.2M</span>
+                            <span class="metric-label">Views</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">185K</span>
+                            <span class="metric-label">Engagements</span>
+                        </div>
+                    </div>
+                    <div class="timestamp">3 weeks ago</div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Barter Campaigns -->
+        <div class="bento-item small linkedin" role="article" aria-labelledby="barter-title">
+            <div class="content-placeholder aspect-4-3">
+                <div class="platform-badge">
+                    <span class="platform-icon">🔄</span>
+                    <span>Barter</span>
+                </div>
+            </div>
+            <div class="bento-content">
+                <div>
+                    <div class="content-tag">Cost-Effective</div>
+                    <h3 id="barter-title">Luxury Hotel Promotion</h3>
+                    <p>Zero-budget barter campaign that generated 120+ high-quality content pieces from travel
+                        influencers.</p>
+                </div>
+                <div class="metrics">
+                    <div class="metric">
+                        <span class="metric-value">120+</span>
+                        <span class="metric-label">Content Pieces</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">₹0</span>
+                        <span class="metric-label">Budget</span>
+                    </div>
+                </div>
+                <div class="timestamp">2 months ago</div>
+            </div>
+        </div>
+
+        <!-- Product Reviews -->
+        <div class="bento-item medium twitter horizontal" role="article" aria-labelledby="review-title">
+            <div class="content-placeholder">
+                <div class="platform-badge">
+                    <span class="platform-icon">⭐</span>
+                    <span>Product Reviews</span>
+                </div>
+            </div>
+            <div class="bento-content">
+                <div>
+                    <div class="content-tag">Tech Reviews</div>
+                    <h3 id="review-title">Smartphone Launch Campaign</h3>
+                    <p>Coordinated 50+ authentic reviews from tech influencers that helped position the product as
+                        premium.</p>
+                </div>
+                <div class="metrics">
+                    <div class="metric">
+                        <span class="metric-value">50+</span>
+                        <span class="metric-label">Reviews</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">28%</span>
+                        <span class="metric-label">Sales Increase</span>
+                    </div>
+                </div>
+                <div class="timestamp">6 weeks ago</div>
+            </div>
+        </div>
+
+        <!-- Brand Integration -->
+        <div class="bento-item small instagram" role="article" aria-labelledby="integration-title">
+            <div class="content-placeholder aspect-1-1">
+                <div class="platform-badge">
+                    <span class="platform-icon">🔗</span>
+                    <span>Integration</span>
+                </div>
+            </div>
+            <div class="bento-content">
+                <div>
+                    <div class="content-tag">Subtle Placement</div>
+                    <h3 id="integration-title">Beverage Brand Lifestyle</h3>
+                    <p>Natural product integration in lifestyle content that received 4x higher engagement than
+                        traditional ads.</p>
+                </div>
+                <div class="metrics">
+                    <div class="metric">
+                        <span class="metric-value">4x</span>
+                        <span class="metric-label">Engagement</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">12K</span>
+                        <span class="metric-label">Shares</span>
+                    </div>
+                </div>
+                <div class="timestamp">1 month ago</div>
+            </div>
+        </div>
+
+        <!-- User Generated Content -->
+        <div class="bento-item small telegram" role="article" aria-labelledby="ugc-title">
+            <div class="content-placeholder aspect-4-3">
+                <div class="platform-badge">
+                    <span class="platform-icon">👥</span>
+                    <span>UGC</span>
+                </div>
+            </div>
+            <div class="bento-content">
+                <div>
+                    <div class="content-tag">Challenge Campaign</div>
+                    <h3 id="ugc-title">Food Brand Challenge</h3>
+                    <p>User-generated recipe challenge that created 3,500+ authentic content pieces from real customers.
+                    </p>
+                </div>
+                <div class="metrics">
+                    <div class="metric">
+                        <span class="metric-value">3.5K+</span>
+                        <span class="metric-label">UGC Posts</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">18M</span>
+                        <span class="metric-label">Organic Reach</span>
+                    </div>
+                </div>
+                <div class="timestamp">3 months ago</div>
+            </div>
+        </div>
+
+        <!-- Meme Marketing -->
+        <div class="bento-item small instagram" role="article" aria-labelledby="meme-title">
+            <div class="content-placeholder aspect-1-1">
+                <div class="platform-badge">
+                    <span class="platform-icon">😂</span>
+                    <span>Memes</span>
+                </div>
+            </div>
+            <div class="bento-content">
+                <div>
+                    <div class="content-tag">Viral Campaign</div>
+                    <h3 id="meme-title">Finance App Meme Series</h3>
+                    <p>Relatable finance meme campaign that drove 75K app downloads at 40% lower CPA than traditional
+                        ads.</p>
+                </div>
+                <div class="metrics">
+                    <div class="metric">
+                        <span class="metric-value">75K</span>
+                        <span class="metric-label">Downloads</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">-40%</span>
+                        <span class="metric-label">CPA</span>
+                    </div>
+                </div>
+                <div class="timestamp">1 month ago</div>
+            </div>
+        </div>
+
+        <!-- Carousel Success Stories Section - Showcasing all services -->
+        <div class="bento-item full article carousel-container" role="region" aria-label="Success Story Carousel"
+            aria-roledescription="carousel" tabindex="0">
+            <div class="carousel-track">
+                <!-- Slide 1 - Celebrity Endorsement -->
+                <div class="carousel-slide active" role="group" aria-roledescription="slide" aria-label="1 of 3"
+                    aria-hidden="false" id="carousel-slide-1">
+                    <div class="content-placeholder aspect-16-9">
+                        <div class="platform-badge">
+                            <span class="platform-icon">🌟</span>
+                            <span>Case Study</span>
+                        </div>
+                    </div>
+                    <div class="bento-content">
+                        <div>
+                            <div class="content-tag">Celebrity Campaign</div>
+                            <h3 id="carousel-title-1">Sports Brand Athlete Partnership</h3>
+                            <p>How our strategic celebrity athlete endorsement campaign helped a sports brand achieve
+                                450% ROI and establish market leadership in a competitive category.</p>
+                        </div>
+                        <div class="metrics">
+                            <div class="metric">
+                                <span class="metric-value">450%</span>
+                                <span class="metric-label">Campaign ROI</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">12M+</span>
+                                <span class="metric-label">Social Reach</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">38%</span>
+                                <span class="metric-label">Market Share</span>
+                            </div>
+                        </div>
+                        <div class="timestamp">2 months ago</div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 - UGC Campaign -->
+                <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="2 of 3"
+                    aria-hidden="true" id="carousel-slide-2">
+                    <div class="content-placeholder aspect-16-9">
+                        <div class="platform-badge">
+                            <span class="platform-icon">👥</span>
+                            <span>UGC Campaign</span>
+                        </div>
+                    </div>
+                    <div class="bento-content">
+                        <div>
+                            <div class="content-tag">Community Driven</div>
+                            <h3 id="carousel-title-2">Beauty Brand Community Growth</h3>
+                            <p>How our UGC strategy transformed a niche beauty brand into a community-driven powerhouse
+                                with 125K+ active content creators and a 215% increase in organic engagement.</p>
+                        </div>
+                        <div class="metrics">
+                            <div class="metric">
+                                <span class="metric-value">125K+</span>
+                                <span class="metric-label">Content Creators</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">215%</span>
+                                <span class="metric-label">Engagement Growth</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">78%</span>
+                                <span class="metric-label">Trust Increase</span>
+                            </div>
+                        </div>
+                        <div class="timestamp">3 months ago</div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 - Meme Marketing -->
+                <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="3 of 3"
+                    aria-hidden="true" id="carousel-slide-3">
+                    <div class="content-placeholder aspect-16-9">
+                        <div class="platform-badge">
+                            <span class="platform-icon">😂</span>
+                            <span>Meme Strategy</span>
+                        </div>
+                    </div>
+                    <div class="bento-content">
+                        <div>
+                            <div class="content-tag">Viral Marketing</div>
+                            <h3 id="carousel-title-3">Streaming Platform Meme Campaign</h3>
+                            <p>How our meme-driven marketing strategy helped a new OTT platform acquire 250K subscribers
+                                in just two weeks, with a 65% lower customer acquisition cost than traditional
+                                advertising.</p>
+                        </div>
+                        <div class="metrics">
+                            <div class="metric">
+                                <span class="metric-value">250K</span>
+                                <span class="metric-label">New Subscribers</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">-65%</span>
+                                <span class="metric-label">Acquisition Cost</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">48%</span>
+                                <span class="metric-label">Under-25 Users</span>
+                            </div>
+                        </div>
+                        <div class="timestamp">5 weeks ago</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel Controls -->
+            <div class="carousel-controls" aria-hidden="true">
+                <button class="carousel-button prev-button" aria-label="Previous slide">←</button>
+                <button class="carousel-button next-button" aria-label="Next slide">→</button>
+            </div>
+
+            <!-- Carousel Indicators -->
+            <div class="carousel-indicators">
+                <button class="carousel-indicator active" data-slide="0" aria-label="Go to slide 1"
+                    aria-controls="carousel-slide-1" aria-selected="true"></button>
+                <button class="carousel-indicator" data-slide="1" aria-label="Go to slide 2"
+                    aria-controls="carousel-slide-2" aria-selected="false"></button>
+                <button class="carousel-indicator" data-slide="2" aria-label="Go to slide 3"
+                    aria-controls="carousel-slide-3" aria-selected="false"></button>
+            </div>
+
+            <!-- Enhanced Progress Bar -->
+            <div class="carousel-progress" aria-hidden="true"></div>
+
+            <!-- Improved Swipe Indicator for Touch Devices -->
+            <div class="swipe-indicator" aria-hidden="true">Swipe</div>
+
+            <!-- Live region for screen reader announcements -->
+            <div class="visually-hidden" aria-live="polite"></div>
+        </div>
+    </div>
+
+    <script src="/js/demo.js"></script>
+</body>
+
+</html>

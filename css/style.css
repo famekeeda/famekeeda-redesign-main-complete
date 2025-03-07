@@ -1399,6 +1399,9 @@ ul {
 }
 
 .flow-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   margin-top: 3%;
   width: calc(100% - 144px);
 }
@@ -1938,7 +1941,7 @@ ul {
   border-radius: 20px;
 } */
 
-show-reel-section {
+.show-reel-section {
   /* padding: 40px; */
   padding: 0px;
   margin: 0 auto;
@@ -1946,7 +1949,7 @@ show-reel-section {
 }
 
 .show-reel-subtitle {
-  w.idth: 72%;
+  width: 72%;
   font-size: 1.4rem;
 }
 

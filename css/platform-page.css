@@ -1352,7 +1352,7 @@ tr {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  list-style: disc;
+  /* list-style: disc; */
 }
 
 .our-philosophy-content ul b {
