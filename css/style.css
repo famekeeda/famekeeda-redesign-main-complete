@@ -15,6 +15,7 @@ body {
   flex-direction: column;
   gap: 150px;
   align-items: center;
+  background-color: #fff;
 }
 
 .desktop {
