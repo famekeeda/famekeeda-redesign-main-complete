@@ -2162,13 +2162,15 @@ ul {
 
   .mot-text-area {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
     height: -webkit-fill-available;
+    gap: 4px;
   }
 
-  .mot-text-area p {
+  .mot-name {
     width: 100%;
     color: #121212;
     text-align: center;
@@ -2177,12 +2179,12 @@ ul {
     padding: 0 8px;
   }
 
-  .mot-text-area p span {
+  .mot-role {
     color: #121212;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 300;
-    line-height: 140%;
+    line-height: 24px;
   }
 
 
