@@ -1305,7 +1305,7 @@ tr {
 .our-philosophy-card-container {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  /* gap: 20px; */
   height: 100%;
   overflow: hidden;
   /* padding: 40px; */
@@ -1827,6 +1827,7 @@ tr {
   .our-philosophy-content {
     font-size: 0.9rem;
     line-height: 1.6rem;
+    padding: 24px;
   }
 
   .mot-text-area {
@@ -2283,7 +2284,7 @@ tr {
   .our-philosophy-content {
     font-size: 0.7rem;
     line-height: 1.3rem;
-    padding: 20px;
+    padding: 24px;
   }
 
   .our-philosophy-content ul {
@@ -2675,7 +2676,7 @@ tr {
     line-height: 1.3rem; */
     font-size: 0.92rem;
     line-height: 1.7rem;
-    padding: 25px;
+    padding: 24px;
   }
 
   /* .our-philosophy-section {
@@ -2766,7 +2767,8 @@ tr {
   .our-philosophy-content {
     font-size: 0.8rem;
     line-height: 1.6rem;
-    padding: 22px;
+    padding: 24px;
+    text-align: left;
   }
 
   .our-philosophy-content ul {
@@ -3173,7 +3175,8 @@ tr {
     line-height: 1.3rem; */
     font-size: 0.92rem;
     line-height: 1.7rem;
-    padding: 25px;
+    padding: 24px;
+    text-align: left;
   }
 }
 
@@ -3469,7 +3472,7 @@ tr {
   .our-philosophy-content {
     font-size: 0.8rem;
     line-height: 1.4rem;
-    padding: 30px;
+    padding: 24px;
   }
 }
 
@@ -3770,6 +3773,7 @@ tr {
   .our-philosophy-content {
     font-size: 0.92rem;
     line-height: 1.7rem;
+    padding: 24px;
   }
 }
 

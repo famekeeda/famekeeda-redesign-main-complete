@@ -338,7 +338,8 @@ ul {
 
 .dds-o {
   border: 0.816px solid rgba(0, 0, 0, 0.50);
-  background: linear-gradient(128deg, rgb(66, 66, 66) 0%, #666 100.1%);
+  /* background: linear-gradient(128deg, rgb(66, 66, 66) 0%, #666 100.1%); */
+  background: linear-gradient(128deg, #000 0%, #666 100%);
   justify-content: center;
 }
 
@@ -2361,8 +2362,8 @@ ul {
     display: flex;
     flex-direction: row;
     gap: 42px;
-    border-top: 1px solid #AFAFAF;
-    border-bottom: 1px solid #AFAFAF;
+    /* border-top: 1px solid #AFAFAF;
+    border-bottom: 1px solid #AFAFAF; */
   }
 
   .about-us-column-1 {
@@ -2397,6 +2398,7 @@ ul {
 
   .vl {
     border-left: 1px solid #AFAFAF;
+    display: none;
   }
 
   .about-us-column-2 {
@@ -2477,13 +2479,13 @@ ul {
 
   .slider {
     display: inline-flex;
-    animation: slide 40s linear infinite;
+    animation: slide 80s linear infinite;
     will-change: transform;
   }
 
   .reverse-slide {
     display: inline-flex;
-    animation: reverse-slide 40s linear infinite;
+    animation: reverse-slide 80s linear infinite;
     will-change: transform;
   }
 
@@ -2649,6 +2651,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    text-align: center;
   }
 
   .f-right-text,

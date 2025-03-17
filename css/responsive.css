@@ -1001,6 +1001,10 @@
     display: flex;
   }
 
+  .about-us-st {
+    margin-bottom: 24px;
+  }
+
   .about-info-title {
     font-size: 16px;
     line-height: normal;
@@ -2044,6 +2048,10 @@
     justify-content: center;
     display: flex;
   }
+ 
+  .about-us-st {
+    margin-bottom: 24px;
+  }
 
   .about-info-title {
     font-size: 16px;
@@ -2888,6 +2896,11 @@
     padding: 0.2rem 0.8rem;
   }
 
+  
+  .about-us-st {
+    margin-bottom: 32px;
+  }
+
   .about-us-column-2 {
     width: 100%;
     padding-inline: 24px;
@@ -3659,7 +3672,6 @@
     border-radius: 15px;
   }
 
-
   /* Our Success Stories */
   .success-stories-card {
     width: 400px;
@@ -3818,6 +3830,10 @@
     margin-left: 24px;
     margin-bottom: 32px;
     padding: 0.2rem 0.8rem;
+  }
+
+  .about-us-st {
+    margin-bottom: 32px;
   }
 
   .about-us-column-2 {
