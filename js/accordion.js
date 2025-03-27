@@ -13,7 +13,7 @@ function toggleAccordion(element) {
         openContent.style.maxHeight = null;
         openContent.style.paddingBottom = null; // Remove extra space
         openContent.style.borderBottom = null; // Remove border
-        openIcon.src = '/assets/service-pages_assets/instagram/down-arrow.svg'; // Reset to down arrow
+        openIcon.src = 'https://cdn.famekeeda.com/assets/service-pages_assets/instagram/down-arrow.svg'; // Reset to down arrow
         openAccordion.classList.remove('active');
     }
 
@@ -22,13 +22,13 @@ function toggleAccordion(element) {
         content.style.maxHeight = null;
         content.style.paddingBottom = null; // Remove extra space
         content.style.borderBottom = null;
-        icon.src = '/assets/service-pages_assets/instagram/down-arrow.svg';
+        icon.src = 'https://cdn.famekeeda.com/assets/service-pages_assets/instagram/down-arrow.svg';
         openAccordion = null;
     } else {
         content.style.maxHeight = content.scrollHeight + "4px";
         content.style.paddingBottom = "16px"
         content.style.borderBottom = "1px solid #323233"; // Add border when active
-        icon.src = '/assets/service-pages_assets/instagram/down-arrow.svg'; // Change to up arrow
+        icon.src = 'https://cdn.famekeeda.com/assets/service-pages_assets/instagram/down-arrow.svg'; // Change to up arrow
         openAccordion = element;
     }
 
@@ -49,7 +49,7 @@ function togglefaqAccordion(element) {
         openContent.style.maxHeight = null;
         openContent.style.paddingBottom = null;
         openContent.style.borderBottom = null;
-        openIcon.src = '/assets/service-pages_assets/instagram/plus-icon.svg';
+        openIcon.src = 'https://cdn.famekeeda.com/assets/service-pages_assets/instagram/plus-icon.svg';
         openFaqAccordion.classList.remove('active');
     }
 
@@ -58,13 +58,13 @@ function togglefaqAccordion(element) {
         content.style.maxHeight = null;
         content.style.paddingBottom = null;
         content.style.borderBottom = null;
-        icon.src = '/assets/service-pages_assets/instagram/plus-icon.svg';
+        icon.src = 'https://cdn.famekeeda.com/assets/service-pages_assets/instagram/plus-icon.svg';
         openFaqAccordion = null;
     } else {
         content.style.maxHeight = content.scrollHeight + "4px";
         content.style.paddingBottom = "16px"
         content.style.borderBottom = "1px solid #323233"; // Add border when active
-        icon.src = '/assets/service-pages_assets/instagram/minus-icon.svg';
+        icon.src = 'https://cdn.famekeeda.com/assets/service-pages_assets/instagram/minus-icon.svg';
         openFaqAccordion = element;
     }
 
