@@ -862,6 +862,10 @@
     height: calc(614px * 0.45);
   }
 
+  .mot-text-area {
+    height: 20%;
+  }
+
   .mot-name {
     font-size: 12px;
     line-height: 15px;
@@ -1908,6 +1912,10 @@
 
   .mot-card {
     height: calc(614px * 0.6);
+  }
+
+  .mot-text-area {
+    height: 20%;
   }
 
   .mot-name {
