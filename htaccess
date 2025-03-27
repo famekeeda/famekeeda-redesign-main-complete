@@ -46,3 +46,18 @@ ErrorDocument 403 /404.html
     AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript
 </IfModule>
 
+# Rewrite rules to create clean URLs for services and platforms
+RewriteRule ^brand-integration$ pages/services/brand-integration.html [L]
+RewriteRule ^instagram$ pages/platforms/instagram.html [L]
+RewriteRule ^linkedin$ pages/platforms/linkedin.html [L]
+RewriteRule ^telegram$ pages/platforms/telegram.html [L]
+RewriteRule ^x$ pages/platforms/x\(formerly-twitter\).html [L]
+RewriteRule ^youtube$ pages/platforms/youtube.html [L]
+
+RewriteRule ^ad-films-with-influencers$ pages/services/ad-films-with-influencers.html [L]
+RewriteRule ^barter-campaigns$ pages/services/barter-campaigns.html [L]
+RewriteRule ^celebrity-endorsements$ pages/services/celebrity-endorsements.html [L]
+RewriteRule ^content-marketing$ pages/services/content-marketing.html [L]
+RewriteRule ^meme-marketing$ pages/services/meme-marketing.html [L]
+RewriteRule ^product-reviews$ pages/services/product-reviews.html [L]
+RewriteRule ^user-generated-content$ pages/services/user-generated-content.html [L]
