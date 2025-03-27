@@ -2010,6 +2010,7 @@ ul {
   object-fit: cover;
   transition: transform 0.3s ease;
   visibility: visible !important;
+  opacity: 1 !important;
 }
 
 .landscape {
