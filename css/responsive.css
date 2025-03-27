@@ -5492,7 +5492,7 @@
     height: auto;
   }
 
-  .modal-content h2 {
+ .modal-content .mw-h2 {
     font-size: 2.5rem;
     line-height: 3rem;
   }

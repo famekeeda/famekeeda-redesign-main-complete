@@ -12,7 +12,7 @@ modalContent.className = 'modal-content';
 const modalTitle = document.createElement('div');
 modalTitle.className = 'modal-title';
 
-const titleHeading = document.createElement('h2');
+const titleHeading = document.createElement('p');
 titleHeading.textContent = 'Meme Marketing';
 
 const closeBtn = document.createElement('span');

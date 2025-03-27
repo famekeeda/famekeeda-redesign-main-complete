@@ -30,7 +30,7 @@ var restartButton = document.querySelector(".restart-button");
 // Function to open the modal and set its content
 function openModal(title, content, videoUrl, thumbnailUrl) {
     var modalContent = modal.querySelector(".modal-content");
-    modalContent.querySelector("h2").textContent = title;
+    modalContent.querySelector("p").textContent = title;
     modalContent.querySelector(".video-section .custom-video source").src = videoUrl;
     videoThumbnail.src = thumbnailUrl;
     modalVideo.load(); // Load the new video source

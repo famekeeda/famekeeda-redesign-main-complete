@@ -152,7 +152,7 @@
     object-fit: cover;
   }
   
-  .modal-content h2 {
+ .modal-content .mw-h2 {
     text-align: start;
     font-size: 3rem;
     line-height: 3rem;
@@ -195,7 +195,7 @@
     height: auto;
   }
 
-  .modal-content h2 {
+ .modal-content .mw-h2 {
     font-size: 2.5rem;
     line-height: 3rem;
   }
@@ -237,7 +237,7 @@
     padding: 10px;
   }
 
-  .modal-content h2 {
+ .modal-content .mw-h2 {
     font-size: 2rem;
     line-height: 3rem;
   }
@@ -279,7 +279,7 @@
     padding: 10px;
   }
 
-  .modal-content h2 {
+ .modal-content .mw-h2 {
     font-size: 2rem;
     line-height: 3rem;
   }
@@ -321,7 +321,7 @@
     padding: 10px;
   }
 
-  .modal-content h2 {
+ .modal-content .mw-h2 {
     font-size: 2rem;
     line-height: 3rem;
   }
@@ -364,7 +364,7 @@
     padding: 10px;
   }
 
-  .modal-content h2 {
+ .modal-content .mw-h2 {
     font-size: 1.2rem;
     line-height: 3rem;
   }
@@ -412,7 +412,7 @@
     padding: 10px;
   }
 
-  .modal-content h2 {
+ .modal-content .mw-h2 {
     font-size: 1rem;
     line-height: 2rem;
   }
