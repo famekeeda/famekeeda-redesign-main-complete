@@ -1490,7 +1490,7 @@ ul {
 .influencer-makes-waves {
   display: flex;
   flex-direction: column;
-  margin-top: -256px;
+  /* margin-top: -256px; */
   /* gap: 40px; */
 }
 
