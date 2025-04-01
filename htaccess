@@ -7,8 +7,9 @@ RewriteCond %{HTTP_HOST} !^www\.famekeeda\.com$ [NC]
 RewriteRule ^(.*)$ https://www.famekeeda.com/$1 [L,R=301]
 
 # Remove .html extension from URLs
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^(.*)$ $1.html [NC,L]
+RewriteRule ^([^/]+)$ $1.html [L]
 
 # Set the default index file
 DirectoryIndex index.html
@@ -47,17 +48,17 @@ ErrorDocument 403 /404.html
 </IfModule>
 
 # Rewrite rules to create clean URLs for services and platforms
-RewriteRule ^brand-integration$ pages/services/brand-integration.html [L]
-RewriteRule ^instagram$ pages/platforms/instagram.html [L]
-RewriteRule ^linkedin$ pages/platforms/linkedin.html [L]
-RewriteRule ^telegram$ pages/platforms/telegram.html [L]
-RewriteRule ^x$ pages/platforms/x\(formerly-twitter\).html [L]
-RewriteRule ^youtube$ pages/platforms/youtube.html [L]
+RewriteRule ^brand-integration$ pages/services/brand-integration.html [L,R=301]
+RewriteRule ^instagram$ pages/platforms/instagram.html [L,R=301]
+RewriteRule ^linkedin$ pages/platforms/linkedin.html [L,R=301]
+RewriteRule ^telegram$ pages/platforms/telegram.html [L,R=301]
+RewriteRule ^x-formerly-twitter$ pages/platforms/x-formerly-twitter.html [L,R=301]
+RewriteRule ^youtube$ pages/platforms/youtube.html [L,R=301]
 
-RewriteRule ^ad-films-with-influencers$ pages/services/ad-films-with-influencers.html [L]
-RewriteRule ^barter-campaigns$ pages/services/barter-campaigns.html [L]
-RewriteRule ^celebrity-endorsements$ pages/services/celebrity-endorsements.html [L]
-RewriteRule ^content-marketing$ pages/services/content-marketing.html [L]
-RewriteRule ^meme-marketing$ pages/services/meme-marketing.html [L]
-RewriteRule ^product-reviews$ pages/services/product-reviews.html [L]
-RewriteRule ^user-generated-content$ pages/services/user-generated-content.html [L]
+RewriteRule ^ad-films-with-influencers$ pages/services/ad-films-with-influencers.html [L,R=301]
+RewriteRule ^barter-campaigns$ pages/services/barter-campaigns.html [L,R=301]
+RewriteRule ^celebrity-endorsements$ pages/services/celebrity-endorsements.html [L,R=301]
+RewriteRule ^content-marketing$ pages/services/content-marketing.html [L,R=301]
+RewriteRule ^meme-marketing$ pages/services/meme-marketing.html [L,R=301]
+RewriteRule ^product-reviews$ pages/services/product-reviews.html [L,R=301]
+RewriteRule ^user-generated-content$ pages/services/user-generated-content.html [L,R=301]
