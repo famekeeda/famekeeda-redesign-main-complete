@@ -299,6 +299,10 @@
     padding-inline: 10px;
   }
 
+  .influencer-agency-container {
+    gap: 48px;
+  }
+
   .influencer-marketing-cards-container {
     gap: 32px;
     width: 100%;
@@ -312,11 +316,16 @@
 
   .imcc-card-row {
     flex-direction: column;
-    gap: 32px;
+    /* gap: 32px; */
   }
 
   .imcc-row {
     align-items: flex-start;
+    gap: 8px;
+  }
+
+  .imcc-center-text-wrapper {
+    gap: 24px;
   }
 
   .imcc-video-wrapper-4 {
@@ -325,6 +334,7 @@
 
   .center-div {
     align-items: center;
+    gap: 40px;
   }
 
   .mobile-video-warpper {
@@ -334,8 +344,6 @@
     justify-content: center;
     gap: 32px;
   }
-
-
 
   .imcc-video-wrapper-1 {
     transform: translateX(-60px);
@@ -1041,13 +1049,16 @@
   }
 
   /* Meet Our Brands */
-  .slide {
-    padding: 20px 40px;
-  }
-
+  
   .slide img {
     height: 30px;
     width: auto;
+  }
+
+  .slide {
+    padding: 0px 16px;
+    margin: 0 8px;
+    padding-top: 8px;
   }
 
   /* Footer */
@@ -1392,6 +1403,10 @@
     padding-inline: 16px;
   }
 
+  .influencer-agency-container {
+    gap: 48px;
+  }
+
   .influencer-marketing-cards-container {
     gap: 32px;
     width: 100%;
@@ -1411,6 +1426,7 @@
 
   .imcc-row {
     align-items: flex-start;
+    gap: 8px;
   }
 
   .imcc-video-wrapper-4 {
@@ -1419,6 +1435,11 @@
 
   .center-div {
     align-items: center;
+    gap: 40px;
+  }
+
+  .imcc-center-text-wrapper {
+    gap: 24px;
   }
 
   .mobile-video-warpper {
@@ -2094,7 +2115,9 @@
 
   /* Meet Our Brands */
   .slide {
-    padding: 20px 40px;
+    padding: 0px 16px;
+    margin: 0 8px;
+    padding-top: 8px;
   }
 
   .slide img {
@@ -2382,6 +2405,14 @@
   }
 
   /* Logo Scrolling */
+
+  .meet-our-brands-section {
+    gap: 32px;
+  }
+
+  .slide {
+    padding: 24px 40px;
+  }
 
   .logo-wrapper {
     padding: 20px 32px;
@@ -3870,8 +3901,12 @@
   }
 
   /* Meet Our Brands */
+  .meet-our-brands-section {
+    gap: 32px;
+  }
+
   .slide {
-    padding: 30px 60px;
+    padding: 24px 40px;
   }
 
   .slide img {
