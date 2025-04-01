@@ -156,7 +156,7 @@ ul {
   background: linear-gradient(101deg, #BE1622 11.69%, #E84E1B 53.29%, #BE1622 94.89%);
   border: none;
   color: #fff;
-  transition: 0.3s ease;
+  /* transition: 0.5s ease-in-out; */
   cursor: pointer;
 }
 
@@ -218,7 +218,7 @@ ul {
 }
 
 .nav-cta:hover {
-  background: var(--fame_red);
+  background: #000;
   color: white;
   /* border-color: var(--fame_red); */
 }
