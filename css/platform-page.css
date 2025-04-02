@@ -625,10 +625,11 @@ b {
 .slider-arrow {
   color: #000;
   font-size: 40px;
+  cursor: pointer;
 }
 
 .trending-slider-control .slider-arrow ion-icon {
-  color: #222224;
+  color: #222224 !important; /* Ensure it's applied */
 }
 
 .trending-slider-control .slider-arrow::after {
