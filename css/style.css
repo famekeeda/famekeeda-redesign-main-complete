@@ -26,10 +26,6 @@
   overflow: hidden;
 }
 
-body {
-  overflow: hidden;
-}
-
 .loader-overlay.hidden {
   opacity: 0;
   pointer-events: none;
