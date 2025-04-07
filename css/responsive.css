@@ -2,9 +2,9 @@
 
 /* MOBILE v1 */
 @media (min-width: 360px) and (max-width: 479px) {
-  .loader-overlay {
+  /* .loader-overlay {
     gap: 16px;
-  }
+  } */
 
   .loader-logo-container {
     position: relative;
@@ -1121,9 +1121,9 @@
 /* MOBILE v2*/
 @media (min-width: 480px) and (max-width: 599px) {
 
-  .loader-overlay {
+  /* .loader-overlay {
     gap: 16px;
-  }
+  } */
 
   .loader-logo-container {
     position: relative;
