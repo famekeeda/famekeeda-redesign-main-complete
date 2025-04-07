@@ -232,7 +232,7 @@ header {
   display: flex;
 }
 
-ul {
+nav ul {
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -2798,7 +2798,8 @@ ul {
 }
 
 .f-right-text,
-.f-condition-text {
+.f-condition-text,
+.f-condition-text a{
   font-size: 1rem;
   line-height: 1.5rem;
   color: white;
@@ -2809,4 +2810,74 @@ ul {
 .f-condition-text:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+
+/* Footer Popup */
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px 30px;
+  border-radius: 10px;
+  width: 100%;;
+  max-width: 800px;
+  position: relative;
+  text-align: left;
+}
+
+.close {
+  color: #aaa;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #000;
+}
+
+.pp-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.pp-section-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.pp-subtitle {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.popup-content p {
+  margin: 8px 0;
+}
+
+.popup-content ul {
+  padding-left: 20px;
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+.popup-content li {
+  margin: 6px 0;
 }
