@@ -6,6 +6,11 @@
     gap: 16px;
   } */
 
+  /* footer popup */
+  .popup-content {
+    max-width: 320px;
+  }
+
   .loader-logo-container {
     position: relative;
     width: 150px;
@@ -15,7 +20,7 @@
   .fade-line {
     font-size: 12px;
   }
-  
+
   body {
     gap: 64px;
   }
@@ -1125,6 +1130,12 @@
     gap: 16px;
   } */
 
+  /* footer popup */
+  .popup-content {
+    max-width: 400px;
+  }
+
+
   .loader-logo-container {
     position: relative;
     width: 150px;
@@ -2195,6 +2206,12 @@
 
 /* TABLET v1 */
 @media (min-width: 600px) and (max-width: 899px) {
+
+  /* footer popup */
+  .popup-content {
+    max-width: 540px;
+  }
+
   body {
     gap: 64px;
   }
@@ -3221,6 +3238,12 @@
 
 /* TABLET v2 */
 @media (min-width: 900px) and (max-width: 1023px) {
+
+  /* footer popup */
+  .popup-content {
+    max-width: 800px;
+  }
+
   body {
     gap: 64px;
   }

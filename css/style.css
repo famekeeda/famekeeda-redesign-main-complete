@@ -2828,11 +2828,11 @@ nav ul {
 
 .popup-content {
   background-color: #fff;
-  margin: 10% auto;
-  padding: 20px 30px;
+  margin: 20% auto;
+  padding: 32px;
   border-radius: 10px;
   width: 100%;;
-  max-width: 800px;
+  max-width: 1000px;
   position: relative;
   text-align: left;
 }
