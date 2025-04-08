@@ -395,7 +395,8 @@
     gap: 12px;
   }
 
-  .imcc-card-2 {
+  .imcc-card-2,
+  .imc-card-3 {
     height: 320px;
     width: auto;
   }
@@ -1149,7 +1150,8 @@
     gap: 16px;
   } */
 
-  .imcc-card-2 {
+  .imcc-card-2,
+  .imc-card-3 {
     height: 320px;
     width: auto;
   }
