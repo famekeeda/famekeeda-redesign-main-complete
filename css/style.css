@@ -232,7 +232,7 @@ header {
   display: flex;
 }
 
-nav ul {
+ul {
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -2873,6 +2873,9 @@ nav ul {
 }
 
 .popup-content ul {
+  display: flex;
+  flex-direction: column !important;
+  list-style-type: disc;
   padding-left: 20px;
   margin: 10px 0;
   padding-left: 20px;
