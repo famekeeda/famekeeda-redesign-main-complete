@@ -180,6 +180,13 @@ section {
   padding: 0 100px;
 }
 
+.accordion-content,
+.faq-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease, border 0.3s ease;
+}
+
 /* -------------------------------------------- NAVBAR  ---------------------------------------------*/
 
 header {
@@ -2855,7 +2862,7 @@ ul {
   font-weight: bold;
   margin-bottom: 20px;
   text-decoration: underline;
-  
+
 }
 
 .pp-section-title {

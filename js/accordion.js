@@ -25,7 +25,7 @@ function toggleAccordion(element) {
         icon.src = 'https://cdn.famekeeda.com/assets/service-pages_assets/instagram/down-arrow.svg';
         openAccordion = null;
     } else {
-        content.style.maxHeight = content.scrollHeight + "4px";
+        content.style.maxHeight = content.scrollHeight + "px";
         content.style.paddingBottom = "16px"
         content.style.borderBottom = "1px solid #323233"; // Add border when active
         icon.src = 'https://cdn.famekeeda.com/assets/service-pages_assets/instagram/down-arrow.svg'; // Change to up arrow
@@ -61,7 +61,7 @@ function togglefaqAccordion(element) {
         icon.src = 'https://cdn.famekeeda.com/assets/service-pages_assets/instagram/plus-icon.svg';
         openFaqAccordion = null;
     } else {
-        content.style.maxHeight = content.scrollHeight + "4px";
+        content.style.maxHeight = content.scrollHeight + "px";
         content.style.paddingBottom = "16px"
         content.style.borderBottom = "1px solid #323233"; // Add border when active
         icon.src = 'https://cdn.famekeeda.com/assets/service-pages_assets/instagram/minus-icon.svg';
