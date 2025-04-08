@@ -1001,6 +1001,7 @@ ul {
   flex-direction: column;
   align-items: center;
   gap: 32px;
+  max-width: 400px;
 }
 
 /* .com-wrapper-right {
