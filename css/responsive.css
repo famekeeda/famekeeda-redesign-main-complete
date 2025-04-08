@@ -1149,6 +1149,11 @@
     gap: 16px;
   } */
 
+  .imcc-card-2 {
+    height: 320px;
+    width: auto;
+  }
+
   /* footer popup */
   .popup-content {
     max-width: 400px;
