@@ -385,12 +385,19 @@
   .imcc-card-4 {
     width: 100%;
     height: auto;
+    object-fit: cover;
     border-radius: 12px;
+    overflow: hidden;
   }
 
   .mobile-video-warpper {
     width: 100%;
     gap: 12px;
+  }
+
+  .imcc-card-2 {
+    height: 320px;
+    width: auto;
   }
 
   .imcc-video-wrapper-2 {
