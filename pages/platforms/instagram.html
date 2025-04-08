@@ -2272,132 +2272,230 @@
         </div>
         <div class="f-row">
           <div class="rights-wrapper">
-            <span class="f-right-text">© 2024 Fame Keeda™</span>
-            <!-- <span class="f-condition-text">T&amp;C<sup>*</sup> | Privacy Policy</span> -->
-            <span class="f-condition-text">
-              <a href="#" id="openPopup">T&amp;C<sup>*</sup> | Privacy Policy</a>
-            </span>
+              <span class="f-right-text">© <span id="year"></span> Fame Keeda™</span>
+              <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+              <!-- <span class="f-condition-text">T&amp;C<sup>*</sup> | Privacy Policy</span> -->
+              <span class="f-condition-text">
+                  <a href="#" id="openPopup">T&amp;C<sup>*</sup> | Privacy Policy</a>
+              </span>
 
-            <!-- Popup Modal -->
-            <div id="popupModal" class="popup">
-              <div class="popup-content">
-                <span id="closePopup" class="close">&times;</span>
-                <p class="pp-title">‘Terms & Conditions’ and ‘Privacy Policy’</p><br>
+              <!-- Popup Modal -->
+              <div id="popupModal" class="popup">
+                  <div class="popup-content">
+                      <span id="closePopup" class="close">&times;</span>
+                      <p class="pp-title" style="margin-bottom: 16px;">Terms & Conditions and Privacy Policy
+                      </p>
 
-                <p class="pp-section-title">1. About the Company :</p>
-                <p>Fame Keeda Networks Pvt. Ltd., a company incorporated and registered under the
-                  Companies Act 1956, has its registered office, in Mumbai (India)...</p>
+                      <p class="pp-section-title">Introduction :</p>
+                      <p>Welcome to Fame Keeda Networks Pvt. Ltd. ("Company", "we", "our", or "us"). These
+                          Terms and Conditions ("Terms") govern your access to and use of our digital
+                          platforms, including our website (https://famekeeda-redesign-main.netlify.app/) and
+                          associated services (the "Platform"). By accessing or using our Platform, you agree
+                          to be bound by these Terms.</p>
 
-                <p class="pp-section-title">2. Consent :</p>
-                <p>By using our website, you agree that you are of the permissible age to access and use
-                  the services and products mentioned on this site...</p>
+                      <p class="pp-section-title">1. Eligibility :</p>
+                      <p>You affirm that you are at least 18 years old (or the legal age of majority in your
+                          jurisdiction) and have the capacity to enter into a binding agreement.</p>
 
-                <p class="pp-section-title">3. Definitions :</p>
-                <ul>
-                  <li>Account means a unique account created for You...</li>
-                  <li>Company refers to Fame Keeda Networks...</li>
-                  <li>Cookies are small files placed on Your device...</li>
-                  <li>Country refers to Maharashtra, India.</li>
-                  <li>Device means any device such as computer, cellphone...</li>
-                  <li>Personal Information/Data relates to an identifiable individual.</li>
-                  <li>Service refers to the Website.</li>
-                  <li>Service Provider refers to third-party companies...</li>
-                  <li>Usage Data refers to data collected automatically...</li>
-                  <li>Website refers to www.famekeeda.com</li>
-                  <li>You refers to the individual or legal entity accessing...</li>
-                </ul>
+                      <p class="pp-section-title">2. Account Registration & Management :</p>
+                      <p>If required, you must register an account by providing accurate and complete
+                          information. You are responsible for safeguarding your login credentials and all
+                          activities under your account. We reserve the right to suspend or terminate any
+                          account for breaches of these Terms.</p>
 
-                <p class="pp-section-title">4. Cookies and Similar technologies :</p>
-                <p>Like any other website, https://www.famekeeda.com/ uses "cookies"...</p>
+                      <p class="pp-section-title">3. User Responsibilities :</p>
+                      <p>You agree to use the Platform only for lawful purposes. Activities such as
+                          distributing harmful software, engaging in fraudulent behavior, or infringing on
+                          intellectual property rights are strictly prohibited.</p>
 
-                <p class="pp-section-title">5. Right to Use :</p>
-                <p>Your right to use the Services is subject to the limitations, conditions, and
-                  restrictions...</p>
+                      <p class="pp-section-title">4. Service Modifications and Discontinuation :</p>
+                      <p>We reserve the right to modify, suspend, or discontinue any aspect of the Platform at
+                          any time without prior notice.</p>
 
-                <p class="pp-section-title">6. Personal Information :</p>
-                <p>When you interact with our website or avail our marketing services, we may collect...
-                </p>
-                <ul>
-                  <li>Name</li>
-                  <li>Contact information (email address, phone, postal address)</li>
-                  <li>Company name and job title</li>
-                  <li>Website URL</li>
-                  <li>IP address</li>
-                  <li>Cookies and similar tracking technologies</li>
-                  <li>Information in forms, surveys, or inquiries</li>
-                </ul>
+                      <p class="pp-section-title">5. Payment Terms (If Applicable) :</p>
+                      <p>Any transactions conducted via our Platform are subject to additional payment and
+                          refund terms, which are incorporated herein by reference.</p>
 
-                <p class="pp-subtitle">Non-Personal Information :</p>
-                <p>We may also gather non-personal information such as browser type, OS, technical
-                  details...</p>
+                      <p class="pp-section-title">6. Limitation of Liability :</p>
+                      <p>The Platform and its content are provided "as is" without warranties, express or
+                          implied. Fame Keeda Networks Pvt. Ltd. shall not be liable for any direct, indirect,
+                          incidental, or consequential damages arising from your use of the Platform.</p>
 
-                <p class="pp-section-title">7. Information Collected from Social Media Platforms :</p>
-                <p>We collect information manifestly made public by you or third parties on publicly
-                  available sources...</p>
-                <ul>
-                  <li>YouTube</li>
-                  <li>Facebook and Instagram</li>
-                  <li>X (formerly Twitter)</li>
-                  <li>LinkedIn</li>
-                  <li>Google Analytics</li>
-                </ul>
+                      <p class="pp-section-title">7. Governing Law & Jurisdiction :</p>
+                      <p>These Terms shall be governed by the laws of India. Disputes will be resolved in the
+                          courts located in Mumbai, Maharashtra.</p>
 
-                <p class="pp-section-title">8. Third Party Privacy Policies :</p>
-                <p>You should consult the privacy policies of these third-party ad servers...</p>
+                      <p class="pp-section-title">8. Severability :</p>
+                      <p>If any provision of these Terms is held invalid or unenforceable, the remaining
+                          provisions shall remain in full force and effect.</p>
 
-                <p class="pp-section-title">9. How We Use Your Information–</p>
-                <ul>
-                  <li>To provide and improve marketing services</li>
-                  <li>To respond to inquiries, requests, feedback</li>
-                  <li>To send promotional emails</li>
-                  <li>To analyze website performance</li>
-                  <li>To comply with legal obligations</li>
-                  <li>To prevent fraud or illegal activities</li>
-                </ul>
+                      <p class="pp-section-title">9. Amendments :</p>
+                      <p>We reserve the right to update or modify these Terms at any time. Continued use of
+                          the Platform constitutes acceptance of any changes.</p>
 
-                <p class="pp-section-title">10. Sharing Your Information :</p>
-                <ul class="pps-ul">
-                  <li>Service Providers</li>
-                  <li>Legal Requirements</li>
-                  <li>Business Transfers</li>
-                </ul>
+                      <p class="pp-section-title">Disclaimers :</p>
+                      <p>The information provided on our Platform is for general informational and promotional
+                          purposes only. Fame Keeda Networks Pvt. Ltd. does not warrant the accuracy or
+                          completeness of the information provided and disclaims all warranties, express or
+                          implied (including warranties of merchantability and fitness for a particular
+                          purpose). Any reliance on such information is at your own risk.</p>
 
-                <p class="pp-section-title">11. Data Security :</p>
-                <p>When we collect Personal Information, we take data security seriously and apply
-                  reasonable measures...</p>
+                      <p class="pp-section-title">Privacy Policy :</p>
+                      <p class="pp-subtitle">1. Data Collection :</p>
+                      <p style="list-style-type: disc; padding-left: 20px;">• Name, email address, phone
+                          number, postal address</p>
+                      <p style="list-style-type: disc; padding-left: 20px;">• Company name and job title</p>
+                      <p style="list-style-type: disc; padding-left: 20px;">• IP address, browser, and device
+                          details</p>
+                      <p style="list-style-type: disc; padding-left: 20px;">• Cookies and tracking
+                          technologies</p>
+                      <p style="list-style-type: disc; padding-left: 20px;">• Social media handles and public
+                          profile information</p>
 
-                <p class="pp-section-title">12. Children’s Information :</p>
-                <p>The Company does not knowingly collect information from children under 13...</p>
+                      <p class="pp-subtitle">2. Data Usage :</p>
+                      <p style="list-style-type: disc; padding-left: 20px;">• Provide, maintain, and enhance
+                          our services</p>
+                      <p style="list-style-type: disc; padding-left: 20px;">• Communicate updates,
+                          newsletters, and promotions</p>
+                      <p style="list-style-type: disc; padding-left: 20px;">• Analyze usage trends to improve
+                          user experience</p>
+                      <p style="list-style-type: disc; padding-left: 20px;">• Comply with legal and regulatory
+                          requirements</p>
 
-                <p class="pp-section-title">13. Intellectual Property Right :</p>
-                <p>We own the authorized license of all intellectual property rights related to the
-                  Platform...</p>
+                      <p class="pp-subtitle">3. Third-Party Data Sharing :</p>
+                      <p>We may share your data with trusted third-party service providers (e.g., for hosting,
+                          analytics, payment processing) under strict confidentiality agreements, only as
+                          necessary.</p>
 
-                <p class="pp-section-title">14. Online Privacy Policy Only :</p>
-                <p>This policy is applicable only to online activities on our website/app...</p>
+                      <p class="pp-subtitle">4. Data Security :</p>
+                      <p>We implement encryption, and access controls to protect your data. While we strive
+                          for robust security, no system is completely secure.</p>
 
-                <p class="pp-section-title">15. Updating of Policies, Terms & Conditions :</p>
-                <p>We may change/revise the policies and/or terms & conditions from time to time...</p>
+                      <p class="pp-subtitle">5. Data Retention :</p>
+                      <p>Data is retained only as long as necessary for the purposes outlined or as required
+                          by law.</p>
 
-                <p class="pp-section-title">16. Indemnity :</p>
-                <p>You agree to indemnify and hold harmless the Company from claims due to your actions
-                  or inactions...</p>
+                      <p class="pp-subtitle">6. Children's Privacy :</p>
+                      <p>Our Platform is not intended for children under 13, and we do not knowingly collect
+                          data from them.</p>
 
-                <p class="pp-section-title">17. Termination :</p>
-                <p>This User Agreement is effective until terminated by either you or the Company...</p>
+                      <p class="pp-subtitle">7. Policy Updates :</p>
+                      <p>This Privacy Policy may be updated periodically. Please review it regularly for
+                          changes.</p>
 
-                <p class="pp-section-title">18. Severability :</p>
-                <p>If any provision is determined unlawful, the rest shall continue in effect...</p>
+                      <p class="pp-subtitle">8. Contact Information :</p>
+                      <p>For privacy inquiries, contact: legal@famekeeda.com</p>
 
-                <p class="pp-section-title">19. Law and Jurisdiction :</p>
-                <p>These terms will be governed by laws of Maharashtra/India and disputes will be under
-                  Mumbai court jurisdiction.</p>
-                <p>You can contact Fame Keeda Networks Private Limited by email at legal@famekeeda.com
-                </p>
+                      <p class="pp-section-title">Cookies Policy :</p>
+                      <p>Our website uses cookies and similar tracking technologies to enhance your browsing
+                          experience and analyze performance. Cookies are small data files stored on your
+                          device. By using our Platform, you consent to their use. You may manage cookie
+                          settings via your browser. For further details, please see our full Cookies Policy.
+                      </p>
+
+                      <p class="pp-section-title">User Profile – Edit, Delete, and Removal :</p>
+                      <p>Users may access and manage their personal information via account settings. Requests
+                          for data correction, deletion, or removal should be sent to support@famekeeda.com.
+                          We will address these requests in accordance with applicable laws.</p>
+
+                      <p class="pp-section-title">Contact Information of Website Visitors :</p>
+                      <p>We collect visitor contact information through forms, subscriptions, and interactions
+                          on our Platform. This data is used solely to improve our services and communicate
+                          with you. We do not sell or lease this information to third parties.</p>
+
+                      <p class="pp-section-title">Copyright and Trademark :</p>
+                      <p>All content (text, images, logos, graphics, videos, software) on our Platform is the
+                          property of Fame Keeda Networks Pvt. Ltd. or its licensors. Unauthorized use or
+                          reproduction is prohibited. Trademarks such as Fame Keeda™ or any claimed copyright
+                          and trademark are legally protected under applicable intellectual property laws.</p>
+
+                      <p class="pp-section-title">Information Technology (IT) Act Compliance :</p>
+                      <p>We adhere to the IT Act, 2000 and related regulations, including Sections 43A and 72A
+                          and the IT (Reasonable Security Practices and Procedures and Sensitive Personal Data
+                          or Information) Rules, 2011, ensuring our data protection and cybersecurity
+                          practices are compliant with Indian law.</p>
+
+                      <p class="pp-section-title">End User License Agreement (EULA) :</p>
+                      <p class="pp-subtitle">1. Grant of License :</p>
+                      <p>You are granted a limited, non-exclusive, non-transferable license to use the
+                          Platform for personal or internal business purposes.</p>
+                      <p class="pp-subtitle">2. Restrictions :</p>
+                      <p>You may not modify, reverse-engineer, distribute, or create derivative works based on
+                          the Platform without express written consent.</p>
+                      <p class="pp-subtitle">3. Ownership :</p>
+                      <p>All intellectual property rights remain with the Company. This EULA does not transfer
+                          any ownership rights to you.</p>
+                      <p class="pp-subtitle">4. Termination :</p>
+                      <p>This license is effective until terminated by either party. Any violation may result
+                          in immediate termination.</p>
+                      <p class="pp-subtitle">5. Disclaimer of Warranties :</p>
+                      <p>The Platform is provided "as is" without any warranties, express or implied.</p>
+                      <p class="pp-subtitle">6. Limitation of Liability :</p>
+                      <p>The Company shall not be liable for any damages arising from the use or inability to
+                          use the Platform.</p>
+
+                      <p class="pp-section-title">Supplementary Clauses :</p>
+                      <p class="pp-subtitle">A. DMCA/Content Removal Request :</p>
+                      <p>If you believe any content on our Platform infringes your copyright, please send a
+                          DMCA notice with the required details to copyright@famekeeda.com.</p>
+                      <p class="pp-subtitle">B. Refund & Cancellation Policy :</p>
+                      <p>For any services or digital products purchased, refer to our Refund & Cancellation
+                          Policy outlining eligibility, timelines, and procedures. This policy forms part of
+                          these Terms.</p>
+                      <p class="pp-subtitle">C. Influencer Guidelines & Disclosure Requirements :</p>
+                      <p>All influencer partnerships must adhere to ASCI and SEBI guidelines. Clear disclosure
+                          of sponsored content is mandatory. Detailed guidelines are available in separate
+                          documentation provided to our partners.</p>
+                      <p class="pp-subtitle">D. Accessibility Statement :</p>
+                      <p>We are committed to ensuring our Platform is accessible to all users, including those
+                          with disabilities. We strive to comply with recognized accessibility standards and
+                          welcome your feedback.</p>
+                      <p class="pp-subtitle">E. Governing Law for Additional Clauses :</p>
+                      <p>Any disputes regarding these additional clauses shall be governed by the laws of
+                          India and resolved in the courts of Mumbai, Maharashtra.</p>
+
+                      <p class="pp-section-title"
+                          style="text-transform: uppercase; text-decoration: underline;">Disclaimer Regarding
+                          Non-Affiliated Personalities & Brands :</p>
+                      <p class="pp-subtitle">1. No Implicit Endorsement or Association :</p>
+                      <p>Any celebrity names, images, or likenesses showcased on this website serve purely as
+                          illustrative or informational references. Fame Keeda Networks Pvt. Ltd. expressly
+                          denies any implication of endorsement, association, or formal partnership with any
+                          celebrity or individual featured herein—unless we explicitly state such a
+                          connection.</p>
+                      <p class="pp-subtitle">2. Use Under Public Domain, Licensing, or Fair Use :</p>
+                      <p>All visual media (images and videos) on this site are derived from sources that are
+                          in the public domain, licensed through reputable databases, or used in strict
+                          adherence to fair use doctrines. Should any copyright or intellectual property
+                          concerns be raised, please contact us immediately so we can promptly address the
+                          issue.</p>
+                      <p class="pp-subtitle">3. Non-Commercial Illustrative Purpose :</p>
+                      <p>Content featuring celebrities or individuals is presented exclusively for
+                          educational, contextual, and illustrative purposes. It is not intended to imply any
+                          form of sponsorship, collaboration, or endorsement by the individuals depicted. This
+                          material is used solely to enrich the subject matter on our site without commercial
+                          exploitation.</p>
+                      <p class="pp-subtitle">4. Content Removal Assurance :</p>
+                      <p>If any person or entity believes that their image or likeness has been utilized
+                          improperly, Fame Keeda Networks Pvt. Ltd. commits to reviewing such requests. Valid
+                          concerns will be acted upon swiftly, with content removal where appropriate.</p>
+                      <p class="pp-subtitle">5. Disclaimer of Liability :</p>
+                      <p>Despite our commitment to using content lawfully and accurately, Fame Keeda Networks
+                          Pvt. Ltd. disclaims any legal responsibility or liability for any claims, damages,
+                          or disputes that may arise from the use of celebrity or individual imagery on our
+                          website.</p>
+                      <p class="pp-subtitle">6. User Acceptance and Acknowledgment :</p>
+                      <p>By accessing and using this website, you acknowledge that you have read, understood,
+                          and agreed to the aforementioned disclaimer statements. Continued use of the site
+                          constitutes your acceptance of these terms and condition.</p>
+
+                      <p class="pp-subtitle">Contact :</p>
+                      <p>Legal: legal@famekeeda.com | Support: support@famekeeda.com</p>
+                  </div>
               </div>
-            </div>
+
           </div>
-        </div>
+      </div>
       </div>
     </div>
   </footer>

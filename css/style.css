@@ -2832,7 +2832,7 @@ ul {
   padding: 32px;
   border-radius: 10px;
   width: 100%;;
-  max-width: 1000px;
+  max-width: 1200px;
   position: relative;
   text-align: left;
 }
@@ -2854,6 +2854,8 @@ ul {
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 20px;
+  text-decoration: underline;
+  
 }
 
 .pp-section-title {
